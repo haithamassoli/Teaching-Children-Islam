@@ -1,0 +1,392 @@
+[
+  {
+    "id": "dhikr-01",
+    "occasion": "دخول المسجد",
+    "source_pages": [
+      28
+    ],
+    "text": "اللهم افتح لي أبواب رحمتك",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-02",
+    "occasion": "الخروج من المسجد",
+    "source_pages": [
+      28
+    ],
+    "text": "اللهم إني أسألك من فضلك",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-03",
+    "occasion": "الثوب الجديد",
+    "source_pages": [
+      30
+    ],
+    "text": "اللهم لك الحمد، أنت كسوتنيه، أسألك من خيره وخير ما صنع له، وأعوذ بك من شره وشر ما صنع له",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-04",
+    "occasion": "قبل الطعام",
+    "source_pages": [
+      31
+    ],
+    "text": "بسم الله",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-05",
+    "occasion": "نسيان التسمية عند الطعام",
+    "source_pages": [
+      31
+    ],
+    "text": "بسم الله أوله وآخره",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-06",
+    "occasion": "بعد الطعام كما ورد في الكتاب",
+    "source_pages": [
+      32
+    ],
+    "text": "الحمد لله الذي أطعمنا وسقانا، وكفانا وآوانا، فكم ممن لا كافي له ولا مؤوي",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تدقيق النص والسياق والتخريج قبل الاعتماد؛ نص ص٣٢ وسياق استعماله يحتاج مراجعة خاصة."
+    ]
+  },
+  {
+    "id": "dhikr-07",
+    "occasion": "قبل النوم",
+    "source_pages": [
+      34
+    ],
+    "text": "باسمك اللهم أموت وأحيا",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-08",
+    "occasion": "عند الاستيقاظ",
+    "source_pages": [
+      35
+    ],
+    "text": "الحمد لله الذي أحيانا بعد ما أماتنا وإليه النشور",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-09",
+    "occasion": "دخول الخلاء",
+    "source_pages": [
+      36
+    ],
+    "text": "اللهم إني أعوذ بك من الخبث والخبائث",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-10",
+    "occasion": "الخروج من الخلاء",
+    "source_pages": [
+      36
+    ],
+    "text": "غفرانك",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-11",
+    "occasion": "العطاس",
+    "source_pages": [
+      37
+    ],
+    "text": "الحمد لله",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-12",
+    "occasion": "تشميت العاطس",
+    "source_pages": [
+      37
+    ],
+    "text": "يرحمك الله",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-13",
+    "occasion": "جواب التشميت",
+    "source_pages": [
+      37
+    ],
+    "text": "يهديكم الله ويصلح بالكم",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-14",
+    "occasion": "زيارة المريض",
+    "source_pages": [
+      56
+    ],
+    "text": "لا بأس طهور إن شاء الله",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-15",
+    "occasion": "الدعاء للمريض",
+    "source_pages": [
+      56
+    ],
+    "text": "أسأل الله العظيم رب العرش العظيم أن يشفيك",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-16",
+    "occasion": "بعد الوضوء",
+    "source_pages": [
+      61
+    ],
+    "text": "أشهد أن لا إله إلا الله وحده لا شريك له، وأشهد أن محمدًا عبده ورسوله، اللهم اجعلني من التوابين واجعلني من المتطهرين",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-17",
+    "occasion": "الركوع",
+    "source_pages": [
+      63
+    ],
+    "text": "سبحان ربي العظيم",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-18",
+    "occasion": "السجود",
+    "source_pages": [
+      63
+    ],
+    "text": "سبحان ربي الأعلى",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-19",
+    "occasion": "بين السجدتين",
+    "source_pages": [
+      63
+    ],
+    "text": "رب اغفر لي، رب اغفر لي",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-20",
+    "occasion": "التسليم",
+    "source_pages": [
+      69
+    ],
+    "text": "السلام عليكم ورحمة الله",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-21",
+    "occasion": "بعد الصلاة: الاستغفار",
+    "source_pages": [
+      70
+    ],
+    "text": "أستغفر الله",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-22",
+    "occasion": "بعد الصلاة: السلام",
+    "source_pages": [
+      70
+    ],
+    "text": "اللهم أنت السلام ومنك السلام، تباركت يا ذا الجلال والإكرام",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-23",
+    "occasion": "بعد الصلاة: التسبيح",
+    "source_pages": [
+      70
+    ],
+    "text": "سبحان الله",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-24",
+    "occasion": "بعد الصلاة: التحميد",
+    "source_pages": [
+      70
+    ],
+    "text": "الحمد لله",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-25",
+    "occasion": "بعد الصلاة: التكبير",
+    "source_pages": [
+      70
+    ],
+    "text": "الله أكبر",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  },
+  {
+    "id": "dhikr-26",
+    "occasion": "إتمام المئة",
+    "source_pages": [
+      70
+    ],
+    "text": "لا إله إلا الله وحده لا شريك له، له الملك وله الحمد وهو على كل شيء قدير",
+    "origin": "editorial_transcription_from_book",
+    "status": "draft",
+    "publishable": false,
+    "audio_asset": null,
+    "review_notes": [
+      "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
+    ]
+  }
+]

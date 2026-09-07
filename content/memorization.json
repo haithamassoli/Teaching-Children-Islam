@@ -1,0 +1,4009 @@
+{
+  "items": [
+    {
+      "id": "memory-001",
+      "kind": "quran",
+      "title": "النبأ: 1–16",
+      "source_pages": [
+        216
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 78,
+        "from_ayah": 1,
+        "to_ayah": 16
+      },
+      "source_row_type": "partial"
+    },
+    {
+      "id": "memory-002",
+      "kind": "quran",
+      "title": "النبأ: 17–30",
+      "source_pages": [
+        216
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 78,
+        "from_ayah": 17,
+        "to_ayah": 30
+      },
+      "source_row_type": "partial"
+    },
+    {
+      "id": "memory-003",
+      "kind": "quran",
+      "title": "سورة النبأ كاملة",
+      "source_pages": [
+        216
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 78,
+        "from_ayah": 1,
+        "to_ayah": 40
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-004",
+      "kind": "quran",
+      "title": "النازعات: 1–14",
+      "source_pages": [
+        216
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 79,
+        "from_ayah": 1,
+        "to_ayah": 14
+      },
+      "source_row_type": "partial"
+    },
+    {
+      "id": "memory-005",
+      "kind": "quran",
+      "title": "النازعات: 15–33",
+      "source_pages": [
+        216
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 79,
+        "from_ayah": 15,
+        "to_ayah": 33
+      },
+      "source_row_type": "partial"
+    },
+    {
+      "id": "memory-006",
+      "kind": "quran",
+      "title": "سورة النازعات كاملة",
+      "source_pages": [
+        216
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 79,
+        "from_ayah": 1,
+        "to_ayah": 46
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-007",
+      "kind": "quran",
+      "title": "عبس: 1–16",
+      "source_pages": [
+        216
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 80,
+        "from_ayah": 1,
+        "to_ayah": 16
+      },
+      "source_row_type": "partial"
+    },
+    {
+      "id": "memory-008",
+      "kind": "quran",
+      "title": "عبس: 17–32",
+      "source_pages": [
+        216
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 80,
+        "from_ayah": 17,
+        "to_ayah": 32
+      },
+      "source_row_type": "partial"
+    },
+    {
+      "id": "memory-009",
+      "kind": "quran",
+      "title": "سورة عبس كاملة",
+      "source_pages": [
+        216
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 80,
+        "from_ayah": 1,
+        "to_ayah": 42
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-010",
+      "kind": "quran",
+      "title": "التكوير: 1–14",
+      "source_pages": [
+        216
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 81,
+        "from_ayah": 1,
+        "to_ayah": 14
+      },
+      "source_row_type": "partial"
+    },
+    {
+      "id": "memory-011",
+      "kind": "quran",
+      "title": "سورة التكوير كاملة",
+      "source_pages": [
+        216
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 81,
+        "from_ayah": 1,
+        "to_ayah": 29
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-012",
+      "kind": "quran",
+      "title": "سورة الانفطار كاملة",
+      "source_pages": [
+        216
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 82,
+        "from_ayah": 1,
+        "to_ayah": 19
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-013",
+      "kind": "quran",
+      "title": "سورة المطففين كاملة",
+      "source_pages": [
+        216
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 83,
+        "from_ayah": 1,
+        "to_ayah": 36
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-014",
+      "kind": "quran",
+      "title": "سورة الانشقاق كاملة",
+      "source_pages": [
+        216
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 84,
+        "from_ayah": 1,
+        "to_ayah": 25
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-015",
+      "kind": "quran",
+      "title": "سورة البروج كاملة",
+      "source_pages": [
+        216
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 85,
+        "from_ayah": 1,
+        "to_ayah": 22
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-016",
+      "kind": "quran",
+      "title": "سورة الطارق كاملة",
+      "source_pages": [
+        216
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 86,
+        "from_ayah": 1,
+        "to_ayah": 17
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-017",
+      "kind": "quran",
+      "title": "سورة الأعلى كاملة",
+      "source_pages": [
+        216
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 87,
+        "from_ayah": 1,
+        "to_ayah": 19
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-018",
+      "kind": "quran",
+      "title": "سورة الغاشية كاملة",
+      "source_pages": [
+        216
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 88,
+        "from_ayah": 1,
+        "to_ayah": 26
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-019",
+      "kind": "quran",
+      "title": "سورة الفجر كاملة",
+      "source_pages": [
+        216
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 89,
+        "from_ayah": 1,
+        "to_ayah": 30
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-020",
+      "kind": "quran",
+      "title": "سورة البلد كاملة",
+      "source_pages": [
+        216
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 90,
+        "from_ayah": 1,
+        "to_ayah": 20
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-021",
+      "kind": "quran",
+      "title": "سورة الشمس كاملة",
+      "source_pages": [
+        216
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 91,
+        "from_ayah": 1,
+        "to_ayah": 15
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-022",
+      "kind": "quran",
+      "title": "سورة الليل كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 92,
+        "from_ayah": 1,
+        "to_ayah": 21
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-023",
+      "kind": "quran",
+      "title": "سورة الضحى كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 93,
+        "from_ayah": 1,
+        "to_ayah": 11
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-024",
+      "kind": "quran",
+      "title": "سورة الشرح كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 94,
+        "from_ayah": 1,
+        "to_ayah": 8
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-025",
+      "kind": "quran",
+      "title": "سورة التين كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 95,
+        "from_ayah": 1,
+        "to_ayah": 8
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-026",
+      "kind": "quran",
+      "title": "سورة العلق كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 96,
+        "from_ayah": 1,
+        "to_ayah": 19
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-027",
+      "kind": "quran",
+      "title": "سورة القدر كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 97,
+        "from_ayah": 1,
+        "to_ayah": 5
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-028",
+      "kind": "quran",
+      "title": "سورة البينة كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 98,
+        "from_ayah": 1,
+        "to_ayah": 8
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-029",
+      "kind": "quran",
+      "title": "سورة الزلزلة كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 99,
+        "from_ayah": 1,
+        "to_ayah": 8
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-030",
+      "kind": "quran",
+      "title": "سورة العاديات كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 100,
+        "from_ayah": 1,
+        "to_ayah": 11
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-031",
+      "kind": "quran",
+      "title": "سورة القارعة كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 101,
+        "from_ayah": 1,
+        "to_ayah": 11
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-032",
+      "kind": "quran",
+      "title": "سورة التكاثر كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 102,
+        "from_ayah": 1,
+        "to_ayah": 8
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-033",
+      "kind": "quran",
+      "title": "سورة العصر كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 103,
+        "from_ayah": 1,
+        "to_ayah": 3
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-034",
+      "kind": "quran",
+      "title": "سورة الهمزة كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 104,
+        "from_ayah": 1,
+        "to_ayah": 9
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-035",
+      "kind": "quran",
+      "title": "سورة الفيل كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 105,
+        "from_ayah": 1,
+        "to_ayah": 5
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-036",
+      "kind": "quran",
+      "title": "سورة قريش كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 106,
+        "from_ayah": 1,
+        "to_ayah": 4
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-037",
+      "kind": "quran",
+      "title": "سورة الماعون كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 107,
+        "from_ayah": 1,
+        "to_ayah": 7
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-038",
+      "kind": "quran",
+      "title": "سورة الكوثر كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 108,
+        "from_ayah": 1,
+        "to_ayah": 3
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-039",
+      "kind": "quran",
+      "title": "سورة الكافرون كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 109,
+        "from_ayah": 1,
+        "to_ayah": 6
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-040",
+      "kind": "quran",
+      "title": "سورة النصر كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 110,
+        "from_ayah": 1,
+        "to_ayah": 3
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-041",
+      "kind": "quran",
+      "title": "سورة المسد كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 111,
+        "from_ayah": 1,
+        "to_ayah": 5
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-042",
+      "kind": "quran",
+      "title": "سورة الإخلاص كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 112,
+        "from_ayah": 1,
+        "to_ayah": 4
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-043",
+      "kind": "quran",
+      "title": "سورة الفلق كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 113,
+        "from_ayah": 1,
+        "to_ayah": 5
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-044",
+      "kind": "quran",
+      "title": "سورة الناس كاملة",
+      "source_pages": [
+        217
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 114,
+        "from_ayah": 1,
+        "to_ayah": 6
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-045",
+      "kind": "quran",
+      "title": "الملك: 1–16",
+      "source_pages": [
+        218
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 67,
+        "from_ayah": 1,
+        "to_ayah": 16
+      },
+      "source_row_type": "partial",
+      "review_notes": [
+        "تقسيم الملك كما طبع: ١–١٦ ثم ٧–١٢؛ تحقق بصريًا من وجود التداخل، ولم يصحح دون اعتماد."
+      ]
+    },
+    {
+      "id": "memory-046",
+      "kind": "quran",
+      "title": "الملك: 7–12",
+      "source_pages": [
+        218
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 67,
+        "from_ayah": 7,
+        "to_ayah": 12
+      },
+      "source_row_type": "partial",
+      "review_notes": [
+        "تقسيم الملك كما طبع: ١–١٦ ثم ٧–١٢؛ تحقق بصريًا من وجود التداخل، ولم يصحح دون اعتماد."
+      ]
+    },
+    {
+      "id": "memory-047",
+      "kind": "quran",
+      "title": "الملك: 13–18",
+      "source_pages": [
+        218
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 67,
+        "from_ayah": 13,
+        "to_ayah": 18
+      },
+      "source_row_type": "partial",
+      "review_notes": [
+        "تقسيم الملك كما طبع: ١–١٦ ثم ٧–١٢؛ تحقق بصريًا من وجود التداخل، ولم يصحح دون اعتماد."
+      ]
+    },
+    {
+      "id": "memory-048",
+      "kind": "quran",
+      "title": "الملك: 19–23",
+      "source_pages": [
+        218
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 67,
+        "from_ayah": 19,
+        "to_ayah": 23
+      },
+      "source_row_type": "partial",
+      "review_notes": [
+        "تقسيم الملك كما طبع: ١–١٦ ثم ٧–١٢؛ تحقق بصريًا من وجود التداخل، ولم يصحح دون اعتماد."
+      ]
+    },
+    {
+      "id": "memory-049",
+      "kind": "quran",
+      "title": "سورة الملك كاملة",
+      "source_pages": [
+        218
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 67,
+        "from_ayah": 1,
+        "to_ayah": 30
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-050",
+      "kind": "quran",
+      "title": "القلم: 1–16",
+      "source_pages": [
+        218
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 68,
+        "from_ayah": 1,
+        "to_ayah": 16
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-051",
+      "kind": "quran",
+      "title": "القلم: 17–33",
+      "source_pages": [
+        218
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 68,
+        "from_ayah": 17,
+        "to_ayah": 33
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-052",
+      "kind": "quran",
+      "title": "القلم: 34–43",
+      "source_pages": [
+        218
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 68,
+        "from_ayah": 34,
+        "to_ayah": 43
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-053",
+      "kind": "quran",
+      "title": "سورة القلم كاملة",
+      "source_pages": [
+        218
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 68,
+        "from_ayah": 1,
+        "to_ayah": 52
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-054",
+      "kind": "quran",
+      "title": "الحاقة: 1–8",
+      "source_pages": [
+        218
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 69,
+        "from_ayah": 1,
+        "to_ayah": 8
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-055",
+      "kind": "quran",
+      "title": "الحاقة: 9–18",
+      "source_pages": [
+        218
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 69,
+        "from_ayah": 9,
+        "to_ayah": 18
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-056",
+      "kind": "quran",
+      "title": "الحاقة: 19–37",
+      "source_pages": [
+        218
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 69,
+        "from_ayah": 19,
+        "to_ayah": 37
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-057",
+      "kind": "quran",
+      "title": "سورة الحاقة كاملة",
+      "source_pages": [
+        218
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 69,
+        "from_ayah": 1,
+        "to_ayah": 52
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-058",
+      "kind": "quran",
+      "title": "المعارج: 1–14",
+      "source_pages": [
+        218
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 70,
+        "from_ayah": 1,
+        "to_ayah": 14
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-059",
+      "kind": "quran",
+      "title": "المعارج: 15–35",
+      "source_pages": [
+        218
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 70,
+        "from_ayah": 15,
+        "to_ayah": 35
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-060",
+      "kind": "quran",
+      "title": "سورة المعارج كاملة",
+      "source_pages": [
+        218
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 70,
+        "from_ayah": 1,
+        "to_ayah": 44
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-061",
+      "kind": "quran",
+      "title": "نوح: 1–12",
+      "source_pages": [
+        218
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 71,
+        "from_ayah": 1,
+        "to_ayah": 12
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-062",
+      "kind": "quran",
+      "title": "نوح: 13–21",
+      "source_pages": [
+        218
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 71,
+        "from_ayah": 13,
+        "to_ayah": 21
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-063",
+      "kind": "quran",
+      "title": "سورة نوح كاملة",
+      "source_pages": [
+        218
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 71,
+        "from_ayah": 1,
+        "to_ayah": 28
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-064",
+      "kind": "quran",
+      "title": "الجن: 1–7",
+      "source_pages": [
+        219
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 72,
+        "from_ayah": 1,
+        "to_ayah": 7
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-065",
+      "kind": "quran",
+      "title": "الجن: 8–13",
+      "source_pages": [
+        219
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 72,
+        "from_ayah": 8,
+        "to_ayah": 13
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-066",
+      "kind": "quran",
+      "title": "الجن: 14–20",
+      "source_pages": [
+        219
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 72,
+        "from_ayah": 14,
+        "to_ayah": 20
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-067",
+      "kind": "quran",
+      "title": "سورة الجن كاملة",
+      "source_pages": [
+        219
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 72,
+        "from_ayah": 1,
+        "to_ayah": 28
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-068",
+      "kind": "quran",
+      "title": "المزمل: 1–13",
+      "source_pages": [
+        219
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 73,
+        "from_ayah": 1,
+        "to_ayah": 13
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-069",
+      "kind": "quran",
+      "title": "المزمل: 14–19",
+      "source_pages": [
+        219
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 73,
+        "from_ayah": 14,
+        "to_ayah": 19
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-070",
+      "kind": "quran",
+      "title": "سورة المزمل كاملة",
+      "source_pages": [
+        219
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 73,
+        "from_ayah": 1,
+        "to_ayah": 20
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-071",
+      "kind": "quran",
+      "title": "المدثر: 1–17",
+      "source_pages": [
+        219
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 74,
+        "from_ayah": 1,
+        "to_ayah": 17
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-072",
+      "kind": "quran",
+      "title": "المدثر: 18–31",
+      "source_pages": [
+        219
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 74,
+        "from_ayah": 18,
+        "to_ayah": 31
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-073",
+      "kind": "quran",
+      "title": "المدثر: 32–47",
+      "source_pages": [
+        219
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 74,
+        "from_ayah": 32,
+        "to_ayah": 47
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-074",
+      "kind": "quran",
+      "title": "سورة المدثر كاملة",
+      "source_pages": [
+        219
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 74,
+        "from_ayah": 1,
+        "to_ayah": 56
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-075",
+      "kind": "quran",
+      "title": "القيامة: 1–15",
+      "source_pages": [
+        219
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 75,
+        "from_ayah": 1,
+        "to_ayah": 15
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-076",
+      "kind": "quran",
+      "title": "القيامة: 16–25",
+      "source_pages": [
+        219
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 75,
+        "from_ayah": 16,
+        "to_ayah": 25
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-077",
+      "kind": "quran",
+      "title": "سورة القيامة كاملة",
+      "source_pages": [
+        219
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 75,
+        "from_ayah": 1,
+        "to_ayah": 40
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-078",
+      "kind": "quran",
+      "title": "الإنسان: 1–11",
+      "source_pages": [
+        219
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 76,
+        "from_ayah": 1,
+        "to_ayah": 11
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-079",
+      "kind": "quran",
+      "title": "الإنسان: 12–22",
+      "source_pages": [
+        219
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 76,
+        "from_ayah": 12,
+        "to_ayah": 22
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-080",
+      "kind": "quran",
+      "title": "سورة الإنسان كاملة",
+      "source_pages": [
+        219
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 76,
+        "from_ayah": 1,
+        "to_ayah": 31
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-081",
+      "kind": "quran",
+      "title": "المرسلات: 1–19",
+      "source_pages": [
+        219
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 77,
+        "from_ayah": 1,
+        "to_ayah": 19
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-082",
+      "kind": "quran",
+      "title": "المرسلات: 20–34",
+      "source_pages": [
+        219
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 77,
+        "from_ayah": 20,
+        "to_ayah": 34
+      },
+      "source_row_type": "partial",
+      "review_notes": []
+    },
+    {
+      "id": "memory-083",
+      "kind": "quran",
+      "title": "سورة المرسلات كاملة",
+      "source_pages": [
+        219
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "quran_ref": {
+        "surah": 77,
+        "from_ayah": 1,
+        "to_ayah": 50
+      },
+      "source_row_type": "complete_surah"
+    },
+    {
+      "id": "memory-084",
+      "kind": "names",
+      "title": "أسماء الله: السطر 1",
+      "source_pages": [
+        11,
+        222
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "names": [
+        "الله",
+        "الرحمن",
+        "الرحيم",
+        "الملك",
+        "القدوس",
+        "السلام"
+      ],
+      "visual_checked": true,
+      "review_notes": [
+        "الولي مكرر في السطرين الخامس والتاسع كما في الأصل؛ عدد الخانات ٥٨ والأسماء المختلفة ٥٧."
+      ]
+    },
+    {
+      "id": "memory-085",
+      "kind": "names",
+      "title": "أسماء الله: السطر 2",
+      "source_pages": [
+        11,
+        222
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "names": [
+        "المؤمن",
+        "المهيمن",
+        "العزيز",
+        "الجبار",
+        "المتكبر",
+        "الصمد"
+      ],
+      "visual_checked": true,
+      "review_notes": [
+        "الولي مكرر في السطرين الخامس والتاسع كما في الأصل؛ عدد الخانات ٥٨ والأسماء المختلفة ٥٧."
+      ]
+    },
+    {
+      "id": "memory-086",
+      "kind": "names",
+      "title": "أسماء الله: السطر 3",
+      "source_pages": [
+        11,
+        222
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "names": [
+        "الخالق",
+        "البارئ",
+        "المصور",
+        "الغفار",
+        "القهار",
+        "الوهاب"
+      ],
+      "visual_checked": true,
+      "review_notes": [
+        "الولي مكرر في السطرين الخامس والتاسع كما في الأصل؛ عدد الخانات ٥٨ والأسماء المختلفة ٥٧."
+      ]
+    },
+    {
+      "id": "memory-087",
+      "kind": "names",
+      "title": "أسماء الله: السطر 4",
+      "source_pages": [
+        11,
+        222
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "names": [
+        "الخلاق",
+        "الرزاق",
+        "الفتاح",
+        "العليم",
+        "الحليم",
+        "الحكيم"
+      ],
+      "visual_checked": true,
+      "review_notes": [
+        "الولي مكرر في السطرين الخامس والتاسع كما في الأصل؛ عدد الخانات ٥٨ والأسماء المختلفة ٥٧."
+      ]
+    },
+    {
+      "id": "memory-088",
+      "kind": "names",
+      "title": "أسماء الله: السطر 5",
+      "source_pages": [
+        11,
+        222
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "names": [
+        "الواسع",
+        "العظيم",
+        "الحي",
+        "القيوم",
+        "الولي",
+        "الحميد"
+      ],
+      "visual_checked": true,
+      "review_notes": [
+        "الولي مكرر في السطرين الخامس والتاسع كما في الأصل؛ عدد الخانات ٥٨ والأسماء المختلفة ٥٧."
+      ]
+    },
+    {
+      "id": "memory-089",
+      "kind": "names",
+      "title": "أسماء الله: السطر 6",
+      "source_pages": [
+        11,
+        222
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "names": [
+        "اللطيف",
+        "الخبير",
+        "العلي",
+        "الكبير",
+        "السميع",
+        "البصير"
+      ],
+      "visual_checked": true,
+      "review_notes": [
+        "الولي مكرر في السطرين الخامس والتاسع كما في الأصل؛ عدد الخانات ٥٨ والأسماء المختلفة ٥٧."
+      ]
+    },
+    {
+      "id": "memory-090",
+      "kind": "names",
+      "title": "أسماء الله: السطر 7",
+      "source_pages": [
+        11,
+        222
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "names": [
+        "الأول",
+        "الآخر",
+        "الظاهر",
+        "الباطن",
+        "البر",
+        "الودود"
+      ],
+      "visual_checked": true,
+      "review_notes": [
+        "الولي مكرر في السطرين الخامس والتاسع كما في الأصل؛ عدد الخانات ٥٨ والأسماء المختلفة ٥٧."
+      ]
+    },
+    {
+      "id": "memory-091",
+      "kind": "names",
+      "title": "أسماء الله: السطر 8",
+      "source_pages": [
+        11,
+        222
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "names": [
+        "الكريم",
+        "الغفور",
+        "الواحد",
+        "المتعال",
+        "الغني",
+        "الأكرم"
+      ],
+      "visual_checked": true,
+      "review_notes": [
+        "الولي مكرر في السطرين الخامس والتاسع كما في الأصل؛ عدد الخانات ٥٨ والأسماء المختلفة ٥٧."
+      ]
+    },
+    {
+      "id": "memory-092",
+      "kind": "names",
+      "title": "أسماء الله: السطر 9",
+      "source_pages": [
+        11,
+        222
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "names": [
+        "المتين",
+        "الولي",
+        "الأعلى",
+        "الشافي",
+        "الرب",
+        "المسعر"
+      ],
+      "visual_checked": true,
+      "review_notes": [
+        "الولي مكرر في السطرين الخامس والتاسع كما في الأصل؛ عدد الخانات ٥٨ والأسماء المختلفة ٥٧."
+      ]
+    },
+    {
+      "id": "memory-093",
+      "kind": "names",
+      "title": "أسماء الله: السطر 10",
+      "source_pages": [
+        11,
+        222
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "names": [
+        "القابض",
+        "الباسط",
+        "المقدم",
+        "المؤخر"
+      ],
+      "visual_checked": true,
+      "review_notes": [
+        "الولي مكرر في السطرين الخامس والتاسع كما في الأصل؛ عدد الخانات ٥٨ والأسماء المختلفة ٥٧."
+      ]
+    },
+    {
+      "id": "memory-094",
+      "kind": "hadith",
+      "title": "الحديث 1: أركان الإيمان",
+      "source_pages": [
+        8,
+        223
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-01"
+    },
+    {
+      "id": "memory-095",
+      "kind": "hadith",
+      "title": "الحديث 2: بني الإسلام على خمس",
+      "source_pages": [
+        9,
+        223
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-02"
+    },
+    {
+      "id": "memory-096",
+      "kind": "hadith",
+      "title": "الحديث 3: شعب الإيمان والحياء",
+      "source_pages": [
+        10,
+        223
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-03"
+    },
+    {
+      "id": "memory-097",
+      "kind": "hadith",
+      "title": "الحديث 4: أسماء الله الحسنى",
+      "source_pages": [
+        11,
+        223
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-04"
+    },
+    {
+      "id": "memory-098",
+      "kind": "hadith",
+      "title": "الحديث 5: أهل البيت",
+      "source_pages": [
+        24,
+        223
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-05"
+    },
+    {
+      "id": "memory-099",
+      "kind": "hadith",
+      "title": "الحديث 6: دعاء دخول المسجد والخروج",
+      "source_pages": [
+        28,
+        223
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-06"
+    },
+    {
+      "id": "memory-100",
+      "kind": "hadith",
+      "title": "الحديث 7: تحية المسجد",
+      "source_pages": [
+        28,
+        223
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-07"
+    },
+    {
+      "id": "memory-101",
+      "kind": "hadith",
+      "title": "الحديث 8: المرور أمام المصلي",
+      "source_pages": [
+        28,
+        223
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-08"
+    },
+    {
+      "id": "memory-102",
+      "kind": "hadith",
+      "title": "الحديث 9: إفشاء السلام",
+      "source_pages": [
+        29,
+        223
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-09"
+    },
+    {
+      "id": "memory-103",
+      "kind": "hadith",
+      "title": "الحديث 10: من يبدأ السلام",
+      "source_pages": [
+        29,
+        223
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-10"
+    },
+    {
+      "id": "memory-104",
+      "kind": "hadith",
+      "title": "الحديث 11: التسمية والأكل باليمين",
+      "source_pages": [
+        31,
+        223
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-11"
+    },
+    {
+      "id": "memory-105",
+      "kind": "hadith",
+      "title": "الحديث 12: النهي عن الشرب قائمًا",
+      "source_pages": [
+        31,
+        223
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-12"
+    },
+    {
+      "id": "memory-106",
+      "kind": "hadith",
+      "title": "الحديث 13: الطهور شطر الإيمان",
+      "source_pages": [
+        36,
+        223
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-13"
+    },
+    {
+      "id": "memory-107",
+      "kind": "hadith",
+      "title": "الحديث 14: ذكر العطاس والرد",
+      "source_pages": [
+        37,
+        223
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-14"
+    },
+    {
+      "id": "memory-108",
+      "kind": "hadith",
+      "title": "الحديث 15: إكرام الجار والضيف وقول الخير",
+      "source_pages": [
+        40,
+        223
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-15"
+    },
+    {
+      "id": "memory-109",
+      "kind": "hadith",
+      "title": "الحديث 16: ترك سوء الظن والتجسس والحسد",
+      "source_pages": [
+        40,
+        223
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-16"
+    },
+    {
+      "id": "memory-110",
+      "kind": "hadith",
+      "title": "الحديث 17: تعريف الغيبة",
+      "source_pages": [
+        41,
+        223
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-17"
+    },
+    {
+      "id": "memory-111",
+      "kind": "hadith",
+      "title": "الحديث 18: طهارة اللسان",
+      "source_pages": [
+        42,
+        223
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-18"
+    },
+    {
+      "id": "memory-112",
+      "kind": "hadith",
+      "title": "الحديث 19: لا تغضب",
+      "source_pages": [
+        44,
+        224
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-19"
+    },
+    {
+      "id": "memory-113",
+      "kind": "hadith",
+      "title": "الحديث 20: الصدق والكذب",
+      "source_pages": [
+        45,
+        224
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-20"
+    },
+    {
+      "id": "memory-114",
+      "kind": "hadith",
+      "title": "الحديث 21: ذو الوجهين",
+      "source_pages": [
+        45,
+        224
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-21"
+    },
+    {
+      "id": "memory-115",
+      "kind": "hadith",
+      "title": "الحديث 22: بر الأم والأب",
+      "source_pages": [
+        46,
+        224
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-22"
+    },
+    {
+      "id": "memory-116",
+      "kind": "hadith",
+      "title": "الحديث 23: صلة الرحم",
+      "source_pages": [
+        47,
+        224
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-23"
+    },
+    {
+      "id": "memory-117",
+      "kind": "hadith",
+      "title": "الحديث 24: فضل تعليم الناس الخير",
+      "source_pages": [
+        50,
+        224
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-24"
+    },
+    {
+      "id": "memory-118",
+      "kind": "hadith",
+      "title": "الحديث 25: التراحم كالجسد الواحد",
+      "source_pages": [
+        51,
+        224
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-25"
+    },
+    {
+      "id": "memory-119",
+      "kind": "hadith",
+      "title": "الحديث 26: ترك سب المسلم وقتاله",
+      "source_pages": [
+        52,
+        224
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-26"
+    },
+    {
+      "id": "memory-120",
+      "kind": "hadith",
+      "title": "الحديث 27: ترك الهجر",
+      "source_pages": [
+        53,
+        224
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-27"
+    },
+    {
+      "id": "memory-121",
+      "kind": "hadith",
+      "title": "الحديث 28: رحمة الصغير وتوقير الكبير",
+      "source_pages": [
+        54,
+        224
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-28"
+    },
+    {
+      "id": "memory-122",
+      "kind": "hadith",
+      "title": "الحديث 29: أذى الجار",
+      "source_pages": [
+        55,
+        224
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-29"
+    },
+    {
+      "id": "memory-123",
+      "kind": "hadith",
+      "title": "الحديث 30: إطعام الجائع وزيارة المريض",
+      "source_pages": [
+        56,
+        224
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-30"
+    },
+    {
+      "id": "memory-124",
+      "kind": "hadith",
+      "title": "الحديث 31: النية",
+      "source_pages": [
+        60,
+        224
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-31"
+    },
+    {
+      "id": "memory-125",
+      "kind": "hadith",
+      "title": "الحديث 32: التشهد",
+      "source_pages": [
+        68,
+        224
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-32"
+    },
+    {
+      "id": "memory-126",
+      "kind": "hadith",
+      "title": "الحديث 33: الصلاة الإبراهيمية",
+      "source_pages": [
+        68,
+        224
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-33"
+    },
+    {
+      "id": "memory-127",
+      "kind": "hadith",
+      "title": "الحديث 34: الدعاء بعد التشهد",
+      "source_pages": [
+        68,
+        224
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-34"
+    },
+    {
+      "id": "memory-128",
+      "kind": "hadith",
+      "title": "الحديث 35: المحافظة على الجمعة",
+      "source_pages": [
+        71,
+        224
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-35"
+    },
+    {
+      "id": "memory-129",
+      "kind": "hadith",
+      "title": "الحديث 36: السنن الرواتب",
+      "source_pages": [
+        72,
+        224
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-36"
+    },
+    {
+      "id": "memory-130",
+      "kind": "hadith",
+      "title": "الحديث 37: الصيام وحسن الخلق",
+      "source_pages": [
+        84,
+        224
+      ],
+      "status": "draft",
+      "publishable": false,
+      "reviewer": "parent",
+      "initial_state": "not_started",
+      "allowed_states": [
+        "not_started",
+        "practicing",
+        "awaiting_review",
+        "mastered",
+        "needs_review"
+      ],
+      "blocks_lesson_progress": false,
+      "recitation_asset": null,
+      "instructions": {
+        "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
+        "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
+      },
+      "hadith_id": "book-hadith-37"
+    }
+  ],
+  "assessment": {
+    "source_pages": [
+      220,
+      221,
+      222,
+      225
+    ],
+    "origin": "digital_adaptation",
+    "method": "مراجعة الوالد لثمانية مواضع في اختبارات الجزأين والحديث، ومراجعة الأسماء؛ تحفظ الأخطاء وملاحظات الإتقان دون تحويلها إلى حكم على تدين الطفل.",
+    "fields": [
+      "reviewed_at",
+      "reviewer",
+      "mistake_count",
+      "mastery_note",
+      "state",
+      "next_review_at"
+    ]
+  },
+  "quran_text_policy": "النص القرآني الكامل في المصدر الخام وPDF؛ يلزم نص مصحف مدقق للتلاوة الرقمية، ولا توجد تلاوات مرفقة بهذه الحزمة."
+}

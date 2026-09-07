@@ -1,0 +1,65 @@
+{
+  "tool": "built-in imagegen",
+  "prompts": [
+    {
+      "group": "characters",
+      "id": "sami",
+      "prompt": "Use case: illustration-story. Asset type: isolated original game character for an Arabic Islamic learning adventure for ages 6–10. Subject: Sami, a friendly fictional 8-year-old boy with warm olive skin, short curly dark brown hair, teal long-sleeved tunic, loose cream trousers, rust orange shoes, small tan backpack. Full body standing in a welcoming wave, both feet visible, generous margin. Style: premium children's picture book, warm gouache, softly dimensional simplified forms, subtle paper grain, clean silhouette, gentle facial features and natural anatomically correct hands. Centered square canvas, genuinely transparent background. No writing, no logo, no watermark, no religious figures or symbols, no objects beyond backpack. Original identity, not based on existing IP."
+    },
+    {
+      "group": "characters",
+      "id": "omar",
+      "prompt": "Use case: illustration-story. Original assets for Arabic Islamic learning game ages 6–10. Premium children's storybook gouache illustration, softly dimensional simplified forms, delicate paper grain, warm sophisticated teal, cream, ochre and coral palette, beautiful clear silhouette. No text, letters, watermarks, logos or existing IP. No depictions of religious figures. Full-body fictional boy aged 9, dark brown skin, short black curls, mustard long-sleeved shirt, loose navy trousers, teal shoes, carrying a small closed blank book, smiling gentle face. Square transparent background, generous margin, feet visible."
+    },
+    {
+      "group": "characters",
+      "id": "maryam",
+      "prompt": "Use case: illustration-story. Original assets for Arabic Islamic learning game ages 6–10. Premium children's storybook gouache illustration, softly dimensional simplified forms, delicate paper grain, warm sophisticated teal, cream, ochre and coral palette, beautiful clear silhouette. No text, letters, watermarks, logos or existing IP. No depictions of religious figures. Full-body fictional girl aged 8, warm brown skin, dusty rose hijab covering hair and neck, ankle-length loose cream dress with long sleeves, rust shoes, teal satchel, welcoming open hand gesture and gentle smile. Square transparent background, generous margin, feet visible."
+    },
+    {
+      "group": "characters",
+      "id": "nour",
+      "prompt": "Use case: illustration-story. Original assets for Arabic Islamic learning game ages 6–10. Premium children's storybook gouache illustration, softly dimensional simplified forms, delicate paper grain, warm sophisticated teal, cream, ochre and coral palette, beautiful clear silhouette. No text, letters, watermarks, logos or existing IP. No depictions of religious figures. Full-body fictional girl aged 9, light olive skin, teal hijab covering hair and neck, loose ankle-length lavender dress with long sleeves, cream shoes, mustard backpack, hands lightly clasped, gentle smile. Square transparent background, generous margin, feet visible."
+    },
+    {
+      "group": "characters",
+      "id": "guide",
+      "prompt": "Use case: illustration-story. Original assets for Arabic Islamic learning game ages 6–10. Premium children's storybook gouache illustration, softly dimensional simplified forms, delicate paper grain, warm sophisticated teal, cream, ochre and coral palette, beautiful clear silhouette. No text, letters, watermarks, logos or existing IP. No depictions of religious figures. Full-body original fictional human adult guide, friendly middle-aged Arab male teacher, short tidy dark beard, cream kufi, teal long-sleeved loose ankle-length thobe and sand-colored vest, brown shoes, holding a closed blank book and gesturing welcomingly. Not a historical or religious figure. Square transparent background, generous margin, feet visible."
+    },
+    {
+      "group": "worlds",
+      "id": "faith",
+      "prompt": "Use case: illustration-story. Original assets for Arabic Islamic learning game ages 6–10. Premium children's storybook gouache illustration, softly dimensional simplified forms, delicate paper grain, warm sophisticated teal, cream, ochre and coral palette, beautiful clear silhouette. No text, letters, watermarks, logos or existing IP. No depictions of religious figures. Wide 3:2 landscape background: tranquil lush mountain garden at dawn, an inviting winding sandy path, olive trees and small flowers, majestic distant layered hills beneath a softly glowing blue and golden sky. Represent an outdoor learning garden, no supernatural beings or depictions of God. Keep central foreground spacious for UI overlay. No people."
+    },
+    {
+      "group": "worlds",
+      "id": "manners",
+      "prompt": "Use case: illustration-story. Original assets for Arabic Islamic learning game ages 6–10. Premium children's storybook gouache illustration, softly dimensional simplified forms, delicate paper grain, warm sophisticated teal, cream, ochre and coral palette, beautiful clear silhouette. No text, letters, watermarks, logos or existing IP. No depictions of religious figures. Wide 3:2 landscape background: inviting cozy courtyard in an old Arab neighborhood, open blue wooden door, terracotta pots, flowering vines, simple clean stone benches and tiled path. Warm peach daylight, hospitality and everyday kindness. Central foreground spacious for UI overlay. No people."
+    },
+    {
+      "group": "worlds",
+      "id": "ethics",
+      "prompt": "Use case: illustration-story. Original assets for Arabic Islamic learning game ages 6–10. Premium children's storybook gouache illustration, softly dimensional simplified forms, delicate paper grain, warm sophisticated teal, cream, ochre and coral palette, beautiful clear silhouette. No text, letters, watermarks, logos or existing IP. No depictions of religious figures. Wide 3:2 landscape background: sunny community garden with a small arched wooden footbridge over a narrow stream, fruit trees, baskets on a bench, warm coral flowers, a village in distance. Cooperation and caring mood. Central foreground spacious for UI overlay. No people."
+    },
+    {
+      "group": "worlds",
+      "id": "worship",
+      "prompt": "Use case: illustration-story. Original assets for Arabic Islamic learning game ages 6–10. Premium children's storybook gouache illustration, softly dimensional simplified forms, delicate paper grain, warm sophisticated teal, cream, ochre and coral palette, beautiful clear silhouette. No text, letters, watermarks, logos or existing IP. No depictions of religious figures. Wide 3:2 landscape background: peaceful modest mosque courtyard, cream stone architecture, teal doorways, single minaret and restrained dome, a clean small ablution fountain off to the side, potted olive tree, morning light. Central foreground spacious for UI overlay. No worshippers, no text, no tombs."
+    },
+    {
+      "group": "worlds",
+      "id": "quran",
+      "prompt": "Use case: illustration-story. Original assets for Arabic Islamic learning game ages 6–10. Premium children's storybook gouache illustration, softly dimensional simplified forms, delicate paper grain, warm sophisticated teal, cream, ochre and coral palette, beautiful clear silhouette. No text, letters, watermarks, logos or existing IP. No depictions of religious figures. Wide 3:2 landscape background: dignified quiet reading library with arched windows, warm daylight, closed unmarked books on shelves, a low wooden reading stand with a closed unmarked green book respectfully elevated, cushions, teal rugs, cream plaster. Central foreground spacious for UI overlay. No people. No invented Arabic or Quranic text."
+    },
+    {
+      "group": "worlds",
+      "id": "stories",
+      "prompt": "Use case: illustration-story. Original assets for Arabic Islamic learning game ages 6–10. Premium children's storybook gouache illustration, softly dimensional simplified forms, delicate paper grain, warm sophisticated teal, cream, ochre and coral palette, beautiful clear silhouette. No text, letters, watermarks, logos or existing IP. No depictions of religious figures. Wide 3:2 landscape background: gentle desert oasis storytelling setting, date palms, pale sand dunes, small shaded reading pavilion with cushions and a closed blank book on a table, distant low sandstone village, warm late-afternoon sky. Central foreground spacious for UI overlay. No people, no dramatic historical events."
+    },
+    {
+      "group": "worlds",
+      "id": "memorization",
+      "prompt": "Use case: illustration-story. Original assets for Arabic Islamic learning game ages 6–10. Premium children's storybook gouache illustration, softly dimensional simplified forms, delicate paper grain, warm sophisticated teal, cream, ochre and coral palette, beautiful clear silhouette. No text, letters, watermarks, logos or existing IP. No depictions of religious figures. Wide 3:2 landscape background: peaceful garden study terrace with seven wide shallow stepping stones leading toward a small open reading gazebo, blank closed books on a raised desk, flowering plants and olive tree, soft mint and lavender morning atmosphere. Central foreground spacious for UI overlay. No people, no text."
+    }
+  ]
+}

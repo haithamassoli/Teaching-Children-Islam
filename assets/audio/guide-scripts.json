@@ -1,0 +1,330 @@
+[
+  {
+    "id": "welcome",
+    "text": "أَهْلًا بِكَ! أَنَا رَفِيق، وَسَأُرَافِقُكَ فِي رِحْلَةِ التَّعَلُّمِ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/welcome.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "choose-character",
+    "text": "اِخْتَرِ الشَّخْصِيَّةَ الَّتِي تُحِبُّ أَنْ تُرَافِقَكَ فِي الرِّحْلَةِ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/choose-character.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "choose-world",
+    "text": "أَمَامَكَ سَبْعَةُ عَوَالِمَ. اِخْتَرْ عَالَمًا لِتَبْدَأَ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/choose-world.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "start-lesson",
+    "text": "هَيَّا نَبْدَأُ دَرْسًا جَدِيدًا. اِسْتَمِعْ، ثُمَّ جَرِّبِ النَّشَاطَ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/start-lesson.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "listen-again",
+    "text": "يُمْكِنُكَ سَمَاعُ الشَّرْحِ مَرَّةً أُخْرَى. اِضْغَطْ عَلَى زِرِّ الصَّوْتِ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/listen-again.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "choice-younger",
+    "text": "اُنْظُرْ إِلَى الصُّوَرِ، ثُمَّ اِضْغَطْ عَلَى الْإِجَابَةِ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/choice-younger.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "choice-older",
+    "text": "اِقْرَأِ السُّؤَالَ وَالْخِيَارَاتِ، ثُمَّ اِخْتَرِ الْإِجَابَةَ الصَّحِيحَةَ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/choice-older.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "order-younger",
+    "text": "اِخْتَرِ الصُّورَةَ الَّتِي تَأْتِي أَوَّلًا، ثُمَّ الَّتِي بَعْدَهَا.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/order-younger.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "order-older",
+    "text": "رَتِّبِ الْخُطُوَاتِ مِنَ الْأُولَى إِلَى الْأَخِيرَةِ. يُمْكِنُكَ النَّقْرُ عَلَيْهَا بِالتَّرْتِيبِ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/order-older.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "match-younger",
+    "text": "اِضْغَطْ عَلَى صُورَةٍ، ثُمَّ اِخْتَرْ مَا يُنَاسِبُهَا.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/match-younger.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "match-older",
+    "text": "صِلْ كُلَّ عُنْصُرٍ بِمَا يُنَاسِبُهُ. اِخْتَرْ عُنْصُرًا مِنْ كُلِّ جَانِبٍ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/match-older.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "story-choice",
+    "text": "اِسْتَمِعْ إِلَى الْمَوْقِفِ، ثُمَّ اِخْتَرِ التَّصَرُّفَ الْمُنَاسِبَ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/story-choice.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "correct",
+    "text": "أَحْسَنْتَ! إِجَابَتُكَ صَحِيحَةٌ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/correct.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "try-again",
+    "text": "لَا بَأْسَ. لِنُرَاجِعِ الشَّرْحَ، ثُمَّ نُحَاوِلَ مَرَّةً أُخْرَى.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/try-again.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "take-time",
+    "text": "خُذْ وَقْتَكَ. يُمْكِنُكَ إِعَادَةُ السَّمَاعِ قَبْلَ الْإِجَابَةِ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/take-time.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "lesson-complete",
+    "text": "أَكْمَلْتَ الدَّرْسَ، وَحَصَلْتَ عَلَى نَجْمَةٍ. هَيَّا إِلَى النَّشَاطِ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/lesson-complete.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "activity-complete",
+    "text": "أَكْمَلْتَ النَّشَاطَ بِإِجَابَاتٍ صَحِيحَةٍ، وَحَصَلْتَ عَلَى نَجْمَتَيْنِ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/activity-complete.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "stage-complete",
+    "text": "أَكْمَلْتَ هَذِهِ الْمَرْحَلَةَ. أَصْبَحَتِ الْمَرْحَلَةُ التَّالِيَةُ مُتَاحَةً.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/stage-complete.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "world-complete",
+    "text": "أَكْمَلْتَ دُرُوسَ هَذَا الْعَالَمِ، وَحَصَلْتَ عَلَى شَارَتِهِ. أَحْسَنْتَ الْمُثَابَرَةَ!",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/world-complete.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "replay",
+    "text": "يُمْكِنُكَ إِعَادَةُ الْمَرْحَلَةِ لِلتَّدْرِيبِ. النُّجُومُ الَّتِي جَمَعْتَهَا مَحْفُوظَةٌ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/replay.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "stage-locked",
+    "text": "أَكْمِلِ الدَّرْسَ وَالنَّشَاطَ السَّابِقَيْنِ لِتَفْتَحَ هَذِهِ الْمَرْحَلَةَ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/stage-locked.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "memorize-listen",
+    "text": "اِسْتَمِعْ إِلَى الْقَارِئِ، ثُمَّ كَرِّرْ بَعْدَهُ. يُمْكِنُكَ إِعَادَةُ الْمَقْطَعِ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/memorize-listen.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "record-ready",
+    "text": "عِنْدَمَا تَكُونُ مُسْتَعِدًّا، اِضْغَطْ عَلَى زِرِّ التَّسْجِيلِ لِتَبْدَأَ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/record-ready.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "record-stop",
+    "text": "اِنْتَهَيْتَ؟ أَوْقِفِ التَّسْجِيلَ، ثُمَّ اِسْتَمِعْ إِلَى صَوْتِكَ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/record-stop.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "record-review",
+    "text": "يُمْكِنُكَ إِعَادَةُ التَّسْجِيلِ، أَوْ إِرْسَالُهُ إِلَى وَالِدِكَ لِلْمُرَاجَعَةِ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/record-review.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "upload-pending",
+    "text": "يَجْرِي إِرْسَالُ التَّسْجِيلِ. اِنْتَظِرْ قَلِيلًا وَأَبْقِ هَذِهِ الصَّفْحَةَ مَفْتُوحَةً.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/upload-pending.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "upload-success",
+    "text": "وَصَلَ تَسْجِيلُكَ، وَهُوَ الْآنَ بِانْتِظَارِ مُرَاجَعَةِ وَالِدِكَ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/upload-success.mp3",
+    "triggerNote": "Only after server confirms successful upload."
+  },
+  {
+    "id": "upload-failed",
+    "text": "لَمْ يَكْتَمِلْ إِرْسَالُ التَّسْجِيلِ. أَبْقِ الصَّفْحَةَ مَفْتُوحَةً، وَحَاوِلْ مَرَّةً أُخْرَى.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/upload-failed.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "microphone-denied",
+    "text": "لَا يُمْكِنُنَا اسْتِخْدَامُ الْمِيكْرُوفُونِ الْآنَ. يُمْكِنُكَ الِاسْتِمَاعُ، أَوِ التَّسْمِيعُ لِوَالِدِكَ مُبَاشَرَةً.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/microphone-denied.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "practice-parent",
+    "text": "تَعَلَّمْتَ الْخُطُوَاتِ. جَرِّبِ التَّطْبِيقَ مَعَ وَالِدِكَ، لِيُؤَكِّدَ إِكْمَالَكَ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/practice-parent.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "review-approved",
+    "text": "أَكَّدَ وَالِدُكَ إِتْقَانَ هَذَا الْمَقْطَعِ. وَاصِلِ الْمُرَاجَعَةَ لِيَبْقَى فِي ذَاكِرَتِكَ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/review-approved.mp3",
+    "triggerNote": "Only after parent approval."
+  },
+  {
+    "id": "review-practice",
+    "text": "لِنَتَدَرَّبْ عَلَى الْمَقْطَعِ مَرَّةً أُخْرَى، ثُمَّ نُسْمِعُهُ لِلْوَالِدِ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/review-practice.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "offline",
+    "text": "اِنْقَطَعَ الِاتِّصَالُ بِالْإِنْتَرْنِتِ. عِنْدَ عَوْدَتِهِ، اِضْغَطْ عَلَى إِعَادَةِ الْمُحَاوَلَةِ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/offline.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "parent-area",
+    "text": "هَذِهِ الْمِنْطَقَةُ لِلْوَالِدِ. اُطْلُبْ مِنْهُ الْمُسَاعَدَةَ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/parent-area.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "faith-intro",
+    "text": "مَرْحَبًا بِكَ فِي عَالَمِ الْإِيمَانِ. هَيَّا نَبْدَأُ أَوَّلَ دَرْسٍ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/faith-intro.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "manners-intro",
+    "text": "مَرْحَبًا بِكَ فِي عَالَمِ الْآدَابِ. سَنَتَعَلَّمُ مِنْ مَوَاقِفَ فِي حَيَاتِنَا الْيَوْمِيَّةِ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/manners-intro.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "ethics-intro",
+    "text": "مَرْحَبًا بِكَ فِي عَالَمِ الْأَخْلَاقِ وَالسُّلُوكِ. لِنَتَعَلَّمْ وَنُطَبِّقْ مَا نَتَعَلَّمُهُ.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/ethics-intro.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "worship-intro",
+    "text": "مَرْحَبًا بِكَ فِي عَالَمِ الْعِبَادَاتِ. سَنَتَعَلَّمُ خُطْوَةً خُطْوَةً.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/worship-intro.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "quran-intro",
+    "text": "مَرْحَبًا بِكَ فِي عَالَمِ الْقُرْآنِ وَمَعَانِيهِ. اِسْتَمِعْ بِهُدُوءٍ، ثُمَّ تَعَلَّمْ مَعَنَا.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/quran-intro.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "stories-intro",
+    "text": "مَرْحَبًا بِكَ فِي عَالَمِ الْقَصَصِ. اِسْتَمِعْ إِلَى الْقِصَّةِ، ثُمَّ فَكِّرْ فِي مَعْنَاهَا.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/stories-intro.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  },
+  {
+    "id": "memorization-intro",
+    "text": "مَرْحَبًا بِكَ فِي عَالَمِ الْحِفْظِ. سَنَسْتَمِعُ وَنُكَرِّرُ وَنُرَاجِعُ مَعًا.",
+    "status": "draft",
+    "kind": "interface-narration",
+    "recording": "guide/memorization-intro.mp3",
+    "triggerNote": "Bind to the matching confirmed application state."
+  }
+]

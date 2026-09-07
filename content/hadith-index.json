@@ -1,0 +1,782 @@
+[
+  {
+    "id": "book-hadith-01",
+    "book_number": 1,
+    "title": "أركان الإيمان",
+    "source_pages": [
+      8
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=8",
+    "raw_text_source": "source/pages.json:pdf_page=8",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-02",
+    "book_number": 2,
+    "title": "بني الإسلام على خمس",
+    "source_pages": [
+      9
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=9",
+    "raw_text_source": "source/pages.json:pdf_page=9",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-03",
+    "book_number": 3,
+    "title": "شعب الإيمان والحياء",
+    "source_pages": [
+      10
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=10",
+    "raw_text_source": "source/pages.json:pdf_page=10",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-04",
+    "book_number": 4,
+    "title": "أسماء الله الحسنى",
+    "source_pages": [
+      11
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=11",
+    "raw_text_source": "source/pages.json:pdf_page=11",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-05",
+    "book_number": 5,
+    "title": "أهل البيت",
+    "source_pages": [
+      24
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=24",
+    "raw_text_source": "source/pages.json:pdf_page=24",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-06",
+    "book_number": 6,
+    "title": "دعاء دخول المسجد والخروج",
+    "source_pages": [
+      28
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=28",
+    "raw_text_source": "source/pages.json:pdf_page=28",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-07",
+    "book_number": 7,
+    "title": "تحية المسجد",
+    "source_pages": [
+      28
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=28",
+    "raw_text_source": "source/pages.json:pdf_page=28",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-08",
+    "book_number": 8,
+    "title": "المرور أمام المصلي",
+    "source_pages": [
+      28
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=28",
+    "raw_text_source": "source/pages.json:pdf_page=28",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-09",
+    "book_number": 9,
+    "title": "إفشاء السلام",
+    "source_pages": [
+      29
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=29",
+    "raw_text_source": "source/pages.json:pdf_page=29",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-10",
+    "book_number": 10,
+    "title": "من يبدأ السلام",
+    "source_pages": [
+      29
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=29",
+    "raw_text_source": "source/pages.json:pdf_page=29",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-11",
+    "book_number": 11,
+    "title": "التسمية والأكل باليمين",
+    "source_pages": [
+      31
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=31",
+    "raw_text_source": "source/pages.json:pdf_page=31",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-12",
+    "book_number": 12,
+    "title": "النهي عن الشرب قائمًا",
+    "source_pages": [
+      31
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=31",
+    "raw_text_source": "source/pages.json:pdf_page=31",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-13",
+    "book_number": 13,
+    "title": "الطهور شطر الإيمان",
+    "source_pages": [
+      36
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=36",
+    "raw_text_source": "source/pages.json:pdf_page=36",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-14",
+    "book_number": 14,
+    "title": "ذكر العطاس والرد",
+    "source_pages": [
+      37
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=37",
+    "raw_text_source": "source/pages.json:pdf_page=37",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-15",
+    "book_number": 15,
+    "title": "إكرام الجار والضيف وقول الخير",
+    "source_pages": [
+      40
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=40",
+    "raw_text_source": "source/pages.json:pdf_page=40",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-16",
+    "book_number": 16,
+    "title": "ترك سوء الظن والتجسس والحسد",
+    "source_pages": [
+      40
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=40",
+    "raw_text_source": "source/pages.json:pdf_page=40",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-17",
+    "book_number": 17,
+    "title": "تعريف الغيبة",
+    "source_pages": [
+      41
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=41",
+    "raw_text_source": "source/pages.json:pdf_page=41",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-18",
+    "book_number": 18,
+    "title": "طهارة اللسان",
+    "source_pages": [
+      42
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=42",
+    "raw_text_source": "source/pages.json:pdf_page=42",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-19",
+    "book_number": 19,
+    "title": "لا تغضب",
+    "source_pages": [
+      44
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=44",
+    "raw_text_source": "source/pages.json:pdf_page=44",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-20",
+    "book_number": 20,
+    "title": "الصدق والكذب",
+    "source_pages": [
+      45
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=45",
+    "raw_text_source": "source/pages.json:pdf_page=45",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-21",
+    "book_number": 21,
+    "title": "ذو الوجهين",
+    "source_pages": [
+      45
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=45",
+    "raw_text_source": "source/pages.json:pdf_page=45",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-22",
+    "book_number": 22,
+    "title": "بر الأم والأب",
+    "source_pages": [
+      46
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=46",
+    "raw_text_source": "source/pages.json:pdf_page=46",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-23",
+    "book_number": 23,
+    "title": "صلة الرحم",
+    "source_pages": [
+      47
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=47",
+    "raw_text_source": "source/pages.json:pdf_page=47",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-24",
+    "book_number": 24,
+    "title": "فضل تعليم الناس الخير",
+    "source_pages": [
+      50
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=50",
+    "raw_text_source": "source/pages.json:pdf_page=50",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-25",
+    "book_number": 25,
+    "title": "التراحم كالجسد الواحد",
+    "source_pages": [
+      51
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=51",
+    "raw_text_source": "source/pages.json:pdf_page=51",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-26",
+    "book_number": 26,
+    "title": "ترك سب المسلم وقتاله",
+    "source_pages": [
+      52
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=52",
+    "raw_text_source": "source/pages.json:pdf_page=52",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-27",
+    "book_number": 27,
+    "title": "ترك الهجر",
+    "source_pages": [
+      53
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=53",
+    "raw_text_source": "source/pages.json:pdf_page=53",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-28",
+    "book_number": 28,
+    "title": "رحمة الصغير وتوقير الكبير",
+    "source_pages": [
+      54
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=54",
+    "raw_text_source": "source/pages.json:pdf_page=54",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-29",
+    "book_number": 29,
+    "title": "أذى الجار",
+    "source_pages": [
+      55
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=55",
+    "raw_text_source": "source/pages.json:pdf_page=55",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-30",
+    "book_number": 30,
+    "title": "إطعام الجائع وزيارة المريض",
+    "source_pages": [
+      56
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=56",
+    "raw_text_source": "source/pages.json:pdf_page=56",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-31",
+    "book_number": 31,
+    "title": "النية",
+    "source_pages": [
+      60
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=60",
+    "raw_text_source": "source/pages.json:pdf_page=60",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-32",
+    "book_number": 32,
+    "title": "التشهد",
+    "source_pages": [
+      68
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=68",
+    "raw_text_source": "source/pages.json:pdf_page=68",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-33",
+    "book_number": 33,
+    "title": "الصلاة الإبراهيمية",
+    "source_pages": [
+      68
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=68",
+    "raw_text_source": "source/pages.json:pdf_page=68",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-34",
+    "book_number": 34,
+    "title": "الدعاء بعد التشهد",
+    "source_pages": [
+      68
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=68",
+    "raw_text_source": "source/pages.json:pdf_page=68",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-35",
+    "book_number": 35,
+    "title": "المحافظة على الجمعة",
+    "source_pages": [
+      71
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=71",
+    "raw_text_source": "source/pages.json:pdf_page=71",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-36",
+    "book_number": 36,
+    "title": "السنن الرواتب",
+    "source_pages": [
+      72
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=72",
+    "raw_text_source": "source/pages.json:pdf_page=72",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-37",
+    "book_number": 37,
+    "title": "الصيام وحسن الخلق",
+    "source_pages": [
+      84
+    ],
+    "required_in_memorization_table": true,
+    "text_source": "source/book.pdf#page=84",
+    "raw_text_source": "source/pages.json:pdf_page=84",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-38",
+    "book_number": 38,
+    "title": "الرجل الذي سقى الكلب",
+    "source_pages": [
+      154
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=154",
+    "raw_text_source": "source/pages.json:pdf_page=154",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-39",
+    "book_number": 39,
+    "title": "الجارية راعية الغنم",
+    "source_pages": [
+      155
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=155",
+    "raw_text_source": "source/pages.json:pdf_page=155",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-40",
+    "book_number": 40,
+    "title": "الأبرص والأقرع والأعمى",
+    "source_pages": [
+      157
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=157",
+    "raw_text_source": "source/pages.json:pdf_page=157",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-41",
+    "book_number": 41,
+    "title": "أبو الدحداح",
+    "source_pages": [
+      163
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=163",
+    "raw_text_source": "source/pages.json:pdf_page=163",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-42",
+    "book_number": 42,
+    "title": "سلمان الفارسي",
+    "source_pages": [
+      165
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=165",
+    "raw_text_source": "source/pages.json:pdf_page=165",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-43",
+    "book_number": 43,
+    "title": "أم أبي هريرة",
+    "source_pages": [
+      168
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=168",
+    "raw_text_source": "source/pages.json:pdf_page=168",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-44",
+    "book_number": 44,
+    "title": "مقدمة مقتل عمر",
+    "source_pages": [
+      171
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=171",
+    "raw_text_source": "source/pages.json:pdf_page=171",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-45",
+    "book_number": 45,
+    "title": "مقتل عمر",
+    "source_pages": [
+      171
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=171",
+    "raw_text_source": "source/pages.json:pdf_page=171",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-46",
+    "book_number": 46,
+    "title": "ثناء علي على عمر",
+    "source_pages": [
+      173
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=173",
+    "raw_text_source": "source/pages.json:pdf_page=173",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-47",
+    "book_number": 47,
+    "title": "ابن مسعود",
+    "source_pages": [
+      175
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=175",
+    "raw_text_source": "source/pages.json:pdf_page=175",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-48",
+    "book_number": 48,
+    "title": "تواضع عمر عند فتح القدس",
+    "source_pages": [
+      177
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=177",
+    "raw_text_source": "source/pages.json:pdf_page=177",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-49",
+    "book_number": 49,
+    "title": "الغلام والساحر",
+    "source_pages": [
+      179
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=179",
+    "raw_text_source": "source/pages.json:pdf_page=179",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-50",
+    "book_number": 50,
+    "title": "ذرية آدم",
+    "source_pages": [
+      186
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=186",
+    "raw_text_source": "source/pages.json:pdf_page=186",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-51",
+    "book_number": 51,
+    "title": "صاحب الخشبة",
+    "source_pages": [
+      189
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=189",
+    "raw_text_source": "source/pages.json:pdf_page=189",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-52",
+    "book_number": 52,
+    "title": "من رغب عن سنتي",
+    "source_pages": [
+      191
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=191",
+    "raw_text_source": "source/pages.json:pdf_page=191",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-53",
+    "book_number": 53,
+    "title": "آخر من يدخل الجنة",
+    "source_pages": [
+      193
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=193",
+    "raw_text_source": "source/pages.json:pdf_page=193",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-54",
+    "book_number": 54,
+    "title": "موسى والخضر",
+    "source_pages": [
+      196
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=196",
+    "raw_text_source": "source/pages.json:pdf_page=196",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-55",
+    "book_number": 55,
+    "title": "إبراهيم وهاجر",
+    "source_pages": [
+      200
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=200",
+    "raw_text_source": "source/pages.json:pdf_page=200",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-56",
+    "book_number": 56,
+    "title": "المرأة التي تقم المسجد",
+    "source_pages": [
+      203
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=203",
+    "raw_text_source": "source/pages.json:pdf_page=203",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-57",
+    "book_number": 57,
+    "title": "الإسراء والمعراج",
+    "source_pages": [
+      205
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=205",
+    "raw_text_source": "source/pages.json:pdf_page=205",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-58",
+    "book_number": 58,
+    "title": "الماشطة",
+    "source_pages": [
+      208
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=208",
+    "raw_text_source": "source/pages.json:pdf_page=208",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-59",
+    "book_number": 59,
+    "title": "أبو أيوب",
+    "source_pages": [
+      210
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=210",
+    "raw_text_source": "source/pages.json:pdf_page=210",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  },
+  {
+    "id": "book-hadith-60",
+    "book_number": 60,
+    "title": "جرة الذهب",
+    "source_pages": [
+      212
+    ],
+    "required_in_memorization_table": false,
+    "text_source": "source/book.pdf#page=212",
+    "raw_text_source": "source/pages.json:pdf_page=212",
+    "text_status": "pending_visual_and_hadith_reference_review",
+    "publishable": false
+  }
+]

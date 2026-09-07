@@ -1,0 +1,2109 @@
+[
+  {
+    "id": "book-activity-01",
+    "book_number": 1,
+    "source_pages": [
+      8
+    ],
+    "lesson_ids": [
+      "faith-001"
+    ],
+    "prompt": "اكتب كل ركن من أركان الإيمان في حقل.",
+    "answer": [
+      "الإيمان بالله",
+      "ملائكته",
+      "كتبه",
+      "رسله",
+      "اليوم الآخر",
+      "القدر خيره وشره"
+    ],
+    "answer_source_pages": [
+      236
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "ordering",
+    "review_notes": [
+      "ترتيب من الأعلى كما في الحديث؛ الرسم الأصلي في PDF."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      8
+    ]
+  },
+  {
+    "id": "book-activity-02",
+    "book_number": 2,
+    "source_pages": [
+      9
+    ],
+    "lesson_ids": [
+      "faith-002"
+    ],
+    "prompt": [
+      "ما الركنان اللذان يجعل مفتاح الكتاب الشهادتين والصلاة أساسًا للشكل بهما؟",
+      "رتب الأركان في الشكل."
+    ],
+    "answer": [
+      "الشهادتان والصلاة",
+      "يوضعان في العمودين السفليين وباقي الأركان فوق."
+    ],
+    "answer_source_pages": [
+      236
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "short_answer",
+    "review_notes": [
+      "صياغة تكييفية؛ السؤال الأصلي عن انهيار الإسلام في الصفحة ٩ محفوظ في المصدر، ويلزم مراجعة التفصيل العقدي وعدم تطبيق الحكم على أفراد."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      9
+    ]
+  },
+  {
+    "id": "book-activity-03",
+    "book_number": 3,
+    "source_pages": [
+      10
+    ],
+    "lesson_ids": [
+      "faith-003"
+    ],
+    "prompt": [
+      "كيف نزيد إيماننا؟",
+      "ضع في كل حقل شعبة من شعب الإيمان."
+    ],
+    "answer": [
+      "بالأعمال الصالحة.",
+      "بحسب المفتاح: الشهادتان في الأعلى، وإماطة الأذى في الأخير، وبينهما أعمال صالحة."
+    ],
+    "answer_source_pages": [
+      236
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "short_answer",
+    "review_notes": [
+      "مفتاح الكتاب يذكر الشهادتين، ولفظ الحديث المعروض يذكر لا إله إلا الله؛ راجع التطابق قبل اعتماد صيغة حفظ."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      10
+    ]
+  },
+  {
+    "id": "book-activity-04",
+    "book_number": 4,
+    "source_pages": [
+      12
+    ],
+    "lesson_ids": [
+      "faith-005"
+    ],
+    "prompt": [
+      "رتب الإسلام والإيمان والإحسان في درجات الشكل.",
+      "ما الدرجة التي تريد الوصول إليها؟"
+    ],
+    "answer": [
+      "من الأعلى: الإحسان ثم الإيمان ثم الإسلام.",
+      "الإحسان؛ يبين الطفل رغبته ومعنى إحسان العمل."
+    ],
+    "answer_source_pages": [
+      236
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "short_answer",
+    "review_notes": [
+      "السؤال الثاني تأملي؛ لا تستخدمه لتقييم تدين الطفل."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      12
+    ]
+  },
+  {
+    "id": "book-activity-05",
+    "book_number": 5,
+    "source_pages": [
+      13
+    ],
+    "lesson_ids": [
+      "faith-006"
+    ],
+    "prompt": [
+      "أسماء الله في الفاتحة؟",
+      "أسماء الله في آية الكرسي؟",
+      "أسماء الله في الإخلاص؟"
+    ],
+    "answer": [
+      [
+        "الله",
+        "الرحمن",
+        "الرحيم"
+      ],
+      [
+        "الله",
+        "الحي",
+        "القيوم",
+        "العلي",
+        "العظيم"
+      ],
+      [
+        "الله",
+        "الأحد",
+        "الصمد"
+      ]
+    ],
+    "answer_source_pages": [
+      236
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "short_answer",
+    "review_notes": [],
+    "grading": "semantic_review",
+    "raw_source_refs": [
+      13
+    ]
+  },
+  {
+    "id": "book-activity-06",
+    "book_number": 6,
+    "source_pages": [
+      14
+    ],
+    "lesson_ids": [
+      "faith-007"
+    ],
+    "prompt": "حدد أصحاب ادعاء معرفة المستقبل غير الصادقين.",
+    "answer": [
+      "قارئو الكف",
+      "قارئو الفنجان",
+      "السحرة"
+    ],
+    "answer_source_pages": [
+      236
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "short_answer",
+    "review_notes": [],
+    "grading": "semantic_review",
+    "raw_source_refs": [
+      14
+    ]
+  },
+  {
+    "id": "book-activity-07",
+    "book_number": 7,
+    "source_pages": [
+      15
+    ],
+    "lesson_ids": [
+      "faith-008"
+    ],
+    "prompt": [
+      "هل يجوز رسم الملائكة كما في سؤال الكتاب؟",
+      "ماذا تفعل إذا فعلت شيئًا سيئًا؟"
+    ],
+    "answer": [
+      "لا؛ لا نخترع صورًا للغيب.",
+      "أندم وأستغفر الله وأتوب وأحاول ألا أكرره."
+    ],
+    "answer_source_pages": [
+      236
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "short_answer",
+    "review_notes": [],
+    "grading": "semantic_review",
+    "raw_source_refs": [
+      15
+    ]
+  },
+  {
+    "id": "book-activity-08",
+    "book_number": 8,
+    "source_pages": [
+      17
+    ],
+    "lesson_ids": [
+      "faith-010"
+    ],
+    "prompt": "من أكثر نبي ذكر اسمه في القرآن الكريم؟",
+    "answer": "موسى عليه السلام.",
+    "answer_source_pages": [
+      236
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "short_answer",
+    "review_notes": [],
+    "grading": "semantic_review",
+    "raw_source_refs": [
+      17
+    ]
+  },
+  {
+    "id": "book-activity-09",
+    "book_number": 9,
+    "source_pages": [
+      20
+    ],
+    "lesson_ids": [
+      "faith-013"
+    ],
+    "prompt": [
+      "هل المؤمن يتوكل أم يتواكل؟",
+      "لماذا نقول الحمد لله إذا حصل ما لم يعجبنا؟",
+      "كيف نعمل بعد معرفتنا أن الله يعلم كل شيء؟"
+    ],
+    "answer": [
+      "يسعى ويجتهد ويتوكل.",
+      "نحمد الله ونرجو الخير فيما قدره لنا.",
+      "لا نفعل ما لا يحبه الله."
+    ],
+    "answer_source_pages": [
+      236
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "short_answer",
+    "review_notes": [],
+    "grading": "semantic_review",
+    "raw_source_refs": [
+      20
+    ]
+  },
+  {
+    "id": "book-activity-10",
+    "book_number": 10,
+    "source_pages": [
+      22
+    ],
+    "lesson_ids": [
+      "faith-015"
+    ],
+    "prompt": "ما أنواع الأحاديث التي نأخذ ديننا منها في النشاط؟",
+    "answer": [
+      "الصحيح",
+      "الحسن"
+    ],
+    "answer_source_pages": [
+      236
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "multiple_select",
+    "review_notes": [],
+    "grading": "semantic_review",
+    "raw_source_refs": [
+      22
+    ]
+  },
+  {
+    "id": "book-activity-11",
+    "book_number": 11,
+    "source_pages": [
+      24
+    ],
+    "lesson_ids": [
+      "faith-017"
+    ],
+    "prompt": "من قدوتك من الصحابة؟ ولماذا؟",
+    "answer": "إجابة مفتوحة: يختار الطفل صحابيًا ويذكر سببًا صحيحًا تعلمه.",
+    "answer_source_pages": [
+      237
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "short_answer",
+    "review_notes": [
+      "عدم تطابق: رقم ١١ مطبوع تحت سؤال القدوة ص٢٤، بينما مفتاحه ص٢٣٧ يجيب عن ثلاثة أسئلة الاتباع غير المرقمة ص٢٣: لا، لا، بدعة. لا تنقل تلك الإجابات إلى سؤال القدوة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      24
+    ]
+  },
+  {
+    "id": "book-activity-12",
+    "book_number": 12,
+    "source_pages": [
+      28
+    ],
+    "lesson_ids": [
+      "manners-001"
+    ],
+    "prompt": [
+      "لماذا مد المصلي يده في الصورة؟",
+      "ماذا يفعل من يريد المرور؟"
+    ],
+    "answer": [
+      "ليمنع المرور أمامه وهو يصلي.",
+      "يمر من خلف المصلي، فإن لم يستطع ينتظر."
+    ],
+    "answer_source_pages": [
+      237
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "short_answer",
+    "review_notes": [
+      "يلزم النظر إلى صورة الصفحة ٢٨ لتأكيد ارتباط السؤال بالشخصين."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      28
+    ]
+  },
+  {
+    "id": "book-activity-13",
+    "book_number": 13,
+    "source_pages": [
+      29
+    ],
+    "lesson_ids": [
+      "manners-002"
+    ],
+    "prompt": "املأ فقاعتي التحية والرد.",
+    "answer": [
+      "السلام عليكم ورحمة الله وبركاته",
+      "وعليكم السلام ورحمة الله وبركاته"
+    ],
+    "answer_source_pages": [
+      237
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "short_answer",
+    "review_notes": [],
+    "grading": "semantic_review",
+    "raw_source_refs": [
+      29
+    ]
+  },
+  {
+    "id": "book-activity-14",
+    "book_number": 14,
+    "source_pages": [
+      30
+    ],
+    "lesson_ids": [
+      "manners-003"
+    ],
+    "prompt": "اذكر أمثلة للباس الخاص بالأولاد واللباس الخاص بالبنات.",
+    "answer": "أمثلة يراجعها الوالد بحسب اللباس المقصود والضوابط الواردة في الدرس.",
+    "answer_source_pages": [
+      237
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "short_answer",
+    "review_notes": [
+      "مفتاح الكتاب لا يسمي ملابس بعينها؛ لا يوجد جواب حرفي واحد."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      30
+    ]
+  },
+  {
+    "id": "book-activity-15",
+    "book_number": 15,
+    "source_pages": [
+      37
+    ],
+    "lesson_ids": [
+      "manners-009"
+    ],
+    "prompt": [
+      "لماذا يغطي العاطس فمه بمرفقه؟",
+      "علم إخوتك أو أصدقاءك سنة العطاس."
+    ],
+    "answer": [
+      "حتى لا ينتشر شيء من فمه ويضايق الناس.",
+      "تمرين عملي: الحمد لله؛ يرحمك الله؛ يهديكم الله ويصلح بالكم."
+    ],
+    "answer_source_pages": [
+      237
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "short_answer",
+    "review_notes": [],
+    "grading": "semantic_review",
+    "raw_source_refs": [
+      37
+    ]
+  },
+  {
+    "id": "book-activity-16",
+    "book_number": 16,
+    "source_pages": [
+      43
+    ],
+    "lesson_ids": [
+      "conduct-004"
+    ],
+    "prompt": "حدد العبارات التي تتضمن تعليق الأمر المستقبلي على مشيئة الله.",
+    "answer": {
+      "سأتصل بك بعد قليل": false,
+      "سأشتري قلمًا غدًا": false,
+      "سأحفظ القرآن كله إن شاء الله": true,
+      "سألعب لمدة نصف ساعة": false,
+      "سوف ألعب رياضة إن شاء الله": true,
+      "سأشتري هدية لأمي إن شاء الله": true,
+      "لن أصعد إلى الأعلى": false,
+      "إن شاء الله لن أعصي أمر أبي": true,
+      "لن أتأخر بالنوم إن شاء الله": true,
+      "سأتفوق بدراستي بإذن الله": true
+    },
+    "answer_source_pages": [
+      237
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "short_answer",
+    "review_notes": [
+      "قوبلت عبارات الصفحة ٤٣ بصريًا وصححت أواخر الجمل، وربطت الإجابات بنص العبارات لتجنب عكس الأعمدة. تبقى مراجعة المفتاح مطلوبة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      43
+    ]
+  },
+  {
+    "id": "book-activity-17",
+    "book_number": 17,
+    "source_pages": [
+      48
+    ],
+    "lesson_ids": [
+      "conduct-009"
+    ],
+    "prompt": "حدد محارم الفتاة من العلاقات التالية.",
+    "answer": {
+      "ابن العم": false,
+      "أخو الزوج": false,
+      "جد الأب": true,
+      "ابن زوج الأم": false,
+      "خال الأم": true,
+      "العم": true,
+      "زوج الأخت": false,
+      "جد الجد": true
+    },
+    "answer_source_pages": [
+      237
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "short_answer",
+    "review_notes": [
+      "الأجوبة من المفتاح، وتراجع وفق المخطط وصورة المسألة؛ لا تغني عن تفصيل الرضاع والمصاهرة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      48
+    ]
+  },
+  {
+    "id": "book-activity-18",
+    "book_number": 18,
+    "source_pages": [
+      49
+    ],
+    "lesson_ids": [
+      "conduct-009"
+    ],
+    "prompt": "حدد محارم الفتى من العلاقات التالية.",
+    "answer": {
+      "أخت الجدة": true,
+      "ابنة الخالة": false,
+      "زوجة العم": false,
+      "عمة الأب": true,
+      "زوجة الأخ": false,
+      "أخت الزوجة": false,
+      "أم الجد": true,
+      "بنت الابن": true
+    },
+    "answer_source_pages": [
+      237
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "short_answer",
+    "review_notes": [
+      "الأجوبة من المفتاح، وتراجع وفق المخطط وصورة المسألة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      49
+    ]
+  },
+  {
+    "id": "book-activity-19",
+    "book_number": 19,
+    "source_pages": [
+      82
+    ],
+    "lesson_ids": [
+      "worship-012"
+    ],
+    "prompt": [
+      "شارك بمال في صندوق المسجد بإذن الوالد.",
+      "هل يسمى هذا زكاة أم صدقة؟"
+    ],
+    "answer": [
+      "تطبيق اختياري بإشراف الوالد.",
+      "صدقة."
+    ],
+    "answer_source_pages": [
+      237
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "short_answer",
+    "review_notes": [],
+    "grading": "semantic_review",
+    "raw_source_refs": [
+      82
+    ]
+  },
+  {
+    "id": "book-activity-20",
+    "book_number": 20,
+    "source_pages": [
+      83
+    ],
+    "lesson_ids": [
+      "worship-013"
+    ],
+    "prompt": "احسب زكاة هذه المبالغ في تمرين يفترض تحقق شروط الزكاة.",
+    "answer": {
+      "4000": 100,
+      "5100": 127.5,
+      "6800": 170,
+      "7400": 185
+    },
+    "answer_source_pages": [
+      237
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "numeric",
+    "review_notes": [
+      "المفتاح يذكر القاعدة فقط: القسمة على ٤٠؛ النتائج الحسابية إضافة محسوبة. هذا تمرين من الكتاب وليس حساب زكاة فعليًا للأسرة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      83
+    ]
+  },
+  {
+    "id": "book-activity-21",
+    "book_number": 21,
+    "source_pages": [
+      94,
+      95,
+      96
+    ],
+    "lesson_ids": [
+      "quran-001"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "1",
+      "1+3",
+      "5",
+      "1+2+3+4+5",
+      "5",
+      "6+7",
+      "7",
+      "6+7",
+      "7",
+      "7",
+      "2",
+      "7",
+      "5"
+    ],
+    "answer_source_pages": [
+      237
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      94,
+      95,
+      96
+    ],
+    "raw_prompts": [
+      "نبدأ أمورنا بقول: بسم ا",
+      "فيها ثلاثة من أسماء الله تعالى: الله، الرّحْن، الرّ حيم.",
+      "لا نعبد إلا ا",
+      "لا شيء يستحق العبادة، لأن الله رب كل شيء",
+      "نعتقد أنالإعانة الحقيقية لا تكون إلا من الله تعالى.",
+      "لا ننتمي إلى الأفكار ا دّ امة، والْماعات المُ ريبة، لأنّ صِاطها ليس مستقيمًا.",
+      "نحب الأنبياء والصّا",
+      "لا نتّبع إلا من عرفنا أن الله قد أنعم عليهم بالإيمان الحقي",
+      "إذا عرفنا الحق؛نتّبعه لكيلا نكون من المغضوب عليهم.",
+      "يجب أن نتعلّم ديننا لكيلا نكون من الضّالّ",
+      "إذا أردنا أن ندعو الله تعالى؛ نثني عليهقبل الدعاء.",
+      "التحرّي للبعد عن طريق الضلالة من أهم الأمور، لأن الله علّمنا أن ندعوه أن يصرفنا عنها.",
+      "عبادةالله وحده مِن أهم الأمور لأنّ الله تعالى جعلها في أوّل كتابه."
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-activity-22",
+    "book_number": 22,
+    "source_pages": [
+      97,
+      98
+    ],
+    "lesson_ids": [
+      "quran-002"
+    ],
+    "prompt": "اكتب رقم السطر من آية الكرسي الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "1+4",
+      "1",
+      "2",
+      "3+4",
+      "4",
+      "1+2",
+      "4"
+    ],
+    "answer_source_pages": [
+      237
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة. الإجابات أرقام أسطر في تنسيق الصفحة ٩٧ وليست أرقام آيات؛ آية الكرسي هي البقرة ٢٥٥. يحفظ ترتيب أسطر الأصل."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      97,
+      98
+    ],
+    "raw_prompts": [
+      "فيها ثلاثة من أسماء الله تعالى: الله، العل، العظيم",
+      "الله تعالى لا ينام",
+      "الله يعلم كل شيء، ولا يفى شيء عنه",
+      "الله تعالى لا يتعب",
+      "الله تعالى يحفظ السماوات والأرض",
+      "لا يحصل شيء في الكون إلا بإذن ا",
+      "يجب أن نعظّم الله لأنّه عظيم، فلا نقبل أن نسمع لأي استهزاء به أو بنبيّه أو بدينه."
+    ],
+    "answer_unit": "printed_line",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false,
+    "key_note": "يلحق المفتاح بالإجابة السادسة: له ما في السماوات وما في الأرض."
+  },
+  {
+    "id": "book-activity-23",
+    "book_number": 23,
+    "source_pages": [
+      99,
+      100,
+      101
+    ],
+    "lesson_ids": [
+      "quran-003"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "3",
+      "4",
+      "6",
+      "11",
+      "10",
+      "11"
+    ],
+    "answer_source_pages": [
+      237
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      99,
+      100,
+      101
+    ],
+    "raw_prompts": [
+      "الله تعالى يحبّ رسول الله ﷺ، فعلينا أن نحبّه",
+      "الْنّة خير من الدّنيا، فعلينا أن نبذل جهدنا لأجل الْنّة أكثر من جهدنا لنيل مكاسب الدنيا.",
+      "الله يعطي من يحبّهم، لكن قد يتبِّهم ببعض الضيق الدنيا، كما كان رسول الله ﷺ يتيمًا، وفقيرًا في أول حياته.",
+      "لا نقابل نِعَم الله بالمعصية، بل بالشكر واحسان إلى خلقِه.",
+      "نحسن إلى الفقراء كما أحسن الله إلينا",
+      "لابد من أن نعلم غيرنا مما تعلمناه من علوم الشريعة"
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-activity-24",
+    "book_number": 24,
+    "source_pages": [
+      102,
+      103,
+      104
+    ],
+    "lesson_ids": [
+      "quran-004"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "1",
+      "2+3",
+      "5+6",
+      "7+8"
+    ],
+    "answer_source_pages": [
+      237
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      102,
+      103,
+      104
+    ],
+    "raw_prompts": [
+      "إذا الإنسان تحلىّ بالإيمان؛ فإن قلبه سيطمئن.",
+      "الندم على الذنوب سبب لمغفرتها",
+      "لا نحزن على المصائب لأننا مؤمنين أن الله عنده الفرج، لكن يجب أن نلتجئ إليه.",
+      "يجب أن لا نقضي أوقات فراغنا باللهوفقط، بل يجب أن نستغلها بالأعمال الصالحة والعبادة لنتقرّب من الله تعالى. مثلَ: عندما ندرس؛ ننوي أننا إذا حصلنا على الشهادات واشتغلنا؛ نساعد المسلمين والمحتاجين في عملنا. عندما نلعب الرياضة ونأكل الأكل الصحّ؛ ننوي أن نطيع الله بأن نحافظ على نعمة الصحة التي وهبها لنا."
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-activity-25",
+    "book_number": 25,
+    "source_pages": [
+      105,
+      106,
+      107
+    ],
+    "lesson_ids": [
+      "quran-005"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "1",
+      "3",
+      "4+5",
+      "6",
+      "7+8"
+    ],
+    "answer_source_pages": [
+      237
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      105,
+      106,
+      107
+    ],
+    "raw_prompts": [
+      "حتى المخلوقات الصغيرة تدل على عظمة الله تعالى، لأنه لا لأحد يستطيع أن يعمل شيئًا مثلها.",
+      "مكة بل أمين، فيجب على الناس أنلا يفتعلوا المشاكل فيها، أو يُيفوا أهلها.",
+      "أن الإنسان يستغل شبابه وصحّته في طاعة الله تعالى، قبل أن يهرم ويعجز.",
+      "الله كريم جدًا، لدرجة أنه يكتب لنا اجر الأعمال الصالحة التي كنا نفعلها، ومنعنا عنها المرض، أو العَجز.",
+      "أنيوم القيامة سيكون فيه حُكمًا عادلاً بين العباد، فمن نجَ من العقوبة في الدنيا، فسيحاسب في الآخرة. ولهذا فتحن لا يجب أن نتساءل (لماذا لم يعاقب الله السيئين في الدنيا؟) لأننا نعرف أن الله قد يؤخر العقوبة إلى يوم القيامة."
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-activity-26",
+    "book_number": 26,
+    "source_pages": [
+      108,
+      109,
+      110,
+      111
+    ],
+    "lesson_ids": [
+      "quran-006"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "1",
+      "4+5",
+      "19",
+      "8",
+      "9-15",
+      "17+18+19",
+      "12",
+      "19",
+      "14"
+    ],
+    "answer_source_pages": [
+      237
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة. رقم النشاط غير ظاهر في طبقة النص؛ الرقم مستنتج من التسلسل ومفتاح الحل."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      108,
+      109,
+      110,
+      111
+    ],
+    "raw_prompts": [
+      "الله خالق كل شيء",
+      "الله تعالى يحبنا أن نتعلّم، لأنهخلق لنا أدوات العلم، ويسرذَ نا للتعلّم.",
+      "إذا امتلك الإنسان مالاً فلابد له ان يتذكر أن هذا من فضل الله عليه، فيتقرّب لله أكثر، ولا يتكبِّّ.",
+      "يجب أن يتذكر الإنسان دائمًا أنّه سيرجع إلى ربه للحساب، فلا يعمل أعمالاً سيئة.",
+      "من أعظم الظلم أنيُمنع المسلم من طاعة ربّه.",
+      "من كان قريبًا من ا؛ فإن الله يدافع عنه.",
+      "يجب على المسلم دائما أن يُ ذكّر الناس بطاعة الله، ويعلمهم الدين الصحيح كما كان رسول الله ﷺ يأمر بالتقوى.",
+      "عندما نصل تكون نيتنا التقرب إلى الله تعالى، وليس غير ذلك.",
+      "يجب أن نستح من الله لأنه يرانا"
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-activity-27",
+    "book_number": 27,
+    "source_pages": [
+      112,
+      113
+    ],
+    "lesson_ids": [
+      "quran-007"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "3",
+      "2",
+      "3",
+      "4+5",
+      "4"
+    ],
+    "answer_source_pages": [
+      237
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      112,
+      113
+    ],
+    "raw_prompts": [
+      "لا يليق بالمسلم أن يضيع هذا الأجر العظيم فيها، فعليه أن يقضيها بالعبادة، ولا ينشغل باللهو.",
+      "يجتهد المسلم بالعبادة في كل الأيام العشر الأخيرة من رمضان ليدرك هذه الليلة.",
+      "نعرف كرم الله تعالى علين ا بأن جعل لنا ليلة واحدة أجرها أفضل من أجر عبادة 83 سنة",
+      "الملائكة نزولهم خ",
+      "جبِّيل من أسمائه: الرّوح"
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-activity-28",
+    "book_number": 28,
+    "source_pages": [
+      114,
+      115,
+      116,
+      117
+    ],
+    "lesson_ids": [
+      "quran-008"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "6",
+      "4",
+      "5",
+      "5",
+      "5",
+      "7+8",
+      "6"
+    ],
+    "answer_source_pages": [
+      237
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      114,
+      115,
+      116,
+      117
+    ],
+    "raw_prompts": [
+      "من لم يؤمن بالله ورسوله وكتابه فهو من أهل النار",
+      "قِسْ م من اليهود والنصارى آمَن بمحمّد ﷺ وصاروا من أهل الإسلام، وقِ سم منهم كفر به.",
+      "العبادة لله وحده هي أصل الإسلام",
+      "الصلاة والزكاة من أعظم شرائع الإسلام",
+      "مقولة (الإسلام في القلب) خاطئة، بلالإسلام في القلب والعمل.",
+      "لابد من أن لا نفعل مايغضب الله تعالى ليرضَ عنّا.",
+      "من كفر بما جاء به محمد ﷺ؛ دخل النار"
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-activity-29",
+    "book_number": 29,
+    "source_pages": [
+      118,
+      119
+    ],
+    "lesson_ids": [
+      "quran-009"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "2",
+      "5",
+      "4",
+      "7+8"
+    ],
+    "answer_source_pages": [
+      237
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      118,
+      119
+    ],
+    "raw_prompts": [
+      "يجب على المؤمن أن لا يعصي الله لأجل الحصول على المُتَ ع الدنيوية.",
+      "المخلوقات تطيع الله تعالى، وكذلك تفعل الأرض",
+      "الأرض تَعرِ ف ما يعمل الناس عليها، وتشهد عليهم في ذلك.",
+      "كل أعمالنا الكبيرة والصغيرة سنُحاسَب عليها"
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-activity-30",
+    "book_number": 30,
+    "source_pages": [
+      120,
+      121,
+      122
+    ],
+    "lesson_ids": [
+      "quran-010"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "1",
+      "1-6",
+      "5",
+      "8",
+      "11",
+      "10"
+    ],
+    "answer_source_pages": [
+      238
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      120,
+      121,
+      122
+    ],
+    "raw_prompts": [
+      "الْيول من الحيوانات المكرّمة",
+      "الْيل حينما أحسن إليها صاحبها، خاضت معه الحرب وعرّضت نف س ها للقتل من أجله، وهكذا يجب أن يكون الإنسان في طاعته لله تعالى الذي أنعم عليه بالنعم الكثيرة.",
+      "المسلم لابد له من أن يكون شُجاعاً.",
+      "كثرة حب المال قد تُبعد الإنسان عن طاعة الله، وتجعله يبحث عن طرق محرمة لكسب المال، فيجب أن نحذر من ذلك.",
+      "الله يعلم ما نخُفيه في نفوسنا",
+      "يجب أن نجعل تفكيرنا دائمًا بالأشياء الحسنة، ولا نفكر بالأشياء القبيحة."
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-activity-31",
+    "book_number": 31,
+    "source_pages": [
+      123,
+      124
+    ],
+    "lesson_ids": [
+      "quran-011"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "1",
+      "6",
+      "8"
+    ],
+    "answer_source_pages": [
+      238
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      123,
+      124
+    ],
+    "raw_prompts": [
+      "القارعة من أسماء يوم القيامة.",
+      "يجب أن نكثر من عمل الصالحات، لنُثقل كفّة حسناتنا.",
+      "يجب أن نستغفر من ذنوبنا، ونتوب إلى الله تعالى، ل تصبح كفة السيئات ثقيلة."
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-activity-32",
+    "book_number": 32,
+    "source_pages": [
+      125,
+      126
+    ],
+    "lesson_ids": [
+      "quran-012"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "1+2",
+      "2+3+4+5",
+      "5",
+      "6",
+      "8"
+    ],
+    "answer_source_pages": [
+      238
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      125,
+      126
+    ],
+    "raw_prompts": [
+      "يجب أنتشغلنا أمور الدنيا عن طاعة الله تعالى.",
+      "يجب أن نفكر بما سيكون بعد الموت.",
+      "يجب أن نعلم أن الآخرة فيها عذاب للعاصي، ونعيم للمطيع",
+      "المؤمنون يرون الْحيم في الآخرة مع أنهم لا يدخلونها، ليعرفوا نعمة الله عليهم حين يَ سرذَ لهم من يعلمهم الإيمان، و حين وفقهم له، ونجّاهم من تلك النار.",
+      "الكافر ستزول عنه متعة الحياة التي عاشها في الدنيا."
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-activity-33",
+    "book_number": 33,
+    "source_pages": [
+      127,
+      128
+    ],
+    "lesson_ids": [
+      "quran-013"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "2+3",
+      "2+3",
+      "3",
+      "3",
+      "3",
+      "3"
+    ],
+    "answer_source_pages": [
+      238
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      127,
+      128
+    ],
+    "raw_prompts": [
+      "غير المؤمن مهما كسب في الدنيا فإنه خاسر.",
+      "مكاسب الدنيا مؤقتة،ومكاسب الآخرة دائمة.",
+      "يجب على المؤمن إن رأى خطأ أن ينصح المخطئ بالأسلوب الحسن.",
+      "يجب على المؤمن أن يدعو إخوانه إلى طاعة الله تعا",
+      "إن وجد المؤمن تعبًا في بعض العبادات؛ عليه أن يص",
+      "إذا اشتالمؤمن شيئا ليس حلالاً؛ عليه أن يتركه ويصبِّ."
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-activity-34",
+    "book_number": 34,
+    "source_pages": [
+      129,
+      130
+    ],
+    "lesson_ids": [
+      "quran-014"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "1",
+      "1",
+      "1+2",
+      "3",
+      "4"
+    ],
+    "answer_source_pages": [
+      238
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      129,
+      130
+    ],
+    "raw_prompts": [
+      "لا يجوز أن نتكُم عن الناس بكلام سء",
+      "المؤمن صادق في كلامه، ولا يتكُم في عيوب الناس",
+      "الثري لا يجوز له أن يحتقر الفق",
+      "يجب على الإنسان أن يتذكر مصيره في الآخرة",
+      "الله تعالى ينتقمللمظلومين يوم القيامة."
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-activity-35",
+    "book_number": 35,
+    "source_pages": [
+      131,
+      132
+    ],
+    "lesson_ids": [
+      "quran-015"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "1",
+      "5",
+      "3"
+    ],
+    "answer_source_pages": [
+      238
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة. رقم النشاط غير ظاهر في طبقة النص؛ الرقم مستنتج من التسلسل ومفتاح الحل."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      131,
+      132
+    ],
+    "raw_prompts": [
+      "لا يجوز للإنسان أن يتعدّى على ا ساجد والمقدّسات.",
+      "مصير الظالم الهلاك",
+      "اقاد ر على تسخير مخلوقاته لما يريد."
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-activity-36",
+    "book_number": 36,
+    "source_pages": [
+      133,
+      134
+    ],
+    "lesson_ids": [
+      "quran-016"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "1+2+3+4",
+      "4",
+      "3"
+    ],
+    "answer_source_pages": [
+      238
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      133,
+      134
+    ],
+    "raw_prompts": [
+      "إذا أنعملله على العبد بنعمة؛ يجب على العبد أن يزيد في الطاعة.",
+      "الله تعالى هو الذي يرزق الناس الطعام",
+      "الله تعالى هو الذي يرزقنا الأمان"
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-activity-37",
+    "book_number": 37,
+    "source_pages": [
+      135,
+      136
+    ],
+    "lesson_ids": [
+      "quran-017"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "4+5+6",
+      "1+2+3",
+      "2",
+      "3",
+      "7",
+      "4+5",
+      "6"
+    ],
+    "answer_source_pages": [
+      238
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      135,
+      136
+    ],
+    "raw_prompts": [
+      "لا يليق بالمسلم أن يتصف بصفاتالكافرين.",
+      "يجب على المسلم أن يعمل الأعمال التي تنفعه يوم القيامة",
+      "يجب علينا أن نرحم اليتيم",
+      "يجب أن ننصح الأغنياء بالتصدق على الفقراء",
+      "يجب أن نعين إخواننا بما نقدر عليه",
+      "يجب أن نهتم بالصلاة ونؤديها بأحسن طريقة",
+      "عندما نعملالْير لا ننتظر مدح الناس."
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-activity-38",
+    "book_number": 38,
+    "source_pages": [
+      137,
+      138
+    ],
+    "lesson_ids": [
+      "quran-018"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "1",
+      "1+2",
+      "2",
+      "3"
+    ],
+    "answer_source_pages": [
+      238
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      137,
+      138
+    ],
+    "raw_prompts": [
+      "نهر الكوثر أعطاه الله لرسوله ﷺ",
+      "لابد من أن نُكثرَِ من العبادة لله تعالى عندما يعطينا.",
+      "الله تعالى يحب أن نصلّ",
+      "الله تعالى ينتقم لرسوله ﷺ"
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-activity-39",
+    "book_number": 39,
+    "source_pages": [
+      139,
+      140
+    ],
+    "lesson_ids": [
+      "quran-019"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "1+6",
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "answer_source_pages": [
+      238
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة. عدد البنود المستخرجة 6 وعدد أجوبة المفتاح 5؛ يمنع الربط الآلي قبل المراجعة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      139,
+      140
+    ],
+    "raw_prompts": [
+      "من لم يكن مسلمًا فهو كافر",
+      "يجب أن نتبِّّأ من عبادة غير ا",
+      "يجب أن لا نرضَ بعبادة غير ا",
+      "المشركونيعبدون الله حقًا لأنهم يعبدون غيره معه.",
+      "لا نقترب من الطقوس الدينية للكفار",
+      "لانجُامِل في ديننا أحد ."
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-activity-40",
+    "book_number": 40,
+    "source_pages": [
+      141,
+      142
+    ],
+    "lesson_ids": [
+      "quran-020"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "1",
+      "3",
+      "3",
+      "3",
+      "3",
+      "1+2"
+    ],
+    "answer_source_pages": [
+      238
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      141,
+      142
+    ],
+    "raw_prompts": [
+      "إذا كُنّا مؤمنين حقًا فإن الله ينصرنا",
+      "عند رؤية شيء مُفرِح؛ نقول: «سبحان ا",
+      "لابد من أن نُقابل نِعَم الله علينا بالأعمال الصالحة.",
+      "نستغفر الله تعالى في كل وقت",
+      "الله تعالى يقبل توبة منندم على معصيته وتاب.",
+      "بعض الناس يربط الإيمان بأمو ر دنيوية ، مثل أن يقول «سأتوب عندما يصير عمريكبيرا »لكنه قد يموت قبل أن يتوب ."
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-activity-41",
+    "book_number": 41,
+    "source_pages": [
+      143,
+      144
+    ],
+    "lesson_ids": [
+      "quran-021"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "2",
+      "1+3+4+5",
+      "5"
+    ],
+    "answer_source_pages": [
+      238
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      143,
+      144
+    ],
+    "raw_prompts": [
+      "المكاسب الدنيويّة لا تنفع دون تقوى ا",
+      "الله تعالى يعاقب من يسء إرسول الله ﷺ.",
+      "العقوبة في الآخرة تكون من جنس العمل الدنيا."
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-activity-42",
+    "book_number": 42,
+    "source_pages": [
+      145,
+      146
+    ],
+    "lesson_ids": [
+      "quran-022"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "1",
+      "3",
+      "4",
+      "2",
+      "3",
+      "4",
+      "4"
+    ],
+    "answer_source_pages": [
+      238
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة. رقم النشاط غير ظاهر في طبقة النص؛ الرقم مستنتج من التسلسل ومفتاح الحل."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      145,
+      146
+    ],
+    "raw_prompts": [
+      "الله واحد لا إغيره.",
+      "بطلان قول من قال أن عيسى ﷺ ابن لله تعا",
+      "بطلان تشبيه الله بخلقِه",
+      "لا يجوز دعاء غير الله تعا",
+      "الله تعالى كائندون أن يلقه أحد، ولم يوجِده له.",
+      "لا يجوز أن نعظّم أحدًا كتعظيم الله تعا",
+      "لا نقدّم قول أحد على قول ا لله تعالى."
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-activity-43",
+    "book_number": 43,
+    "source_pages": [
+      147,
+      148
+    ],
+    "lesson_ids": [
+      "quran-023"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "1",
+      "4",
+      "5",
+      "5",
+      "5",
+      "3"
+    ],
+    "answer_source_pages": [
+      238
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      147,
+      148
+    ],
+    "raw_prompts": [
+      "نلتجئ دائمًا إلى الله تعالى ليحمينا ويحفظنا من الشرور",
+      "السحرممنوع في شريعتنا وأصحابه أشرار.",
+      "لا يجوز أننتمنَّ زوال النعمة من المؤمنين.",
+      "لا نحدّث من لا يحبّنا بنِعَم الله علينا لكي لا يحسدنا",
+      "المؤمن يحبُّ الْير لإخوانه المؤمن",
+      "نأخذ الحذر والحيطة في الليل"
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-activity-44",
+    "book_number": 44,
+    "source_pages": [
+      149,
+      150
+    ],
+    "lesson_ids": [
+      "quran-024"
+    ],
+    "prompt": "اكتب رقم الآية الدال على كل عبارة في صفحة النشاط.",
+    "answer": [
+      "1",
+      "6",
+      "3",
+      "5",
+      "1+4",
+      "1+6"
+    ],
+    "answer_source_pages": [
+      238
+    ],
+    "origin": "book_activity_editorial_transcription",
+    "status": "draft",
+    "publishable": false,
+    "type": "source_reference_match",
+    "review_notes": [
+      "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
+    ],
+    "grading": "parent_review",
+    "raw_source_refs": [
+      149,
+      150
+    ],
+    "raw_prompts": [
+      "لا نلتجئ إلا لله تعا",
+      "البشر الذين يُعلمون الناس المعاصي: شياطين.",
+      "لا تجوز عبادة غير ا",
+      "الانسان عندما يفكر بمعصية فقد يكون هذا من وساوس الشيطان",
+      "عندما نفكر بمعصية الله تعالى؛ نستعيذ بالله من الشيطان الرجيم.",
+      "عندما يحاول أحد أن يدلنا على ما يرضي الله؛ ستعيذ بالله منه ونتركه."
+    ],
+    "answer_unit": "ayah",
+    "raw_prompts_status": "uncorrected_extraction",
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-open-01",
+    "book_number": null,
+    "source_pages": [
+      16
+    ],
+    "lesson_ids": [
+      "faith-009"
+    ],
+    "prompt": "أسئلة حفظ القرآن قبل النوم وخطة الحفظ",
+    "answer": "يذكر الطفل ما يحفظه ووقت تدريبه؛ لا إجابة ثابتة.",
+    "answer_source_pages": [],
+    "origin": "book_open_activity_editorial_rubric",
+    "status": "draft",
+    "publishable": false,
+    "type": "parent_discussion",
+    "grading": "parent_review",
+    "review_notes": [
+      "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
+    ],
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-open-02",
+    "book_number": null,
+    "source_pages": [
+      18
+    ],
+    "lesson_ids": [
+      "faith-011"
+    ],
+    "prompt": "معلومات إضافية عن النبي ﷺ",
+    "answer": "معلومة من مصدر يراجعه الوالد.",
+    "answer_source_pages": [],
+    "origin": "book_open_activity_editorial_rubric",
+    "status": "draft",
+    "publishable": false,
+    "type": "parent_discussion",
+    "grading": "parent_review",
+    "review_notes": [
+      "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
+    ],
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-open-03",
+    "book_number": null,
+    "source_pages": [
+      19
+    ],
+    "lesson_ids": [
+      "faith-012"
+    ],
+    "prompt": "أعمال تزيد الحسنات",
+    "answer": "مثل الصلاة وبر الوالدين والصدقة.",
+    "answer_source_pages": [],
+    "origin": "book_open_activity_editorial_rubric",
+    "status": "draft",
+    "publishable": false,
+    "type": "parent_discussion",
+    "grading": "parent_review",
+    "review_notes": [
+      "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
+    ],
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-open-04",
+    "book_number": null,
+    "source_pages": [
+      23
+    ],
+    "lesson_ids": [
+      "faith-016"
+    ],
+    "prompt": "أسئلة الاتباع الثلاثة",
+    "answer": "بحسب المفتاح المسمى نشاط ١١: لا؛ لا؛ بدعة.",
+    "answer_source_pages": [
+      237
+    ],
+    "origin": "book_open_activity_editorial_rubric",
+    "status": "draft",
+    "publishable": false,
+    "type": "parent_discussion",
+    "grading": "parent_review",
+    "review_notes": [
+      "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
+    ],
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-open-05",
+    "book_number": null,
+    "source_pages": [
+      34
+    ],
+    "lesson_ids": [
+      "manners-006"
+    ],
+    "prompt": "تطبيق آداب النوم",
+    "answer": "قائمة ما طبقه الطفل فعليًا.",
+    "answer_source_pages": [],
+    "origin": "book_open_activity_editorial_rubric",
+    "status": "draft",
+    "publishable": false,
+    "type": "parent_discussion",
+    "grading": "parent_review",
+    "review_notes": [
+      "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
+    ],
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-open-06",
+    "book_number": null,
+    "source_pages": [
+      35
+    ],
+    "lesson_ids": [
+      "manners-007"
+    ],
+    "prompt": "تطبيق آداب الاستيقاظ",
+    "answer": "قائمة ما طبقه الطفل فعليًا.",
+    "answer_source_pages": [],
+    "origin": "book_open_activity_editorial_rubric",
+    "status": "draft",
+    "publishable": false,
+    "type": "parent_discussion",
+    "grading": "parent_review",
+    "review_notes": [
+      "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
+    ],
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-open-07",
+    "book_number": null,
+    "source_pages": [
+      42
+    ],
+    "lesson_ids": [
+      "conduct-003"
+    ],
+    "prompt": "الدعاء بدل اللعن",
+    "answer": "يدعو له بالهداية والصلاح.",
+    "answer_source_pages": [],
+    "origin": "book_open_activity_editorial_rubric",
+    "status": "draft",
+    "publishable": false,
+    "type": "parent_discussion",
+    "grading": "parent_review",
+    "review_notes": [
+      "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
+    ],
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-open-08",
+    "book_number": null,
+    "source_pages": [
+      44
+    ],
+    "lesson_ids": [
+      "conduct-005"
+    ],
+    "prompt": "أفكار لتجنب الغضب",
+    "answer": "الهدوء وفهم الآخرين والكلام المؤدب؛ تقبل اقتراحات مناسبة.",
+    "answer_source_pages": [],
+    "origin": "book_open_activity_editorial_rubric",
+    "status": "draft",
+    "publishable": false,
+    "type": "parent_discussion",
+    "grading": "parent_review",
+    "review_notes": [
+      "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
+    ],
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-open-09",
+    "book_number": null,
+    "source_pages": [
+      45
+    ],
+    "lesson_ids": [
+      "conduct-006"
+    ],
+    "prompt": "فوائد الصدق ومساوئ الكذب",
+    "answer": "الصدق يبني الثقة؛ الكذب يضيعها.",
+    "answer_source_pages": [],
+    "origin": "book_open_activity_editorial_rubric",
+    "status": "draft",
+    "publishable": false,
+    "type": "parent_discussion",
+    "grading": "parent_review",
+    "review_notes": [
+      "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
+    ],
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-open-10",
+    "book_number": null,
+    "source_pages": [
+      46
+    ],
+    "lesson_ids": [
+      "conduct-007"
+    ],
+    "prompt": "أفكار لبر الوالدين",
+    "answer": "مساعدة مناسبة وكلام مؤدب ودعاء.",
+    "answer_source_pages": [],
+    "origin": "book_open_activity_editorial_rubric",
+    "status": "draft",
+    "publishable": false,
+    "type": "parent_discussion",
+    "grading": "parent_review",
+    "review_notes": [
+      "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
+    ],
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-open-11",
+    "book_number": null,
+    "source_pages": [
+      47
+    ],
+    "lesson_ids": [
+      "conduct-008"
+    ],
+    "prompt": "أفكار لصلة الرحم",
+    "answer": "زيارة أو اتصال أو مساعدة.",
+    "answer_source_pages": [],
+    "origin": "book_open_activity_editorial_rubric",
+    "status": "draft",
+    "publishable": false,
+    "type": "parent_discussion",
+    "grading": "parent_review",
+    "review_notes": [
+      "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
+    ],
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-open-12",
+    "book_number": null,
+    "source_pages": [
+      52
+    ],
+    "lesson_ids": [
+      "conduct-012"
+    ],
+    "prompt": "أفكار لترك الأذى",
+    "answer": "حفظ اللسان واليد ومراعاة المشاعر.",
+    "answer_source_pages": [],
+    "origin": "book_open_activity_editorial_rubric",
+    "status": "draft",
+    "publishable": false,
+    "type": "parent_discussion",
+    "grading": "parent_review",
+    "review_notes": [
+      "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
+    ],
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-open-13",
+    "book_number": null,
+    "source_pages": [
+      53
+    ],
+    "lesson_ids": [
+      "conduct-013"
+    ],
+    "prompt": "أفكار للمصالحة",
+    "answer": "البدء بالسلام والاعتذار.",
+    "answer_source_pages": [],
+    "origin": "book_open_activity_editorial_rubric",
+    "status": "draft",
+    "publishable": false,
+    "type": "parent_discussion",
+    "grading": "parent_review",
+    "review_notes": [
+      "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
+    ],
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-open-14",
+    "book_number": null,
+    "source_pages": [
+      54
+    ],
+    "lesson_ids": [
+      "conduct-014"
+    ],
+    "prompt": "أفكار لاحترام الكبير",
+    "answer": "مساعدة وإنصات وعدم مقاطعة.",
+    "answer_source_pages": [],
+    "origin": "book_open_activity_editorial_rubric",
+    "status": "draft",
+    "publishable": false,
+    "type": "parent_discussion",
+    "grading": "parent_review",
+    "review_notes": [
+      "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
+    ],
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-open-15",
+    "book_number": null,
+    "source_pages": [
+      55
+    ],
+    "lesson_ids": [
+      "conduct-015"
+    ],
+    "prompt": "أفكار للإحسان إلى الجار",
+    "answer": "خفض الصوت والتحية والمساعدة.",
+    "answer_source_pages": [],
+    "origin": "book_open_activity_editorial_rubric",
+    "status": "draft",
+    "publishable": false,
+    "type": "parent_discussion",
+    "grading": "parent_review",
+    "review_notes": [
+      "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
+    ],
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-open-16",
+    "book_number": null,
+    "source_pages": [
+      75
+    ],
+    "lesson_ids": [
+      "worship-011"
+    ],
+    "prompt": "التدرب على الأذان",
+    "answer": "يسمع الوالد النطق ويصححه؛ لا تقييم لجمال صوت الطفل.",
+    "answer_source_pages": [],
+    "origin": "book_open_activity_editorial_rubric",
+    "status": "draft",
+    "publishable": false,
+    "type": "parent_discussion",
+    "grading": "parent_review",
+    "review_notes": [
+      "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
+    ],
+    "can_auto_grade": false
+  },
+  {
+    "id": "book-open-17",
+    "book_number": null,
+    "source_pages": [
+      194
+    ],
+    "lesson_ids": [
+      "stories-016"
+    ],
+    "prompt": "ماذا يتمنى الإنسان من نعيم الجنة؟",
+    "answer": "تعبير مفتوح عن الخير مع الوالد، دون اختراع خبر غيبي.",
+    "answer_source_pages": [],
+    "origin": "book_open_activity_editorial_rubric",
+    "status": "draft",
+    "publishable": false,
+    "type": "parent_discussion",
+    "grading": "parent_review",
+    "review_notes": [
+      "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
+    ],
+    "can_auto_grade": false
+  }
+]
