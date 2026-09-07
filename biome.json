@@ -12,7 +12,8 @@
       "!**/package-lock.json",
       "!assets",
       "!content",
-      "!public"
+      "!public",
+      "!convex/_generated"
     ]
   },
   "formatter": {

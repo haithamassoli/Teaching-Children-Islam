@@ -3,6 +3,17 @@ export default async function Home() {
     const { default: Preview } = await import("./components/preview");
     return <Preview />;
   }
+  if (process.env.NEXT_PUBLIC_CONVEX_URL) {
+    const [{ Providers }, { default: FamilyApp }] = await Promise.all([
+      import("./providers"),
+      import("./family-app"),
+    ]);
+    return (
+      <Providers>
+        <FamilyApp />
+      </Providers>
+    );
+  }
 
   return (
     <main className="production-landing">
