@@ -97,6 +97,25 @@ def main():
         assert linked == expected
         assert row['classification'] != 'educational' or linked
 
+    with (CONTENT / 'lesson-coverage.csv').open(encoding='utf-8', newline='') as f:
+        lesson_coverage = list(csv.DictReader(f))
+    assert [row['lesson_id'] for row in lesson_coverage] == [lesson['id'] for lesson in lessons]
+    for row, lesson in zip(lesson_coverage, lessons):
+        assert row['world_id'] == lesson['world_id']
+        assert int(row['order']) == lesson['order']
+        assert row['objective'] == lesson['objective']
+        assert row['source_pages'] == ';'.join(map(str, lesson['source_pages']))
+        assert row['status'] == lesson['status'] == 'draft'
+        assert row['publishable'] == str(lesson['publishable']).lower() == 'false'
+        for key, column in (
+            ('text', 'text_review'),
+            ('religious_content', 'religious_content_review'),
+            ('age_suitability', 'age_suitability_review'),
+            ('audio', 'audio_status'),
+            ('images', 'image_status'),
+        ):
+            assert row[column] == lesson['review_status'][key]
+
     class DocumentLinks(HTMLParser):
         def handle_starttag(self, tag, attrs):
             values = dict(attrs)

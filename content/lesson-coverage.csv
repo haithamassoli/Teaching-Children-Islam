@@ -1,0 +1,112 @@
+lesson_id,world_id,order,title,source_pages,objective,status,publishable,text_review,religious_content_review,age_suitability_review,audio_status,image_status
+faith-001,faith,1,أركان الإيمان,8,أن يشرح الطفل أركان الإيمان ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+faith-002,faith,2,أركان الإسلام,9,أن يشرح الطفل أركان الإسلام ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+faith-003,faith,3,شعب الإيمان,10,أن يشرح الطفل شعب الإيمان ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+faith-004,faith,4,أسماء الله الحسنى,11,أن يشرح الطفل أسماء الله الحسنى ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+faith-005,faith,5,ربي وديني ونبيي,12,أن يشرح الطفل ربي وديني ونبيي ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+faith-006,faith,6,معرفة الله,13,أن يشرح الطفل معرفة الله ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+faith-007,faith,7,التوحيد,14,أن يشرح الطفل التوحيد ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+faith-008,faith,8,الإيمان بالملائكة,15,أن يشرح الطفل الإيمان بالملائكة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+faith-009,faith,9,الإيمان بالكتب,16,أن يشرح الطفل الإيمان بالكتب ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+faith-010,faith,10,الإيمان بالرسل,17,أن يشرح الطفل الإيمان بالرسل ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+faith-011,faith,11,نبينا محمد ﷺ,18,أن يشرح الطفل نبينا محمد ﷺ ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+faith-012,faith,12,اليوم الآخر,19,أن يشرح الطفل اليوم الآخر ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+faith-013,faith,13,القدر والتوكل,20,أن يشرح الطفل القدر والتوكل ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+faith-014,faith,14,ما أخبرنا به الوحي عن الغيب,21,أن يشرح الطفل ما أخبرنا به الوحي عن الغيب ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+faith-015,faith,15,الحديث وكتبه,22,أن يشرح الطفل الحديث وكتبه ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+faith-016,faith,16,اتباع النبي ﷺ,23,أن يشرح الطفل اتباع النبي ﷺ ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+faith-017,faith,17,آل البيت والصحابة,24,أن يشرح الطفل آل البيت والصحابة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+manners-001,manners,1,آداب المسجد,28,أن يشرح الطفل آداب المسجد ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+manners-002,manners,2,السلام ورد السلام,29,أن يشرح الطفل السلام ورد السلام ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+manners-003,manners,3,آداب اللباس,30,أن يشرح الطفل آداب اللباس ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+manners-004,manners,4,آداب الطعام والشراب,31;32,أن يشرح الطفل آداب الطعام والشراب ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+manners-005,manners,5,الطعام الحلال,33,أن يشرح الطفل الطعام الحلال ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+manners-006,manners,6,قبل النوم,34,أن يشرح الطفل قبل النوم ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+manners-007,manners,7,عند الاستيقاظ,35,أن يشرح الطفل عند الاستيقاظ ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+manners-008,manners,8,آداب الخلاء,36,أن يشرح الطفل آداب الخلاء ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+manners-009,manners,9,آداب العطاس,37,أن يشرح الطفل آداب العطاس ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+conduct-001,conduct,1,كلام الخير وحسن التعامل,40,أن يشرح الطفل كلام الخير وحسن التعامل ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+conduct-002,conduct,2,عدم الغيبة,41,أن يشرح الطفل عدم الغيبة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+conduct-003,conduct,3,طهارة اللسان,42,أن يشرح الطفل طهارة اللسان ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+conduct-004,conduct,4,إن شاء الله,43,أن يشرح الطفل إن شاء الله ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+conduct-005,conduct,5,ضبط الغضب,44,أن يشرح الطفل ضبط الغضب ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+conduct-006,conduct,6,الصدق وترك الخداع,45,أن يشرح الطفل الصدق وترك الخداع ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+conduct-007,conduct,7,بر الوالدين,46,أن يشرح الطفل بر الوالدين ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+conduct-008,conduct,8,صلة الرحم,47,أن يشرح الطفل صلة الرحم ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+conduct-009,conduct,9,التعرف إلى المحارم,48;49,أن يشرح الطفل التعرف إلى المحارم ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+conduct-010,conduct,10,الأدب مع المعلم,50,أن يشرح الطفل الأدب مع المعلم ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+conduct-011,conduct,11,التراحم والتعاون,51,أن يشرح الطفل التراحم والتعاون ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+conduct-012,conduct,12,ترك الأذى,52,أن يشرح الطفل ترك الأذى ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+conduct-013,conduct,13,المصالحة وترك القطيعة,53,أن يشرح الطفل المصالحة وترك القطيعة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+conduct-014,conduct,14,احترام كبار السن,54,أن يشرح الطفل احترام كبار السن ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+conduct-015,conduct,15,حق الجار,55,أن يشرح الطفل حق الجار ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+conduct-016,conduct,16,زيارة المريض,56,أن يشرح الطفل زيارة المريض ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+worship-001,worship,1,النية,60,أن يشرح الطفل النية ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+worship-002,worship,2,خطوات الوضوء,61,أن يشرح الطفل خطوات الوضوء ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+worship-003,worship,3,الصلوات الخمس وأوقاتها,62,أن يشرح الطفل الصلوات الخمس وأوقاتها ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+worship-004,worship,4,القيام والقراءة والركوع,63;64;65,أن يشرح الطفل القيام والقراءة والركوع ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+worship-005,worship,5,الاعتدال والسجود,63;64;65;66,أن يشرح الطفل الاعتدال والسجود ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+worship-006,worship,6,التشهد والتسليم,67;68;69,أن يشرح الطفل التشهد والتسليم ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+worship-007,worship,7,الأذكار بعد الصلاة,70,أن يشرح الطفل الأذكار بعد الصلاة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+worship-008,worship,8,صلاة الجمعة,71,أن يشرح الطفل صلاة الجمعة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+worship-009,worship,9,السنن الرواتب,72,أن يشرح الطفل السنن الرواتب ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+worship-010,worship,10,صلاة الوتر,73,أن يشرح الطفل صلاة الوتر ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+worship-011,worship,11,الأذان والإقامة,74;75,أن يشرح الطفل الأذان والإقامة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+worship-012,worship,12,الزكاة والصدقة,82,أن يشرح الطفل الزكاة والصدقة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+worship-013,worship,13,تدريب حساب الزكاة,83,أن يشرح الطفل تدريب حساب الزكاة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+worship-014,worship,14,الصيام وحسن الخلق,84,أن يشرح الطفل الصيام وحسن الخلق ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+worship-015,worship,15,صيام التطوع,85,أن يشرح الطفل صيام التطوع ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+worship-016,worship,16,الحج: الإحرام والطواف والسعي,86;87;88,أن يشرح الطفل الحج: الإحرام والطواف والسعي ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+worship-017,worship,17,الحج: منى وعرفة ومزدلفة,88;89,أن يشرح الطفل الحج: منى وعرفة ومزدلفة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+worship-018,worship,18,الحج: إتمام المناسك,89;90;91,أن يشرح الطفل الحج: إتمام المناسك ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-001,quran,1,الفاتحة,94;95;96,أن يشرح الطفل الفاتحة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-002,quran,2,آية الكرسي,97;98,أن يشرح الطفل آية الكرسي ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-003,quran,3,الضحى,99;100;101,أن يشرح الطفل الضحى ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-004,quran,4,الشرح,102;103;104,أن يشرح الطفل الشرح ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-005,quran,5,التين,105;106;107,أن يشرح الطفل التين ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-006,quran,6,العلق,108;109;110;111,أن يشرح الطفل العلق ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-007,quran,7,القدر,112;113,أن يشرح الطفل القدر ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-008,quran,8,البينة,114;115;116;117,أن يشرح الطفل البينة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-009,quran,9,الزلزلة,118;119,أن يشرح الطفل الزلزلة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-010,quran,10,العاديات,120;121;122,أن يشرح الطفل العاديات ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-011,quran,11,القارعة,123;124,أن يشرح الطفل القارعة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-012,quran,12,التكاثر,125;126,أن يشرح الطفل التكاثر ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-013,quran,13,العصر,127;128,أن يشرح الطفل العصر ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-014,quran,14,الهمزة,129;130,أن يشرح الطفل الهمزة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-015,quran,15,الفيل,131;132,أن يشرح الطفل الفيل ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-016,quran,16,قريش,133;134,أن يشرح الطفل قريش ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-017,quran,17,الماعون,135;136,أن يشرح الطفل الماعون ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-018,quran,18,الكوثر,137;138,أن يشرح الطفل الكوثر ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-019,quran,19,الكافرون,139;140,أن يشرح الطفل الكافرون ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-020,quran,20,النصر,141;142,أن يشرح الطفل النصر ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-021,quran,21,المسد,143;144,أن يشرح الطفل المسد ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-022,quran,22,الإخلاص,145;146,أن يشرح الطفل الإخلاص ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-023,quran,23,الفلق,147;148,أن يشرح الطفل الفلق ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+quran-024,quran,24,الناس,149;150,أن يشرح الطفل الناس ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-001,stories,1,الرجل الذي سقى الكلب,154,أن يشرح الطفل الرجل الذي سقى الكلب ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-002,stories,2,الجارية راعية الغنم,155;156,أن يشرح الطفل الجارية راعية الغنم ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-003,stories,3,الأبرص والأقرع والأعمى,157;158;159,أن يشرح الطفل الأبرص والأقرع والأعمى ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-004,stories,4,المسيح عيسى ابن مريم ﷺ,160;161;162,أن يشرح الطفل المسيح عيسى ابن مريم ﷺ ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-005,stories,5,ربح البيع أبا الدحداح,163;164,أن يشرح الطفل ربح البيع أبا الدحداح ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-006,stories,6,إسلام سلمان الفارسي,165;166;167,أن يشرح الطفل إسلام سلمان الفارسي ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-007,stories,7,إسلام أم أبي هريرة,168;169;170,أن يشرح الطفل إسلام أم أبي هريرة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-008,stories,8,مقتل عمر بن الخطاب,171;172;173;174,أن يشرح الطفل مقتل عمر بن الخطاب ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-009,stories,9,إسلام عبد الله بن مسعود,175;176,أن يشرح الطفل إسلام عبد الله بن مسعود ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-010,stories,10,فتح القدس,177;178,أن يشرح الطفل فتح القدس ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-011,stories,11,الغلام والساحر,179;180;181;182,أن يشرح الطفل الغلام والساحر ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-012,stories,12,بداية الخلق: آدم والتوبة,183;184;185,أن يشرح الطفل بداية الخلق: آدم والتوبة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-013,stories,13,بداية الخلق: الذرية والأمانة,186;187;188,أن يشرح الطفل بداية الخلق: الذرية والأمانة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-014,stories,14,صاحب الخشبة,189;190,أن يشرح الطفل صاحب الخشبة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-015,stories,15,من رغب عن سنتي فليس مني,191;192,أن يشرح الطفل من رغب عن سنتي فليس مني ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-016,stories,16,آخر من يدخل الجنة,193;194;195,أن يشرح الطفل آخر من يدخل الجنة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-017,stories,17,موسى والخضر عليهما السلام,196;197;198;199,أن يشرح الطفل موسى والخضر عليهما السلام ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-018,stories,18,إبراهيم وهاجر,200;201;202,أن يشرح الطفل إبراهيم وهاجر ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-019,stories,19,المرأة التي كانت تقم المسجد,203;204,أن يشرح الطفل المرأة التي كانت تقم المسجد ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-020,stories,20,الإسراء والمعراج,205;206;207,أن يشرح الطفل الإسراء والمعراج ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-021,stories,21,ماشطة ابنة فرعون,208;209,أن يشرح الطفل ماشطة ابنة فرعون ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-022,stories,22,لا أعلوك يا رسول الله,210;211,أن يشرح الطفل لا أعلوك يا رسول الله ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+stories-023,stories,23,جرة الذهب,212,أن يشرح الطفل جرة الذهب ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+memorization-001,memorization,1,حفظ جزء عم,216;217,أن يشرح الطفل حفظ جزء عم ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+memorization-002,memorization,2,حفظ جزء تبارك,218;219,أن يشرح الطفل حفظ جزء تبارك ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+memorization-003,memorization,3,حفظ أسماء الله,11;222,أن يشرح الطفل حفظ أسماء الله ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
+memorization-004,memorization,4,حفظ الأحاديث,223;224;225,أن يشرح الطفل حفظ الأحاديث ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.,draft,false,pending,pending,pending,not_produced,not_produced
