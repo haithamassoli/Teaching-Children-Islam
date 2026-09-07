@@ -1,0 +1,26 @@
+name: CI
+on:
+  push: { branches: [main] }
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 22, cache: npm }
+      - uses: actions/setup-python@v6
+        with: { python-version: '3.12' }
+      - run: npm ci
+      - run: npm run lint
+      - run: npx tsc --noEmit
+      - run: python scripts/test_content_pipeline.py
+      - run: npx vitest run --passWithNoTests
+      - run: npm run build
+        env:
+          NEXT_PUBLIC_CONVEX_URL: https://example.convex.cloud
+      - name: Smoke test
+        run: |
+          npm start &
+          timeout 60 bash -c 'until curl -sf localhost:3000 >/dev/null; do sleep 1; done'
+          node scripts/smoke.mjs
