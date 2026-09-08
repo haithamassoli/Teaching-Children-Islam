@@ -23,10 +23,10 @@ export const list = query({
   args: {},
   handler: async (ctx) => {
     const householdId = await requireHousehold(ctx);
-    return ctx.db
+    return (await ctx.db
       .query("children")
       .withIndex("by_household", (q) => q.eq("householdId", householdId))
-      .collect();
+      .collect()).filter((child) => !child.deleting);
   },
 });
 
@@ -105,7 +105,7 @@ export const selectCharacter = mutation({
   args: { childId: v.id("children"), characterId: v.string() },
   handler: async (ctx, args) => {
     await requireOwnedChild(ctx, args.childId);
-    if (!/^[a-z0-9-]{1,32}$/.test(args.characterId)) {
+    if (!["sami", "omar", "maryam", "nour"].includes(args.characterId)) {
       throw new Error("INVALID_CHARACTER");
     }
     await ctx.db.patch(args.childId, { characterId: args.characterId, updatedAt: Date.now() });
@@ -117,13 +117,25 @@ export const removeInternal = internalMutation({
   handler: async (ctx, args) => {
     await requireParentSession(ctx, args.userId, args.tokenHash, args.authSubject);
     await requireOwnedChild(ctx, args.childId);
+    await ctx.db.patch(args.childId, { deleting: true });
+    await ctx.scheduler.runAfter(0, internal.children.deleteChildBatch, { childId: args.childId });
+  },
+});
+
+export const deleteChildBatch = internalMutation({
+  args: { childId: v.id("children") },
+  handler: async (ctx, { childId }): Promise<null> => {
     const recordings = await ctx.db
       .query("recordings")
-      .withIndex("by_child", (q) => q.eq("childId", args.childId))
-      .collect();
-    for (const recording of recordings) {
-      await ctx.storage.delete(recording.storageId);
-      await ctx.db.delete(recording._id);
+      .withIndex("by_child", (q) => q.eq("childId", childId))
+      .take(25);
+    if (recordings.length) {
+      for (const recording of recordings) {
+        await ctx.storage.delete(recording.storageId);
+        await ctx.db.delete(recording._id);
+      }
+      await ctx.scheduler.runAfter(0, internal.children.deleteChildBatch, { childId });
+      return null;
     }
     for (const table of [
       "progress",
@@ -134,12 +146,19 @@ export const removeInternal = internalMutation({
     ] as const) {
       const records = await ctx.db
         .query(table)
-        .withIndex("by_child", (q) => q.eq("childId", args.childId))
-        .collect();
-      for (const record of records) {
-        await ctx.db.delete(record._id);
+        .withIndex("by_child", (q) => q.eq("childId", childId))
+        .take(50);
+      if (records.length) {
+        for (const record of records) {
+          await ctx.db.delete(record._id);
+        }
+        await ctx.scheduler.runAfter(0, internal.children.deleteChildBatch, { childId });
+        return null;
       }
     }
-    await ctx.db.delete(args.childId);
+    if (await ctx.db.get(childId)) {
+      await ctx.db.delete(childId);
+    }
+    return null;
   },
 });

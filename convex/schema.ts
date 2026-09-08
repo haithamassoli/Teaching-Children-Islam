@@ -6,6 +6,7 @@ export default defineSchema({
   ...authTables,
   households: defineTable({
     userId: v.id("users"),
+    deleting: v.optional(v.boolean()),
     pinHash: v.optional(v.string()),
     pinSalt: v.optional(v.string()),
     pinIterations: v.optional(v.number()),
@@ -22,10 +23,12 @@ export default defineSchema({
     .index("by_token", ["tokenHash"]),
   children: defineTable({
     householdId: v.id("users"),
+    deleting: v.optional(v.boolean()),
     name: v.string(),
     age: v.number(),
     gender: v.union(v.literal("male"), v.literal("female")),
     characterId: v.optional(v.string()),
+    recordingConsentAt: v.optional(v.number()),
     updatedAt: v.number(),
   }).index("by_household", ["householdId"]),
   progress: defineTable({
@@ -80,6 +83,7 @@ export default defineSchema({
     storageId: v.id("_storage"),
     contentType: v.string(),
     size: v.number(),
+    durationMs: v.number(),
     status: v.union(v.literal("pending"), v.literal("approved"), v.literal("retry")),
     createdAt: v.number(),
   })
@@ -91,9 +95,17 @@ export default defineSchema({
     childId: v.id("children"),
     itemId: v.string(),
     kind: v.union(v.literal("memorization"), v.literal("practice")),
-    status: v.union(v.literal("pending"), v.literal("approved"), v.literal("retry")),
+    status: v.union(
+      v.literal("training"),
+      v.literal("pending"),
+      v.literal("approved"),
+      v.literal("retry"),
+    ),
+    message: v.optional(v.string()),
+    recordingId: v.optional(v.id("recordings")),
     reviewedAt: v.optional(v.number()),
   })
     .index("by_household", ["householdId"])
-    .index("by_child", ["childId"]),
+    .index("by_child", ["childId"])
+    .index("by_child_item", ["childId", "itemId", "kind"]),
 });

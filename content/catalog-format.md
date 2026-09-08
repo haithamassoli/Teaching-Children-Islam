@@ -1,0 +1,29 @@
+# كتالوج التشغيل المعتمد
+
+ينتج `scripts/build_content.py` ملف JSON واحدًا عند نجاح بوابة الإصدار. بنيته ثابتة ومناسبة للاستيراد في الواجهة أو Convex:
+
+```json
+{
+  "schema_version": 1,
+  "worlds": [{"id": "faith", "title": "..."}],
+  "lessons": [{
+    "id": "faith-001",
+    "world_id": "faith",
+    "order": 1,
+    "prerequisites": [],
+    "objective": "...",
+    "segments": [],
+    "age_instructions": {"6-7": "...", "8-10": "..."},
+    "questions": [],
+    "practice": []
+  }],
+  "activities": [],
+  "memorization": []
+}
+```
+
+المعرفات `lesson.id` و`activity.id` و`memorization.id` ثابتة، وتستخدم المراجع هذه المعرفات بدل ترتيب الصفوف. يحتفظ كل سؤال بنوعه وإجابته وشرحه؛ الأنواع المنظمة (`multiple_choice`, `multiple_select`, `ordering`, `matching`, `numeric`, `source_reference_match`) تتحقق آليًا حيث يسمح المحتوى، والأسئلة المفتوحة (`short_answer`, `parent_discussion`) لا تكتمل إلا بمراجعة الوالد.
+
+لا يوجد `content/catalog.json` في شجرة المصدر أثناء بقاء المادة مسودة. يرفض البناء أي سجل غير معتمد، أو مرجع مفقود، أو نوع غير مدعوم، أو درس بلا أصول صوت وصورة، أو عنصر تلاوة بلا ملف مرخص مربوط. تبقى بيانات الاختبار المصغرة داخل `scripts/test_content_pipeline.py` ولا تدخل كتالوج الإنتاج.
+
+بوابة الإصدار تتطلب `approved_by` و`approved_at` وحقول `review_status` المعتمدة لكل مادة، و`rightsStatus: documented` مع `rightsEvidence` في فهرس كل أصل. مسارات المقاطع نسبية إلى جذر المستودع وتبدأ بـ`assets/`. يشمل الملف الناتج `remembrances` أيضًا. هذه الحقول أدلة يضيفها المسؤول بعد المراجعة الفعلية؛ لا يولدها السكربت.

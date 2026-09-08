@@ -11,9 +11,12 @@
 import type * as auth from "../auth.js";
 import type * as children from "../children.js";
 import type * as http from "../http.js";
+import type * as learning from "../learning.js";
 import type * as lib_authz from "../lib/authz.js";
+import type * as lib_content from "../lib/content.js";
 import type * as lib_crypto from "../lib/crypto.js";
 import type * as parent from "../parent.js";
+import type * as review from "../review.js";
 
 import type {
   ApiFromModules,
@@ -25,9 +28,12 @@ declare const fullApi: ApiFromModules<{
   auth: typeof auth;
   children: typeof children;
   http: typeof http;
+  learning: typeof learning;
   "lib/authz": typeof lib_authz;
+  "lib/content": typeof lib_content;
   "lib/crypto": typeof lib_crypto;
   parent: typeof parent;
+  review: typeof review;
 }>;
 
 /**

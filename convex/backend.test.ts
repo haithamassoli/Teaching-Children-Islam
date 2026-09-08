@@ -1,6 +1,6 @@
 /// <reference types="vite/client" />
 import { convexTest } from "convex-test";
-import { describe, expect, test } from "vitest";
+import { describe, expect, test, vi } from "vitest";
 import { api, internal } from "./_generated/api";
 import schema from "./schema";
 
@@ -131,6 +131,7 @@ describe("household authorization", () => {
   });
 
   test("deleting a child cascades records and storage", async () => {
+    vi.useFakeTimers();
     const { t, ids, one } = await household();
     const seeded = await t.run(async (ctx) => {
       const childId = await ctx.db.insert("children", {
@@ -148,6 +149,7 @@ describe("household authorization", () => {
         storageId,
         contentType: "audio/webm",
         size: 5,
+        durationMs: 1000,
         status: "pending",
         createdAt: Date.now(),
       });
@@ -173,10 +175,87 @@ describe("household authorization", () => {
       tokenHash: "token",
       authSubject: `${ids.one}|session-one`,
     });
+    await t.finishAllScheduledFunctions(vi.runAllTimers);
     await t.run(async (ctx) => {
       expect(await ctx.db.get(seeded.childId)).toBeNull();
       expect(await ctx.storage.get(seeded.storageId)).toBeNull();
       expect(await ctx.db.query("progress").collect()).toEqual([]);
     });
+    vi.useRealTimers();
+  });
+
+  test("recording metadata is private to its household", async () => {
+    const { t, ids, one, two } = await household();
+    const recordingId = await t.run(async (ctx) => {
+      const childId = await ctx.db.insert("children", {
+        householdId: ids.one,
+        name: "Child",
+        age: 7,
+        gender: "male",
+        updatedAt: Date.now(),
+      });
+      const storageId = await ctx.storage.store(new Blob(["voice"], { type: "audio/webm" }));
+      return ctx.db.insert("recordings", {
+        householdId: ids.one,
+        childId,
+        itemId: "memory",
+        storageId,
+        contentType: "audio/webm",
+        size: 5,
+        durationMs: 1000,
+        status: "pending",
+        createdAt: Date.now(),
+      });
+    });
+    await expect(
+      one.query(internal.review.recordingForDownload, { recordingId }),
+    ).resolves.toMatchObject({ contentType: "audio/webm" });
+    await expect(two.query(internal.review.recordingForDownload, { recordingId })).rejects.toThrow(
+      "NOT_FOUND",
+    );
+  });
+
+  test("account deletion blocks access immediately and finishes its batched cascade", async () => {
+    vi.useFakeTimers();
+    const { t, ids, one } = await household();
+    await t.run(async (ctx) => {
+      await ctx.db.insert("households", { userId: ids.one, pinFailures: 0 });
+      await ctx.db.insert("parentSessions", {
+        userId: ids.one,
+        tokenHash: "token",
+        authSubject: `${ids.one}|session-one`,
+        expiresAt: Date.now() + 60_000,
+      });
+      const childId = await ctx.db.insert("children", {
+        householdId: ids.one,
+        name: "Child",
+        age: 7,
+        gender: "male",
+        updatedAt: Date.now(),
+      });
+      for (let index = 0; index < 70; index += 1) {
+        await ctx.db.insert("progress", {
+          householdId: ids.one,
+          childId,
+          lessonId: `lesson-${index}`,
+          lessonCompleted: true,
+          activityPassed: true,
+          updatedAt: Date.now(),
+        });
+      }
+    });
+    await one.mutation(internal.parent.deleteAccountInternal, {
+      userId: ids.one,
+      authSubject: `${ids.one}|session-one`,
+      tokenHash: "token",
+    });
+    await expect(one.query(api.children.list)).rejects.toThrow("UNAUTHENTICATED");
+    await t.finishAllScheduledFunctions(vi.runAllTimers);
+    await t.run(async (ctx) => {
+      expect(await ctx.db.get(ids.one)).toBeNull();
+      expect(await ctx.db.query("children").collect()).toEqual([]);
+      expect(await ctx.db.query("progress").collect()).toEqual([]);
+    });
+    vi.useRealTimers();
   });
 });

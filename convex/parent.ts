@@ -178,77 +178,117 @@ export const deleteAccountInternal = internalMutation({
       throw new Error("PARENT_AUTH_REQUIRED");
     }
 
-    // ponytail: single-transaction cascade; batch it before one household can exceed Convex transaction limits.
+    const household = await ctx.db
+      .query("households")
+      .withIndex("by_user", (q) => q.eq("userId", args.userId))
+      .unique();
+    if (!household) {
+      throw new Error("NOT_FOUND");
+    }
+    await ctx.db.patch(household._id, { deleting: true });
+    await ctx.scheduler.runAfter(0, internal.parent.deleteAccountBatch, { userId: args.userId });
+  },
+});
+
+export const deleteAccountBatch = internalMutation({
+  args: { userId: v.id("users") },
+  handler: async (ctx, { userId }): Promise<null> => {
     const recordings = await ctx.db
       .query("recordings")
-      .withIndex("by_household", (q) => q.eq("householdId", args.userId))
-      .collect();
-    for (const recording of recordings) {
-      await ctx.storage.delete(recording.storageId);
+      .withIndex("by_household", (q) => q.eq("householdId", userId))
+      .take(25);
+    if (recordings.length) {
+      for (const recording of recordings) {
+        await ctx.storage.delete(recording.storageId);
+        await ctx.db.delete(recording._id);
+      }
+      await ctx.scheduler.runAfter(0, internal.parent.deleteAccountBatch, { userId });
+      return null;
     }
     for (const table of [
       "progress",
       "segmentProgress",
       "activityAttempts",
       "rewards",
-      "recordings",
       "reviews",
     ] as const) {
       const records = await ctx.db
         .query(table)
-        .withIndex("by_household", (q) => q.eq("householdId", args.userId))
-        .collect();
-      for (const record of records) {
-        await ctx.db.delete(record._id);
+        .withIndex("by_household", (q) => q.eq("householdId", userId))
+        .take(50);
+      if (records.length) {
+        for (const record of records) {
+          await ctx.db.delete(record._id);
+        }
+        await ctx.scheduler.runAfter(0, internal.parent.deleteAccountBatch, { userId });
+        return null;
       }
     }
-    for (const child of await ctx.db
+    const child = await ctx.db
       .query("children")
-      .withIndex("by_household", (q) => q.eq("householdId", args.userId))
-      .collect()) {
+      .withIndex("by_household", (q) => q.eq("householdId", userId))
+      .first();
+    if (child) {
       await ctx.db.delete(child._id);
+      await ctx.scheduler.runAfter(0, internal.parent.deleteAccountBatch, { userId });
+      return null;
     }
-    for (const parentSession of await ctx.db
+    const parentSession = await ctx.db
       .query("parentSessions")
-      .withIndex("by_user", (q) => q.eq("userId", args.userId))
-      .collect()) {
+      .withIndex("by_user", (q) => q.eq("userId", userId))
+      .first();
+    if (parentSession) {
       await ctx.db.delete(parentSession._id);
+      await ctx.scheduler.runAfter(0, internal.parent.deleteAccountBatch, { userId });
+      return null;
+    }
+    const account = await ctx.db
+      .query("authAccounts")
+      .withIndex("userIdAndProvider", (q) => q.eq("userId", userId))
+      .first();
+    if (account) {
+      const codes = await ctx.db
+        .query("authVerificationCodes")
+        .withIndex("accountId", (q) => q.eq("accountId", account._id))
+        .take(50);
+      for (const code of codes) {
+        await ctx.db.delete(code._id);
+      }
+      if (!codes.length) {
+        await ctx.db.delete(account._id);
+      }
+      await ctx.scheduler.runAfter(0, internal.parent.deleteAccountBatch, { userId });
+      return null;
+    }
+    const authSession = await ctx.db
+      .query("authSessions")
+      .withIndex("userId", (q) => q.eq("userId", userId))
+      .first();
+    if (authSession) {
+      const tokens = await ctx.db
+        .query("authRefreshTokens")
+        .withIndex("sessionId", (q) => q.eq("sessionId", authSession._id))
+        .take(50);
+      for (const token of tokens) {
+        await ctx.db.delete(token._id);
+      }
+      if (!tokens.length) {
+        await ctx.db.delete(authSession._id);
+      }
+      await ctx.scheduler.runAfter(0, internal.parent.deleteAccountBatch, { userId });
+      return null;
     }
     const household = await ctx.db
       .query("households")
-      .withIndex("by_user", (q) => q.eq("userId", args.userId))
+      .withIndex("by_user", (q) => q.eq("userId", userId))
       .unique();
     if (household) {
       await ctx.db.delete(household._id);
     }
-
-    const accounts = await ctx.db
-      .query("authAccounts")
-      .withIndex("userIdAndProvider", (q) => q.eq("userId", args.userId))
-      .collect();
-    for (const account of accounts) {
-      for (const code of await ctx.db
-        .query("authVerificationCodes")
-        .withIndex("accountId", (q) => q.eq("accountId", account._id))
-        .collect()) {
-        await ctx.db.delete(code._id);
-      }
-      await ctx.db.delete(account._id);
+    if (await ctx.db.get(userId)) {
+      await ctx.db.delete(userId);
     }
-    const authSessions = await ctx.db
-      .query("authSessions")
-      .withIndex("userId", (q) => q.eq("userId", args.userId))
-      .collect();
-    for (const authSession of authSessions) {
-      for (const token of await ctx.db
-        .query("authRefreshTokens")
-        .withIndex("sessionId", (q) => q.eq("sessionId", authSession._id))
-        .collect()) {
-        await ctx.db.delete(token._id);
-      }
-      await ctx.db.delete(authSession._id);
-    }
-    await ctx.db.delete(args.userId);
+    return null;
   },
 });
 

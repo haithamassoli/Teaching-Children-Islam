@@ -10,6 +10,18 @@ export async function requireHousehold(ctx: AuthCtx): Promise<Id<"users">> {
   if (!userId) {
     throw new Error("UNAUTHENTICATED");
   }
+  if ("db" in ctx) {
+    const [user, household] = await Promise.all([
+      ctx.db.get(userId),
+      ctx.db
+        .query("households")
+        .withIndex("by_user", (q) => q.eq("userId", userId))
+        .unique(),
+    ]);
+    if (!user || household?.deleting) {
+      throw new Error("UNAUTHENTICATED");
+    }
+  }
   return userId;
 }
 
@@ -19,7 +31,7 @@ export async function requireOwnedChild(
 ): Promise<Doc<"children">> {
   const householdId = await requireHousehold(ctx);
   const record = await ctx.db.get(childId);
-  if (!record || record.householdId !== householdId) {
+  if (!record || record.householdId !== householdId || record.deleting) {
     throw new Error("NOT_FOUND");
   }
   return record;

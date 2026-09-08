@@ -4,8 +4,11 @@ import { useAuthActions, useConvexAuth } from "@convex-dev/auth/react";
 import { useAction, useMutation, useQuery } from "convex/react";
 import { type FormEvent, useEffect, useState } from "react";
 import { api } from "../convex/_generated/api";
+import type { Id } from "../convex/_generated/dataModel";
+import LearningJourney from "./learning-journey";
+import ReviewPanel from "./review-panel";
 
-type Screen = "signIn" | "signUp" | "reset" | "resetVerification";
+type Screen = "signIn" | "signUp";
 
 export default function FamilyApp() {
   const { isLoading, isAuthenticated } = useConvexAuth();
@@ -32,24 +35,8 @@ function AccountGate() {
     setBusy(true);
     setMessage("");
     try {
-      if (screen === "reset") {
-        await signIn("password", { flow: "reset", email });
-        setScreen("resetVerification");
-        setMessage("تحقق من بريدك لإكمال إعادة التعيين.");
-      } else if (screen === "resetVerification") {
-        await signIn("password", {
-          flow: "reset-verification",
-          email,
-          code: String(values.get("code")),
-          newPassword: password,
-        });
-        setMessage("يجري تأكيد كلمة المرور الجديدة…");
-      } else {
-        const result = await signIn("password", { flow: screen, email, password });
-        setMessage(
-          result.signingIn ? "يجري تأكيد الدخول…" : "تحقّق من بريدك الإلكتروني لإكمال العملية.",
-        );
-      }
+      await signIn("password", { flow: screen, email, password });
+      setMessage("يجري تأكيد الدخول…");
     } catch {
       setMessage("تعذر إكمال الطلب. تحقّق من البيانات ثم حاول مرة أخرى.");
     } finally {
@@ -68,24 +55,16 @@ function AccountGate() {
             البريد الإلكتروني
             <input name="email" type="email" autoComplete="email" required />
           </label>
-          {screen !== "reset" && (
-            <label>
-              كلمة المرور
-              <input
-                name="password"
-                type="password"
-                autoComplete={screen === "signIn" ? "current-password" : "new-password"}
-                minLength={8}
-                required
-              />
-            </label>
-          )}
-          {screen === "resetVerification" && (
-            <label>
-              رمز التحقق (إن طُلب)
-              <input name="code" autoComplete="one-time-code" />
-            </label>
-          )}
+          <label>
+            كلمة المرور
+            <input
+              name="password"
+              type="password"
+              autoComplete={screen === "signIn" ? "current-password" : "new-password"}
+              minLength={8}
+              required
+            />
+          </label>
           <button type="submit" className="primary-button" disabled={busy}>
             {busy ? "جارٍ الإرسال…" : submitLabel(screen)}
           </button>
@@ -114,15 +93,6 @@ function AccountGate() {
           >
             حساب جديد
           </button>
-          <button
-            type="button"
-            onClick={() => {
-              setScreen("reset");
-              setMessage("");
-            }}
-          >
-            نسيت كلمة المرور؟
-          </button>
         </div>
       </section>
     </main>
@@ -143,6 +113,9 @@ function FamilyHome() {
   const remove = useAction(api.children.remove);
   const chooseCharacter = useMutation(api.children.selectCharacter);
   const [parentToken, setParentToken] = useState<string | null>(null);
+  const [learningChild, setLearningChild] = useState<{ id: Id<"children">; age: number } | null>(
+    null,
+  );
   const [notice, setNotice] = useState("");
   const [busy, setBusy] = useState(false);
   useEffect(() => {
@@ -260,6 +233,21 @@ function FamilyHome() {
       setBusy(false);
     }
   };
+  const startLearning = async (id: Id<"children">, age: number) => {
+    if (parentToken) {
+      await lockParent();
+    }
+    setLearningChild({ id, age });
+  };
+  if (learningChild) {
+    return (
+      <LearningJourney
+        childId={learningChild.id}
+        age={learningChild.age}
+        onBack={() => setLearningChild(null)}
+      />
+    );
+  }
   return (
     <main className="family-shell">
       <header className="family-header">
@@ -385,8 +373,10 @@ function FamilyHome() {
           update={update}
           remove={remove}
           setNotice={setNotice}
+          startLearning={startLearning}
         />
       </section>
+      {parentToken && <ReviewPanel parentToken={parentToken} />}
     </main>
   );
 }
@@ -398,21 +388,12 @@ function screenTitle(screen: Screen) {
   if (screen === "signUp") {
     return "إنشاء حساب للوالد";
   }
-  if (screen === "resetVerification") {
-    return "كلمة مرور جديدة";
-  }
-  return "استعادة كلمة المرور";
+  return "دخول الوالد";
 }
 
 function submitLabel(screen: Screen) {
-  if (screen === "reset") {
-    return "إرسال رابط التعيين";
-  }
   if (screen === "signUp") {
     return "إنشاء الحساب";
-  }
-  if (screen === "resetVerification") {
-    return "حفظ كلمة المرور";
   }
   return "دخول";
 }
@@ -424,6 +405,7 @@ function ChildList({
   update,
   remove,
   setNotice,
+  startLearning,
 }: {
   records: ReturnType<typeof useQuery<typeof api.children.list>>;
   parentToken: string | null;
@@ -431,6 +413,7 @@ function ChildList({
   update: ReturnType<typeof useAction<typeof api.children.update>>;
   remove: ReturnType<typeof useAction<typeof api.children.remove>>;
   setNotice: (message: string) => void;
+  startLearning: (id: Id<"children">, age: number) => Promise<void>;
 }) {
   const [editingId, setEditingId] = useState<string | null>(null);
   if (records === undefined) {
@@ -448,6 +431,13 @@ function ChildList({
             <span>{child.age} سنوات</span>
           </div>
           <div className="child-actions">
+            <button
+              type="button"
+              className="primary-button"
+              onClick={() => startLearning(child._id, child.age)}
+            >
+              ابدأ الرحلة
+            </button>
             <select
               aria-label={`شخصية ${child.name}`}
               value={child.characterId ?? ""}

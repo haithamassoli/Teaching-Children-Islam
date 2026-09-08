@@ -943,6 +943,70 @@ a:focus-visible {
   font-size: 12px;
   font-weight: 700;
 }
+.learning-worlds {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 14px;
+}
+.learning-world-card {
+  min-height: 180px;
+  padding: 22px;
+  border: 1px solid #b8d7d3;
+  border-radius: 18px;
+  background: #eaf6f4;
+  color: var(--ink);
+}
+.learning-world-card h2 {
+  margin: 0 0 8px;
+}
+.learning-world-card p {
+  color: var(--muted);
+  font-size: 13px;
+}
+.learning-world-card button {
+  margin-top: 18px;
+  border: 0;
+  border-radius: 10px;
+  padding: 9px 12px;
+  background: #fff;
+  color: #176766;
+  font-weight: 800;
+}
+.stage-list {
+  display: grid;
+  gap: 7px;
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.stage-list button {
+  width: 100%;
+  margin: 0;
+  text-align: right;
+}
+.stage-list button:disabled {
+  background: #e2e6e5;
+  color: #627076;
+}
+.badge-row {
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: #fff1d7;
+  color: #8a5d1a;
+}
+.lesson-segment {
+  margin: 16px 0;
+  padding: 16px;
+  border-radius: 14px;
+  background: #f3f8f7;
+}
+.lesson-segment img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 12px 0;
+  border-radius: 12px;
+}
 @media (max-width: 620px) {
   .child-edit {
     grid-template-columns: 1fr;
