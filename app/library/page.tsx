@@ -1,8 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import type { ReactNode } from "react";
 import { arabicNumber } from "../../lib/assets";
-import { activities, hadiths, memoryItems, remembrances, sourceQuestions } from "../../lib/catalog";
+import {
+  activities,
+  hadiths,
+  lessonForPages,
+  memoryItems,
+  remembrances,
+  sourceQuestions,
+} from "../../lib/catalog";
+import { AnswerText } from "../components/answer-text";
 import { JourneyFooter, JourneyHeader } from "../components/journey-ui";
 import { ReadAloud } from "../narration";
 
@@ -14,36 +21,6 @@ const tabs = [
   { id: "activities", title: "أنشطة الكتاب", count: activities.length },
   { id: "hadiths", title: "أحاديث الكتاب", count: hadiths.length },
 ];
-
-function AnswerText({ value }: { value: unknown }): ReactNode {
-  if (Array.isArray(value)) {
-    return (
-      <ol>
-        {value.map((item, index) => (
-          // biome-ignore lint/suspicious/noArrayIndexKey: immutable source answer may contain repeated values.
-          <li key={`${index}-${String(item)}`}>
-            <AnswerText value={item} />
-          </li>
-        ))}
-      </ol>
-    );
-  }
-  if (value && typeof value === "object") {
-    return (
-      <dl>
-        {Object.entries(value).map(([key, item]) => (
-          <div key={key}>
-            <dt>{key}</dt>
-            <dd>
-              <AnswerText value={item} />
-            </dd>
-          </div>
-        ))}
-      </dl>
-    );
-  }
-  return <span>{String(value ?? "")}</span>;
-}
 
 function entries(tab: string) {
   switch (tab) {
@@ -57,7 +34,7 @@ function entries(tab: string) {
             <p>
               {"names" in item
                 ? item.names?.join(" · ")
-                : "راجع المقطع في المصحف أو الكتاب، وكرّره على مهل ثم سمّعه للوالد."}
+                : "كرّر المقطع على مهل مع الوالد، ثم سمّعه له."}
             </p>
             {"quran_ref" in item && item.quran_ref && (
               <p>
@@ -101,21 +78,30 @@ function entries(tab: string) {
         ),
       }));
     case "hadiths":
-      return hadiths.map((item) => ({
-        id: item.id,
-        title: `${arabicNumber(item.book_number)}. ${item.title}`,
-        pages: item.source_pages,
-        body: (
-          <>
-            <p>
-              {item.required_in_memorization_table
-                ? "هذا الحديث ضمن جدول الحفظ."
-                : "من أحاديث وروايات الكتاب."}
-            </p>
-            <p>اقرأ النص الكامل في صفحة المصدر مع الوالد.</p>
-          </>
-        ),
-      }));
+      return hadiths.map((item) => {
+        const lesson = lessonForPages(item.source_pages);
+        return {
+          id: item.id,
+          title: `${arabicNumber(item.book_number)}. ${item.title}`,
+          pages: item.source_pages,
+          body: (
+            <>
+              <p>
+                {item.required_in_memorization_table
+                  ? "هذا الحديث ضمن جدول الحفظ."
+                  : "من أحاديث وروايات الكتاب."}
+              </p>
+              {lesson && (
+                <p>
+                  <Link href={`/explore/${lesson.id}`} className="quiet-link">
+                    اقرأ معناه في درس {lesson.title} ←
+                  </Link>
+                </p>
+              )}
+            </>
+          ),
+        };
+      });
     default:
       return remembrances.map((item) => ({
         id: item.id,
