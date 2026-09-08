@@ -78,6 +78,7 @@ export default function Recorder({
       document.querySelectorAll("audio").forEach((audio) => {
         audio.pause();
       });
+      window.speechSynthesis?.cancel();
       stream = await navigator.mediaDevices.getUserMedia({ audio: true });
       if (!mounted.current || !consentRef.current) {
         stream.getTracks().forEach((track) => {
@@ -221,7 +222,7 @@ export default function Recorder({
   }
 
   return (
-    <section aria-label="تسجيل الحفظ">
+    <section aria-label="تسجيل الحفظ" data-recording={recording || busy}>
       <p>التسجيل اختياري وبإذن الوالد، حتى ٥ دقائق. يُحذف المقطع غير المرسل عند مغادرة الصفحة.</p>
       {!consent && <p>اطلب من الوالد تفعيل إذن التسجيل، أو سمّع له مباشرة.</p>}
       {recording ? (

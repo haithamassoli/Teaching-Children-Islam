@@ -1,0 +1,634 @@
+.page {
+  --ink: #463c62;
+  --muted: #73697e;
+  --teal: #696090;
+  background: #fffcf8;
+}
+.header {
+  max-width: 1280px;
+  margin: auto;
+  padding: 24px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.header a {
+  color: #625675;
+  font-size: 13px;
+  padding: 10px 0;
+}
+.header .brand {
+  font-size: 20px;
+  font-weight: 900;
+  color: #493c66;
+}
+.brand > span {
+  color: #ba8644;
+}
+.brand small {
+  display: block;
+  font-size: 10px;
+  color: #857a90;
+  padding-inline-start: 27px;
+}
+.main {
+  width: min(1180px, calc(100% - 64px));
+  margin: auto;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  align-items: center;
+  gap: 48px;
+  padding: 45px 0 64px;
+}
+.eyebrow {
+  display: block;
+  color: #83602d;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+}
+.hero h1 {
+  font-size: clamp(42px, 5.1vw, 68px);
+  line-height: 1.5;
+  letter-spacing: -2px;
+  margin: 18px 0;
+  font-weight: 900;
+}
+.hero h1 em {
+  font-style: normal;
+  color: #8d6eaf;
+}
+.hero p,
+.heading p,
+.originals p {
+  font-size: 15px;
+  line-height: 2;
+  color: #74677e;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  padding: 13px 23px;
+  min-height: 48px;
+  border-radius: 14px;
+  background: #756091;
+  color: white;
+  box-shadow: 0 4px 0 #574569;
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration: none;
+}
+.button:hover {
+  background: #655080;
+}
+.heroNote {
+  display: block;
+  margin-top: 23px;
+  color: #817587;
+  font-size: 11px;
+}
+.scene {
+  position: relative;
+  min-width: 0;
+  padding: 12px 0 45px;
+}
+.heroWorld {
+  width: 100%;
+  height: auto;
+  border-radius: 46% 46% 36px 36px;
+  box-shadow: 0 20px 50px #9d86bb20;
+  border: 7px solid #f4edf7;
+}
+.heroFriend {
+  position: absolute;
+  width: 43%;
+  height: auto;
+  bottom: 7px;
+  left: -7%;
+  filter: drop-shadow(0 15px 10px #6f507222);
+}
+.cloudFriend {
+  position: absolute;
+  width: 27%;
+  height: auto;
+  right: -4%;
+  top: 1%;
+  transform: rotate(12deg);
+}
+.sceneLabel {
+  position: absolute;
+  bottom: 26px;
+  right: 12%;
+  padding: 13px 20px;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px #9783ad1a;
+  background: #fffefa;
+  color: #736182;
+  font-size: 12px;
+  font-weight: 800;
+}
+.sceneLabel span {
+  color: #ae863d;
+  margin-inline-start: 15px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  border-block: 1px solid #eae2ec;
+  padding: 17px 0;
+}
+.nav a {
+  color: #73627e;
+  background: #f5eff7;
+  padding: 11px 22px;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.nav a:hover {
+  background: #ece0f3;
+}
+.section {
+  padding: 68px 0 0;
+  scroll-margin-top: 24px;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.heading h2,
+.originals h2,
+.invite h2 {
+  font-size: clamp(24px, 3vw, 34px);
+  font-weight: 900;
+  margin: 9px 0;
+}
+.heading p {
+  margin: 8px 0;
+}
+.friends {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  align-items: start;
+}
+.friend {
+  border-radius: 26px;
+  padding: 20px 14px;
+  text-align: center;
+  border: 1px solid #ffffffb0;
+}
+.friend summary {
+  list-style: none;
+  cursor: pointer;
+}
+.friend summary::-webkit-details-marker {
+  display: none;
+}
+.friend summary:focus-visible,
+.locked summary:focus-visible {
+  outline: 3px solid #7d619f;
+  outline-offset: 5px;
+  border-radius: 12px;
+}
+.friend img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: contain;
+  transition: transform 0.25s;
+}
+.friend:where([open]) img,
+.friend :where(summary:hover) img {
+  transform: translateY(-5px) rotate(-3deg);
+}
+.friend h3 {
+  font-size: 23px;
+  font-weight: 900;
+  margin: 10px 0 4px;
+}
+.friend p {
+  font-size: 11px;
+  color: #65586e;
+  line-height: 1.9;
+  margin: 0;
+}
+.friendAction {
+  display: inline-flex;
+  gap: 25px;
+  margin-top: 17px;
+  padding: 10px 18px;
+  border-radius: 30px;
+  background: #ffffffad;
+  color: #5d4e70;
+  font-size: 11px;
+  font-weight: 800;
+}
+:where(.friend[open]) .friendAction > span {
+  transform: rotate(45deg);
+}
+.friend .greeting {
+  margin-top: 17px;
+  padding: 14px 10px;
+  background: #ffffff94;
+  border-radius: 14px;
+  font-size: 13px;
+}
+.worlds {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+.world {
+  border: 1px solid #eae2eb;
+  border-radius: 23px;
+  overflow: hidden;
+  background: #fffefa;
+}
+.worldImage {
+  position: relative;
+}
+.worldImage > img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.worldImage > span {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 33px;
+  height: 33px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #ffffffb5;
+  color: #68577e;
+  font-size: 12px;
+  font-weight: 800;
+}
+.worldCopy {
+  position: relative;
+  padding: 23px 22px;
+}
+.worldCopy > img {
+  position: absolute;
+  left: 15px;
+  top: -33px;
+}
+.worldCopy h3 {
+  font-size: 20px;
+  font-weight: 800;
+  padding-inline-end: 25px;
+  margin: 0 0 7px;
+}
+.worldCopy p,
+.postcard p,
+.items p,
+.toolShelf p {
+  color: #776b7f;
+  font-size: 12px;
+  line-height: 1.9;
+}
+.worldCopy > a,
+.originals a {
+  display: inline-block;
+  min-height: 44px;
+  padding-top: 14px;
+  color: #6d518d;
+  font-size: 12px;
+  font-weight: 800;
+}
+.postcard {
+  grid-column: span 2;
+  border: 1px dashed #d4c2df;
+  border-radius: 23px;
+  background: radial-gradient(ellipse at top, #f6edf9, #fff9ed);
+  padding: 28px;
+  text-align: center;
+}
+.postcard > img {
+  margin: 0 auto 8px;
+  height: 130px;
+}
+.postcard h3 {
+  font-size: 22px;
+  font-weight: 800;
+  margin: 8px 0;
+}
+.postcard .button {
+  margin-top: 10px;
+}
+.items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+.items article {
+  text-align: center;
+  padding: 20px 16px;
+  background: #f5f0f8;
+  border-radius: 22px;
+}
+.items article:nth-child(2n) {
+  background: #eef5ef;
+}
+.items img {
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+.items h3 {
+  font-size: 17px;
+  font-weight: 800;
+  margin: 14px 0 5px;
+}
+.toolShelf {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 30px;
+  margin-top: 22px;
+  border: 1px solid #e9deed;
+  border-radius: 23px;
+}
+.toolShelf h3 {
+  font-size: 23px;
+  font-weight: 800;
+  margin: 7px 0;
+}
+.tools {
+  display: flex;
+  gap: 20px;
+}
+.tools figure,
+.badges figure,
+.originals figure {
+  text-align: center;
+  margin: 0;
+}
+.tools figcaption,
+.badges figcaption,
+.originals figcaption {
+  color: #766680;
+  font-size: 10px;
+  font-weight: 700;
+  margin-top: 7px;
+}
+.treasures {
+  margin: 60px -20px 0;
+  padding: 44px 30px 30px;
+  border: 1px solid #eadfeb;
+  border-radius: 35px;
+  background: linear-gradient(160deg, #f8eff9, #fffae9);
+}
+.rewardDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  text-align: center;
+}
+.rewardDisplay img {
+  margin: auto;
+}
+.rewardDisplay h3 {
+  font-size: 16px;
+  font-weight: 800;
+  margin: 5px 0;
+}
+.rewardDisplay p {
+  font-size: 12px;
+  color: #7d6a81;
+}
+.badges {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 12px;
+  padding: 28px 0;
+}
+.badges img {
+  width: 100%;
+  height: auto;
+}
+.locked {
+  border-top: 1px solid #e6dbe8;
+  color: #74627f;
+}
+.locked summary {
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 17px 5px;
+}
+.originals {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28px;
+  padding: 55px 0;
+}
+.originals h2 {
+  font-size: 22px;
+}
+.originals p {
+  font-size: 12px;
+}
+.originals > div:last-child {
+  display: flex;
+}
+.originals img {
+  max-width: 100%;
+  height: auto;
+}
+.invite {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  margin: 40px 0;
+  padding: 30px 45px;
+  border: 1px solid #e5d7ec;
+  border-radius: 25px;
+  background: linear-gradient(115deg, #eff5ee, #f4eafa 60%, #fff6df);
+  color: #514264;
+}
+.invite p {
+  font-size: 13px;
+  line-height: 1.9;
+  color: #746480;
+  margin-bottom: 18px;
+}
+.invite > div:last-child {
+  display: flex;
+  flex-shrink: 0;
+}
+.invite img {
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+}
+@media (max-width: 980px) {
+  .hero {
+    gap: 25px;
+  }
+  .worlds {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .postcard {
+    grid-column: auto;
+  }
+  .toolShelf,
+  .originals {
+    flex-direction: column;
+    text-align: center;
+  }
+  .friends {
+    gap: 10px;
+  }
+  .friend {
+    padding: 13px 8px;
+  }
+  .friend p {
+    min-height: 42px;
+  }
+  .invite {
+    padding: 25px;
+  }
+  .invite img {
+    width: 115px;
+  }
+}
+@media (max-width: 640px) {
+  .header {
+    padding: 13px 20px;
+  }
+  .header .brand {
+    font-size: 17px;
+  }
+  .header > a:last-child {
+    font-size: 10px;
+  }
+  .main {
+    width: calc(100% - 36px);
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 20px 0 25px;
+    gap: 15px;
+  }
+  .heroCopy {
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 43px;
+    line-height: 1.45;
+  }
+  .hero p {
+    font-size: 13px;
+  }
+  .scene {
+    margin: 10px 18px 0;
+  }
+  .sceneLabel {
+    font-size: 10px;
+    right: 7%;
+    padding: 10px 13px;
+  }
+  .nav {
+    gap: 7px;
+  }
+  .nav a {
+    padding: 10px 13px;
+    font-size: 10px;
+  }
+  .section {
+    padding-top: 43px;
+  }
+  .heading h2 {
+    font-size: 24px;
+  }
+  .heading p {
+    font-size: 12px;
+  }
+  .friends,
+  .items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  .friend h3 {
+    font-size: 21px;
+  }
+  .worlds {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .worldCopy h3 {
+    font-size: 20px;
+  }
+  .postcard {
+    padding: 23px;
+  }
+  .tools {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  .toolShelf {
+    padding: 23px 15px;
+  }
+  .treasures {
+    margin: 35px 0 0;
+    padding: 30px 15px 12px;
+  }
+  .rewardDisplay {
+    gap: 14px;
+  }
+  .rewardDisplay > img {
+    display: none;
+  }
+  .rewardDisplay > :where(div:first-of-type) img {
+    width: 135px;
+    height: auto;
+  }
+  .badges {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px 9px;
+  }
+  .badges figure:last-child {
+    grid-column: 2;
+  }
+  .originals {
+    padding: 40px 0;
+  }
+  .originals > div:last-child {
+    width: 100%;
+  }
+  .originals figure {
+    width: 20%;
+  }
+  .invite {
+    text-align: center;
+    flex-direction: column;
+    padding: 25px 18px;
+  }
+  .invite img {
+    width: 130px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .friend img {
+    transition: none;
+  }
+}
+[data-motion="off"] .friend img {
+  transition: none;
+}

@@ -49,7 +49,7 @@ function AccountGate() {
   return (
     <main className="family-shell auth-welcome">
       <div className="auth-illustration">
-        <Asset path="characters/guide.webp" width={380} />
+        <Asset path="fantasy/characters/ghayma.webp" width={380} />
         <h2>أهلًا بالأسرة الجميلة</h2>
         <p>معًا نزرع حب التعلّم، ونفرح بكل خطوة صغيرة.</p>
       </div>

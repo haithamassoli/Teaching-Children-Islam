@@ -440,6 +440,64 @@ a:focus-visible {
   border-radius: 10px;
   font-weight: 800;
 }
+.narration-controls {
+  position: fixed;
+  inset-inline: 16px;
+  bottom: max(12px, env(safe-area-inset-bottom));
+  z-index: 20;
+  width: fit-content;
+  max-width: calc(100% - 32px);
+  margin-inline: auto;
+  padding: 10px 14px;
+  border: 1px solid #bdd8cb;
+  border-radius: 18px;
+  background: #fffdf8;
+  color: #203e3b;
+  box-shadow: 0 4px 24px #203e3b22;
+  font-size: 13px;
+}
+.narration-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+}
+.narration-buttons button,
+.narration-buttons select,
+.sound-button {
+  min-height: 44px;
+}
+.narration-buttons label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.narration-buttons button[aria-pressed="true"] {
+  color: #21695d;
+  font-weight: 800;
+}
+.narration-controls p {
+  margin: 4px 0 0;
+  text-align: center;
+  max-width: 520px;
+}
+[data-narration-active="true"] {
+  outline: 2px solid #70a88f;
+  outline-offset: 5px;
+}
+body:has(.narration-controls) {
+  padding-bottom: 170px;
+}
+html {
+  scroll-padding-bottom: 170px;
+}
+@media print {
+  .narration-controls,
+  [data-read-aloud] {
+    display: none;
+  }
+}
 .lesson-intro {
   font-size: 18px;
   max-width: 650px;

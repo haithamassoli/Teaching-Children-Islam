@@ -100,16 +100,17 @@ export function WorldCard({
     <Link
       href={`/explore?world=${world.id}`}
       className={`explore-world world-${world.id} reveal`}
+      data-narration={`عالم ${world.title}. ${descriptions[world.id]}`}
       style={{ "--order": index } as CSSProperties}
       data-sound
     >
       <div className="world-picture">
-        <Asset path={`worlds/${worldArt(world.id)}.webp`} width={480} height={320} />
+        <Asset path={`fantasy/worlds/${worldArt(world.id)}.svg`} width={480} height={320} />
         <span className="world-index">{arabicNumber(index + 1).padStart(2, "٠")}</span>
       </div>
       <div className="world-copy">
         <Asset
-          path={`badges/${worldArt(world.id)}-earned.svg`}
+          path={`fantasy/badges/${worldArt(world.id)}-earned.svg`}
           width={54}
           className="world-emblem"
         />

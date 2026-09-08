@@ -39,8 +39,8 @@ try {
     "none",
   );
   run("find", "role", "button", "click", "--name", "تشغيل المؤثرات");
-  run("find", "role", "button", "click", "--name", "مريم", "--exact");
-  bodyHas("مريم يقول");
+  run("find", "role", "button", "click", "--name", "غيمة", "--exact");
+  bodyHas("أنا غيمة!");
   open("/explore");
   assert.equal(count(".lesson-tile"), 111);
   open("/explore?world=conduct");

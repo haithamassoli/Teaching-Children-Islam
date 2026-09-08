@@ -6,6 +6,7 @@ import { useState } from "react";
 import { api } from "../convex/_generated/api";
 import type { Id } from "../convex/_generated/dataModel";
 import Memorization from "./memorization";
+import { ReadAloud } from "./narration";
 
 export function recordingSite() {
   const site = process.env.NEXT_PUBLIC_CONVEX_SITE_URL;
@@ -81,8 +82,9 @@ export default function ChildReview({ childId }: { childId: Id<"children"> }) {
         <h2>التطبيق مع الوالد</h2>
         {!items.practice.length && <p>لا مهام تطبيق معتمدة بعد.</p>}
         {items.practice.map((item) => (
-          <article key={item.id}>
+          <article key={item.id} data-narration={item.instruction}>
             <p>{item.instruction}</p>
+            <ReadAloud />
             <p>
               {
                 (

@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Cairo } from "next/font/google";
 import { siteDescription, siteName, siteUrl } from "../lib/site";
+import Narration from "./narration";
 import Pwa from "./pwa";
 import "./globals.css";
 import "./journey.css";
@@ -40,6 +41,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="flex min-h-full flex-col font-[family-name:var(--font-cairo)]">
         <Pwa />
         {children}
+        <Narration />
       </body>
     </html>
   );

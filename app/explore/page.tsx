@@ -28,10 +28,12 @@ export default async function Explore({
       </a>
       <JourneyHeader active="explore" />
       <main className="journey-main" id="content">
-        <div className="catalog-intro">
+        <div className="catalog-intro" data-narration="">
           <p className="section-kicker">كل خطوة حكاية جديدة</p>
-          <h1>عوالم التعلّم</h1>
-          <p>اختر ما تحب أن تتعلّمه اليوم. يمكنك القراءة والتدرّب، ثم متابعة رحلتك مع الأسرة.</p>
+          <h1 data-narration-text>عوالم التعلّم</h1>
+          <p data-narration-text>
+            اختر ما تحب أن تتعلّمه اليوم. يمكنك القراءة والتدرّب، ثم متابعة رحلتك مع الأسرة.
+          </p>
         </div>
         <div className="catalog-tools">
           <nav className="catalog-tabs" aria-label="اختر عالمًا">
@@ -70,13 +72,13 @@ export default async function Explore({
         {world && (
           <section className="world-banner">
             <Asset
-              path={`worlds/${worldArt(world.id)}.webp`}
+              path={`fantasy/worlds/${worldArt(world.id)}.svg`}
               width={1200}
               height={400}
               className="banner-image"
               preload
             />
-            <Asset path={`badges/${worldArt(world.id)}-earned.svg`} width={82} />
+            <Asset path={`fantasy/badges/${worldArt(world.id)}-earned.svg`} width={82} />
             <div>
               <h2>عالم {world.title}</h2>
               <p>
@@ -95,6 +97,7 @@ export default async function Explore({
               href={`/explore/${lesson.id}`}
               key={lesson.id}
               className="lesson-tile reveal"
+              data-narration={`${lesson.title}. ${lesson.objective}`}
               data-sound
             >
               <div className="lesson-tile-top">

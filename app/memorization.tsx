@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { ReadAloud } from "./narration";
 import Recorder from "./recorder";
 
 export type MemoryItem = {
@@ -95,7 +96,10 @@ export default function Memorization({
               ))}
             </select>
           </label>
-          <h3>{item.title}</h3>
+          <div data-narration={`${item.title}. كرّر المقطع على مهل ثم سمّعه للوالد.`}>
+            <h3>{item.title}</h3>
+            <ReadAloud />
+          </div>
           <p>{statuses[item.status] ?? "لم يبدأ"}</p>
           {item.text && <p className="memory-text">{item.text}</p>}
           {item.audioAsset ? (
