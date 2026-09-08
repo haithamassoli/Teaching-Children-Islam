@@ -3,6 +3,7 @@
 import { ConvexAuthProvider } from "@convex-dev/auth/react";
 import { ConvexReactClient } from "convex/react";
 import { type ReactNode, useState } from "react";
+import Connectivity from "./connectivity";
 
 export function Providers({ children }: { children: ReactNode }) {
   const url = process.env.NEXT_PUBLIC_CONVEX_URL;
@@ -10,5 +11,9 @@ export function Providers({ children }: { children: ReactNode }) {
     throw new Error("NEXT_PUBLIC_CONVEX_URL is required");
   }
   const [client] = useState(() => new ConvexReactClient(url));
-  return <ConvexAuthProvider client={client}>{children}</ConvexAuthProvider>;
+  return (
+    <ConvexAuthProvider client={client}>
+      <Connectivity>{children}</Connectivity>
+    </ConvexAuthProvider>
+  );
 }
