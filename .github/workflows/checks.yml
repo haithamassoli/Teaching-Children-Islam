@@ -1,0 +1,20 @@
+name: Release validation
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  release-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 22, cache: npm }
+      - uses: actions/setup-python@v6
+        with: { python-version: '3.12' }
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: npm ci
+      - run: npm run test:content
+      - run: python3 scripts/check_assets.py
+      - name: Require complete approved content and production build
+        run: npm run build:release

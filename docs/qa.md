@@ -29,7 +29,7 @@
 ```sh
 npm test
 npm run lint
-npx tsc --noEmit
+npm run typecheck
 npm run test:content
 python3 scripts/check_assets.py
 npm run build

@@ -12,7 +12,8 @@
     "test": "vitest run",
     "test:backend": "vitest run convex",
     "test:content": "python3 scripts/check_content.py && python3 scripts/test_content_pipeline.py",
-    "build:release": "python3 scripts/check_content.py && python3 scripts/build_content.py && next build"
+    "build:release": "python3 scripts/check_content.py && python3 scripts/build_content.py && next build",
+    "typecheck": "next typegen && tsc --noEmit"
   },
   "dependencies": {
     "@auth/core": "^0.41.3",
