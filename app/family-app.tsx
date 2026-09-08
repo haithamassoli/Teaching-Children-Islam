@@ -5,6 +5,7 @@ import { useAction, useMutation, useQuery } from "convex/react";
 import { type FormEvent, useEffect, useState } from "react";
 import { api } from "../convex/_generated/api";
 import type { Id } from "../convex/_generated/dataModel";
+import Logo from "./components/logo";
 import LearningJourney from "./learning-journey";
 import ReviewPanel from "./review-panel";
 
@@ -47,6 +48,7 @@ function AccountGate() {
   return (
     <main className="family-shell">
       <section className="account-card">
+        <Logo />
         <p className="section-kicker">رِحلة الإسلام</p>
         <h1>{title}</h1>
         <p>حساب الوالد يحمي ملفات الأطفال وتقدّمهم.</p>
@@ -285,7 +287,11 @@ function FamilyHome() {
                 required
               />
             </label>
-            <button type="submit" className="primary-button" disabled={busy}>
+            <button
+              type="submit"
+              className="primary-button"
+              disabled={busy || parentStatus === undefined}
+            >
               {parentStatus?.hasPin ? "فتح المنطقة" : "تعيين PIN"}
             </button>
           </form>

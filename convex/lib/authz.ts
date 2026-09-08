@@ -42,6 +42,7 @@ export async function requireParentSession(
   userId: Id<"users">,
   tokenHash: string,
   authSubject: string,
+  now = Date.now(),
 ) {
   const [user, household] = await Promise.all([
     ctx.db.get(userId),
@@ -61,7 +62,7 @@ export async function requireParentSession(
     !session ||
     session.userId !== userId ||
     session.authSubject !== authSubject ||
-    session.expiresAt <= Date.now()
+    session.expiresAt <= now
   ) {
     throw new Error("PARENT_AUTH_REQUIRED");
   }

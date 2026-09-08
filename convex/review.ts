@@ -92,10 +92,14 @@ export const setRecordingConsent = action({
     }),
 });
 
+// Server time makes each dashboard authorization check respect session expiry despite query caching.
 export const dashboard = action({
   args: { parentToken: v.string() },
   handler: async (ctx, { parentToken }): Promise<DashboardChild[]> =>
-    ctx.runQuery(internal.review.dashboardInternal, await parentCredentials(ctx, parentToken)),
+    ctx.runQuery(internal.review.dashboardInternal, {
+      ...(await parentCredentials(ctx, parentToken)),
+      now: Date.now(),
+    }),
 });
 
 export const decide = action({
@@ -188,9 +192,9 @@ export const setRecordingConsentInternal = internalMutation({
 });
 
 export const dashboardInternal = internalQuery({
-  args: parentArgs,
+  args: { ...parentArgs, now: v.number() },
   handler: async (ctx, args) => {
-    await requireParentSession(ctx, args.userId, args.tokenHash, args.authSubject);
+    await requireParentSession(ctx, args.userId, args.tokenHash, args.authSubject, args.now);
     const children = await ctx.db
       .query("children")
       .withIndex("by_household", (q) => q.eq("householdId", args.userId))

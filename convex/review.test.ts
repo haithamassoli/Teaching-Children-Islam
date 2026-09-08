@@ -115,3 +115,17 @@ test("dashboard denominators use published items and exclude obsolete completion
   expect(afterTraining.summary.memorization.completed).toBe(1);
   expect(afterTraining.summary.firstAttempt).toEqual(dashboard.summary.firstAttempt);
 });
+
+test("dashboard rejects an expired parent session after an earlier successful read", async () => {
+  const { asParent } = setup;
+  const parentToken = await asParent.action(api.parent.setPin, { pin: "1234" });
+  await asParent.action(api.review.dashboard, { parentToken });
+  const clock = vi.spyOn(Date, "now").mockReturnValue(Date.now() + 16 * 60_000);
+  try {
+    await expect(asParent.action(api.review.dashboard, { parentToken })).rejects.toThrow(
+      "PARENT_AUTH_REQUIRED",
+    );
+  } finally {
+    clock.mockRestore();
+  }
+});
