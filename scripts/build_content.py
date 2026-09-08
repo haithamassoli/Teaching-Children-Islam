@@ -30,6 +30,17 @@ def validate_bundle(bundle, require_complete=False):
         errors.append('missing or duplicate question IDs')
     if require_complete and not lessons:
         errors.append('catalog has no lessons')
+    if require_complete:
+        for label, records, expected in (
+            ('lessons', lessons, 111),
+            ('activities', activities, 61),
+            ('memorization', memory, 130),
+            ('remembrances', remembrances, 26),
+        ):
+            if len(records) != expected:
+                errors.append(f'catalog requires {expected} {label}, found {len(records)}')
+        if any(not any(lesson.get('world_id') == world_id for lesson in lessons) for world_id in bundle['world_ids']):
+            errors.append('catalog is missing a world')
     visiting = set()
     visited = set()
 
@@ -121,8 +132,14 @@ def validate_bundle(bundle, require_complete=False):
         if activity.get('type') == 'parent_discussion' and activity.get('grading') != 'parent_review':
             errors.append(f'{label}: parent discussion lacks parent review')
     for item in memory:
-        if not isinstance(item.get('text'), str) or not item['text'].strip():
-            errors.append(f"{item.get('id', '<missing id>')}: missing reviewed memorization text")
+        if require_complete and (not isinstance(item.get('text'), str) or not item['text'].strip()):
+            errors.append(f"{item.get('id', '<missing id>')}: missing reviewed display text for memorization")
+        if not item.get('title'):
+            errors.append(f"{item.get('id', '<missing id>')}: missing memorization title")
+        if item.get('kind') == 'quran' and not item.get('quran_ref'):
+            errors.append(f"{item.get('id', '<missing id>')}: missing Quran reference")
+        if item.get('kind') == 'names' and not item.get('names'):
+            errors.append(f"{item.get('id', '<missing id>')}: missing names")
         if item.get('kind') in {'quran', 'hadith'} and not item.get('recitation_asset'):
             errors.append(f"{item.get('id', '<missing id>')}: missing recitation asset")
         if item.get('kind') in {'quran', 'hadith'}:
@@ -150,8 +167,6 @@ def load_bundle():
 def build(output):
     bundle = load_bundle()
     errors = validate_bundle(bundle, require_complete=True)
-    if len(bundle['lessons']) != 111:
-        errors.append(f"catalog requires 111 lessons, found {len(bundle['lessons'])}")
     if errors:
         raise SystemExit('Release blocked:\n' + '\n'.join(errors[:30]))
     output.write_text(json.dumps({key: bundle[key] for key in ('schema_version', 'worlds', 'lessons', 'activities', 'memorization', 'remembrances')}, ensure_ascii=False, indent=2) + '\n')

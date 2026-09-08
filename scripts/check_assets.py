@@ -17,7 +17,14 @@ for item in items:
     assert path.is_relative_to(root) and path.is_file(), path
     assert path.stat().st_size == item["bytes"] > 0, path
     assert hashlib.sha256(path.read_bytes()).hexdigest() == item["sha256"], path
-    assert item["reviewStatus"] == "pending" and item["publishable"] is False
+    assert item["reviewStatus"] in {"pending", "approved"}
+    if item["reviewStatus"] == "approved":
+        assert item["publishable"] is True
+        assert item.get("approvedBy") and item.get("approvedAt")
+        assert item.get("rightsStatus") == "documented"
+        assert item.get("rightsEvidence")
+    else:
+        assert item["publishable"] is False
     if path.suffix == ".svg":
         svg = ET.parse(path).getroot()
         assert svg.find("{http://www.w3.org/2000/svg}title") is not None, path

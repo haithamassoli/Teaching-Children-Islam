@@ -104,6 +104,10 @@ def build_effects():
 
 def build_catalogue():
     items = []
+    previous = {}
+    manifest_file = ROOT / "manifest.json"
+    if manifest_file.is_file():
+        previous = {item["path"]: item for item in json.loads(manifest_file.read_text()).get("assets", [])}
     labels = dict(CHARACTERS) | {w[0]: w[1] for w in WORLDS} | {k:v[0] for k,v in ICONS.items()}
     for path in sorted(ROOT.rglob("*")):
         if path.suffix not in {".png", ".webp", ".svg", ".wav", ".mp3", ".m4a"}:
@@ -118,7 +122,16 @@ def build_catalogue():
         label = labels.get(path.stem, path.stem)
         if path.suffix == ".svg":
             label = ET.parse(path).getroot().find("{http://www.w3.org/2000/svg}title").text
-        items.append({"id": rel.rsplit(".", 1)[0].replace("/", "."), "path": rel, "label": label, "category": str(path.relative_to(ROOT).parent), "source": source, "reviewStatus": "pending", "publishable": False, "bytes": path.stat().st_size, "sha256": hashlib.sha256(path.read_bytes()).hexdigest()})
+        sha256 = hashlib.sha256(path.read_bytes()).hexdigest()
+        item = {"id": rel.rsplit(".", 1)[0].replace("/", "."), "path": rel, "label": label, "category": str(path.relative_to(ROOT).parent), "source": source, "reviewStatus": "pending", "publishable": False, "bytes": path.stat().st_size, "sha256": sha256}
+        old = previous.get(rel)
+        if old and old.get("sha256") == sha256:
+            for key in ("reviewStatus", "publishable", "rightsStatus", "rightsEvidence", "approvedBy", "approvedAt"):
+                if key in old:
+                    item[key] = old[key]
+        elif old and old.get("reviewStatus") == "approved":
+            item["reviewResetReason"] = "file hash changed; review required again"
+        items.append(item)
     manifest = {"version": 1, "basePath": "assets/", "reviewNote": "كل الأصول تنتظر المراجعة؛ أصوات المرشد التجريبية تنتظر توثيق الحقوق أيضًا.", "worlds": [{"id": key, "name": name, "color": color, "icon": f"icons/{icon}.svg", "badge": f"badges/{key}-earned.svg", "unlockRule": "complete_all_published_world_lessons"} for key,name,color,icon in WORLDS], "characters": [{"id": key, "name":name, "selectable":key != "guide"} for key,name in CHARACTERS], "assets": items}
     (ROOT / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+"\n")
     groups = {}

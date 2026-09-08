@@ -13,6 +13,19 @@ def read(name):
     return json.loads((CONTENT / name).read_text())
 
 
+def check_publish_state(item):
+    """Allow review-stage drafts while requiring evidence for published records."""
+    assert isinstance(item.get('publishable'), bool)
+    if item['publishable']:
+        assert item.get('status') == 'approved', f"{item['id']}: approved content has invalid status"
+        assert item.get('approved_by') and item.get('approved_at'), f"{item['id']}: approval evidence missing"
+        review = item.get('review_status', {})
+        if isinstance(review, dict):
+            assert all(value == 'approved' for value in review.values()), f"{item['id']}: review gate incomplete"
+    else:
+        assert item.get('status') != 'approved', f"{item['id']}: approved content marked unpublished"
+
+
 def main():
     source = read('source/pages.json')
     assert hashlib.sha256((CONTENT / 'source/book.pdf').read_bytes()).hexdigest() == source['sha256']
@@ -26,7 +39,8 @@ def main():
     all_items = lessons + activities + memory + hadiths + original_qa + read('remembrances.json')
     ids = [x['id'] for x in all_items]
     assert len(ids) == len(set(ids)), 'Duplicate content identifiers'
-    assert all(x['publishable'] is False for x in all_items), 'Draft content marked publishable'
+    for item in all_items:
+        check_publish_state(item)
     valid_ids = set(ids)
     world_ids = {w['id'] for w in data['worlds']}
     assert world_ids == {'faith', 'manners', 'conduct', 'worship', 'quran', 'stories', 'memorization'}
@@ -105,8 +119,8 @@ def main():
         assert int(row['order']) == lesson['order']
         assert row['objective'] == lesson['objective']
         assert row['source_pages'] == ';'.join(map(str, lesson['source_pages']))
-        assert row['status'] == lesson['status'] == 'draft'
-        assert row['publishable'] == str(lesson['publishable']).lower() == 'false'
+        assert row['status'] == lesson['status']
+        assert row['publishable'] == str(lesson['publishable']).lower()
         for key, column in (
             ('text', 'text_review'),
             ('religious_content', 'religious_content_review'),
