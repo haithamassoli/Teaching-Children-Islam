@@ -4,6 +4,7 @@ import { arabicNumber } from "../lib/assets";
 import { lessons, worlds } from "../lib/catalog";
 import { siteUrl } from "../lib/site";
 import { JourneyFriends } from "./components/journey-controls";
+import FantasyInvite from "./fantasy/invite";
 import { Asset, JourneyFooter, JourneyHeader, WorldCard } from "./components/journey-ui";
 
 export const metadata: Metadata = { alternates: { canonical: siteUrl?.href } };
@@ -133,6 +134,7 @@ export default function Home() {
             </Link>
           </div>
         </section>
+        <FantasyInvite />
         <JourneyFriends />
         <section className="family-invite reveal">
           <div>

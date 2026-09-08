@@ -1,0 +1,154 @@
+{
+  "title": "جزر العجائب",
+  "characters": [
+    {
+      "id": "wameed",
+      "name": "وميض",
+      "description": "كائن نجمي صغير يحب الاكتشاف",
+      "path": "fantasy/characters/wameed.webp",
+      "color": "#fff0c9",
+      "greeting": "أنا وميض! كل سؤال صغير يفتح لنا طريقًا جديدًا."
+    },
+    {
+      "id": "ghayma",
+      "name": "غيمة",
+      "description": "كائن سحابي يجمع الحكايات",
+      "path": "fantasy/characters/ghayma.webp",
+      "color": "#efe6ff",
+      "greeting": "أنا غيمة! أحمل حكاية جميلة أينما ذهبت."
+    },
+    {
+      "id": "baroom",
+      "name": "برعوم",
+      "description": "كائن نباتي لطيف يزرع الخير",
+      "path": "fantasy/characters/baroom.webp",
+      "color": "#e2f4df",
+      "greeting": "أنا برعوم! هيا نزرع لطفًا صغيرًا اليوم."
+    },
+    {
+      "id": "qatra",
+      "name": "قطرة",
+      "description": "كائن بلوري فضولي يحب المحاولة",
+      "path": "fantasy/characters/qatra.webp",
+      "color": "#dcf4fa",
+      "greeting": "أنا قطرة! إن لم تنجح المحاولة، نجرب مرة أخرى."
+    }
+  ],
+  "worlds": [
+    {
+      "id": "faith",
+      "learningWorld": "faith",
+      "name": "جزيرة البدايات",
+      "description": "جزر خضراء تطفو فوق الغيم، وبذور مضيئة ترسم طريق البداية.",
+      "path": "fantasy/worlds/faith.svg",
+      "badge": "fantasy/badges/faith-earned.svg",
+      "color": "#79ceb4"
+    },
+    {
+      "id": "manners",
+      "learningWorld": "manners",
+      "name": "قرية الأبواب الوردية",
+      "description": "بيوت كالزهور وأبواب وردية، لكل باب تحيّة لطيفة.",
+      "path": "fantasy/worlds/manners.svg",
+      "badge": "fantasy/badges/manners-earned.svg",
+      "color": "#efaaa9"
+    },
+    {
+      "id": "ethics",
+      "learningWorld": "conduct",
+      "name": "حدائق اللطف",
+      "description": "جسور من الأغصان وحدائق تنمو فيها أزهار التعاون.",
+      "path": "fantasy/worlds/ethics.svg",
+      "badge": "fantasy/badges/ethics-earned.svg",
+      "color": "#9dcb82"
+    },
+    {
+      "id": "worship",
+      "learningWorld": "worship",
+      "name": "واحة اللؤلؤ",
+      "description": "أقواس لؤلؤية وبرك هادئة بين سحب زرقاء ناعمة.",
+      "path": "fantasy/worlds/worship.svg",
+      "badge": "fantasy/badges/worship-earned.svg",
+      "color": "#82cbde"
+    },
+    {
+      "id": "quran",
+      "learningWorld": "quran",
+      "name": "مكتبة السحاب",
+      "description": "رفوف معلّقة في صدفة عملاقة، وكتب تنتظر قارئًا فضوليًا.",
+      "path": "fantasy/worlds/quran.svg",
+      "badge": "fantasy/badges/quran-earned.svg",
+      "color": "#b7a1df"
+    },
+    {
+      "id": "stories",
+      "learningWorld": "stories",
+      "name": "أرخبيل الحكايات",
+      "description": "جزر خرجت من كتاب مفتوح، وأشجار تحمل حكايات.",
+      "path": "fantasy/worlds/stories.svg",
+      "badge": "fantasy/badges/stories-earned.svg",
+      "color": "#efbd85"
+    },
+    {
+      "id": "memorization",
+      "learningWorld": "memorization",
+      "name": "بلّورات الصدى",
+      "description": "بلّورات بنفسجية ومسارات متكررة، خطوة صغيرة في كل مرة.",
+      "path": "fantasy/worlds/memorization.svg",
+      "badge": "fantasy/badges/memorization-earned.svg",
+      "color": "#aca9ed"
+    }
+  ],
+  "activities": [
+    {
+      "id": "choice",
+      "name": "بوابة الاختيارات",
+      "description": "اختر الإجابة المناسبة لتكمل الطريق.",
+      "path": "fantasy/activities/choice.svg"
+    },
+    {
+      "id": "match",
+      "name": "جسر الأزواج",
+      "description": "صِل العناصر المتشابهة عبر الجزر.",
+      "path": "fantasy/activities/match.svg"
+    },
+    {
+      "id": "order",
+      "name": "درج السحاب",
+      "description": "رتّب الخطوات، واحدة بعد الأخرى.",
+      "path": "fantasy/activities/order.svg"
+    },
+    {
+      "id": "story",
+      "name": "مسرح الحكايات",
+      "description": "استمع إلى الحكاية وفكّر في معناها.",
+      "path": "fantasy/activities/story.svg"
+    }
+  ],
+  "objects": [
+    {
+      "id": "lantern",
+      "name": "فانوس الاكتشاف",
+      "description": "ضوء صغير لرحلة فضول كبيرة.",
+      "path": "fantasy/objects/lantern.svg"
+    },
+    {
+      "id": "compass",
+      "name": "بوصلة الغيم",
+      "description": "لكل مغامر وجهة جديدة.",
+      "path": "fantasy/objects/compass.svg"
+    },
+    {
+      "id": "key",
+      "name": "مفتاح البدايات",
+      "description": "باب جديد ينتظر المحاولة.",
+      "path": "fantasy/objects/key.svg"
+    },
+    {
+      "id": "chest",
+      "name": "صندوق العجائب",
+      "description": "مكان جميل لكنوز الرحلة.",
+      "path": "fantasy/objects/chest.svg"
+    }
+  ]
+}

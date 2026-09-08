@@ -105,9 +105,14 @@ def build_effects():
 def build_catalogue():
     items = []
     previous = {}
+    previous_manifest = {}
     manifest_file = ROOT / "manifest.json"
     if manifest_file.is_file():
-        previous = {item["path"]: item for item in json.loads(manifest_file.read_text()).get("assets", [])}
+        previous_manifest = json.loads(manifest_file.read_text())
+        previous = {item["path"]: item for item in previous_manifest.get("assets", [])}
+    fantasy_file = ROOT / "fantasy" / "catalog.json"
+    fantasy = json.loads(fantasy_file.read_text()) if fantasy_file.is_file() else {}
+    fantasy_labels = {item["path"]: item.get("name", item["id"]) for group in ("characters", "worlds", "activities", "objects") for item in fantasy.get(group, [])}
     labels = dict(CHARACTERS) | {w[0]: w[1] for w in WORLDS} | {k:v[0] for k,v in ICONS.items()}
     for path in sorted(ROOT.rglob("*")):
         if path.suffix not in {".png", ".webp", ".svg", ".wav", ".mp3", ".m4a"}:
@@ -119,7 +124,7 @@ def build_catalogue():
         source = "imagegen" if path.suffix in {".png", ".webp"} else "original-project"
         if rel.startswith("audio/guide/"):
             source = "piper-kareem"
-        label = labels.get(path.stem, path.stem)
+        label = fantasy_labels.get(rel, labels.get(path.stem, path.stem))
         if path.suffix == ".svg":
             label = ET.parse(path).getroot().find("{http://www.w3.org/2000/svg}title").text
         sha256 = hashlib.sha256(path.read_bytes()).hexdigest()
@@ -133,15 +138,21 @@ def build_catalogue():
             item["reviewResetReason"] = "file hash changed; review required again"
         items.append(item)
     manifest = {"version": 1, "basePath": "assets/", "reviewNote": "كل الأصول تنتظر المراجعة؛ أصوات المرشد التجريبية تنتظر توثيق الحقوق أيضًا.", "worlds": [{"id": key, "name": name, "color": color, "icon": f"icons/{icon}.svg", "badge": f"badges/{key}-earned.svg", "unlockRule": "complete_all_published_world_lessons"} for key,name,color,icon in WORLDS], "characters": [{"id": key, "name":name, "selectable":key != "guide"} for key,name in CHARACTERS], "assets": items}
+    if previous_manifest.get("reviewNote"):
+        manifest["reviewNote"] = previous_manifest["reviewNote"]
+    if fantasy:
+        manifest["fantasy"] = fantasy
     (ROOT / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+"\n")
     groups = {}
     for item in items:
         groups.setdefault(item["category"], []).append(item)
     titles = {"characters":"الشخصيات والمرشد", "worlds":"العوالم السبعة", "badges":"شارات إكمال العوالم", "rewards":"النجوم والمكافآت", "icons":"أيقونات الواجهة والأنشطة", "audio/guide":"صوت المرشد — تجريبي", "audio/effects":"مؤثرات بلا موسيقى"}
+    if fantasy:
+        titles = {**{f"fantasy/{key}": title for key, title in [("characters", "رفاق جزر العجائب"), ("worlds", "جزر العجائب السبعة"), ("badges", "شارات الجزر الخيالية"), ("rewards", "نجوم وكؤوس خيالية"), ("activities", "ألعاب المغامرة"), ("objects", "أدوات وكنوز الرحلة")]}, **titles}
     sections = []
     scripts = json.loads((ROOT / "audio" / "guide-scripts.json").read_text()) if (ROOT / "audio" / "guide-scripts.json").exists() else []
     speech = {s["id"]: s["text"] for s in scripts}
-    for group in ["characters", "worlds", "badges", "rewards", "icons", "audio/guide", "audio/effects"]:
+    for group in titles:
         cards = []
         for item in groups.get(group, []):
             p, label = html.escape(item["path"], quote=True), html.escape(item["label"])
@@ -150,7 +161,7 @@ def build_catalogue():
             else:
                 media = f'<img src="{p}" alt="{label}" loading="lazy">'
             cards.append(f'<article>{media}<h3>{label}</h3><a href="{p}" download>تنزيل الملف</a><small dir="ltr">{p}</small></article>')
-        sections.append(f'<section id="{group.replace("/", "-")}"><h2>{titles[group]} <span>{len(cards)}</span></h2><div class="grid {group.split("/")[0]}">{"".join(cards)}</div></section>')
+        sections.append(f'<section id="{group.replace("/", "-")}"><h2>{titles[group]} <span>{len(cards)}</span></h2><div class="grid {group.split("/")[-1] if group.startswith("fantasy/") else group.split("/")[0]}">{"".join(cards)}</div></section>')
     page = '''<!doctype html><html lang="ar" dir="rtl"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>مكتبة أصول رحلة التعلّم</title><style>
     *{box-sizing:border-box}body{margin:0;background:#fbf7ef;color:#203e3b;font:17px/1.8 system-ui,sans-serif}main{max-width:1320px;margin:auto;padding:28px}header{padding:44px 0;border-bottom:1px solid #d9ddcf}h1{font-size:clamp(30px,5vw,54px);margin:0}header p{max-width:820px}nav{display:flex;gap:10px;flex-wrap:wrap}a{color:#215f5b;display:inline-flex;align-items:center;min-height:44px;padding:6px 12px;border:1px solid #b8cbc0;border-radius:12px;text-decoration:none}a:hover{background:#e3eee5}a:focus-visible,audio:focus-visible{outline:3px solid #975129;outline-offset:3px}section{margin:48px 0}h2 span{font-size:16px;color:#637c6c}h3{font-size:17px;margin:8px 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}article{background:#fffdf8;border:1px solid #e4e4d6;border-radius:22px;padding:16px;overflow:hidden}img{width:100%;height:215px;object-fit:contain}.worlds{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}.worlds img{height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:14px}.icons img,.badges img,.rewards img{height:110px}.icons{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}small{display:block;overflow-wrap:anywhere;font-size:12px;color:#61736d;margin-top:10px}audio{width:100%}.note{background:#f1e8d6;border-radius:16px;padding:16px}@media(max-width:420px){main{padding:16px}.worlds{grid-template-columns:1fr}}
     </style><main><header><small>تعليم الأطفال الإسلام · مكتبة الإنتاج</small><h1>كل رحلة تبدأ بخيال جميل</h1><p>شخصيات أصلية وعوالم هادئة ومكافآت تشجع التعلّم. ملفات محلية قابلة للتنزيل والاستخدام عند بناء التطبيق.</p><p class="note">حزمة للمراجعة، وليست محتوى منشورًا أو منهجًا مكتملًا. صوت المرشد آلي تجريبي؛ لا توجد تلاوات مصطنعة أو موسيقى. راجع README لمعرفة المواد المتبقية والحقوق.</p><nav>'''
@@ -163,4 +174,7 @@ def build_catalogue():
 if __name__ == "__main__":
     build_vectors()
     build_effects()
+    if (ROOT / "fantasy" / "catalog.json").is_file():
+        from build_fantasy_assets import build as build_fantasy
+        build_fantasy()
     build_catalogue()
