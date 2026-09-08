@@ -18,6 +18,10 @@ body {
   color: var(--ink);
   font-family: var(--font-cairo), Arial, sans-serif;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-thmanyah), var(--font-cairo), Arial, sans-serif;
+  font-feature-settings: "salt" 1;
+}
 button {
   font: inherit;
   cursor: pointer;
