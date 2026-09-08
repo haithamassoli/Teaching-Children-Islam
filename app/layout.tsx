@@ -50,7 +50,7 @@ export const viewport: Viewport = { themeColor: "#21695d" };
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="ar" dir="rtl" className={`${cairo.variable} ${thmanyah.variable} h-full antialiased`}>
-      <body className="flex min-h-full flex-col font-[family-name:var(--font-cairo)]">
+      <body className="flex min-h-full flex-col font-[family-name:var(--font-thmanyah)]">
         <Pwa />
         {children}
         <Narration />
