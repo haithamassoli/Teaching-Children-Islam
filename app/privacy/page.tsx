@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+import { siteUrl } from "../../lib/site";
+export const metadata: Metadata = {
+  title: "خصوصية الأسرة",
+  alternates: { canonical: siteUrl ? new URL("/privacy", siteUrl).href : undefined },
+};
+
 import Link from "next/link";
 
 export default function Privacy() {

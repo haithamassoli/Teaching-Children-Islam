@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+import { siteUrl } from "../../lib/site";
+export const metadata: Metadata = {
+  title: "الكتاب والأصول",
+  alternates: { canonical: siteUrl ? new URL("/credits", siteUrl).href : undefined },
+};
+
 import Link from "next/link";
 
 export default function Credits() {

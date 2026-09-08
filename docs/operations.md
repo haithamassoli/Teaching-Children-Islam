@@ -88,3 +88,13 @@ npx convex deploy
 ## تحديث المحتوى
 
 حرّر ملفات `content/*.json` وأبقِ المسودات غير قابلة للنشر. وثّق مراجعة المختص والمقابلة البصرية في حقول الاعتماد، ثم اربط النصوص والأصوات والصور التي توثقت حقوقها. اتبع `content/catalog-format.md` و`content/implementation-review.md`. شغّل `npm run build:release` قبل أي إطلاق كامل؛ أمر البناء العادي مخصص أيضًا لبيئات التطوير ذات المحتوى غير المكتمل ولا يمنحها صفة الإصدار الكامل.
+
+## PWA and search metadata
+
+The canonical production origin is `https://littlemuslim.assoli.site/`. Set `SITE_URL` to override it when moving domains. Public routes appear in `/sitemap.xml`; family and QA pages carry `noindex` metadata.
+
+The production-only service worker requires HTTPS (localhost also works). It caches only `/offline.html` and the logo, never accounts, lessons, API responses or recordings. Learning and progress saving require a connection. Updated workers activate after existing app windows close, avoiding interruptions to recordings. Bump `CACHE` in `public/sw.js` whenever the fallback or logo changes.
+
+Install using the browser's app installation menu, or Safari's Share → Add to Home Screen. To verify offline behavior, visit once online, wait for service-worker activation, switch the browser offline and reload. Expect the Arabic fallback with a retry link.
+
+Brand assets share `public/icon.svg`. Run `node scripts/build_branding.mjs` to regenerate PNG icons, the maskable icon, favicon, Open Graph and Twitter cards using the installed Sharp dependency. Review Arabic text rendering after regeneration.
