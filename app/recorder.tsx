@@ -14,6 +14,7 @@ export default function Recorder({
   upload: (recording: Blob, durationMs: number) => Promise<void>;
 }) {
   const recorder = useRef<MediaRecorder | null>(null);
+  const playback = useRef<HTMLAudioElement>(null);
   const mounted = useRef(true);
   const consentRef = useRef(consent);
   const timer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
@@ -48,6 +49,14 @@ export default function Recorder({
     setUrl(next);
     return () => URL.revokeObjectURL(next);
   }, [clip]);
+
+  useEffect(() => {
+    if (!url) {
+      return;
+    }
+    const player = playback.current;
+    return () => player?.pause();
+  }, [url]);
 
   useEffect(() => {
     if (!consent && recorder.current?.state === "recording") {
@@ -232,6 +241,7 @@ export default function Recorder({
           {/* The learner's unscripted audio has no generated transcript. */}
           {/* biome-ignore lint/a11y/useMediaCaption: Private learner recording, not prerecorded instructional media. */}
           <audio
+            ref={playback}
             src={url}
             controls
             preload="none"

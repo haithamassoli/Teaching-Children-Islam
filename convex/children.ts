@@ -23,10 +23,12 @@ export const list = query({
   args: {},
   handler: async (ctx) => {
     const householdId = await requireHousehold(ctx);
-    return (await ctx.db
-      .query("children")
-      .withIndex("by_household", (q) => q.eq("householdId", householdId))
-      .collect()).filter((child) => !child.deleting);
+    return (
+      await ctx.db
+        .query("children")
+        .withIndex("by_household", (q) => q.eq("householdId", householdId))
+        .collect()
+    ).filter((child) => !child.deleting);
   },
 });
 

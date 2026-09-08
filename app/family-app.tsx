@@ -199,6 +199,7 @@ function FamilyHome() {
     }
   };
   const lockParent = async () => {
+    setParentToken(null);
     try {
       await lock();
       setParentToken(null);
@@ -288,39 +289,35 @@ function FamilyHome() {
               {parentStatus?.hasPin ? "فتح المنطقة" : "تعيين PIN"}
             </button>
           </form>
+          <details>
+            <summary>استعادة أو تغيير PIN</summary>
+            <form onSubmit={changePin}>
+              <label>
+                كلمة المرور الحالية
+                <input name="password" type="password" autoComplete="current-password" required />
+              </label>
+              <label>
+                PIN جديد من ٤ أرقام
+                <input
+                  name="pin"
+                  inputMode="numeric"
+                  pattern="[0-9]{4}"
+                  minLength={4}
+                  maxLength={4}
+                  required
+                />
+              </label>
+              <button type="submit" className="outline-button" disabled={busy}>
+                حفظ PIN الجديد
+              </button>
+            </form>
+          </details>
           {parentToken && (
             <>
               <button type="button" className="text-button" onClick={lockParent}>
                 قفل منطقة الوالد
               </button>
-              <details>
-                <summary>تغيير PIN</summary>
-                <form onSubmit={changePin}>
-                  <label>
-                    كلمة المرور الحالية
-                    <input
-                      name="password"
-                      type="password"
-                      autoComplete="current-password"
-                      required
-                    />
-                  </label>
-                  <label>
-                    PIN جديد من ٤ أرقام
-                    <input
-                      name="pin"
-                      inputMode="numeric"
-                      pattern="[0-9]{4}"
-                      minLength={4}
-                      maxLength={4}
-                      required
-                    />
-                  </label>
-                  <button type="submit" className="outline-button" disabled={busy}>
-                    حفظ PIN الجديد
-                  </button>
-                </form>
-              </details>
+
               <button
                 type="button"
                 className="danger-button"

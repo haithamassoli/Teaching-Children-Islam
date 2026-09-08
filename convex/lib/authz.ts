@@ -43,6 +43,16 @@ export async function requireParentSession(
   tokenHash: string,
   authSubject: string,
 ) {
+  const [user, household] = await Promise.all([
+    ctx.db.get(userId),
+    ctx.db
+      .query("households")
+      .withIndex("by_user", (q) => q.eq("userId", userId))
+      .unique(),
+  ]);
+  if (!user || household?.deleting) {
+    throw new Error("PARENT_AUTH_REQUIRED");
+  }
   const session = await ctx.db
     .query("parentSessions")
     .withIndex("by_token", (q) => q.eq("tokenHash", tokenHash))

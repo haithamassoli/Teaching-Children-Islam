@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Recorder from "./recorder";
 
 export type MemoryItem = {
@@ -27,20 +27,31 @@ export default function Memorization({
   items,
   consent,
   train,
+  requestReview,
   upload,
 }: {
   items: MemoryItem[];
   consent: boolean;
   train: (itemId: string) => Promise<unknown>;
+  requestReview: (itemId: string) => Promise<unknown>;
   upload: (itemId: string, blob: Blob, durationMs: number) => Promise<void>;
 }) {
+  const audioRef = useRef<HTMLAudioElement>(null);
   const [selected, setSelected] = useState("");
   const [repeat, setRepeat] = useState(false);
   const [busy, setBusy] = useState(false);
   const [notice, setNotice] = useState("");
   const item = items.find((entry) => entry.id === selected) ?? items[0];
 
-  async function practice() {
+  useEffect(() => {
+    if (!item?.id || !item.audioAsset) {
+      return;
+    }
+    const player = audioRef.current;
+    return () => player?.pause();
+  }, [item?.id, item?.audioAsset]);
+
+  async function practice(request = false) {
     if (!item || busy) {
       return;
     }
@@ -50,8 +61,12 @@ export default function Memorization({
     }
     setBusy(true);
     try {
-      await train(item.id);
-      setNotice("حفظنا أنك تتدرّب. يمكنك التسميع للوالد عندما تستعد.");
+      await (request ? requestReview(item.id) : train(item.id));
+      setNotice(
+        request
+          ? "وصل طلب التسميع المباشر إلى الوالد."
+          : "حفظنا أنك تتدرّب. يمكنك التسميع للوالد عندما تستعد.",
+      );
     } catch {
       setNotice("لم نتمكن من تأكيد حفظ التدريب. أعد المحاولة.");
     } finally {
@@ -87,6 +102,7 @@ export default function Memorization({
             <>
               {/* biome-ignore lint/a11y/useMediaCaption: The approved recitation text is rendered directly above the player. */}
               <audio
+                ref={audioRef}
                 key={item.id}
                 src={item.audioAsset}
                 controls
@@ -114,8 +130,21 @@ export default function Memorization({
           ) : (
             <p>التلاوة غير متاحة لهذا العنصر بعد؛ يمكنك التسميع المباشر للوالد.</p>
           )}
-          <button type="button" className="outline-button" disabled={busy} onClick={practice}>
+          <button
+            type="button"
+            className="outline-button"
+            disabled={busy}
+            onClick={() => practice()}
+          >
             أتدرّب على الحفظ
+          </button>
+          <button
+            type="button"
+            className="outline-button"
+            disabled={busy}
+            onClick={() => practice(true)}
+          >
+            أطلب التسميع المباشر للوالد
           </button>
           <Recorder
             key={item.id}

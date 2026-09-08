@@ -259,3 +259,26 @@ describe("household authorization", () => {
     vi.useRealTimers();
   });
 });
+
+test("account deletion blocks parent writes before scheduled cleanup finishes", async () => {
+  const { t, ids, one } = await household();
+  await t.run(async (ctx) => {
+    await ctx.db.insert("households", { userId: ids.one, pinFailures: 0, deleting: true });
+    await ctx.db.insert("parentSessions", {
+      userId: ids.one,
+      tokenHash: "token",
+      authSubject: `${ids.one}|session-one`,
+      expiresAt: Date.now() + 60_000,
+    });
+  });
+  await expect(
+    one.mutation(internal.children.createInternal, {
+      name: "Blocked",
+      age: 7,
+      gender: "male",
+      userId: ids.one,
+      tokenHash: "token",
+      authSubject: `${ids.one}|session-one`,
+    }),
+  ).rejects.toThrow("PARENT_AUTH_REQUIRED");
+});

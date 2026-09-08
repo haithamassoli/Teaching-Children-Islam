@@ -1,13 +1,12 @@
 "use client";
 
-import { useAuthToken } from "@convex-dev/auth/react";
 import { useMutation, useQuery } from "convex/react";
 import Image from "next/image";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { api } from "../convex/_generated/api";
 import type { Id } from "../convex/_generated/dataModel";
 import Activity, { type ActivityAnswer, type ActivityQuestion } from "./activity";
-import Memorization from "./memorization";
+import ChildReview from "./child-review";
 
 export default function LearningJourney({
   childId,
@@ -23,19 +22,24 @@ export default function LearningJourney({
   const lesson = useQuery(api.learning.lesson, lessonId ? { childId, lessonId } : "skip");
   const completeSegment = useMutation(api.learning.completeSegment);
   const submitActivity = useMutation(api.learning.submitActivity);
-  const items = useQuery(api.review.items, { childId });
-  const train = useMutation(api.review.markTraining);
-  const requestReview = useMutation(api.review.requestLiveReview);
-  const token = useAuthToken();
   const [message, setMessage] = useState("");
   const [savingSegment, setSavingSegment] = useState<string | null>(null);
   const audio = useRef<HTMLAudioElement>(null);
+  useEffect(() => {
+    if (!lessonId) {
+      return;
+    }
+    const player = audio.current;
+    return () => player?.pause();
+  }, [lessonId]);
   const play = (path: string | null) => {
     if (!path || !audio.current) {
       return;
     }
-    audio.current.pause();
-    audio.current.src = `/api/assets/${path}`;
+    document.querySelectorAll("audio").forEach((player) => {
+      player.pause();
+    });
+    audio.current.src = `/api/assets/${path.replace(/^assets\//, "")}`;
     void audio.current.play().catch(() => setMessage("تعذر تشغيل الصوت. حاول مرة أخرى."));
   };
 
@@ -85,6 +89,7 @@ export default function LearningJourney({
             </article>
           ))}
         </section>
+        <ChildReview childId={childId} />
       </main>
     );
   }
@@ -116,7 +121,7 @@ export default function LearningJourney({
             {segment.image_asset && (
               <Image
                 unoptimized
-                src={`/api/assets/${segment.image_asset}`}
+                src={`/api/assets/${segment.image_asset.replace(/^assets\//, "")}`}
                 alt=""
                 width={640}
                 height={360}
@@ -191,58 +196,7 @@ export default function LearningJourney({
           </button>
         </section>
       )}
-      {items && (
-        <Memorization
-          items={items.memorization.map((item) => ({
-            ...item,
-            audioAsset: item.audioAsset ? `/api/assets/${item.audioAsset}` : undefined,
-          }))}
-          consent={items.consent}
-          train={(itemId) => train({ childId, itemId, kind: "memorization" })}
-          upload={async (itemId, blob) => {
-            if (!token) {
-              throw new Error("UNAUTHENTICATED");
-            }
-            const site = recordingSite();
-            const response = await fetch(
-              `${site}/recordings?childId=${childId}&itemId=${encodeURIComponent(itemId)}`,
-              {
-                method: "POST",
-                headers: { Authorization: `Bearer ${token}`, "Content-Type": "audio/wav" },
-                body: blob,
-              },
-            );
-            if (!response.ok) {
-              throw new Error("UPLOAD_FAILED");
-            }
-          }}
-        />
-      )}
-      {items && (
-        <section className="account-card">
-          <h2>التطبيق مع الوالد</h2>
-          {items.practice.map((item) => (
-            <article key={item.id}>
-              <p>{item.instruction}</p>
-              <p>{item.status}</p>
-              <button
-                type="button"
-                className="outline-button"
-                onClick={() => train({ childId, itemId: item.id, kind: "practice" })}
-              >
-                تدرّبت
-              </button>
-              <button
-                type="button"
-                className="primary-button"
-                onClick={() => requestReview({ childId, itemId: item.id, kind: "practice" })}
-              >
-                أطلب تأكيد الوالد
-              </button>
-            </article>
-          ))}
-        </section>
-      )}
+      <ChildReview childId={childId} />
     </main>
   );
 }
@@ -255,16 +209,4 @@ function stageLabel(stage: { completed: boolean; unlocked: boolean }) {
     return "ابدأ";
   }
   return "🔒";
-}
-
-function recordingSite() {
-  const configured = process.env.NEXT_PUBLIC_CONVEX_SITE_URL;
-  if (configured) {
-    return configured;
-  }
-  const cloud = process.env.NEXT_PUBLIC_CONVEX_URL;
-  if (!cloud) {
-    throw new Error("CONVEX_SITE_URL_MISSING");
-  }
-  return cloud.replace(".convex.cloud", ".convex.site");
 }

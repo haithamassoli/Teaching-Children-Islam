@@ -1,9 +1,10 @@
 "use client";
 import { useAuthToken } from "@convex-dev/auth/react";
 import { useAction } from "convex/react";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { api } from "../convex/_generated/api";
 import type { Id } from "../convex/_generated/dataModel";
+import { recordingSite } from "./child-review";
 import ParentProgress from "./parent-progress";
 
 export default function ReviewPanel({ parentToken }: { parentToken: string }) {
@@ -15,6 +16,7 @@ export default function ReviewPanel({ parentToken }: { parentToken: string }) {
   const [data, setData] = useState<Awaited<ReturnType<typeof dashboard>> | null>(null);
   const [notice, setNotice] = useState("");
   const [audioUrl, setAudioUrl] = useState("");
+  const playerRef = useRef<HTMLAudioElement>(null);
   const refresh = useCallback(async () => {
     setNotice("");
     setData(await dashboard({ parentToken }));
@@ -22,14 +24,15 @@ export default function ReviewPanel({ parentToken }: { parentToken: string }) {
   useEffect(() => {
     void refresh().catch(() => setNotice("تعذر تحميل متابعة الوالد."));
   }, [refresh]);
-  useEffect(
-    () => () => {
+  useEffect(() => {
+    const player = playerRef.current;
+    return () => {
+      player?.pause();
       if (audioUrl) {
         URL.revokeObjectURL(audioUrl);
       }
-    },
-    [audioUrl],
-  );
+    };
+  }, [audioUrl]);
   const act = async (task: () => Promise<unknown>) => {
     try {
       await task();
@@ -37,6 +40,7 @@ export default function ReviewPanel({ parentToken }: { parentToken: string }) {
       setNotice("تم تأكيد العملية.");
     } catch {
       setNotice("تعذر تأكيد العملية. تحقق من الاتصال وجلسة الوالد.");
+      throw new Error("REVIEW_ACTION_FAILED");
     }
   };
   return (
@@ -52,8 +56,17 @@ export default function ReviewPanel({ parentToken }: { parentToken: string }) {
       {audioUrl && (
         /* biome-ignore lint/a11y/useMediaCaption: the parent review title and feedback provide the transcription context. */
         <audio
+          ref={playerRef}
           src={audioUrl}
           controls
+          onPlay={(event) => {
+            const current = event.currentTarget;
+            document.querySelectorAll("audio").forEach((audio) => {
+              if (audio !== current) {
+                audio.pause();
+              }
+            });
+          }}
           autoPlay
           onEnded={() => {
             URL.revokeObjectURL(audioUrl);
@@ -74,7 +87,7 @@ export default function ReviewPanel({ parentToken }: { parentToken: string }) {
                   allowed: !entry.child.recordingConsentAt,
                   parentToken,
                 }),
-              )
+              ).catch(() => {})
             }
           >
             {entry.child.recordingConsentAt ? "إيقاف إذن التسجيل" : "السماح بالتسجيل"}
@@ -116,16 +129,4 @@ export default function ReviewPanel({ parentToken }: { parentToken: string }) {
       ))}
     </section>
   );
-}
-
-function recordingSite() {
-  const configured = process.env.NEXT_PUBLIC_CONVEX_SITE_URL;
-  if (configured) {
-    return configured;
-  }
-  const cloud = process.env.NEXT_PUBLIC_CONVEX_URL;
-  if (!cloud) {
-    throw new Error("CONVEX_SITE_URL_MISSING");
-  }
-  return cloud.replace(".convex.cloud", ".convex.site");
 }

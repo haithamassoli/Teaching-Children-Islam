@@ -196,63 +196,82 @@ export const dashboardInternal = internalQuery({
       .withIndex("by_household", (q) => q.eq("householdId", args.userId))
       .collect();
     return Promise.all(
-      children.map(async (child) => {
-        const [progress, attempts, reviews] = await Promise.all([
-          ctx.db
-            .query("progress")
-            .withIndex("by_child", (q) => q.eq("childId", child._id))
-            .collect(),
-          ctx.db
-            .query("activityAttempts")
-            .withIndex("by_child", (q) => q.eq("childId", child._id))
-            .collect(),
-          ctx.db
-            .query("reviews")
-            .withIndex("by_child", (q) => q.eq("childId", child._id))
-            .collect(),
-        ]);
-        return {
-          child,
-          summary: {
-            lessons: {
-              completed: progress.filter((item) => item.lessonCompleted && item.activityPassed)
-                .length,
-              total: lessons.length,
+      children
+        .filter((child) => !child.deleting)
+        .map(async (child) => {
+          const [progress, attempts, reviews] = await Promise.all([
+            ctx.db
+              .query("progress")
+              .withIndex("by_child", (q) => q.eq("childId", child._id))
+              .collect(),
+            ctx.db
+              .query("activityAttempts")
+              .withIndex("by_child", (q) => q.eq("childId", child._id))
+              .collect(),
+            ctx.db
+              .query("reviews")
+              .withIndex("by_child", (q) => q.eq("childId", child._id))
+              .collect(),
+          ]);
+          return {
+            child,
+            summary: {
+              lessons: {
+                completed: progress.filter(
+                  (item) =>
+                    item.lessonCompleted &&
+                    item.activityPassed &&
+                    lessons.some((lesson) => lesson.id === item.lessonId),
+                ).length,
+                total: lessons.length,
+              },
+              memorization: {
+                completed: reviews.filter(
+                  (item) =>
+                    item.kind === "memorization" &&
+                    item.status === "approved" &&
+                    memoryItems.some((memory) => memory.id === item.itemId),
+                ).length,
+                total: memoryItems.length,
+              },
+              practice: {
+                completed: reviews.filter(
+                  (item) =>
+                    item.kind === "practice" &&
+                    item.status === "approved" &&
+                    practiceItems.some((practice) => practice.id === item.itemId),
+                ).length,
+                total: practiceItems.length,
+              },
+              firstAttempt: {
+                correct: attempts.filter((item) => item.firstCorrect).length,
+                total: attempts.filter((item) => item.firstCorrect !== undefined).length,
+              },
+              lastActivity:
+                Math.max(
+                  0,
+                  child.updatedAt,
+                  ...progress.map((item) => item.updatedAt),
+                  ...attempts.map((item) => item.updatedAt),
+                  ...reviews.map((item) => item.reviewedAt ?? item._creationTime),
+                ) || undefined,
             },
-            memorization: {
-              completed: reviews.filter(
-                (item) => item.kind === "memorization" && item.status === "approved",
-              ).length,
-              total: memoryItems.length,
-            },
-            practice: {
-              completed: reviews.filter(
-                (item) => item.kind === "practice" && item.status === "approved",
-              ).length,
-              total: practiceItems.length,
-            },
-            firstAttempt: {
-              correct: attempts.filter((item) => item.firstCorrect).length,
-              total: attempts.filter((item) => item.firstCorrect !== undefined).length,
-            },
-            lastActivity: Math.max(0, ...progress.map((item) => item.updatedAt)) || undefined,
-          },
-          reviews: reviews
-            .filter((item) => item.status === "pending")
-            .map((item) => ({
-              id: item._id,
-              childId: child._id,
-              childName: child.name,
-              itemId: item.itemId,
-              kind: item.kind,
-              title:
-                memoryItems.find((memory) => memory.id === item.itemId)?.title ??
-                practiceItems.find((practice) => practice.id === item.itemId)?.instruction ??
-                item.itemId,
-              recordingId: item.recordingId,
-            })),
-        };
-      }),
+            reviews: reviews
+              .filter((item) => item.status === "pending")
+              .map((item) => ({
+                id: item._id,
+                childId: child._id,
+                childName: child.name,
+                itemId: item.itemId,
+                kind: item.kind,
+                title:
+                  memoryItems.find((memory) => memory.id === item.itemId)?.title ??
+                  practiceItems.find((practice) => practice.id === item.itemId)?.instruction ??
+                  item.itemId,
+                recordingId: item.recordingId,
+              })),
+          };
+        }),
     );
   },
 });
@@ -313,6 +332,7 @@ export const recordingForDownload = internalQuery({
     if (!recording || recording.householdId !== userId) {
       throw new Error("NOT_FOUND");
     }
+    await requireOwnedChild(ctx, recording.childId);
     return { storageId: recording.storageId, contentType: recording.contentType };
   },
 });

@@ -182,7 +182,7 @@ export const deleteAccountInternal = internalMutation({
       .query("households")
       .withIndex("by_user", (q) => q.eq("userId", args.userId))
       .unique();
-    if (!household) {
+    if (!household || household.deleting) {
       throw new Error("NOT_FOUND");
     }
     await ctx.db.patch(household._id, { deleting: true });
@@ -334,7 +334,12 @@ export const reservePinAttempt = internalMutation({
       .query("households")
       .withIndex("by_user", (q) => q.eq("userId", userId))
       .unique();
-    if (!household?.pinHash || !household.pinSalt || !household.pinIterations) {
+    if (
+      !household?.pinHash ||
+      household.deleting ||
+      !household.pinSalt ||
+      !household.pinIterations
+    ) {
       throw new Error("PIN_NOT_SET");
     }
     const now = Date.now();
@@ -366,7 +371,7 @@ export const finishUnlock = internalMutation({
       .query("households")
       .withIndex("by_user", (q) => q.eq("userId", userId))
       .unique();
-    if (!household) {
+    if (!household || household.deleting) {
       throw new Error("PIN_NOT_SET");
     }
     if (household.pinHash !== expectedPinHash) {
@@ -396,7 +401,7 @@ export const replacePin = internalMutation({
       .query("households")
       .withIndex("by_user", (q) => q.eq("userId", args.userId))
       .unique();
-    if (!household) {
+    if (!household || household.deleting) {
       throw new Error("PIN_NOT_SET");
     }
     await ctx.db.patch(household._id, {
