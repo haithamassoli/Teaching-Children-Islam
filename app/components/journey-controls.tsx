@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import { characters as friends } from "../../assets/fantasy/catalog.json";
 import { assetUrl } from "../../lib/assets";
 
 export function JourneyControls() {
@@ -83,22 +84,13 @@ export function JourneyControls() {
 }
 
 export function JourneyFriends() {
-  const friends = [
-    { id: "sami", name: "سامي" },
-    { id: "maryam", name: "مريم" },
-    { id: "omar", name: "عمر" },
-    { id: "nour", name: "نور" },
-  ];
-  const [selected, setSelected] = useState("sami");
+  const [selected, setSelected] = useState(friends[0].id);
   return (
     <section className="friends-section reveal">
       <div>
         <p className="section-kicker">أصدقاء الرحلة</p>
         <h2>كل مغامرة أحلى مع صديق!</h2>
-        <p aria-live="polite">
-          {friends.find((friend) => friend.id === selected)?.name} يقول: «خذ وقتك، وتعلّم شيئًا جديدًا
-          اليوم!»
-        </p>
+        <p aria-live="polite">{friends.find((friend) => friend.id === selected)?.greeting}</p>
         <Link href="/explore" className="text-button">
           هيا إلى العوالم ←
         </Link>
@@ -113,13 +105,7 @@ export function JourneyFriends() {
             onClick={() => setSelected(friend.id)}
             data-sound
           >
-            <Image
-              unoptimized
-              src={assetUrl(`characters/${friend.id}.webp`)}
-              alt=""
-              width={160}
-              height={160}
-            />
+            <Image unoptimized src={assetUrl(friend.path)} alt="" width={160} height={160} />
             <span>{friend.name}</span>
           </button>
         ))}

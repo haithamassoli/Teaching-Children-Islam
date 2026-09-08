@@ -70,13 +70,13 @@ export default async function Explore({
         {world && (
           <section className="world-banner">
             <Asset
-              path={`worlds/${worldArt(world.id)}.webp`}
+              path={`fantasy/worlds/${worldArt(world.id)}.svg`}
               width={1200}
               height={400}
               className="banner-image"
               preload
             />
-            <Asset path={`badges/${worldArt(world.id)}-earned.svg`} width={82} />
+            <Asset path={`fantasy/badges/${worldArt(world.id)}-earned.svg`} width={82} />
             <div>
               <h2>عالم {world.title}</h2>
               <p>

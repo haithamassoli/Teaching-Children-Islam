@@ -50,7 +50,7 @@ export default async function LessonPage({ params }: { params: Promise<{ lessonI
         </Link>
         <section className="world-banner">
           <Asset
-            path={`worlds/${worldArt(lesson.world_id)}.webp`}
+            path={`fantasy/worlds/${worldArt(lesson.world_id)}.svg`}
             width={1200}
             height={400}
             className="banner-image"
@@ -66,7 +66,7 @@ export default async function LessonPage({ params }: { params: Promise<{ lessonI
         </section>
         <div className="reading-layout">
           <aside className="reading-aside">
-            <Asset path="characters/guide.webp" width={150} />
+            <Asset path="fantasy/characters/wameed.webp" width={150} />
             <h2>خذ وقتك يا بطل</h2>
             <p>اقرأ جزءًا صغيرًا، وفكّر في معناه. يمكنك أن تطلب من الوالد القراءة معك.</p>
             <nav aria-label="أجزاء الدرس">

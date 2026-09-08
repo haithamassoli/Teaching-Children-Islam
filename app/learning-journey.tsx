@@ -72,7 +72,7 @@ export default function LearningJourney({
             {map.badges.map((badge) => (
               <Asset
                 key={badge}
-                path={`badges/${worldArt(badge.replace("world:", ""))}-earned.svg`}
+                path={`fantasy/badges/${worldArt(badge.replace("world:", ""))}-earned.svg`}
                 width={72}
                 alt={`شارة عالم ${map.worlds.find((world) => `world:${world.id}` === badge)?.title ?? "التعلّم"}`}
               />
@@ -83,7 +83,7 @@ export default function LearningJourney({
           {map.worlds.map((world) => (
             <article key={world.id} className="learning-world-card">
               <Asset
-                path={`worlds/${worldArt(world.id)}.webp`}
+                path={`fantasy/worlds/${worldArt(world.id)}.svg`}
                 width={480}
                 height={240}
                 className="live-world-image"
@@ -132,7 +132,7 @@ export default function LearningJourney({
       </button>
       <section className="account-card">
         <Asset
-          path={`worlds/${worldArt(lesson.worldId)}.webp`}
+          path={`fantasy/worlds/${worldArt(lesson.worldId)}.svg`}
           width={920}
           height={240}
           className="live-lesson-image"
@@ -224,7 +224,11 @@ export default function LearningJourney({
             (question) => !["short_answer", "parent_discussion"].includes(question.type),
           )) && (
           <section className="reward-screen">
-            <Asset path={`rewards/stars-${lesson.state.activityPassed ? 3 : 1}.svg`} width={230} />
+            <Asset
+              path={`fantasy/rewards/stars-${lesson.state.activityPassed ? 3 : 1}.svg`}
+              width={225}
+              height={76}
+            />
             <h2>أحسنت!</h2>
             <p>أكملت الدرس! ناقش إجاباتك مع الوالد، ثم واصل رحلتك.</p>
             <button type="button" className="primary-button" onClick={() => setLessonId(null)}>

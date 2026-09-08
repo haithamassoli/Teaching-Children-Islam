@@ -4,8 +4,8 @@ import { arabicNumber } from "../lib/assets";
 import { lessons, worlds } from "../lib/catalog";
 import { siteUrl } from "../lib/site";
 import { JourneyFriends } from "./components/journey-controls";
-import FantasyInvite from "./fantasy/invite";
 import { Asset, JourneyFooter, JourneyHeader, WorldCard } from "./components/journey-ui";
+import FantasyInvite from "./fantasy/invite";
 
 export const metadata: Metadata = { alternates: { canonical: siteUrl?.href } };
 
@@ -50,7 +50,7 @@ export default function Home() {
           </div>
           <div className="welcome-scene">
             <Asset
-              path="worlds/faith.webp"
+              path="fantasy/worlds/faith.svg"
               width={768}
               height={512}
               className="scene-landscape"
@@ -60,10 +60,10 @@ export default function Home() {
               ✦
             </div>
             <div className="guide-bubble">
-              أهلًا يا بطل! <span>أنا رفيق، هيا نتعلّم معًا</span>
+              أهلًا يا بطل! <span>أنا وميض، هيا نتعلّم معًا</span>
             </div>
             <Asset
-              path="characters/guide.webp"
+              path="fantasy/characters/wameed.webp"
               width={440}
               height={440}
               className="scene-guide"
@@ -76,7 +76,7 @@ export default function Home() {
               ✧
             </span>
             <div className="scene-caption">
-              <Asset path="icons/map.svg" width={28} />
+              <Asset path="fantasy/objects/compass.svg" width={28} />
               <span>
                 <b>٧ عوالم تنتظرك</b>
                 <small>وكل خطوة فيها اكتشاف جديد</small>
@@ -122,7 +122,7 @@ export default function Home() {
               />
             ))}
             <Link href="/library" className="library-invite reveal">
-              <Asset path="icons/book.svg" width={66} />
+              <Asset path="fantasy/objects/chest.svg" width={66} />
               <span className="section-kicker">كنوز صغيرة لكل يوم</span>
               <h3>مكتبتي الجميلة</h3>
               <p>

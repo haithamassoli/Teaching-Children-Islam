@@ -64,13 +64,11 @@ export default function LessonPractice({
         <div className="practice-reward" role="status">
           <Image
             unoptimized
-            src={assetUrl("rewards/celebration.svg")}
+            src={assetUrl("fantasy/rewards/celebration.svg")}
             alt=""
-            width={600}
-            height={300}
-            className="reward-confetti"
+            width={120}
+            height={120}
           />
-          <Image unoptimized src={assetUrl("icons/heart.svg")} alt="" width={65} height={65} />
           <h2>أحسنت التعلّم والمحاولة!</h2>
           <p>أكملت تدريبك. ناقش إجاباتك المفتوحة مع الوالد، وجرّب تطبيق ما تعلّمته اليوم.</p>
           <Link href="/explore" className="primary-button">
