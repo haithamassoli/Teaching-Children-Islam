@@ -4,6 +4,7 @@ import type { ReactNode } from "react";
 import { arabicNumber } from "../../lib/assets";
 import { activities, hadiths, memoryItems, remembrances, sourceQuestions } from "../../lib/catalog";
 import { JourneyFooter, JourneyHeader } from "../components/journey-ui";
+import { ReadAloud } from "../narration";
 
 export const metadata: Metadata = { title: "مكتبتي" };
 const tabs = [
@@ -141,10 +142,10 @@ export default async function Library({
       </a>
       <JourneyHeader active="library" />
       <main className="journey-main" id="content">
-        <section className="catalog-intro">
+        <section className="catalog-intro" data-narration="">
           <p className="section-kicker">كنوز صغيرة لكل يوم</p>
-          <h1>مكتبتي الجميلة</h1>
-          <p>
+          <h1 data-narration-text>مكتبتي الجميلة</h1>
+          <p data-narration-text>
             ذكرٌ يرافق يومك، وسؤال يفتح فكرك، وخطوة جديدة في الحفظ. افتح البطاقة واستكشفها مع الوالد.
           </p>
         </section>
@@ -184,9 +185,12 @@ export default async function Library({
         </p>
         <div className="library-grid">
           {filtered.map((item) => (
-            <details className="library-entry" id={item.id} key={item.id}>
-              <summary>{item.title}</summary>
-              <div className="entry-answer">{item.body}</div>
+            <details className="library-entry" id={item.id} key={item.id} data-narration="">
+              <summary data-narration-text>{item.title}</summary>
+              <ReadAloud />
+              <div className="entry-answer" data-narration-text>
+                {item.body}
+              </div>
               <a
                 className="source-link"
                 href={`/api/book#page=${item.pages[0]}`}

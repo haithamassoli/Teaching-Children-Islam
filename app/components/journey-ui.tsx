@@ -100,6 +100,7 @@ export function WorldCard({
     <Link
       href={`/explore?world=${world.id}`}
       className={`explore-world world-${world.id} reveal`}
+      data-narration={`عالم ${world.title}. ${descriptions[world.id]}`}
       style={{ "--order": index } as CSSProperties}
       data-sound
     >

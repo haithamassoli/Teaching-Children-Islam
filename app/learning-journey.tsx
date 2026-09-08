@@ -9,6 +9,7 @@ import { arabicNumber, worldArt } from "../lib/assets";
 import Activity, { type ActivityAnswer, type ActivityQuestion } from "./activity";
 import ChildReview from "./child-review";
 import { Asset } from "./components/journey-ui";
+import { ReadAloud } from "./narration";
 
 export default function LearningJourney({
   childId,
@@ -138,13 +139,18 @@ export default function LearningJourney({
           className="live-lesson-image"
         />
         <p className="section-kicker">درس معتمد</p>
-        <h1>{lesson.title}</h1>
-        <p>{lesson.objective}</p>
-        <p>{lesson.ageInstructions[age < 8 ? "6-7" : "8-10"]}</p>
+        <div
+          data-narration={`${lesson.title}. ${lesson.objective}. ${lesson.ageInstructions[age < 8 ? "6-7" : "8-10"]}`}
+        >
+          <h1>{lesson.title}</h1>
+          <p>{lesson.objective}</p>
+          <p>{lesson.ageInstructions[age < 8 ? "6-7" : "8-10"]}</p>
+          <ReadAloud />
+        </div>
         {/* biome-ignore lint/a11y/useMediaCaption: each recorded instruction has adjacent written lesson text. */}
         <audio ref={audio} preload="none" />
         {lesson.segments.map((segment) => (
-          <article key={segment.id} className="lesson-segment">
+          <article key={segment.id} className="lesson-segment" data-narration={segment.text}>
             <p>{segment.text}</p>
             {segment.image_asset && (
               <Image
@@ -155,7 +161,7 @@ export default function LearningJourney({
                 height={360}
               />
             )}
-            {segment.audio_asset && (
+            {segment.audio_asset ? (
               <button
                 type="button"
                 className="sound-button"
@@ -163,6 +169,8 @@ export default function LearningJourney({
               >
                 🔊 استمع
               </button>
+            ) : (
+              <ReadAloud />
             )}
             {lesson.state.completedSegments.includes(segment.id) ? (
               <span>✓ اكتمل</span>

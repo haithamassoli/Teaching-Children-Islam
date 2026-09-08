@@ -25,6 +25,8 @@ export function JourneyControls() {
         return;
       }
       if (
+        window.speechSynthesis?.speaking ||
+        document.querySelector('[data-recording="true"]') ||
         [...document.querySelectorAll("audio")].some(
           (player) => player !== audio.current && !player.paused,
         )
@@ -90,7 +92,12 @@ export function JourneyFriends() {
       <div>
         <p className="section-kicker">أصدقاء الرحلة</p>
         <h2>كل مغامرة أحلى مع صديق!</h2>
-        <p aria-live="polite">{friends.find((friend) => friend.id === selected)?.greeting}</p>
+        <p
+          aria-live="polite"
+          data-narration={friends.find((friend) => friend.id === selected)?.greeting}
+        >
+          {friends.find((friend) => friend.id === selected)?.greeting}
+        </p>
         <Link href="/explore" className="text-button">
           هيا إلى العوالم ←
         </Link>

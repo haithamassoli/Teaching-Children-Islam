@@ -6,6 +6,7 @@ import { arabicNumber, worldArt } from "../../../lib/assets";
 import { activities, lessons, memoryItems, worlds } from "../../../lib/catalog";
 import type { ActivityQuestion } from "../../activity";
 import { Asset, JourneyFooter, JourneyHeader } from "../../components/journey-ui";
+import { ReadAloud } from "../../narration";
 import LessonPractice from "./practice";
 
 export function generateStaticParams() {
@@ -82,13 +83,15 @@ export default async function LessonPage({ params }: { params: Promise<{ lessonI
             <article className="reading-card" id="read">
               <p className="section-kicker">نقرأ ونكتشف</p>
               <h2>{lesson.title}</h2>
-              <div className="instruction">
+              <div className="instruction" data-narration={`${lesson.title}. ${lesson.objective}`}>
                 <p>{lesson.objective}</p>
+                <ReadAloud />
               </div>
               {lesson.segments.map((segment, index) => (
-                <div key={segment.id} className="reading-segment">
+                <div key={segment.id} className="reading-segment" data-narration={segment.text}>
                   <small>الجزء {arabicNumber(index + 1)}</small>
                   <p>{segment.text}</p>
+                  <ReadAloud />
                 </div>
               ))}
               <a
@@ -110,7 +113,10 @@ export default async function LessonPage({ params }: { params: Promise<{ lessonI
               <p className="section-kicker">من الدرس إلى يومنا</p>
               <h2>نجرّبها معًا</h2>
               {lesson.practice.map((item) => (
-                <p key={item.id}>{item.instruction}</p>
+                <div key={item.id} data-narration={item.instruction}>
+                  <p>{item.instruction}</p>
+                  <ReadAloud />
+                </div>
               ))}
               <Link href="/family" className="quiet-link">
                 تأكيد التطبيق مع الوالد ←

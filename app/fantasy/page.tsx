@@ -3,6 +3,7 @@ import Link from "next/link";
 import catalog from "../../assets/fantasy/catalog.json";
 import { arabicNumber } from "../../lib/assets";
 import { Asset, JourneyFooter } from "../components/journey-ui";
+import { ReadAloud } from "../narration";
 import styles from "./fantasy.module.css";
 
 export const metadata: Metadata = {
@@ -27,14 +28,14 @@ export default function FantasyPage() {
       </header>
       <main id="fantasy-content" className={styles.main}>
         <section className={styles.hero}>
-          <div className={styles.heroCopy}>
+          <div className={styles.heroCopy} data-narration="">
             <span className={styles.eyebrow}>من هنا يبدأ الخيال</span>
-            <h1>
+            <h1 data-narration-text>
               أهلًا بك في
               <br />
               <em>جزر العجائب!</em>
             </h1>
-            <p>
+            <p data-narration-text>
               فوق السحاب، ينتظرك أصدقاء لم تقابل مثلهم.
               <br />
               نجمة فضولية، وغيمة تحمل حكاية… ومغامرة تشبهك.
@@ -87,6 +88,7 @@ export default function FantasyPage() {
               <details
                 key={friend.id}
                 className={styles.friend}
+                data-narration={friend.greeting}
                 style={{ background: friend.color }}
               >
                 <summary>
@@ -98,6 +100,7 @@ export default function FantasyPage() {
                   </span>
                 </summary>
                 <p className={styles.greeting}>{friend.greeting}</p>
+                <ReadAloud />
               </details>
             ))}
           </div>

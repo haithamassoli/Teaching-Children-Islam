@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { ReadAloud } from "./narration";
 
 export type ActivityQuestion = {
   id: string;
@@ -81,9 +82,23 @@ export default function Activity({
   }
 
   return (
-    <section className="account-card" aria-label="نشاط الفهم">
+    <section
+      className="account-card"
+      aria-label="نشاط الفهم"
+      data-narration={[
+        question.prompt,
+        question.age_instructions?.[age < 8 ? "6-7" : "8-10"],
+        ...(question.options ?? question.items ?? []),
+        ...(question.left ?? []),
+        ...(question.right ?? []),
+        feedback,
+      ]
+        .filter(Boolean)
+        .join(". ")}
+    >
       <h2>{question.prompt}</h2>
       <p>{question.age_instructions?.[age < 8 ? "6-7" : "8-10"]}</p>
+      <ReadAloud />
       <fieldset disabled={busy || passed}>
         <legend>إجابتك</legend>
         {choice && (

@@ -18,11 +18,11 @@ export default function Home() {
       <JourneyHeader />
       <main id="content" className="journey-main">
         <section className="welcome-hero">
-          <div className="welcome-copy">
+          <div className="welcome-copy" data-narration="">
             <p className="welcome-label">
               <span /> لأبطالنا الصغار من ٦ إلى ١٠ سنوات
             </p>
-            <h1>
+            <h1 data-narration-text>
               قلبٌ صغير،
               <br />
               <em>رحلةٌ كبيرة!</em>
@@ -30,7 +30,7 @@ export default function Home() {
                 ✧
               </span>
             </h1>
-            <p className="welcome-description">
+            <p className="welcome-description" data-narration-text>
               هيا نكتشف جمال الإسلام معًا.
               <br />
               قصص نحبّها، ومعانٍ نتعلّمها، وخيرٌ نعيشه كل يوم.
