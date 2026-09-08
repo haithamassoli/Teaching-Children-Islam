@@ -9,7 +9,7 @@ export default function RecorderHarness() {
   const [uploads, setUploads] = useState(0);
 
   return (
-    <main style={{ maxWidth: 640, margin: "2rem auto", padding: "1rem", fontFamily: "sans-serif" }}>
+    <main style={{ maxWidth: 640, margin: "2rem auto", padding: "1rem" }}>
       <h1>Recorder technical QA</h1>
       <p>This is a development-only harness. It contains no learner or religious content.</p>
       <label style={{ display: "block", margin: "1rem 0" }}>

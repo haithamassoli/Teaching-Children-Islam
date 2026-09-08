@@ -56,7 +56,7 @@ export default function ActivitiesHarness() {
   }
 
   return (
-    <main style={{ maxWidth: 720, margin: "2rem auto", padding: "1rem", fontFamily: "sans-serif" }}>
+    <main style={{ maxWidth: 720, margin: "2rem auto", padding: "1rem" }}>
       <h1>Activity technical QA</h1>
       <p>This is a development-only harness. It contains no learner or religious content.</p>
       <fieldset>
