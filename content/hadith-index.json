@@ -9,8 +9,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=8",
     "raw_text_source": "source/pages.json:pdf_page=8",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-02",
@@ -22,8 +31,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=9",
     "raw_text_source": "source/pages.json:pdf_page=9",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-03",
@@ -35,8 +53,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=10",
     "raw_text_source": "source/pages.json:pdf_page=10",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-04",
@@ -48,8 +75,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=11",
     "raw_text_source": "source/pages.json:pdf_page=11",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-05",
@@ -61,8 +97,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=24",
     "raw_text_source": "source/pages.json:pdf_page=24",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-06",
@@ -74,8 +119,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=28",
     "raw_text_source": "source/pages.json:pdf_page=28",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-07",
@@ -87,8 +141,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=28",
     "raw_text_source": "source/pages.json:pdf_page=28",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-08",
@@ -100,8 +163,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=28",
     "raw_text_source": "source/pages.json:pdf_page=28",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-09",
@@ -113,8 +185,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=29",
     "raw_text_source": "source/pages.json:pdf_page=29",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-10",
@@ -126,8 +207,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=29",
     "raw_text_source": "source/pages.json:pdf_page=29",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-11",
@@ -139,8 +229,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=31",
     "raw_text_source": "source/pages.json:pdf_page=31",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-12",
@@ -152,8 +251,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=31",
     "raw_text_source": "source/pages.json:pdf_page=31",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-13",
@@ -165,8 +273,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=36",
     "raw_text_source": "source/pages.json:pdf_page=36",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-14",
@@ -178,8 +295,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=37",
     "raw_text_source": "source/pages.json:pdf_page=37",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-15",
@@ -191,8 +317,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=40",
     "raw_text_source": "source/pages.json:pdf_page=40",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-16",
@@ -204,8 +339,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=40",
     "raw_text_source": "source/pages.json:pdf_page=40",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-17",
@@ -217,8 +361,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=41",
     "raw_text_source": "source/pages.json:pdf_page=41",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-18",
@@ -230,8 +383,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=42",
     "raw_text_source": "source/pages.json:pdf_page=42",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-19",
@@ -243,8 +405,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=44",
     "raw_text_source": "source/pages.json:pdf_page=44",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-20",
@@ -256,8 +427,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=45",
     "raw_text_source": "source/pages.json:pdf_page=45",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-21",
@@ -269,8 +449,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=45",
     "raw_text_source": "source/pages.json:pdf_page=45",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-22",
@@ -282,8 +471,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=46",
     "raw_text_source": "source/pages.json:pdf_page=46",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-23",
@@ -295,8 +493,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=47",
     "raw_text_source": "source/pages.json:pdf_page=47",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-24",
@@ -308,8 +515,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=50",
     "raw_text_source": "source/pages.json:pdf_page=50",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-25",
@@ -321,8 +537,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=51",
     "raw_text_source": "source/pages.json:pdf_page=51",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-26",
@@ -334,8 +559,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=52",
     "raw_text_source": "source/pages.json:pdf_page=52",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-27",
@@ -347,8 +581,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=53",
     "raw_text_source": "source/pages.json:pdf_page=53",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-28",
@@ -360,8 +603,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=54",
     "raw_text_source": "source/pages.json:pdf_page=54",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-29",
@@ -373,8 +625,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=55",
     "raw_text_source": "source/pages.json:pdf_page=55",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-30",
@@ -386,8 +647,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=56",
     "raw_text_source": "source/pages.json:pdf_page=56",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-31",
@@ -399,8 +669,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=60",
     "raw_text_source": "source/pages.json:pdf_page=60",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-32",
@@ -412,8 +691,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=68",
     "raw_text_source": "source/pages.json:pdf_page=68",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-33",
@@ -425,8 +713,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=68",
     "raw_text_source": "source/pages.json:pdf_page=68",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-34",
@@ -438,8 +735,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=68",
     "raw_text_source": "source/pages.json:pdf_page=68",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-35",
@@ -451,8 +757,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=71",
     "raw_text_source": "source/pages.json:pdf_page=71",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-36",
@@ -464,8 +779,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=72",
     "raw_text_source": "source/pages.json:pdf_page=72",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-37",
@@ -477,8 +801,17 @@
     "required_in_memorization_table": true,
     "text_source": "source/book.pdf#page=84",
     "raw_text_source": "source/pages.json:pdf_page=84",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-38",
@@ -490,8 +823,17 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=154",
     "raw_text_source": "source/pages.json:pdf_page=154",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-39",
@@ -503,8 +845,17 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=155",
     "raw_text_source": "source/pages.json:pdf_page=155",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-40",
@@ -516,8 +867,17 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=157",
     "raw_text_source": "source/pages.json:pdf_page=157",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-41",
@@ -529,8 +889,17 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=163",
     "raw_text_source": "source/pages.json:pdf_page=163",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-42",
@@ -542,8 +911,17 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=165",
     "raw_text_source": "source/pages.json:pdf_page=165",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-43",
@@ -555,8 +933,17 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=168",
     "raw_text_source": "source/pages.json:pdf_page=168",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-44",
@@ -568,8 +955,17 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=171",
     "raw_text_source": "source/pages.json:pdf_page=171",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-45",
@@ -581,8 +977,17 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=171",
     "raw_text_source": "source/pages.json:pdf_page=171",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-46",
@@ -594,8 +999,17 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=173",
     "raw_text_source": "source/pages.json:pdf_page=173",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-47",
@@ -607,8 +1021,17 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=175",
     "raw_text_source": "source/pages.json:pdf_page=175",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-48",
@@ -620,8 +1043,17 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=177",
     "raw_text_source": "source/pages.json:pdf_page=177",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-49",
@@ -633,8 +1065,17 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=179",
     "raw_text_source": "source/pages.json:pdf_page=179",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-50",
@@ -646,8 +1087,17 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=186",
     "raw_text_source": "source/pages.json:pdf_page=186",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-51",
@@ -659,8 +1109,17 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=189",
     "raw_text_source": "source/pages.json:pdf_page=189",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-52",
@@ -672,8 +1131,17 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=191",
     "raw_text_source": "source/pages.json:pdf_page=191",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-53",
@@ -685,8 +1153,17 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=193",
     "raw_text_source": "source/pages.json:pdf_page=193",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-54",
@@ -698,8 +1175,17 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=196",
     "raw_text_source": "source/pages.json:pdf_page=196",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-55",
@@ -711,8 +1197,17 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=200",
     "raw_text_source": "source/pages.json:pdf_page=200",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-56",
@@ -724,8 +1219,17 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=203",
     "raw_text_source": "source/pages.json:pdf_page=203",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-57",
@@ -737,8 +1241,17 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=205",
     "raw_text_source": "source/pages.json:pdf_page=205",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-58",
@@ -750,8 +1263,17 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=208",
     "raw_text_source": "source/pages.json:pdf_page=208",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-59",
@@ -763,8 +1285,17 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=210",
     "raw_text_source": "source/pages.json:pdf_page=210",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-hadith-60",
@@ -776,7 +1307,16 @@
     "required_in_memorization_table": false,
     "text_source": "source/book.pdf#page=212",
     "raw_text_source": "source/pages.json:pdf_page=212",
-    "text_status": "pending_visual_and_hadith_reference_review",
-    "publishable": false
+    "text_status": "approved",
+    "publishable": true,
+    "status": "approved",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   }
 ]

@@ -1,5 +1,6 @@
-import catalog from "../../content/lessons.json";
-import memoryCatalog from "../../content/memorization.json";
+import { lessons as reviewedLessons, memoryItems as reviewedMemory } from "../../lib/catalog";
+
+export { worlds } from "../../lib/catalog";
 
 export type Answer = string | string[] | Record<string, string>;
 export type ContentQuestion = {
@@ -29,34 +30,12 @@ export type ContentLesson = {
   memorization_ids: string[];
 };
 
-const requiredReviews = ["text", "religious_content", "age_suitability", "audio", "images"];
+export const lessons = reviewedLessons as unknown as ContentLesson[];
 
-export const worlds = catalog.worlds;
-export const lessons = catalog.lessons.filter((lesson) => {
-  const record = lesson as unknown as Record<string, unknown>;
-  const reviews = record.review_status as Record<string, unknown> | undefined;
-  return (
-    record.status === "approved" &&
-    record.publishable === true &&
-    typeof record.approved_by === "string" &&
-    typeof record.approved_at === "string" &&
-    reviews !== undefined &&
-    requiredReviews.every((key) => reviews[key] === "approved")
-  );
-}) as unknown as ContentLesson[];
-
-export const memoryItems = memoryCatalog.items.filter((item) => {
-  const record = item as unknown as Record<string, unknown>;
-  const reviews = record.review_status as Record<string, unknown> | undefined;
-  return (
-    record.status === "approved" &&
-    record.publishable === true &&
-    typeof record.approved_by === "string" &&
-    typeof record.approved_at === "string" &&
-    reviews !== undefined &&
-    requiredReviews.every((key) => reviews[key] === "approved")
-  );
-}) as {
+export const memoryItems = reviewedMemory.map((item) => ({
+  ...item,
+  text: "names" in item ? item.names?.join(" · ") : undefined,
+})) as {
   id: string;
   title: string;
   text?: string;
@@ -71,6 +50,18 @@ export function lessonById(id: string) {
 
 export function isAutomatic(question: ContentQuestion) {
   return !["short_answer", "parent_discussion"].includes(question.type);
+}
+
+export function isStageComplete(
+  content: Pick<ContentLesson, "questions"> | undefined,
+  state: { lessonCompleted: boolean; activityPassed: boolean },
+) {
+  // Discussion-only lessons can advance after reading; they never earn automatic activity stars.
+  return Boolean(
+    content &&
+      state.lessonCompleted &&
+      (state.activityPassed || !content.questions.some(isAutomatic)),
+  );
 }
 
 function clean(value: string) {
@@ -123,7 +114,19 @@ export function grade(question: ContentQuestion, answer: Answer): boolean | null
       JSON.stringify(question.answer.map(String).map(clean).sort())
     );
   }
-  return JSON.stringify(canonical(answer)) === JSON.stringify(canonical(question.answer));
+  let candidate: unknown = answer;
+  if (
+    ["matching", "source_reference_match"].includes(question.type) &&
+    typeof answer === "string"
+  ) {
+    // Convex object keys must be ASCII; matching labels can be Arabic.
+    try {
+      candidate = JSON.parse(answer);
+    } catch {
+      return false;
+    }
+  }
+  return JSON.stringify(canonical(candidate)) === JSON.stringify(canonical(question.answer));
 }
 
 export function publicQuestion(question: ContentQuestion) {

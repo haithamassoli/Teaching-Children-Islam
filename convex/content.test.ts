@@ -1,4 +1,5 @@
 import { describe, expect, test } from "vitest";
+import { isReviewed, memoryItems } from "../lib/catalog";
 import { type ContentQuestion, grade, lessons } from "./lib/content";
 
 const question = (type: string, answer: unknown): ContentQuestion => ({
@@ -15,6 +16,10 @@ describe("server-side activity grading", () => {
     expect(grade(question("ordering", ["one", "two"]), ["two", "one"])).toBe(false);
     expect(grade(question("multiple_select", ["one", "two"]), ["two", "one"])).toBe(true);
     expect(grade(question("matching", { a: "b" }), { a: "b" })).toBe(true);
+    expect(
+      grade(question("matching", { موسى: "التوراة" }), JSON.stringify({ موسى: "التوراة" })),
+    ).toBe(true);
+    expect(grade(question("matching", { موسى: "التوراة" }), "invalid JSON")).toBe(false);
   });
 
   test("open answers require parent review", () => {
@@ -27,7 +32,23 @@ describe("server-side activity grading", () => {
     expect(grade(question("numeric", { value: 12 }), "١٢")).toBe(true);
   });
 
-  test("draft lessons never enter the runtime catalog", () => {
-    expect(lessons).toEqual([]);
+  test("owner-reviewed text is available and drafts remain excluded", () => {
+    expect(lessons).toHaveLength(111);
+    expect(memoryItems).toHaveLength(130);
+    expect(isReviewed({ status: "draft", publishable: false })).toBe(false);
+    expect(isReviewed({ status: "approved", publishable: true })).toBe(false);
+    expect(
+      isReviewed({
+        status: "approved",
+        publishable: true,
+        approved_by: "owner",
+        approved_at: "2026-09-08",
+        review_status: {
+          text: "approved",
+          religious_content: "pending",
+          age_suitability: "approved",
+        },
+      }),
+    ).toBe(false);
   });
 });

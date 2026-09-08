@@ -5,6 +5,7 @@ import { useAction, useMutation, useQuery } from "convex/react";
 import { type FormEvent, useEffect, useState } from "react";
 import { api } from "../convex/_generated/api";
 import type { Id } from "../convex/_generated/dataModel";
+import { Asset } from "./components/journey-ui";
 import Logo from "./components/logo";
 import LearningJourney from "./learning-journey";
 import ReviewPanel from "./review-panel";
@@ -46,7 +47,12 @@ function AccountGate() {
   };
   const title = screenTitle(screen);
   return (
-    <main className="family-shell">
+    <main className="family-shell auth-welcome">
+      <div className="auth-illustration">
+        <Asset path="characters/guide.webp" width={380} />
+        <h2>أهلًا بالأسرة الجميلة</h2>
+        <p>معًا نزرع حب التعلّم، ونفرح بكل خطوة صغيرة.</p>
+      </div>
       <section className="account-card">
         <Logo />
         <p className="section-kicker">رِحلة الإسلام</p>
@@ -429,9 +435,15 @@ function ChildList({
     <div className="live-child-list">
       {records.map((child) => (
         <article key={child._id}>
-          <div>
-            <b>{child.name}</b>
-            <span>{child.age} سنوات</span>
+          <div className="live-child-avatar">
+            <Asset
+              path={`characters/${child.characterId || (child.gender === "female" ? "maryam" : "sami")}.webp`}
+              width={68}
+            />
+            <div>
+              <b>{child.name}</b>
+              <span>{child.age} سنوات</span>
+            </div>
           </div>
           <div className="child-actions">
             <button

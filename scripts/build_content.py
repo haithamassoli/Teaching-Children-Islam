@@ -11,7 +11,7 @@ SUPPORTED_TYPES = {
 }
 
 
-def validate_bundle(bundle, require_complete=False):
+def validate_bundle(bundle, require_complete=False, require_media=True):
     lessons = bundle['lessons']
     activities = bundle['activities']
     memory = bundle['memorization']
@@ -31,14 +31,14 @@ def validate_bundle(bundle, require_complete=False):
     if require_complete and not lessons:
         errors.append('catalog has no lessons')
     if require_complete:
-        for label, records, expected in (
+        for label, batch, expected in (
             ('lessons', lessons, 111),
             ('activities', activities, 61),
             ('memorization', memory, 130),
             ('remembrances', remembrances, 26),
         ):
-            if len(records) != expected:
-                errors.append(f'catalog requires {expected} {label}, found {len(records)}')
+            if len(batch) != expected:
+                errors.append(f'catalog requires {expected} {label}, found {len(batch)}')
         if any(not any(lesson.get('world_id') == world_id for lesson in lessons) for world_id in bundle['world_ids']):
             errors.append('catalog is missing a world')
     visiting = set()
@@ -81,7 +81,8 @@ def validate_bundle(bundle, require_complete=False):
             if not item.get('approved_by') or not item.get('approved_at'):
                 errors.append(f'{label}: missing approval evidence')
             review = item.get('review_status', {})
-            if not review or any(value != 'approved' for value in review.values()):
+            required_reviews = review.values() if require_media else [review.get(key) for key in ('text', 'religious_content', 'age_suitability')]
+            if not review or any(value != 'approved' for value in required_reviews):
                 errors.append(f'{label}: review gates incomplete')
         pages = item.get('source_pages', [])
         if not pages or not all(isinstance(page, int) and 1 <= page <= 254 for page in pages):
@@ -90,7 +91,7 @@ def validate_bundle(bundle, require_complete=False):
         label = lesson.get('id', '<missing id>')
         if lesson.get('world_id') not in bundle['world_ids']:
             errors.append(f'{label}: unknown world')
-        if require_complete and not any(q.get('type') not in {'short_answer', 'parent_discussion'} for q in lesson.get('questions', [])):
+        if require_complete and require_media and not any(q.get('type') not in {'short_answer', 'parent_discussion'} for q in lesson.get('questions', [])):
             errors.append(f'{label}: requires an automatically graded activity before publication')
         if not lesson.get('objective') or not lesson.get('segments'):
             errors.append(f'{label}: incomplete lesson')
@@ -102,7 +103,8 @@ def validate_bundle(bundle, require_complete=False):
             errors.append(f'{label}: missing memorization reference')
         for segment in lesson.get('segments', []):
             for key in ('audio_asset', 'image_asset'):
-                asset_ok(label, key, segment.get(key))
+                if require_media or segment.get(key):
+                    asset_ok(label, key, segment.get(key))
         for question in lesson.get('questions', []):
             qid = question.get('id', f'{label}:question')
             if question.get('type') not in SUPPORTED_TYPES:
@@ -132,7 +134,7 @@ def validate_bundle(bundle, require_complete=False):
         if activity.get('type') == 'parent_discussion' and activity.get('grading') != 'parent_review':
             errors.append(f'{label}: parent discussion lacks parent review')
     for item in memory:
-        if require_complete and (not isinstance(item.get('text'), str) or not item['text'].strip()):
+        if require_complete and require_media and (not isinstance(item.get('text'), str) or not item['text'].strip()):
             errors.append(f"{item.get('id', '<missing id>')}: missing reviewed display text for memorization")
         if not item.get('title'):
             errors.append(f"{item.get('id', '<missing id>')}: missing memorization title")
@@ -140,9 +142,9 @@ def validate_bundle(bundle, require_complete=False):
             errors.append(f"{item.get('id', '<missing id>')}: missing Quran reference")
         if item.get('kind') == 'names' and not item.get('names'):
             errors.append(f"{item.get('id', '<missing id>')}: missing names")
-        if item.get('kind') in {'quran', 'hadith'} and not item.get('recitation_asset'):
+        if require_media and item.get('kind') in {'quran', 'hadith'} and not item.get('recitation_asset'):
             errors.append(f"{item.get('id', '<missing id>')}: missing recitation asset")
-        if item.get('kind') in {'quran', 'hadith'}:
+        if item.get('kind') in {'quran', 'hadith'} and (require_media or item.get('recitation_asset')):
             asset_ok(item.get('id', '<missing id>'), 'recitation_asset', item.get('recitation_asset'))
         if item.get('kind') == 'hadith' and item.get('hadith_id') not in bundle.get('hadith_ids', set()):
             errors.append(f"{item.get('id', '<missing id>')}: missing hadith reference")
@@ -164,9 +166,9 @@ def load_bundle():
     }
 
 
-def build(output):
+def build(output, require_media=False):
     bundle = load_bundle()
-    errors = validate_bundle(bundle, require_complete=True)
+    errors = validate_bundle(bundle, require_complete=True, require_media=require_media)
     if errors:
         raise SystemExit('Release blocked:\n' + '\n'.join(errors[:30]))
     output.write_text(json.dumps({key: bundle[key] for key in ('schema_version', 'worlds', 'lessons', 'activities', 'memorization', 'remembrances')}, ensure_ascii=False, indent=2) + '\n')
@@ -176,5 +178,6 @@ def build(output):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Build the approved content catalog.')
     parser.add_argument('--output', type=Path, default=CONTENT / 'catalog.json')
+    parser.add_argument('--require-media', action='store_true', help='Require full narration, teaching images and recitations in addition to reviewed text.')
     args = parser.parse_args()
-    build(args.output)
+    build(args.output, require_media=args.require_media)

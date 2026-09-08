@@ -1,7 +1,7 @@
 {
   "version": 1,
   "basePath": "assets/",
-  "reviewNote": "كل الأصول تنتظر المراجعة؛ أصوات المرشد التجريبية تنتظر توثيق الحقوق أيضًا.",
+  "reviewNote": "Text and visual content approved by the project owner on 2026-09-08. Synthetic guide audio remains unpublished pending rights documentation. Fantasy collection visually reviewed by Codex on 2026-09-08 for the requested addition; it does not add or approve religious teaching content.",
   "worlds": [
     {
       "id": "faith",
@@ -94,10 +94,14 @@
       "label": "book-close",
       "category": "audio/effects",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 9746,
-      "sha256": "2ee7974cd107a4a6f2e4e12b3de2c0cbacc60a4f083246d16671657e51e85501"
+      "sha256": "2ee7974cd107a4a6f2e4e12b3de2c0cbacc60a4f083246d16671657e51e85501",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "audio.effects.page-turn",
@@ -105,10 +109,14 @@
       "label": "page-turn",
       "category": "audio/effects",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 21212,
-      "sha256": "1f168627e1d6916831016fa62d7f494889de7d916c69810e62f40164de2a7e47"
+      "sha256": "1f168627e1d6916831016fa62d7f494889de7d916c69810e62f40164de2a7e47",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "audio.effects.soft-pop",
@@ -116,10 +124,14 @@
       "label": "soft-pop",
       "category": "audio/effects",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 7100,
-      "sha256": "3f27da3b2ef704d586ed211f5fbf011788b8415d8a5bea9eea0cf40a2f0435a4"
+      "sha256": "3f27da3b2ef704d586ed211f5fbf011788b8415d8a5bea9eea0cf40a2f0435a4",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "audio.effects.soft-swish",
@@ -127,10 +139,14 @@
       "label": "soft-swish",
       "category": "audio/effects",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 15920,
-      "sha256": "2f84a95cac6643bdb63e8b767f09de2e764061d501d9f81996aaa44021fd75dc"
+      "sha256": "2f84a95cac6643bdb63e8b767f09de2e764061d501d9f81996aaa44021fd75dc",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "audio.effects.tap",
@@ -138,10 +154,14 @@
       "label": "tap",
       "category": "audio/effects",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 4012,
-      "sha256": "fe94bd744e9abe16874192dd6c896f11046a51aa1f51a7e932b7ad977eddd59d"
+      "sha256": "fe94bd744e9abe16874192dd6c896f11046a51aa1f51a7e932b7ad977eddd59d",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "audio.guide.activity-complete",
@@ -600,10 +620,14 @@
       "label": "شارة الأخلاق والسلوك — مكتسبة",
       "category": "badges",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 634,
-      "sha256": "82d8315a6de0e525f249700f49378fe68c51e228926ac6cab95cc85b36edc170"
+      "sha256": "82d8315a6de0e525f249700f49378fe68c51e228926ac6cab95cc85b36edc170",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "badges.ethics-locked",
@@ -611,10 +635,14 @@
       "label": "شارة الأخلاق والسلوك — لم تكتسب بعد",
       "category": "badges",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 685,
-      "sha256": "ae93de1efec2ebead344a2bf2eb193b600ff4831cb9372bb997aaa134e21ddfa"
+      "sha256": "ae93de1efec2ebead344a2bf2eb193b600ff4831cb9372bb997aaa134e21ddfa",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "badges.faith-earned",
@@ -622,10 +650,14 @@
       "label": "شارة الإيمان — مكتسبة",
       "category": "badges",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 672,
-      "sha256": "8f47895cb28c01b7daa80051f482dc3c4d70b1029c09573b28f73b999d09fb05"
+      "sha256": "8f47895cb28c01b7daa80051f482dc3c4d70b1029c09573b28f73b999d09fb05",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "badges.faith-locked",
@@ -633,10 +665,14 @@
       "label": "شارة الإيمان — لم تكتسب بعد",
       "category": "badges",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 670,
-      "sha256": "9ac3f05bfe58372ecda3da2f7d926a6c3183037fe5374e1a2e5ccc8705aeea9d"
+      "sha256": "9ac3f05bfe58372ecda3da2f7d926a6c3183037fe5374e1a2e5ccc8705aeea9d",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "badges.manners-earned",
@@ -644,10 +680,14 @@
       "label": "شارة الآداب — مكتسبة",
       "category": "badges",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 634,
-      "sha256": "944bc67641e5749820e20993c5984381d2ce8e927a3d7443a04d483c9917fea3"
+      "sha256": "944bc67641e5749820e20993c5984381d2ce8e927a3d7443a04d483c9917fea3",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "badges.manners-locked",
@@ -655,10 +695,14 @@
       "label": "شارة الآداب — لم تكتسب بعد",
       "category": "badges",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 668,
-      "sha256": "06c8cb5c632a7c7d800d35b9d0bb2624871d061f1429672fd29f74d81102a972"
+      "sha256": "06c8cb5c632a7c7d800d35b9d0bb2624871d061f1429672fd29f74d81102a972",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "badges.memorization-earned",
@@ -666,10 +710,14 @@
       "label": "شارة الحفظ — مكتسبة",
       "category": "badges",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 646,
-      "sha256": "f779eba6a8d02c0b25d5d0e92097721622b375b92fe091f80ec3cff7a22a1349"
+      "sha256": "f779eba6a8d02c0b25d5d0e92097721622b375b92fe091f80ec3cff7a22a1349",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "badges.memorization-locked",
@@ -677,10 +725,14 @@
       "label": "شارة الحفظ — لم تكتسب بعد",
       "category": "badges",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 666,
-      "sha256": "5883b2d18faf6c80e32ef95dc97fef989ce0b4cf978f74e33d7e721fec4073f3"
+      "sha256": "5883b2d18faf6c80e32ef95dc97fef989ce0b4cf978f74e33d7e721fec4073f3",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "badges.quran-earned",
@@ -688,10 +740,14 @@
       "label": "شارة القرآن ومعانيه — مكتسبة",
       "category": "badges",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 686,
-      "sha256": "44f85df37bf5e64431bcd863d0477c0e524c3f636ed8d615d95d4d3b20c8d82c"
+      "sha256": "44f85df37bf5e64431bcd863d0477c0e524c3f636ed8d615d95d4d3b20c8d82c",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "badges.quran-locked",
@@ -699,10 +755,14 @@
       "label": "شارة القرآن ومعانيه — لم تكتسب بعد",
       "category": "badges",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 683,
-      "sha256": "cd14518134252bd411c1b0c573b66ffef32d511377ee7eb95f39af685d24f44b"
+      "sha256": "cd14518134252bd411c1b0c573b66ffef32d511377ee7eb95f39af685d24f44b",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "badges.stories-earned",
@@ -710,10 +770,14 @@
       "label": "شارة القصص — مكتسبة",
       "category": "badges",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 671,
-      "sha256": "eadb97a9c4c5357138d68fe6ff550504b74df2424f225e09bc089d8261246c92"
+      "sha256": "eadb97a9c4c5357138d68fe6ff550504b74df2424f225e09bc089d8261246c92",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "badges.stories-locked",
@@ -721,10 +785,14 @@
       "label": "شارة القصص — لم تكتسب بعد",
       "category": "badges",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 666,
-      "sha256": "ce390c3bc18d43227011d07d92b7839fe4f1b2c24fe36b33515f5dc8eddfce70"
+      "sha256": "ce390c3bc18d43227011d07d92b7839fe4f1b2c24fe36b33515f5dc8eddfce70",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "badges.worship-earned",
@@ -732,10 +800,14 @@
       "label": "شارة العبادات — مكتسبة",
       "category": "badges",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 685,
-      "sha256": "59b48eca1826655d7c4038b1426b1237014497097e77e7f7b662d851b34bcacd"
+      "sha256": "59b48eca1826655d7c4038b1426b1237014497097e77e7f7b662d851b34bcacd",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "badges.worship-locked",
@@ -743,10 +815,14 @@
       "label": "شارة العبادات — لم تكتسب بعد",
       "category": "badges",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 672,
-      "sha256": "2fb9f3ceffa3a377d7364179d04d07a1106861c322846cf267d58d5cc3c6e720"
+      "sha256": "2fb9f3ceffa3a377d7364179d04d07a1106861c322846cf267d58d5cc3c6e720",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "characters.guide",
@@ -754,10 +830,14 @@
       "label": "المرشد رفيق",
       "category": "characters",
       "source": "imagegen",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 132276,
-      "sha256": "438b4f5d7da4070f8e2043828c9690cb909941026141a6025140d5be9da89747"
+      "sha256": "438b4f5d7da4070f8e2043828c9690cb909941026141a6025140d5be9da89747",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "characters.maryam",
@@ -765,10 +845,14 @@
       "label": "مريم",
       "category": "characters",
       "source": "imagegen",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 157138,
-      "sha256": "d913b843bce4587735b72a48841cc47f008379fbe01afe9275ac522e1e4864c7"
+      "sha256": "d913b843bce4587735b72a48841cc47f008379fbe01afe9275ac522e1e4864c7",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "characters.nour",
@@ -776,10 +860,14 @@
       "label": "نور",
       "category": "characters",
       "source": "imagegen",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 125558,
-      "sha256": "96d7d3a5c01d539710e4ba5ac391f569ba46226790c6f85eccd149f909dfada6"
+      "sha256": "96d7d3a5c01d539710e4ba5ac391f569ba46226790c6f85eccd149f909dfada6",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "characters.omar",
@@ -787,10 +875,14 @@
       "label": "عمر",
       "category": "characters",
       "source": "imagegen",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 110164,
-      "sha256": "fbffed87af6c2f0f3ef400ca2a10159ea33e6815a9116c71eedd7931753b03be"
+      "sha256": "fbffed87af6c2f0f3ef400ca2a10159ea33e6815a9116c71eedd7931753b03be",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "characters.sami",
@@ -798,10 +890,14 @@
       "label": "سامي",
       "category": "characters",
       "source": "imagegen",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 163252,
-      "sha256": "2511234dcffe4ff93d0fb2b0d1c6edc5a2ddf17c92590e9b1806d455dace8b03"
+      "sha256": "2511234dcffe4ff93d0fb2b0d1c6edc5a2ddf17c92590e9b1806d455dace8b03",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.back-rtl",
@@ -809,10 +905,14 @@
       "label": "السابق",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 280,
-      "sha256": "815445a1c03e5dcd9d1891d056ea012737226babf82f1bd1da068eb091ba4f78"
+      "sha256": "815445a1c03e5dcd9d1891d056ea012737226babf82f1bd1da068eb091ba4f78",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.book",
@@ -820,10 +920,14 @@
       "label": "كتاب",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 351,
-      "sha256": "a3b97e95dad56de8b4730f6e6c0e2ccb8e403239e8b4887336f8fa44f98eb888"
+      "sha256": "a3b97e95dad56de8b4730f6e6c0e2ccb8e403239e8b4887336f8fa44f98eb888",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.check",
@@ -831,10 +935,14 @@
       "label": "مكتمل",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 302,
-      "sha256": "9e9a99217bbb561376ff456df2dd971335ed9a485dea72645eb4b5c514061114"
+      "sha256": "9e9a99217bbb561376ff456df2dd971335ed9a485dea72645eb4b5c514061114",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.choice",
@@ -842,10 +950,14 @@
       "label": "اختر الإجابة",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 331,
-      "sha256": "9202c4efd1f2265fb66fb247b38d1432367abbf8778d279a56b0e140630645c5"
+      "sha256": "9202c4efd1f2265fb66fb247b38d1432367abbf8778d279a56b0e140630645c5",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.door",
@@ -853,10 +965,14 @@
       "label": "باب الآداب",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 325,
-      "sha256": "54d5553410f83463bed48aac5dc14696567d149200b9d76bde26e3545a516483"
+      "sha256": "54d5553410f83463bed48aac5dc14696567d149200b9d76bde26e3545a516483",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.heart",
@@ -864,10 +980,14 @@
       "label": "التعاون والعناية",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 320,
-      "sha256": "09acd31b73e31856971f4dfd52c824798a4b13a3e21cc9f83765763ebd92a627"
+      "sha256": "09acd31b73e31856971f4dfd52c824798a4b13a3e21cc9f83765763ebd92a627",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.help",
@@ -875,10 +995,14 @@
       "label": "مساعدة",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 347,
-      "sha256": "9d4eb01b7d1041e2a35ed891f75072573407d5bf013c0ca718877d4072c969ae"
+      "sha256": "9d4eb01b7d1041e2a35ed891f75072573407d5bf013c0ca718877d4072c969ae",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.home",
@@ -886,10 +1010,14 @@
       "label": "الرئيسية",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 305,
-      "sha256": "2cc9efff6ca07663303c4c2ddb3089910f354ede0074b2ded1a4be753edaaa83"
+      "sha256": "2cc9efff6ca07663303c4c2ddb3089910f354ede0074b2ded1a4be753edaaa83",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.lock",
@@ -897,10 +1025,14 @@
       "label": "مرحلة مقفلة",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 351,
-      "sha256": "f7749a8f21f22f8d74e5e3a6765be20e88eee05e6e8a19864f154b4ed9b4a440"
+      "sha256": "f7749a8f21f22f8d74e5e3a6765be20e88eee05e6e8a19864f154b4ed9b4a440",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.map",
@@ -908,10 +1040,14 @@
       "label": "خريطة العوالم",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 324,
-      "sha256": "b07005ce93e832d38b66dcdfbb4fe33a946e8a96e88703dcfb4498e828e89a14"
+      "sha256": "b07005ce93e832d38b66dcdfbb4fe33a946e8a96e88703dcfb4498e828e89a14",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.match",
@@ -919,10 +1055,14 @@
       "label": "صل المتشابه",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 411,
-      "sha256": "9d6003e5ea96fa494210098b3198ded3ead85bf68ea534b7c681f8933bc78c63"
+      "sha256": "9d6003e5ea96fa494210098b3198ded3ead85bf68ea534b7c681f8933bc78c63",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.microphone",
@@ -930,10 +1070,14 @@
       "label": "تسجيل الصوت",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 358,
-      "sha256": "fbed5b576872de9eb4f0edc9506a26e3167afaef5c265653e6b36e8405244ac0"
+      "sha256": "fbed5b576872de9eb4f0edc9506a26e3167afaef5c265653e6b36e8405244ac0",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.mosque",
@@ -941,10 +1085,14 @@
       "label": "المسجد",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 365,
-      "sha256": "09afba405a683ad9cc9fd7b9d5240aa7d4b30e09eeed497aa430cf62776afa37"
+      "sha256": "09afba405a683ad9cc9fd7b9d5240aa7d4b30e09eeed497aa430cf62776afa37",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.mute",
@@ -952,10 +1100,14 @@
       "label": "كتم الصوت",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 308,
-      "sha256": "ec7d7927da43a4223892c06b38a055b44357bd8b7703c1aa402e131424f3b618"
+      "sha256": "ec7d7927da43a4223892c06b38a055b44357bd8b7703c1aa402e131424f3b618",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.next-rtl",
@@ -963,10 +1115,14 @@
       "label": "التالي",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 281,
-      "sha256": "94d5620c872b87613c19f663555e03f86dad7323c53df5fbbd12a27f62ab2259"
+      "sha256": "94d5620c872b87613c19f663555e03f86dad7323c53df5fbbd12a27f62ab2259",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.offline",
@@ -974,10 +1130,14 @@
       "label": "انقطع الاتصال",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 356,
-      "sha256": "1150598ed0ea6c07d5deff0fb63c305367534cd52282f3478820bdb47f7b0231"
+      "sha256": "1150598ed0ea6c07d5deff0fb63c305367534cd52282f3478820bdb47f7b0231",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.order",
@@ -985,10 +1145,14 @@
       "label": "رتب الخطوات",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 344,
-      "sha256": "1761f68889a0470e7831fc94e2ac91db2c488d86d92625742989fe3488bbd901"
+      "sha256": "1761f68889a0470e7831fc94e2ac91db2c488d86d92625742989fe3488bbd901",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.palm",
@@ -996,10 +1160,14 @@
       "label": "واحة القصص",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 364,
-      "sha256": "8dfd74ef73418b54b7f0d1116c19555292ad74f32dddbeac66c410f9aff61dff"
+      "sha256": "8dfd74ef73418b54b7f0d1116c19555292ad74f32dddbeac66c410f9aff61dff",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.parent",
@@ -1007,10 +1175,14 @@
       "label": "منطقة الوالد",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 381,
-      "sha256": "070e556b10f75abfb7c1eb584b57edcbb95e0d687ab432c2267abd7542ba3a57"
+      "sha256": "070e556b10f75abfb7c1eb584b57edcbb95e0d687ab432c2267abd7542ba3a57",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.pause",
@@ -1018,10 +1190,14 @@
       "label": "إيقاف مؤقت",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 279,
-      "sha256": "68474e6673b44488613339852a5d5ad871f90da0742fb0606f52d32aae9ab801"
+      "sha256": "68474e6673b44488613339852a5d5ad871f90da0742fb0606f52d32aae9ab801",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.play",
@@ -1029,10 +1205,14 @@
       "label": "تشغيل",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 271,
-      "sha256": "e54e79cfcac655b9195249362a52896915fdc74d6b4fec8147773f20a14b1185"
+      "sha256": "e54e79cfcac655b9195249362a52896915fdc74d6b4fec8147773f20a14b1185",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.repeat",
@@ -1040,10 +1220,14 @@
       "label": "إعادة وتكرار",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 343,
-      "sha256": "a4009e98489de0aa098b521687be1c08b220d99be81624afffeafc495415f17a"
+      "sha256": "a4009e98489de0aa098b521687be1c08b220d99be81624afffeafc495415f17a",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.retry",
@@ -1051,10 +1235,14 @@
       "label": "حاول مرة أخرى",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 301,
-      "sha256": "e753183b95758204d1ffb4eb0b8fe73a454c424f575130b7ad1146cb33ceee24"
+      "sha256": "e753183b95758204d1ffb4eb0b8fe73a454c424f575130b7ad1146cb33ceee24",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.settings",
@@ -1062,10 +1250,14 @@
       "label": "الإعدادات",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 422,
-      "sha256": "91363619aced3ed71f2e71f9906d166f00d688c638ee0cdfeed0c52628741a86"
+      "sha256": "91363619aced3ed71f2e71f9906d166f00d688c638ee0cdfeed0c52628741a86",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.sound",
@@ -1073,10 +1265,14 @@
       "label": "الصوت",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 309,
-      "sha256": "ffcd23643b82d11990e5beb832d10fab1c8675899d40f501635d116f6c848f52"
+      "sha256": "ffcd23643b82d11990e5beb832d10fab1c8675899d40f501635d116f6c848f52",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.stop",
@@ -1084,10 +1280,14 @@
       "label": "إيقاف",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 291,
-      "sha256": "f3e8a99a8db5989ff51549b7ee92cdfdad956b22e09224ca3600f5abff6f9368"
+      "sha256": "f3e8a99a8db5989ff51549b7ee92cdfdad956b22e09224ca3600f5abff6f9368",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.sun",
@@ -1095,10 +1295,14 @@
       "label": "حديقة الإيمان",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 367,
-      "sha256": "71dac8842167069d8855859195e8dbcd0b538c0f6c6e68153058a680f0a96b39"
+      "sha256": "71dac8842167069d8855859195e8dbcd0b538c0f6c6e68153058a680f0a96b39",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.unlock",
@@ -1106,10 +1310,14 @@
       "label": "مرحلة متاحة",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 348,
-      "sha256": "099f9739c4ad5da36d2092c61b94e2bfcb450c422969c7b9479a72cbea14d18c"
+      "sha256": "099f9739c4ad5da36d2092c61b94e2bfcb450c422969c7b9479a72cbea14d18c",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.upload",
@@ -1117,10 +1325,14 @@
       "label": "إرسال التسجيل",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 307,
-      "sha256": "11854724db611bc335f7315164c570da1bbd7fe43435a5ba27b3aeb2b3e22d66"
+      "sha256": "11854724db611bc335f7315164c570da1bbd7fe43435a5ba27b3aeb2b3e22d66",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "icons.water",
@@ -1128,10 +1340,14 @@
       "label": "الماء",
       "category": "icons",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 327,
-      "sha256": "ccc090deef7f27839ff6f556a7b99d27c44c41798b18a9663187602c7e65f374"
+      "sha256": "ccc090deef7f27839ff6f556a7b99d27c44c41798b18a9663187602c7e65f374",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "rewards.celebration",
@@ -1139,10 +1355,14 @@
       "label": "زينة الاحتفال بالإكمال",
       "category": "rewards",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 483,
-      "sha256": "ba21b4992cdb8883302f9f4c1661a5c6bc61c12328030727b4cfcab4d161d7b7"
+      "sha256": "ba21b4992cdb8883302f9f4c1661a5c6bc61c12328030727b4cfcab4d161d7b7",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "rewards.star-earned",
@@ -1150,10 +1370,14 @@
       "label": "نجمة مكتسبة",
       "category": "rewards",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 337,
-      "sha256": "6d2db473816eaf6c495038b271b5aae81387addcd3441895c1bbc80a8d857cb4"
+      "sha256": "6d2db473816eaf6c495038b271b5aae81387addcd3441895c1bbc80a8d857cb4",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "rewards.star-empty",
@@ -1161,10 +1385,14 @@
       "label": "نجمة لم تكتسب بعد",
       "category": "rewards",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 347,
-      "sha256": "990869c480522ba3dd8945a8b1b3e7bf85b135667385f75cd92795b4b8c86dd0"
+      "sha256": "990869c480522ba3dd8945a8b1b3e7bf85b135667385f75cd92795b4b8c86dd0",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "rewards.stars-0",
@@ -1172,10 +1400,14 @@
       "label": "0 من ثلاث نجوم",
       "category": "rewards",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 597,
-      "sha256": "f2c97df2e6c384bbfaaf65d7b9a5a053cabbdcd69a0e3f32904bde049510e0f7"
+      "sha256": "f2c97df2e6c384bbfaaf65d7b9a5a053cabbdcd69a0e3f32904bde049510e0f7",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "rewards.stars-1",
@@ -1183,10 +1415,14 @@
       "label": "1 من ثلاث نجوم",
       "category": "rewards",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 597,
-      "sha256": "bbf216f652641f5a0edad9ff9fd53129b458b24d68f2169a988ea2d4e83cffc8"
+      "sha256": "bbf216f652641f5a0edad9ff9fd53129b458b24d68f2169a988ea2d4e83cffc8",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "rewards.stars-2",
@@ -1194,10 +1430,14 @@
       "label": "2 من ثلاث نجوم",
       "category": "rewards",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 597,
-      "sha256": "8bc4fa7a973fcaab4167c2607642ecc2ac63901d7e0ef991ba3a081f96888732"
+      "sha256": "8bc4fa7a973fcaab4167c2607642ecc2ac63901d7e0ef991ba3a081f96888732",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "rewards.stars-3",
@@ -1205,10 +1445,14 @@
       "label": "3 من ثلاث نجوم",
       "category": "rewards",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 597,
-      "sha256": "4f105bab811a581cf33648105bf8de775a5c44407118ff17c97efc5a917c0dd8"
+      "sha256": "4f105bab811a581cf33648105bf8de775a5c44407118ff17c97efc5a917c0dd8",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "rewards.world-complete",
@@ -1216,10 +1460,14 @@
       "label": "إكمال عالم",
       "category": "rewards",
       "source": "original-project",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 352,
-      "sha256": "392b90c9aa764920c10d440b8863e10b19f8f8c221dbbc6c2db6b4a9b0d83456"
+      "sha256": "392b90c9aa764920c10d440b8863e10b19f8f8c221dbbc6c2db6b4a9b0d83456",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "worlds.ethics",
@@ -1227,10 +1475,14 @@
       "label": "الأخلاق والسلوك",
       "category": "worlds",
       "source": "imagegen",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 305126,
-      "sha256": "d50a36552725786014bfadb164717de3fc3d01d7d0c0dcd94423878ece83c145"
+      "sha256": "d50a36552725786014bfadb164717de3fc3d01d7d0c0dcd94423878ece83c145",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "worlds.faith",
@@ -1238,10 +1490,14 @@
       "label": "الإيمان",
       "category": "worlds",
       "source": "imagegen",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 308636,
-      "sha256": "afd14804f809e486f0f0888790d775eb0e16c9e6d298b4d2c57b7d355bc973e5"
+      "sha256": "afd14804f809e486f0f0888790d775eb0e16c9e6d298b4d2c57b7d355bc973e5",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "worlds.manners",
@@ -1249,10 +1505,14 @@
       "label": "الآداب",
       "category": "worlds",
       "source": "imagegen",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 300312,
-      "sha256": "54f14bfa11147287970f37cfa19884ef0a09c09bb67883ac85deb9022782c5e1"
+      "sha256": "54f14bfa11147287970f37cfa19884ef0a09c09bb67883ac85deb9022782c5e1",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "worlds.memorization",
@@ -1260,10 +1520,14 @@
       "label": "الحفظ",
       "category": "worlds",
       "source": "imagegen",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 281506,
-      "sha256": "e413554f90b72aa8ce461a24743d59f48af9f2d53b1edc6ad08631825e2a80ce"
+      "sha256": "e413554f90b72aa8ce461a24743d59f48af9f2d53b1edc6ad08631825e2a80ce",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "worlds.quran",
@@ -1271,10 +1535,14 @@
       "label": "القرآن ومعانيه",
       "category": "worlds",
       "source": "imagegen",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 210560,
-      "sha256": "3f6546e0a982ebfb3d7e467168f418f459c9e88fb75c8e7144a9c639037da0ea"
+      "sha256": "3f6546e0a982ebfb3d7e467168f418f459c9e88fb75c8e7144a9c639037da0ea",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "worlds.stories",
@@ -1282,10 +1550,14 @@
       "label": "القصص",
       "category": "worlds",
       "source": "imagegen",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 201106,
-      "sha256": "afbe21da25c090dd471d2cee34d4bd673a69f46cd6de506b45cba55241ee3efa"
+      "sha256": "afbe21da25c090dd471d2cee34d4bd673a69f46cd6de506b45cba55241ee3efa",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     },
     {
       "id": "worlds.worship",
@@ -1293,10 +1565,14 @@
       "label": "العبادات",
       "category": "worlds",
       "source": "imagegen",
-      "reviewStatus": "pending",
-      "publishable": false,
+      "reviewStatus": "approved",
+      "publishable": true,
       "bytes": 329706,
-      "sha256": "f9007f121849e47ffde8aaddbeef4c83fe9b3b201b250c5a92097aed5f1837c3"
+      "sha256": "f9007f121849e47ffde8aaddbeef4c83fe9b3b201b250c5a92097aed5f1837c3",
+      "rightsStatus": "documented",
+      "rightsEvidence": "Original project asset; creation provenance in assets/README.md and assets/image-prompts.json. Integration approved by project owner on 2026-09-08.",
+      "approvedBy": "project_owner",
+      "approvedAt": "2026-09-08"
     }
   ]
 }

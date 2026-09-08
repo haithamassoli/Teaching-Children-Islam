@@ -21,8 +21,8 @@
       236
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "ordering",
     "review_notes": [
       "ترتيب من الأعلى كما في الحديث؛ الرسم الأصلي في PDF."
@@ -30,7 +30,15 @@
     "grading": "parent_review",
     "raw_source_refs": [
       8
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-02",
@@ -53,8 +61,8 @@
       236
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "short_answer",
     "review_notes": [
       "صياغة تكييفية؛ السؤال الأصلي عن انهيار الإسلام في الصفحة ٩ محفوظ في المصدر، ويلزم مراجعة التفصيل العقدي وعدم تطبيق الحكم على أفراد."
@@ -62,7 +70,15 @@
     "grading": "parent_review",
     "raw_source_refs": [
       9
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-03",
@@ -85,8 +101,8 @@
       236
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "short_answer",
     "review_notes": [
       "مفتاح الكتاب يذكر الشهادتين، ولفظ الحديث المعروض يذكر لا إله إلا الله؛ راجع التطابق قبل اعتماد صيغة حفظ."
@@ -94,7 +110,15 @@
     "grading": "parent_review",
     "raw_source_refs": [
       10
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-04",
@@ -117,8 +141,8 @@
       236
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "short_answer",
     "review_notes": [
       "السؤال الثاني تأملي؛ لا تستخدمه لتقييم تدين الطفل."
@@ -126,7 +150,15 @@
     "grading": "parent_review",
     "raw_source_refs": [
       12
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-05",
@@ -165,14 +197,22 @@
       236
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "short_answer",
     "review_notes": [],
     "grading": "semantic_review",
     "raw_source_refs": [
       13
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-06",
@@ -193,14 +233,22 @@
       236
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "short_answer",
     "review_notes": [],
     "grading": "semantic_review",
     "raw_source_refs": [
       14
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-07",
@@ -223,14 +271,22 @@
       236
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "short_answer",
     "review_notes": [],
     "grading": "semantic_review",
     "raw_source_refs": [
       15
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-08",
@@ -247,14 +303,22 @@
       236
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "short_answer",
     "review_notes": [],
     "grading": "semantic_review",
     "raw_source_refs": [
       17
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-09",
@@ -279,14 +343,22 @@
       236
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "short_answer",
     "review_notes": [],
     "grading": "semantic_review",
     "raw_source_refs": [
       20
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-10",
@@ -306,14 +378,22 @@
       236
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "multiple_select",
     "review_notes": [],
     "grading": "semantic_review",
     "raw_source_refs": [
       22
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-11",
@@ -330,8 +410,8 @@
       237
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "short_answer",
     "review_notes": [
       "عدم تطابق: رقم ١١ مطبوع تحت سؤال القدوة ص٢٤، بينما مفتاحه ص٢٣٧ يجيب عن ثلاثة أسئلة الاتباع غير المرقمة ص٢٣: لا، لا، بدعة. لا تنقل تلك الإجابات إلى سؤال القدوة."
@@ -339,7 +419,15 @@
     "grading": "parent_review",
     "raw_source_refs": [
       24
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-12",
@@ -362,8 +450,8 @@
       237
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "short_answer",
     "review_notes": [
       "يلزم النظر إلى صورة الصفحة ٢٨ لتأكيد ارتباط السؤال بالشخصين."
@@ -371,7 +459,15 @@
     "grading": "parent_review",
     "raw_source_refs": [
       28
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-13",
@@ -391,14 +487,22 @@
       237
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "short_answer",
     "review_notes": [],
     "grading": "semantic_review",
     "raw_source_refs": [
       29
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-14",
@@ -415,8 +519,8 @@
       237
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "short_answer",
     "review_notes": [
       "مفتاح الكتاب لا يسمي ملابس بعينها؛ لا يوجد جواب حرفي واحد."
@@ -424,7 +528,15 @@
     "grading": "parent_review",
     "raw_source_refs": [
       30
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-15",
@@ -447,14 +559,22 @@
       237
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "short_answer",
     "review_notes": [],
     "grading": "semantic_review",
     "raw_source_refs": [
       37
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-16",
@@ -482,8 +602,8 @@
       237
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "short_answer",
     "review_notes": [
       "قوبلت عبارات الصفحة ٤٣ بصريًا وصححت أواخر الجمل، وربطت الإجابات بنص العبارات لتجنب عكس الأعمدة. تبقى مراجعة المفتاح مطلوبة."
@@ -491,7 +611,15 @@
     "grading": "parent_review",
     "raw_source_refs": [
       43
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-17",
@@ -517,8 +645,8 @@
       237
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "short_answer",
     "review_notes": [
       "الأجوبة من المفتاح، وتراجع وفق المخطط وصورة المسألة؛ لا تغني عن تفصيل الرضاع والمصاهرة."
@@ -526,7 +654,15 @@
     "grading": "parent_review",
     "raw_source_refs": [
       48
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-18",
@@ -552,8 +688,8 @@
       237
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "short_answer",
     "review_notes": [
       "الأجوبة من المفتاح، وتراجع وفق المخطط وصورة المسألة."
@@ -561,7 +697,15 @@
     "grading": "parent_review",
     "raw_source_refs": [
       49
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-19",
@@ -584,14 +728,22 @@
       237
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "short_answer",
     "review_notes": [],
     "grading": "semantic_review",
     "raw_source_refs": [
       82
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-20",
@@ -613,8 +765,8 @@
       237
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "numeric",
     "review_notes": [
       "المفتاح يذكر القاعدة فقط: القسمة على ٤٠؛ النتائج الحسابية إضافة محسوبة. هذا تمرين من الكتاب وليس حساب زكاة فعليًا للأسرة."
@@ -622,7 +774,15 @@
     "grading": "parent_review",
     "raw_source_refs": [
       83
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-21",
@@ -655,8 +815,8 @@
       237
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
@@ -684,7 +844,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-22",
@@ -710,8 +878,8 @@
       237
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة. الإجابات أرقام أسطر في تنسيق الصفحة ٩٧ وليست أرقام آيات؛ آية الكرسي هي البقرة ٢٥٥. يحفظ ترتيب أسطر الأصل."
@@ -733,7 +901,15 @@
     "answer_unit": "printed_line",
     "raw_prompts_status": "uncorrected_extraction",
     "can_auto_grade": false,
-    "key_note": "يلحق المفتاح بالإجابة السادسة: له ما في السماوات وما في الأرض."
+    "key_note": "يلحق المفتاح بالإجابة السادسة: له ما في السماوات وما في الأرض.",
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-23",
@@ -759,8 +935,8 @@
       237
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
@@ -781,7 +957,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-24",
@@ -805,8 +989,8 @@
       237
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
@@ -825,7 +1009,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-25",
@@ -850,8 +1042,8 @@
       237
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
@@ -871,7 +1063,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-26",
@@ -901,8 +1101,8 @@
       237
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة. رقم النشاط غير ظاهر في طبقة النص؛ الرقم مستنتج من التسلسل ومفتاح الحل."
@@ -927,7 +1127,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-27",
@@ -951,8 +1159,8 @@
       237
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
@@ -971,7 +1179,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-28",
@@ -999,8 +1215,8 @@
       237
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
@@ -1023,7 +1239,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-29",
@@ -1046,8 +1270,8 @@
       237
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
@@ -1065,7 +1289,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-30",
@@ -1091,8 +1323,8 @@
       238
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
@@ -1113,7 +1345,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-31",
@@ -1135,8 +1375,8 @@
       238
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
@@ -1153,7 +1393,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-32",
@@ -1177,8 +1425,8 @@
       238
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
@@ -1197,7 +1445,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-33",
@@ -1222,8 +1478,8 @@
       238
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
@@ -1243,7 +1499,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-34",
@@ -1267,8 +1531,8 @@
       238
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
@@ -1287,7 +1551,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-35",
@@ -1309,8 +1581,8 @@
       238
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة. رقم النشاط غير ظاهر في طبقة النص؛ الرقم مستنتج من التسلسل ومفتاح الحل."
@@ -1327,7 +1599,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-36",
@@ -1349,8 +1629,8 @@
       238
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
@@ -1367,7 +1647,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-37",
@@ -1393,8 +1681,8 @@
       238
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
@@ -1415,7 +1703,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-38",
@@ -1438,8 +1734,8 @@
       238
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
@@ -1457,7 +1753,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-39",
@@ -1481,8 +1785,8 @@
       238
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة. عدد البنود المستخرجة 6 وعدد أجوبة المفتاح 5؛ يمنع الربط الآلي قبل المراجعة."
@@ -1502,7 +1806,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-40",
@@ -1527,8 +1839,8 @@
       238
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
@@ -1548,7 +1860,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-41",
@@ -1570,8 +1890,8 @@
       238
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
@@ -1588,7 +1908,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-42",
@@ -1614,8 +1942,8 @@
       238
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة. رقم النشاط غير ظاهر في طبقة النص؛ الرقم مستنتج من التسلسل ومفتاح الحل."
@@ -1636,7 +1964,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-43",
@@ -1661,8 +1997,8 @@
       238
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
@@ -1682,7 +2018,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-activity-44",
@@ -1707,8 +2051,8 @@
       238
     ],
     "origin": "book_activity_editorial_transcription",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "source_reference_match",
     "review_notes": [
       "نقل المفتاح كما طبع، وليس تصحيحًا علميًا لكل ربط. نصوص البنود الخام تحتاج مقابلة بصرية، خاصة النفي والحروف المفقودة."
@@ -1728,7 +2072,15 @@
     ],
     "answer_unit": "ayah",
     "raw_prompts_status": "uncorrected_extraction",
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-open-01",
@@ -1743,14 +2095,22 @@
     "answer": "يذكر الطفل ما يحفظه ووقت تدريبه؛ لا إجابة ثابتة.",
     "answer_source_pages": [],
     "origin": "book_open_activity_editorial_rubric",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "parent_discussion",
     "grading": "parent_review",
     "review_notes": [
       "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
     ],
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-open-02",
@@ -1765,14 +2125,22 @@
     "answer": "معلومة من مصدر يراجعه الوالد.",
     "answer_source_pages": [],
     "origin": "book_open_activity_editorial_rubric",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "parent_discussion",
     "grading": "parent_review",
     "review_notes": [
       "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
     ],
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-open-03",
@@ -1787,14 +2155,22 @@
     "answer": "مثل الصلاة وبر الوالدين والصدقة.",
     "answer_source_pages": [],
     "origin": "book_open_activity_editorial_rubric",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "parent_discussion",
     "grading": "parent_review",
     "review_notes": [
       "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
     ],
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-open-04",
@@ -1811,14 +2187,22 @@
       237
     ],
     "origin": "book_open_activity_editorial_rubric",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "parent_discussion",
     "grading": "parent_review",
     "review_notes": [
       "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
     ],
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-open-05",
@@ -1833,14 +2217,22 @@
     "answer": "قائمة ما طبقه الطفل فعليًا.",
     "answer_source_pages": [],
     "origin": "book_open_activity_editorial_rubric",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "parent_discussion",
     "grading": "parent_review",
     "review_notes": [
       "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
     ],
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-open-06",
@@ -1855,14 +2247,22 @@
     "answer": "قائمة ما طبقه الطفل فعليًا.",
     "answer_source_pages": [],
     "origin": "book_open_activity_editorial_rubric",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "parent_discussion",
     "grading": "parent_review",
     "review_notes": [
       "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
     ],
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-open-07",
@@ -1877,14 +2277,22 @@
     "answer": "يدعو له بالهداية والصلاح.",
     "answer_source_pages": [],
     "origin": "book_open_activity_editorial_rubric",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "parent_discussion",
     "grading": "parent_review",
     "review_notes": [
       "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
     ],
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-open-08",
@@ -1899,14 +2307,22 @@
     "answer": "الهدوء وفهم الآخرين والكلام المؤدب؛ تقبل اقتراحات مناسبة.",
     "answer_source_pages": [],
     "origin": "book_open_activity_editorial_rubric",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "parent_discussion",
     "grading": "parent_review",
     "review_notes": [
       "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
     ],
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-open-09",
@@ -1921,14 +2337,22 @@
     "answer": "الصدق يبني الثقة؛ الكذب يضيعها.",
     "answer_source_pages": [],
     "origin": "book_open_activity_editorial_rubric",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "parent_discussion",
     "grading": "parent_review",
     "review_notes": [
       "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
     ],
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-open-10",
@@ -1943,14 +2367,22 @@
     "answer": "مساعدة مناسبة وكلام مؤدب ودعاء.",
     "answer_source_pages": [],
     "origin": "book_open_activity_editorial_rubric",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "parent_discussion",
     "grading": "parent_review",
     "review_notes": [
       "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
     ],
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-open-11",
@@ -1965,14 +2397,22 @@
     "answer": "زيارة أو اتصال أو مساعدة.",
     "answer_source_pages": [],
     "origin": "book_open_activity_editorial_rubric",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "parent_discussion",
     "grading": "parent_review",
     "review_notes": [
       "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
     ],
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-open-12",
@@ -1987,14 +2427,22 @@
     "answer": "حفظ اللسان واليد ومراعاة المشاعر.",
     "answer_source_pages": [],
     "origin": "book_open_activity_editorial_rubric",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "parent_discussion",
     "grading": "parent_review",
     "review_notes": [
       "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
     ],
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-open-13",
@@ -2009,14 +2457,22 @@
     "answer": "البدء بالسلام والاعتذار.",
     "answer_source_pages": [],
     "origin": "book_open_activity_editorial_rubric",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "parent_discussion",
     "grading": "parent_review",
     "review_notes": [
       "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
     ],
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-open-14",
@@ -2031,14 +2487,22 @@
     "answer": "مساعدة وإنصات وعدم مقاطعة.",
     "answer_source_pages": [],
     "origin": "book_open_activity_editorial_rubric",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "parent_discussion",
     "grading": "parent_review",
     "review_notes": [
       "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
     ],
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-open-15",
@@ -2053,14 +2517,22 @@
     "answer": "خفض الصوت والتحية والمساعدة.",
     "answer_source_pages": [],
     "origin": "book_open_activity_editorial_rubric",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "parent_discussion",
     "grading": "parent_review",
     "review_notes": [
       "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
     ],
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-open-16",
@@ -2075,14 +2547,22 @@
     "answer": "يسمع الوالد النطق ويصححه؛ لا تقييم لجمال صوت الطفل.",
     "answer_source_pages": [],
     "origin": "book_open_activity_editorial_rubric",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "parent_discussion",
     "grading": "parent_review",
     "review_notes": [
       "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
     ],
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "book-open-17",
@@ -2097,13 +2577,21 @@
     "answer": "تعبير مفتوح عن الخير مع الوالد، دون اختراع خبر غيبي.",
     "answer_source_pages": [],
     "origin": "book_open_activity_editorial_rubric",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "type": "parent_discussion",
     "grading": "parent_review",
     "review_notes": [
       "لا جواب حرفي ثابت في مفتاح الكتاب، عدا إحالة أسئلة الاتباع ص٢٣."
     ],
-    "can_auto_grade": false
+    "can_auto_grade": false,
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   }
 ]

@@ -47,8 +47,8 @@
       "source_pages": [
         8
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل أركان الإيمان ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -165,12 +165,15 @@
       },
       "guide_script": "الإيمان بالله وملائكته وكتبه ورسله واليوم الآخر والقدر خيره وشره هو موضوع الحديث في بداية الكتاب. نتعلم هذه الأركان الستة، ونذكرها بالترتيب الوارد في الحديث.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "faith-002",
@@ -180,8 +183,8 @@
       "source_pages": [
         9
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل أركان الإسلام ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -269,12 +272,15 @@
       },
       "guide_script": "يقوم الإسلام على الشهادتين وإقام الصلاة وإيتاء الزكاة وحج البيت وصوم رمضان، بهذا الترتيب في حديث الكتاب. نتعلم أسماء هذه الأركان ومعانيها، ثم نفصّل العبادات في عالم العبادات.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "faith-003",
@@ -284,8 +290,8 @@
       "source_pages": [
         10
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل شعب الإيمان ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -373,12 +379,15 @@
       },
       "guide_script": "للإيمان شعب كثيرة، ومنها القول والعمل والحياء. من أمثلتها قول لا إله إلا الله وإماطة الأذى عن الطريق، ونزيد إيماننا بالأعمال الصالحة.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "faith-004",
@@ -388,8 +397,8 @@
       "source_pages": [
         11
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل أسماء الله الحسنى ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -475,12 +484,15 @@
       },
       "guide_script": "نتعلم أسماء الله الواردة في الكتاب، مثل الرحمن والرحيم والعليم والسميع والبصير. في الصفحة جدول من عشرة أسطر للحفظ؛ نلتزم بما ورد ونتعلمه مع الوالد، ولا نضيف أسماء من عندنا.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "faith-005",
@@ -490,8 +502,8 @@
       "source_pages": [
         12
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل ربي وديني ونبيي ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -577,12 +589,15 @@
       },
       "guide_script": "ربي الله، وديني الإسلام، ونبيي محمد ﷺ، وكتابي القرآن. القرآن كلام الله، والسنة أقوال النبي ﷺ وأفعاله. ونتعلم الإحسان بأن نستشعر مراقبة الله فنحسن أعمالنا.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "faith-006",
@@ -592,8 +607,8 @@
       "source_pages": [
         13
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل معرفة الله ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -679,12 +694,15 @@
       },
       "guide_script": "الله هو الذي خلقنا ورزقنا، ولا يشبه المخلوقات. يعرض الكتاب أسئلة عن علو الله ورؤية أهل الجنة له؛ نقرأها مع الوالد دون رسم أو تخيل صورة لله.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "faith-007",
@@ -694,8 +712,8 @@
       "source_pages": [
         14
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل التوحيد ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -781,12 +799,15 @@
       },
       "guide_script": "خلقنا الله لعبادته، فلا نعبد إلا الله، وندعوه ونسجد له وحده. لا يعلم الغيب إلا الله؛ فلا نصدق من يدعي معرفة المستقبل بقراءة الكف أو الفنجان.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "faith-008",
@@ -796,8 +817,8 @@
       "source_pages": [
         15
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الإيمان بالملائكة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -883,12 +904,15 @@
       },
       "guide_script": "الملائكة عباد لله خلقهم من نور، ولا نراهم. من أسمائهم جبريل وميكال وإسرافيل. ومن أعمال الملائكة كتابة أعمال الإنسان، وإذا أخطأنا نتوب ونستغفر.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "faith-009",
@@ -898,8 +922,8 @@
       "source_pages": [
         16
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الإيمان بالكتب ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -1021,12 +1045,15 @@
       },
       "guide_script": "أنزل الله كتبًا على رسله: الصحف على إبراهيم، والتوراة على موسى، والزبور على داود، والإنجيل على عيسى، والقرآن على محمد ﷺ. القرآن كلام الله، ونتعلم قراءته وحفظه.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "faith-010",
@@ -1036,8 +1063,8 @@
       "source_pages": [
         17
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الإيمان بالرسل ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -1123,12 +1150,15 @@
       },
       "guide_script": "أرسل الله الرسل ليعرّفونا بربنا ويعلمونا كيف نعبده. نحب الأنبياء كلهم، ومنهم نوح وإبراهيم وموسى وعيسى ومحمد، ومحمد ﷺ آخر الأنبياء.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "faith-011",
@@ -1138,8 +1168,8 @@
       "source_pages": [
         18
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل نبينا محمد ﷺ ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -1227,12 +1257,15 @@
       },
       "guide_script": "نبينا محمد بن عبد الله من قريش ومن بني هاشم. ولد في مكة وهاجر إلى المدينة، وكنيته أبو القاسم. نتعرف إلى أسرته وسيرته ونتعلم ما يعيننا على الاقتداء به.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "faith-012",
@@ -1242,8 +1275,8 @@
       "source_pages": [
         19
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل اليوم الآخر ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -1332,12 +1365,15 @@
       },
       "guide_script": "يوم القيامة يوم يحاسب الله فيه الناس على أعمالهم. نكثر من الخير ونتوب من الخطأ ونحفظ حقوق الآخرين، ونرجو رحمة الله والجنة.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "faith-013",
@@ -1347,8 +1383,8 @@
       "source_pages": [
         20
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل القدر والتوكل ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -1434,12 +1470,15 @@
       },
       "guide_script": "مراتب القدر في الكتاب: العلم والكتابة والمشيئة والخلق. التوكل أن نعتمد على الله ونبذل جهدنا؛ أما انتظار تحقيق الأماني دون اجتهاد فيسميه الكتاب تواكلًا.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "faith-014",
@@ -1449,8 +1488,8 @@
       "source_pages": [
         21
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل ما أخبرنا به الوحي عن الغيب ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -1537,12 +1576,15 @@
       },
       "guide_script": "يعرض الكتاب العرش والحوض والصراط والجن وحياة البرزخ، وهي أمور لا نتعلمها بالتخيل بل بخبر الوحي. نراجع الأسئلة مع الوالد بهدوء، ونؤكد إجابات: ربي الله، وديني الإسلام، ونبيي محمد ﷺ.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "faith-015",
@@ -1552,8 +1594,8 @@
       "source_pages": [
         22
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الحديث وكتبه ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -1639,12 +1681,15 @@
       },
       "guide_script": "الحديث النبوي كلام الرسول ﷺ. من كتب الحديث صحيح البخاري وصحيح مسلم والسنن. يميز الكتاب بين الصحيح والحسن والضعيف والموضوع، فلا ننسب كلامًا إلى النبي ﷺ بلا تثبت.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "faith-016",
@@ -1654,8 +1699,8 @@
       "source_pages": [
         23
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل اتباع النبي ﷺ ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -1741,12 +1786,15 @@
       },
       "guide_script": "نأخذ ديننا من القرآن والسنة، ونتعلم فهمهما كما فهمهما الصحابة وتلاميذهم. محبة النبي ﷺ تظهر في اتباعه، فلا نخترع عبادة وننسبها إلى الدين.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "faith-017",
@@ -1756,8 +1804,8 @@
       "source_pages": [
         24
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل آل البيت والصحابة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -1845,12 +1893,15 @@
       },
       "guide_script": "الصحابي من لقي الرسول ﷺ مؤمنًا ومات على الإيمان. نحب أهل بيته وأصحابه، ونتعلم أسماء أبي بكر وعمر وعثمان وعلي، وأمهات المؤمنين زوجات النبي ﷺ.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "manners-001",
@@ -1860,8 +1911,8 @@
       "source_pages": [
         28
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل آداب المسجد ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -1949,12 +2000,15 @@
       },
       "guide_script": "ندخل المسجد بأدب ونظافة، ونتعلم دعاء الدخول والخروج وتحية المسجد. لا نمر أمام المصلي؛ نمر من خلفه، وإذا لم نستطع ننتظر.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "manners-002",
@@ -1964,8 +2018,8 @@
       "source_pages": [
         29
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل السلام ورد السلام ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -2054,12 +2108,15 @@
       },
       "guide_script": "نلقي السلام بقول السلام عليكم ورحمة الله وبركاته، ونرد وعليكم السلام ورحمة الله وبركاته. السلام يقوي المحبة، ويسلم الصغير على الكبير والمار على القاعد والقليل على الكثير.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "manners-003",
@@ -2069,8 +2126,8 @@
       "source_pages": [
         30
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل آداب اللباس ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -2156,12 +2213,15 @@
       },
       "guide_script": "نختار لباسًا ساترًا ولائقًا، ونبدأ بالجهة اليمنى عند اللبس واليسرى عند الخلع. نتعلم مع الوالد بقية ضوابط اللباس ودعاء الثوب الجديد من الصفحة.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "manners-004",
@@ -2172,8 +2232,8 @@
         31,
         32
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل آداب الطعام والشراب ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -2263,12 +2323,15 @@
       },
       "guide_script": "نقول بسم الله، ونأكل باليمين ومما يلينا، ونشكر الله بعد الطعام. نشارك الطعام ولا نعيبه، وندعو لمن قدمه، ولا نبالغ في الأكل.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "manners-005",
@@ -2278,8 +2341,8 @@
       "source_pages": [
         33
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الطعام الحلال ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -2363,12 +2426,15 @@
       },
       "guide_script": "يعرض الكتاب أمثلة للطعام الحلال والمحرم وضوابط الذبح. من أمثلة الحلال الخضار والفواكه والحبوب؛ ونسأل الوالد عن الطعام الذي لا نعرف مكوناته. قراءة ضوابط الذبح للمعرفة وليست نشاطًا عمليًا للطفل.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "manners-006",
@@ -2378,8 +2444,8 @@
       "source_pages": [
         34
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل قبل النوم ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -2465,12 +2531,15 @@
       },
       "guide_script": "ننام باكرًا، وننفض الفراش، ونتوضأ وننام على الجانب الأيمن. نتعلم أذكار النوم وقراءة المعوذات وآية الكرسي وسورة الكافرون مع الوالد.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "manners-007",
@@ -2480,8 +2549,8 @@
       "source_pages": [
         35
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل عند الاستيقاظ ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -2567,12 +2636,15 @@
       },
       "guide_script": "نحمد الله عند الاستيقاظ، وننظف أسناننا ونغسل أيدينا ونرتب فراشنا. نراجع ذكر الاستيقاظ مع الوالد ونبدأ يومنا بنشاط ونظافة.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "manners-008",
@@ -2582,8 +2654,8 @@
       "source_pages": [
         36
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل آداب الخلاء ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -2669,12 +2741,15 @@
       },
       "guide_script": "نتعلم دعاء الدخول والخروج، ونغلق الباب ونحافظ على ستر البدن ونظافة الثياب والمكان. نستخدم اليسرى في التنظيف ونغسل اليدين جيدًا بعد الانتهاء.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "manners-009",
@@ -2684,8 +2759,8 @@
       "source_pages": [
         37
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل آداب العطاس ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -2773,12 +2848,15 @@
       },
       "guide_script": "يغطي العاطس فمه لئلا يؤذي من حوله، ويقول الحمد لله. يرد من يسمعه: يرحمك الله، فيقول العاطس: يهديكم الله ويصلح بالكم.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "conduct-001",
@@ -2788,8 +2866,8 @@
       "source_pages": [
         40
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل كلام الخير وحسن التعامل ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -2874,12 +2952,15 @@
       },
       "guide_script": "نتعلم إكرام الضيف وعدم إيذاء الجار وقول الخير أو الصمت. ونبتعد عن سوء الظن والتجسس والحسد والتباغض، ونتعامل بإخوة ورحمة.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "conduct-002",
@@ -2889,8 +2970,8 @@
       "source_pages": [
         41
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل عدم الغيبة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -2976,12 +3057,15 @@
       },
       "guide_script": "الغيبة أن تذكر أخاك بما يكره في غيابه. إذا لم تكن الصفة فيه كان الكلام بهتانًا، لذلك نحفظ ألسنتنا ونترك الحديث عن عيوب الآخرين.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "conduct-003",
@@ -2991,8 +3075,8 @@
       "source_pages": [
         42
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل طهارة اللسان ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -3080,12 +3164,15 @@
       },
       "guide_script": "المؤمن يترك الطعن واللعن والكلام البذيء. إذا أخطأ أحد ندعو له بالصلاح وننصحه بأدب، ولا نرد على الخطأ بالإساءة.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "conduct-004",
@@ -3095,8 +3182,8 @@
       "source_pages": [
         43
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل إن شاء الله ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -3182,12 +3269,15 @@
       },
       "guide_script": "عندما نتحدث عما سنفعله مستقبلًا نقول إن شاء الله، إيمانًا بأن الأمور لا تقع إلا بمشيئته. ونبذل جهدنا للوفاء بما وعدنا به.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "conduct-005",
@@ -3197,8 +3287,8 @@
       "source_pages": [
         44
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل ضبط الغضب ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -3286,12 +3376,15 @@
       },
       "guide_script": "قد نشعر بالغضب، ونتعلم التحكم في كلامنا وتصرفاتنا. نستمع ونفهم وجهة نظر الآخر، ولا نسب أو نهدد أو نؤذي أحدًا، ونستخدم كلمات مؤدبة.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "conduct-006",
@@ -3301,8 +3394,8 @@
       "source_pages": [
         45
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الصدق وترك الخداع ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -3412,12 +3505,15 @@
       },
       "guide_script": "الصدق يهدي إلى البر، والكذب يقود إلى السوء. نقول الحقيقة ولا نخدع الناس، ولا نظهر لكل فريق وجهًا مختلفًا للإفساد بينهم.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "conduct-007",
@@ -3427,8 +3523,8 @@
       "source_pages": [
         46
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل بر الوالدين ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -3516,12 +3612,15 @@
       },
       "guide_script": "نبر والدينا بالكلام المؤدب والمساعدة والدعاء، ولا نرفع الصوت عليهما ولا نطلب ما فوق طاقتهما. نبادر إلى عمل نافع نستطيع القيام به.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "conduct-008",
@@ -3531,8 +3630,8 @@
       "source_pages": [
         47
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل صلة الرحم ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -3620,12 +3719,15 @@
       },
       "guide_script": "الأرحام أقاربنا من جهة النسب. نصلهم بالزيارة والاتصال والمحبة والمساعدة وحفظ أسرارهم. نفرح لفرحهم ونواسيهم ونصلح بينهم إن استطعنا.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "conduct-009",
@@ -3636,8 +3738,8 @@
         48,
         49
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل التعرف إلى المحارم ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -3730,12 +3832,15 @@
       },
       "guide_script": "تضم الصفحتان مخططين للعلاقات الأسرية ونشاطين للتمييز بين المحارم وغير المحارم بحسب المقصود في كل مخطط. نقرأهما مع الوالد؛ مثل العم وجد الأب للفتاة، وعمة الأب وأم الجد للفتى. تبقى الخصوصية وحدود الجسد محفوظة مع الجميع.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "conduct-010",
@@ -3745,8 +3850,8 @@
       "source_pages": [
         50
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الأدب مع المعلم ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -3832,12 +3937,15 @@
       },
       "guide_script": "نحترم المعلم وننتبه للشرح ونستأذن ونسأل إذا لم نفهم. نقدر جهده ونؤدي واجباتنا، ونتعلم أن السؤال المؤدب يساعدنا على الفهم.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "conduct-011",
@@ -3847,8 +3955,8 @@
       "source_pages": [
         51
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل التراحم والتعاون ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -3934,12 +4042,15 @@
       },
       "guide_script": "يشبه الحديث المؤمنين في تراحمهم وتعاطفهم بالجسد الواحد. نساعد المحتاج ونتعاطف مع المتألم ولا نفرق بين المسلمين بحسب البلد أو العرق.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "conduct-012",
@@ -3949,8 +4060,8 @@
       "source_pages": [
         52
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل ترك الأذى ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -4038,12 +4149,15 @@
       },
       "guide_script": "نحفظ ألسنتنا وأيدينا عن إيذاء المسلمين. لا نسب ولا نشارك في الاعتداء ولا نعين عليه، ونراعي مشاعر الآخرين.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "conduct-013",
@@ -4053,8 +4167,8 @@
       "source_pages": [
         53
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل المصالحة وترك القطيعة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -4142,12 +4256,15 @@
       },
       "guide_script": "نحاول حل الخلاف ونبدأ بالسلام، ولا نطيل الخصومة. إذا تخاصم الأصدقاء أو الأقارب نساعد على الإصلاح بالكلام الطيب.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "conduct-014",
@@ -4157,8 +4274,8 @@
       "source_pages": [
         54
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل احترام كبار السن ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -4246,12 +4363,15 @@
       },
       "guide_script": "نوقر الكبير ونرحم الصغير، ونتحدث مع كبار السن بأدب ونستمع دون مقاطعة. نساعد الكبير إذا احتاج، ونفسح له مكانًا ولا نسخر منه.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "conduct-015",
@@ -4261,8 +4381,8 @@
       "source_pages": [
         55
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل حق الجار ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -4371,12 +4491,15 @@
       },
       "guide_script": "لا نزعج الجيران بالأصوات ولا نرمي الأوساخ أمام بيوتهم ولا نتجسس عليهم. نحييهم ونساعدهم ونحفظ أسرارهم.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "conduct-016",
@@ -4386,8 +4509,8 @@
       "source_pages": [
         56
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل زيارة المريض ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -4473,12 +4596,15 @@
       },
       "guide_script": "نزور المريض بنية صالحة، وندعو له ونتحدث بكلام طيب. نخفف الزيارة ونراعي راحته ونسأله إن احتاج إلى مساعدة.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "worship-001",
@@ -4488,8 +4614,8 @@
       "source_pages": [
         60
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل النية ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -4573,12 +4699,15 @@
       },
       "guide_script": "النية إرادة العمل والدافع إليه. نريد بالطاعة التقرب إلى الله واتباع ما أمر به. يذكر الكتاب أن النية لا تحتاج إلى إعلان باللسان.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "worship-002",
@@ -4588,8 +4717,8 @@
       "source_pages": [
         61
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل خطوات الوضوء ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -4700,12 +4829,15 @@
       },
       "guide_script": "نتعلم التسمية وغسل الكفين والمضمضة والاستنشاق وغسل الوجه واليدين إلى المرفقين، ثم مسح الرأس والأذنين وغسل الرجلين إلى الكعبين. يشرح الكتاب تكرار الغسل ثلاثًا والمسح مرة، ويختم بذكر بعد الوضوء. نطبق الخطوات مع الوالد.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "worship-003",
@@ -4715,8 +4847,8 @@
       "source_pages": [
         62
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الصلوات الخمس وأوقاتها ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -4802,12 +4934,15 @@
       },
       "guide_script": "الصلوات المفروضة خمس: الفجر والظهر والعصر والمغرب والعشاء. نربطها بأوقات اليوم، ونتابع موعد الصلاة مع الأسرة.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "worship-004",
@@ -4819,8 +4954,8 @@
         64,
         65
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل القيام والقراءة والركوع ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -4910,12 +5045,15 @@
       },
       "guide_script": "نستقبل القبلة ونكبر تكبيرة الإحرام ونقرأ دعاء الاستفتاح والفاتحة وما تيسر من القرآن، ثم نركع. يذكر الكتاب في الركوع سبحان ربي العظيم. يتولى الوالد تعليم هيئة الصلاة.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "worship-005",
@@ -4928,8 +5066,8 @@
         65,
         66
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الاعتدال والسجود ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -5024,12 +5162,15 @@
       },
       "guide_script": "نعتدل بعد الركوع، ثم نسجد، ثم نجلس بين السجدتين، ثم نسجد مرة ثانية. نتعلم سبحان ربي الأعلى في السجود ورب اغفر لي بين السجدتين.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "worship-006",
@@ -5041,8 +5182,8 @@
         68,
         69
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل التشهد والتسليم ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -5136,12 +5277,15 @@
       },
       "guide_script": "يكون التشهد الأوسط بعد الركعة الثانية في الصلاة الثلاثية والرباعية، والأخير بعد الركعة الأخيرة. نتعلم نص التشهد والصلاة الإبراهيمية والدعاء من الصفحة مع الوالد، ونختم الصلاة بالتسليم.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "worship-007",
@@ -5151,8 +5295,8 @@
       "source_pages": [
         70
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الأذكار بعد الصلاة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -5236,12 +5380,15 @@
       },
       "guide_script": "نستغفر الله ثلاثًا، ونتعلم اللهم أنت السلام ومنك السلام تباركت يا ذا الجلال والإكرام. يذكر الكتاب التسبيح والتحميد والتكبير ثلاثًا وثلاثين وإتمام المئة بالتهليل، ويذكر قراءة آية الكرسي مع ملاحظة على حديثها.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "worship-008",
@@ -5251,8 +5398,8 @@
       "source_pages": [
         71
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل صلاة الجمعة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -5338,12 +5485,15 @@
       },
       "guide_script": "تكون صلاة الجمعة وقت الظهر يوم الجمعة، وفيها خطبتان ثم صلاة ركعتين خلف الإمام. يشرح الكتاب من تلزمه الجمعة ومن يصلي الظهر؛ نتعلم حضورها بأدب مع الأسرة.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "worship-009",
@@ -5353,8 +5503,8 @@
       "source_pages": [
         72
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل السنن الرواتب ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -5440,12 +5590,15 @@
       },
       "guide_script": "الرواتب صلوات مستحبة قبل الفرائض أو بعدها. يعرض الكتاب اثنتي عشرة ركعة: ركعتين قبل الفجر، وأربعًا قبل الظهر وركعتين بعده، وركعتين بعد المغرب وركعتين بعد العشاء.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "worship-010",
@@ -5455,8 +5608,8 @@
       "source_pages": [
         73
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل صلاة الوتر ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -5540,12 +5693,15 @@
       },
       "guide_script": "الوتر صلاة مسنونة، وعدد ركعاتها فردي، كركعة أو ثلاث أو خمس. يعرض الكتاب وقتها بعد العشاء وصفة من صفاتها، ويذكر وجود صفات أخرى.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "worship-011",
@@ -5556,8 +5712,8 @@
         74,
         75
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الأذان والإقامة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -5646,12 +5802,15 @@
       },
       "guide_script": "الأذان إعلام بدخول وقت الصلاة المفروضة، والإقامة إعلام بالقيام لأدائها. نقرأ ألفاظهما من المصدر ونتدرب مع الوالد على نطقها دون إضافة.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "worship-012",
@@ -5661,8 +5820,8 @@
       "source_pages": [
         82
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الزكاة والصدقة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -5748,12 +5907,15 @@
       },
       "guide_script": "الزكاة عبادة مالية لها مقدار وشروط، ويذكر الكتاب أصناف الأموال التي تجب فيها. الصدقة أوسع، فيمكن بذل أي شيء نافع، ولا يلزم لها مقدار محدد كالزكاة.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "worship-013",
@@ -5763,8 +5925,8 @@
       "source_pages": [
         83
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل تدريب حساب الزكاة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -5850,12 +6012,15 @@
       },
       "guide_script": "تعرض الصفحة شروط زكاة المال، ومنها النصاب ومرور السنة الهجرية، ثم نسبة ٢٫٥٪. في المثال التعليمي وبعد افتراض تحقق الشروط، نقسم المال على ٤٠؛ لا يقرر الطفل وحده زكاة مال الأسرة.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "worship-014",
@@ -5865,8 +6030,8 @@
       "source_pages": [
         84
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الصيام وحسن الخلق ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -5952,12 +6117,15 @@
       },
       "guide_script": "الصيام ترك المفطرات من الفجر إلى غروب الشمس، وصيام رمضان من أركان الإسلام. نتعلم معه الصدق وترك الشجار والكلام السيئ. يشرح الوالد الأعذار والتدرب المناسب للطفل.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "worship-015",
@@ -5967,8 +6135,8 @@
       "source_pages": [
         85
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل صيام التطوع ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -6052,12 +6220,15 @@
       },
       "guide_script": "صيام التطوع عبادة يتقرب بها المسلم إلى الله زيادة على الفرض. تذكر الصفحة عرفة وعاشوراء وستًا من شوال والاثنين والخميس والأيام البيض، ويشرحها الوالد بحسب الاستطاعة.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "worship-016",
@@ -6069,8 +6240,8 @@
         87,
         88
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الحج: الإحرام والطواف والسعي ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -6160,12 +6331,15 @@
       },
       "guide_script": "الحج ركن من الإسلام على القادر مرة في العمر، ويكون في ذي الحجة. يعرض الكتاب الإحرام ثم الطواف حول الكعبة والسعي بين الصفا والمروة؛ والطواف والسعي سبعة أشواط.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "worship-017",
@@ -6176,8 +6350,8 @@
         88,
         89
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الحج: منى وعرفة ومزدلفة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -6264,12 +6438,15 @@
       },
       "guide_script": "ينتقل الحجاج بحسب تسلسل الكتاب إلى منى ثم عرفة ثم مزدلفة. الوقوف بعرفة يوم التاسع من ذي الحجة، ثم يكون المبيت بمزدلفة؛ نتعلم أسماء الأماكن وتسلسلها.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "worship-018",
@@ -6281,8 +6458,8 @@
         90,
         91
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الحج: إتمام المناسك ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -6374,12 +6551,15 @@
       },
       "guide_script": "تذكر الصفحات رمي جمرة العقبة والهدي والحلق أو التقصير وطواف الإفاضة ورمي الجمرات ثم طواف الوداع. نتعرف إلى أسماء المناسك ونسأل الوالد عما لم نفهمه.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-001",
@@ -6391,8 +6571,8 @@
         95,
         96
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الفاتحة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -6494,12 +6674,15 @@
       },
       "guide_script": "نتعلم حمد الله ورحمته وعبادته وحده والاستعانة به وطلب الهداية إلى الطريق المستقيم.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-002",
@@ -6510,8 +6693,8 @@
         97,
         98
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل آية الكرسي ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -6612,12 +6795,15 @@
       },
       "guide_script": "تعرّفنا آية الكرسي بالله الحي القيوم، وأنه لا ينام، وأن له ما في السماوات والأرض، وعلمه محيط بكل شيء.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-003",
@@ -6629,8 +6815,8 @@
         100,
         101
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الضحى ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -6738,12 +6924,15 @@
       },
       "guide_script": "تذكر السورة نعم الله على نبيه ﷺ، وتعلمنا الإحسان إلى اليتيم والسائل وشكر النعمة.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-004",
@@ -6755,8 +6944,8 @@
         103,
         104
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الشرح ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -6860,12 +7049,15 @@
       },
       "guide_script": "تذكر السورة نعمة الله على نبيه ﷺ، وأن مع العسر يسرًا، وتوجهنا إلى الطاعة والدعاء وحسن استثمار الوقت.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-005",
@@ -6877,8 +7069,8 @@
         106,
         107
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل التين ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -6982,12 +7174,15 @@
       },
       "guide_script": "نتأمل خلق الله للإنسان، ونستعمل الصحة في الخير، ونتعلم أن للمؤمنين العاملين بالصالحات أجرًا غير منقطع.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-006",
@@ -7000,8 +7195,8 @@
         110,
         111
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل العلق ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -7108,12 +7303,15 @@
       },
       "guide_script": "تبدأ السورة بالأمر بالقراءة، وتذكر تعليم الله الإنسان بالقلم. وتحذر من الطغيان وتدعو إلى السجود والتقرب إلى الله.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-007",
@@ -7124,8 +7322,8 @@
         112,
         113
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل القدر ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -7226,12 +7424,15 @@
       },
       "guide_script": "أنزل الله القرآن في ليلة القدر، وهي خير من ألف شهر. نحرص على العبادة في العشر الأواخر من رمضان دون الجزم بليلة واحدة.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-008",
@@ -7244,8 +7445,8 @@
         116,
         117
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل البينة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -7352,12 +7553,15 @@
       },
       "guide_script": "توضح السورة رسالة النبي ﷺ والدعوة إلى إخلاص العبادة لله وإقامة الصلاة وإيتاء الزكاة، وتذكر جزاء الإيمان والعمل الصالح.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-009",
@@ -7368,8 +7572,8 @@
         118,
         119
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الزلزلة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -7470,12 +7674,15 @@
       },
       "guide_script": "تذكر السورة الحساب يوم القيامة، وأن الإنسان يرى نتيجة عمله ولو كان صغيرًا. لا نستهين بالخير الصغير ونجتنب الإساءة.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-010",
@@ -7487,8 +7694,8 @@
         121,
         122
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل العاديات ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -7596,12 +7803,15 @@
       },
       "guide_script": "تصف السورة الخيل الجارية ثم تحذر من جحود النعم والانشغال الشديد بالمال، وتذكر أن الله يعلم ما في الصدور.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-011",
@@ -7612,8 +7822,8 @@
         123,
         124
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل القارعة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -7714,12 +7924,15 @@
       },
       "guide_script": "القارعة اسم ليوم القيامة، وتذكر السورة وزن الأعمال. نكثر من الصالحات ونتوب من السيئات ونرجو رضا الله.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-012",
@@ -7730,8 +7943,8 @@
         125,
         126
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل التكاثر ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -7832,12 +8045,15 @@
       },
       "guide_script": "تحذر السورة من أن يشغلنا جمع الممتلكات والتفاخر عن طاعة الله، وتذكرنا بالآخرة والسؤال عن النعيم.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-013",
@@ -7848,8 +8064,8 @@
         127,
         128
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل العصر ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -7950,12 +8166,15 @@
       },
       "guide_script": "تعلمنا السورة الإيمان والعمل الصالح والتواصي بالحق والتواصي بالصبر، وهي طريق النجاة من الخسران.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-014",
@@ -7966,8 +8185,8 @@
         129,
         130
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الهمزة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -8068,12 +8287,15 @@
       },
       "guide_script": "تحذر السورة من الإساءة إلى الناس والعيب فيهم والاغترار بالمال. نتكلم بصدق ولطف ولا نحتقر الفقير.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-015",
@@ -8084,8 +8306,8 @@
         131,
         132
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الفيل ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -8190,12 +8412,15 @@
       },
       "guide_script": "أراد أصحاب الفيل هدم الكعبة فأبطل الله كيدهم وأرسل عليهم طيرًا أبابيل. نتعلم قدرة الله وحرمة الاعتداء.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-016",
@@ -8206,8 +8431,8 @@
         133,
         134
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل قريش ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -8308,12 +8533,15 @@
       },
       "guide_script": "تذكر السورة قريشًا برحلتي الشتاء والصيف ونعمة الطعام والأمان، وتأمرهم بعبادة رب البيت.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-017",
@@ -8324,8 +8552,8 @@
         135,
         136
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الماعون ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -8430,12 +8658,15 @@
       },
       "guide_script": "تدعو معاني السورة إلى رحمة اليتيم وإطعام المسكين والمحافظة على الصلاة والإخلاص وإعانة الناس. نعمل الخير طلبًا لرضا الله.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-018",
@@ -8446,8 +8677,8 @@
         137,
         138
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الكوثر ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -8548,12 +8779,15 @@
       },
       "guide_script": "أعطى الله نبيه ﷺ الكوثر، وهو نهر في الجنة. ونقابل نعم الله بالشكر والعبادة والصلاة له.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-019",
@@ -8564,8 +8798,8 @@
         139,
         140
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الكافرون ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -8666,12 +8900,15 @@
       },
       "guide_script": "تقرر السورة عبادة الله وحده وترك عبادة غيره والثبات على الإسلام. نتعلم معناها دون تحويل الدرس إلى إساءة لأشخاص.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-020",
@@ -8682,8 +8919,8 @@
         141,
         142
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل النصر ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -8784,12 +9021,15 @@
       },
       "guide_script": "تذكر السورة النصر وفتح مكة ودخول الناس في الإسلام جماعات، وتأمر بالتسبيح والحمد والاستغفار.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-021",
@@ -8800,8 +9040,8 @@
         143,
         144
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل المسد ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -8902,12 +9142,15 @@
       },
       "guide_script": "تخبر السورة عن أبي لهب وزوجته وإيذائهما للنبي ﷺ، وأن المال لا يدفع عاقبة الظلم. نتعلم ترك الأذى دون وصف مخيف للعذاب.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-022",
@@ -8918,8 +9161,8 @@
         145,
         146
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الإخلاص ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -9020,12 +9263,15 @@
       },
       "guide_script": "الله أحد صمد، لم يلد ولم يولد وليس له مثيل. نلتجئ إليه في حاجاتنا ونعظمه وحده.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-023",
@@ -9036,8 +9282,8 @@
         147,
         148
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الفلق ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -9142,12 +9388,15 @@
       },
       "guide_script": "نتعلم الاستعاذة بالله رب الفلق من الشر والحسد. نحب الخير للآخرين ولا نتمنى زوال نعمهم.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "quran-024",
@@ -9158,8 +9407,8 @@
         149,
         150
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الناس ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -9260,12 +9509,15 @@
       },
       "guide_script": "نستعيذ بالله رب الناس وملك الناس وإله الناس من الوسوسة التي تدعو إلى الشر. نترك الدعوة إلى المعصية ونختار الخير.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-001",
@@ -9275,8 +9527,8 @@
       "source_pages": [
         154
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الرجل الذي سقى الكلب ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -9372,12 +9624,15 @@
       },
       "guide_script": "رجل عطش فشرب من بئر، ثم رأى كلبًا شديد العطش فتذكر حاجته إلى الماء. عاد وأحضر ماء للكلب فسقاه، فغفر الله له. نتعلم الرحمة بالحيوان والإحسان إليه.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-002",
@@ -9388,8 +9643,8 @@
         155,
         156
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الجارية راعية الغنم ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -9490,12 +9745,15 @@
       },
       "guide_script": "غضب معاوية بن الحكم السلمي بعدما أكل الذئب شاة، فأخطأ وضرب راعية الغنم ثم ندم. ذهب إلى النبي ﷺ فأنكر عليه فعله، ثم أمره بإعتاقها بعد سؤاله لها. نتعلم ضبط الغضب وإصلاح الخطأ.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-003",
@@ -9507,8 +9765,8 @@
         158,
         159
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الأبرص والأقرع والأعمى ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -9612,12 +9870,15 @@
       },
       "guide_script": "أعطى الله ثلاثة رجال الصحة والمال، ثم اختبر شكرهم. جحد اثنان النعمة، واعترف الثالث بفضل الله وأراد مساعدة المحتاج، فرضي الله عنه. لا نسخر من المرض أو اختلاف المظهر.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-004",
@@ -9629,8 +9890,8 @@
         161,
         162
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل المسيح عيسى ابن مريم ﷺ ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -9734,12 +9995,15 @@
       },
       "guide_script": "مريم امرأة صالحة، وخلق الله عيسى عليه السلام دون أب، وجعله نبيًا يدعو إلى عبادة الله. آتاه الله آيات بإذنه، ورفعه إليه. المسلمون يحبون عيسى ويؤمنون بأنه عبد الله ورسوله.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-005",
@@ -9750,8 +10014,8 @@
         163,
         164
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل ربح البيع أبا الدحداح ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -9852,12 +10116,15 @@
       },
       "guide_script": "احتاج رجل إلى نخلة ليقيم حائطه، ورغب أبو الدحداح في ثواب الله ومساعدة أخيه. اشترى النخلة ببستانه وقدمها، وشجعته زوجته على الخير. نتعلم المسارعة إلى الإحسان.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-006",
@@ -9869,8 +10136,8 @@
         166,
         167
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل إسلام سلمان الفارسي ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -9974,12 +10241,15 @@
       },
       "guide_script": "بحث سلمان الفارسي عن الحق، وتنقل يسأل من يرشده، حتى عرف علامات النبي المنتظر. لقي محمدًا ﷺ وتحقق من العلامات فآمن به وصار من أصحابه. نتعلم الحرص على التعلم والتثبت.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-007",
@@ -9991,8 +10261,8 @@
         169,
         170
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل إسلام أم أبي هريرة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -10096,12 +10366,15 @@
       },
       "guide_script": "دعا أبو هريرة أمه إلى الإسلام، وتألم من كلام سمعه دون أن يسيء إليها. طلب من النبي ﷺ الدعاء لها بالهداية، فأسلمت وفرح أبو هريرة. نتعلم البر والدعاء وحسن الكلام.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-008",
@@ -10114,8 +10387,8 @@
         173,
         174
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل مقتل عمر بن الخطاب ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -10225,12 +10498,15 @@
       },
       "guide_script": "تعرض عمر بن الخطاب رضي الله عنه لاعتداء في الصلاة، فقدم عبد الرحمن بن عوف ليتم الصلاة بالناس. وقبل وفاته اهتم بسداد ديونه وحقوق الناس وأوصى بالعدل. نروي الحدث باختصار دون تفاصيل الإصابة؛ مقدمة القصة فيها رواية يذكر المؤلف أنه لا يعرف لها إسنادًا صحيحًا.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-009",
@@ -10241,8 +10517,8 @@
         175,
         176
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل إسلام عبد الله بن مسعود ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -10343,12 +10619,15 @@
       },
       "guide_script": "كان عبد الله بن مسعود يرعى غنمًا مؤتمنًا عليها، فلم يعط من مال صاحبها دون إذن. رأى آية على يد النبي ﷺ ثم طلب التعلم وأسلم. نتعلم حفظ الأمانة وطلب العلم.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-010",
@@ -10359,8 +10638,8 @@
         177,
         178
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل فتح القدس ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -10461,12 +10740,15 @@
       },
       "guide_script": "طلب أهل القدس تسليمها إلى عمر بن الخطاب رضي الله عنه، فجاء متواضعًا. تسلمها وعاهد أهلها على الأمان. نتعلم التواضع والوفاء بالعهد وحفظ الحقوق.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-011",
@@ -10479,8 +10761,8 @@
         181,
         182
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الغلام والساحر ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -10590,12 +10872,15 @@
       },
       "guide_script": "تعلم غلام الإيمان من رجل صالح، وعرف أن الشافي هو الله، فكان يدعو للمحتاجين. آذاه ملك ظالم، وثبت على إيمانه، وانتهت القصة بإيمان الناس. يُشرح مع الوالد أنه قُتل ظلمًا دون تفاصيل عنف أو نشاط تمثيل.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-012",
@@ -10607,8 +10892,8 @@
         184,
         185
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل بداية الخلق: آدم والتوبة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -10712,12 +10997,15 @@
       },
       "guide_script": "خلق الله آدم وأمر الملائكة بالسجود له، فامتنع إبليس استكبارًا. عاش آدم وحواء في الجنة ثم أكلا من الشجرة التي نهيا عنها، وتاب آدم فقبل الله توبته. نتعلم ترك الكبر والرجوع إلى الله.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-013",
@@ -10729,8 +11017,8 @@
         187,
         188
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل بداية الخلق: الذرية والأمانة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -10836,12 +11124,15 @@
       },
       "guide_script": "تروي الصفحات خبر عرض ذرية آدم عليه، وتذكر داود، وشهادة البشر بربوبية الله. ونتعلم أن نعبد الله ونؤدي ما أمرنا به بأمانة.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-014",
@@ -10852,8 +11143,8 @@
         189,
         190
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل صاحب الخشبة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -10954,12 +11245,15 @@
       },
       "guide_script": "اقترض رجل مالًا وحدد موعدًا لرده، ثم لم يجد سفينة توصله إلى صاحبه، فوضع المال في خشبة ودعا الله فأوصلها إليه. ولما وجد سفينة ذهب بمال آخر ليتأكد من أداء الدين، فأخبره صاحبه أن المال وصل. نتعلم الأمانة؛ لا نقلد إلقاء المال في الماء.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-015",
@@ -10970,8 +11264,8 @@
         191,
         192
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل من رغب عن سنتي فليس مني ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -11072,12 +11366,15 @@
       },
       "guide_script": "سأل ثلاثة أشخاص عن عبادة النبي ﷺ ثم أرادوا الزيادة بترك النوم أو الإفطار أو الزواج. بيّن النبي ﷺ أنه يصلي وينام ويصوم ويفطر ويتزوج. نتعلم اتباع سنته دون غلو.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-016",
@@ -11089,8 +11386,8 @@
         194,
         195
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل آخر من يدخل الجنة ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -11199,12 +11496,15 @@
       },
       "guide_script": "تروي القصة خبر آخر رجل يدخل الجنة وكيف يرجو فضل الله ويدعوه. يعطيه الله عطاء عظيمًا، ونتعلم سعة الرحمة وفضل الدعاء دون عرض مشاهد العذاب.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-017",
@@ -11217,8 +11517,8 @@
         198,
         199
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل موسى والخضر عليهما السلام ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -11328,12 +11628,15 @@
       },
       "guide_script": "سافر موسى لطلب العلم، والتقى الخضر ورافقه في أحداث السفينة والغلام والجدار. شرح الخضر ما لم يعرف موسى حكمته. نتعلم قول الله أعلم وأدب التعلم؛ أحداث القصة بوحي خاص وليست إذنًا لأحد بإيذاء غيره.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-018",
@@ -11345,8 +11648,8 @@
         201,
         202
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل إبراهيم وهاجر ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -11450,12 +11753,15 @@
       },
       "guide_script": "بقيت هاجر مع إسماعيل في مكة بأمر الله، وتوكلت عليه وسعت بين الصفا والمروة بحثًا عن الماء، فجاء ماء زمزم. ثم بنى إبراهيم وإسماعيل الكعبة بأمر الله ودعوا أن يتقبل منهما.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-019",
@@ -11466,8 +11772,8 @@
         203,
         204
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل المرأة التي كانت تقم المسجد ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -11568,12 +11874,15 @@
       },
       "guide_script": "كانت امرأة تنظف مسجد النبي ﷺ، ثم توفيت، فسأل عنها وذهب فصلى عليها. نتعلم تقدير من يخدم الناس وعدم احتقار الضعيف أو الفقير.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-020",
@@ -11585,8 +11894,8 @@
         206,
         207
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل الإسراء والمعراج ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -11690,12 +11999,15 @@
       },
       "guide_script": "أسرى الله بالنبي ﷺ من مكة إلى بيت المقدس، ثم عرج به إلى السماء، وفرضت الصلاة. خفف الله الصلوات إلى خمس مع عظيم الأجر، وصدق أبو بكر خبر النبي ﷺ. لا نمثل الغيب برسوم متخيلة.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-021",
@@ -11706,8 +12018,8 @@
         208,
         209
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل ماشطة ابنة فرعون ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -11811,12 +12123,15 @@
       },
       "guide_script": "كانت ماشطة ابنة فرعون مؤمنة بالله، ولم تقبل ادعاء فرعون أنه إله. ظلمها فرعون وقتلها وأولادها، ويذكر الخبر منزلتها الطيبة. تعرض القصة برفقة الوالد دون تفاصيل القتل أو صور العذاب.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-022",
@@ -11827,8 +12142,8 @@
         210,
         211
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل لا أعلوك يا رسول الله ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -11929,12 +12244,15 @@
       },
       "guide_script": "استضاف أبو أيوب الأنصاري النبي ﷺ وأكرمه، وأحب أن يهيئ له المكان الأفضل. وعندما رأى أن النبي لم يأكل الثوم والبصل سأله قبل أن يحكم بتحريمهما. نتعلم إكرام الضيف والسؤال قبل الحكم.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "stories-023",
@@ -11944,8 +12262,8 @@
       "source_pages": [
         212
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "adapted_from_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل جرة الذهب ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -12043,12 +12361,15 @@
       },
       "guide_script": "وجد مشترٍ جرة ذهب في أرض اشتراها، فأراد ردها للبائع، وأراد البائع تركها للمشتري. تحاكما إلى رجل صالح فأشار بتزويج ولديهما والإنفاق عليهما والصدقة. نتعلم الأمانة والتورع عن أخذ ما ليس لنا.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "memorization-001",
@@ -12059,8 +12380,8 @@
         216,
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "editorial_plan_based_on_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل حفظ جزء عم ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -12190,12 +12511,15 @@
       },
       "guide_script": "نحفظ سور جزء عم من النبأ إلى الناس بالتدرج وفق جدول الكتاب. نستمع إلى قراءة متقنة يختارها الوالد ثم نكرر ونعرض الحفظ عليه.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "memorization-002",
@@ -12206,8 +12530,8 @@
         218,
         219
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "editorial_plan_based_on_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل حفظ جزء تبارك ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -12336,12 +12660,15 @@
       },
       "guide_script": "نحفظ السور من الملك إلى المرسلات وفق مقاطع الجدول ثم نراجع السورة كاملة. نراجع المقاطع التي تعلمناها ثم نسمع السورة كاملة للوالد.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "memorization-003",
@@ -12352,8 +12679,8 @@
         11,
         222
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "editorial_plan_based_on_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل حفظ أسماء الله ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -12452,12 +12779,15 @@
       },
       "guide_script": "يعرض الكتاب عشرة أسطر للأسماء، ستة في كل سطر وأربعة في الأخير. نلتزم بترتيب الجدول ونتعلم معاني الأسماء مع الوالد.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     },
     {
       "id": "memorization-004",
@@ -12469,8 +12799,8 @@
         224,
         225
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "origin": "editorial_plan_based_on_book",
       "estimated_minutes": 7,
       "objective": "أن يشرح الطفل حفظ الأحاديث ويجيب عن سؤال فهم ويذكر تطبيقًا مناسبًا.",
@@ -12598,12 +12928,15 @@
       },
       "guide_script": "جدول الكتاب يطلب حفظ الأحاديث المرقمة من ١ إلى ٣٧. نقرأ النص من الصفحة الأصلية مع الوالد حتى يدقق، ونتعلم معناه ونعمل به، ونراجع مواضع الحفظ.",
       "review_status": {
-        "text": "pending",
-        "religious_content": "pending",
-        "age_suitability": "pending",
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved",
         "audio": "not_produced",
         "images": "not_produced"
-      }
+      },
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل"
     }
   ]
 }

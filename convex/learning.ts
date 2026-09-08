@@ -6,6 +6,7 @@ import {
   type Answer,
   grade,
   isAutomatic,
+  isStageComplete,
   lessonById,
   lessons,
   publicQuestion,
@@ -32,7 +33,7 @@ export const map = query({
     const records = await progress(ctx, childId);
     const completed = new Set(
       records
-        .filter((record) => record.lessonCompleted && record.activityPassed)
+        .filter((record) => isStageComplete(lessonById(record.lessonId), record))
         .map((record) => record.lessonId),
     );
     const rewards = await ctx.db
@@ -86,7 +87,7 @@ export const lesson = query({
     const records = await progress(ctx, args.childId);
     const completed = new Set(
       records
-        .filter((record) => record.lessonCompleted && record.activityPassed)
+        .filter((record) => isStageComplete(lessonById(record.lessonId), record))
         .map((record) => record.lessonId),
     );
     if (!unlocked(content, completed)) {
@@ -127,7 +128,7 @@ export const completeSegment = mutation({
     const records = await progress(ctx, args.childId);
     const completed = new Set(
       records
-        .filter((record) => record.lessonCompleted && record.activityPassed)
+        .filter((record) => isStageComplete(lessonById(record.lessonId), record))
         .map((record) => record.lessonId),
     );
     if (!unlocked(content, completed)) {
@@ -184,7 +185,7 @@ export const submitActivity = mutation({
     const records = await progress(ctx, args.childId);
     const completed = new Set(
       records
-        .filter((record) => record.lessonCompleted && record.activityPassed)
+        .filter((record) => isStageComplete(lessonById(record.lessonId), record))
         .map((record) => record.lessonId),
     );
     if (!unlocked(content, completed)) {
@@ -309,10 +310,7 @@ async function awardWorldIfComplete(
   const complete =
     worldLessons.length > 0 &&
     worldLessons.every((lesson) =>
-      records.some(
-        (record) =>
-          record.lessonId === lesson.id && record.lessonCompleted && record.activityPassed,
-      ),
+      records.some((record) => record.lessonId === lesson.id && isStageComplete(lesson, record)),
     );
   if (complete) {
     await award(ctx, householdId, childId, `world:${worldId}`, "world_badge", 0);

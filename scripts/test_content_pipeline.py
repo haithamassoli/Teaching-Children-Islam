@@ -1,5 +1,5 @@
 """Small regression checks for the fail-closed release validator."""
-from build_content import validate_bundle
+from build_content import load_bundle, validate_bundle
 from check_content import check_publish_state
 
 
@@ -62,6 +62,11 @@ def main():
     assert validate_bundle(duplicate)
     assert validate_bundle(fixture(), require_complete=True)  # no approval evidence
     assert not validate_bundle(fixture())
+    text_only = fixture()
+    text_only['lessons'][0]['segments'][0].update(audio_asset=None, image_asset=None)
+    assert not validate_bundle(text_only, require_media=False)
+    assert validate_bundle(text_only, require_media=True)
+    assert not validate_bundle(load_bundle(), require_complete=True, require_media=False)
     print('PASS: content pipeline rejects drafts and missing refs; approved fixture accepted')
 
 

@@ -5,8 +5,10 @@ import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { api } from "../convex/_generated/api";
 import type { Id } from "../convex/_generated/dataModel";
+import { arabicNumber, worldArt } from "../lib/assets";
 import Activity, { type ActivityAnswer, type ActivityQuestion } from "./activity";
 import ChildReview from "./child-review";
+import { Asset } from "./components/journey-ui";
 
 export default function LearningJourney({
   childId,
@@ -62,30 +64,50 @@ export default function LearningJourney({
             تغيير الطفل
           </button>
         </header>
-        <p className="star-count">★ {map.stars} نجوم</p>
+        <p className="star-count">★ {arabicNumber(map.stars)} نجوم</p>
         {/* biome-ignore lint/a11y/useMediaCaption: each recorded instruction has adjacent written lesson text. */}
         <audio ref={audio} preload="none" />
-        {map.badges.length > 0 && <p className="badge-row">الشارات: {map.badges.join(" · ")}</p>}
+        {map.badges.length > 0 && (
+          <div className="badge-row">
+            {map.badges.map((badge) => (
+              <Asset
+                key={badge}
+                path={`badges/${worldArt(badge.replace("world:", ""))}-earned.svg`}
+                width={72}
+                alt={`شارة عالم ${map.worlds.find((world) => `world:${world.id}` === badge)?.title ?? "التعلّم"}`}
+              />
+            ))}
+          </div>
+        )}
         <section className="learning-worlds">
           {map.worlds.map((world) => (
             <article key={world.id} className="learning-world-card">
+              <Asset
+                path={`worlds/${worldArt(world.id)}.webp`}
+                width={480}
+                height={240}
+                className="live-world-image"
+              />
               <h2>{world.title}</h2>
               <p>
                 {world.total ? `${world.completed} من ${world.total} مراحل` : "لا محتوى معتمد بعد"}
               </p>
-              <ol className="stage-list">
-                {world.stages.map((stage) => (
-                  <li key={stage.id}>
-                    <button
-                      type="button"
-                      disabled={!stage.unlocked}
-                      onClick={() => setLessonId(stage.id)}
-                    >
-                      {stageLabel(stage)} {stage.title}
-                    </button>
-                  </li>
-                ))}
-              </ol>
+              <details>
+                <summary>استكشف المراحل</summary>
+                <ol className="stage-list">
+                  {world.stages.map((stage) => (
+                    <li key={stage.id}>
+                      <button
+                        type="button"
+                        disabled={!stage.unlocked}
+                        onClick={() => setLessonId(stage.id)}
+                      >
+                        {stageLabel(stage)} {stage.title}
+                      </button>
+                    </li>
+                  ))}
+                </ol>
+              </details>
             </article>
           ))}
         </section>
@@ -109,6 +131,12 @@ export default function LearningJourney({
         → الخريطة
       </button>
       <section className="account-card">
+        <Asset
+          path={`worlds/${worldArt(lesson.worldId)}.webp`}
+          width={920}
+          height={240}
+          className="live-lesson-image"
+        />
         <p className="section-kicker">درس معتمد</p>
         <h1>{lesson.title}</h1>
         <p>{lesson.objective}</p>
@@ -182,20 +210,28 @@ export default function LearningJourney({
                 childId,
                 lessonId,
                 questionId: question.id,
-                answer,
+                answer:
+                  typeof answer === "object" && !Array.isArray(answer)
+                    ? JSON.stringify(answer)
+                    : answer,
               })
             }
           />
         ))}
-      {lesson.state.lessonCompleted && lesson.state.activityPassed && (
-        <section className="reward-screen">
-          <h2>أحسنت!</h2>
-          <p>جمعت نجوم هذه المرحلة. أحسنت المحاولة والتعلّم!</p>
-          <button type="button" className="primary-button" onClick={() => setLessonId(null)}>
-            عودة للخريطة
-          </button>
-        </section>
-      )}
+      {lesson.state.lessonCompleted &&
+        (lesson.state.activityPassed ||
+          !lesson.questions.some(
+            (question) => !["short_answer", "parent_discussion"].includes(question.type),
+          )) && (
+          <section className="reward-screen">
+            <Asset path={`rewards/stars-${lesson.state.activityPassed ? 3 : 1}.svg`} width={230} />
+            <h2>أحسنت!</h2>
+            <p>أكملت الدرس! ناقش إجاباتك مع الوالد، ثم واصل رحلتك.</p>
+            <button type="button" className="primary-button" onClick={() => setLessonId(null)}>
+              عودة للخريطة
+            </button>
+          </section>
+        )}
       <ChildReview childId={childId} />
     </main>
   );

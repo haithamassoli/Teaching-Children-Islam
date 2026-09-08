@@ -98,3 +98,9 @@ The production-only service worker requires HTTPS (localhost also works). It cac
 Install using the browser's app installation menu, or Safari's Share → Add to Home Screen. To verify offline behavior, visit once online, wait for service-worker activation, switch the browser offline and reload. Expect the Arabic fallback with a retry link.
 
 Brand assets share `public/icon.svg`. Run `node scripts/build_branding.mjs` to regenerate PNG icons, the maskable icon, favicon, Open Graph and Twitter cards using the installed Sharp dependency. Review Arabic text rendering after regeneration.
+
+## تحديث الدمج — ٨ سبتمبر ٢٠٢٦
+
+أكد صاحب المشروع مراجعة جميع النصوص واعتمد إضافتها كاملة. `npm run build:release` يبني الآن الإصدار النصي المعتمد، ويقرأ الموقع وConvex معيار الاعتماد نفسه من `lib/catalog.ts`. شروط الوسائط الكاملة السابقة تُفحص عبر `python3 scripts/build_content.py --require-media`، ولا يمنع غياب التلاوات وأصوات الدروس استخدام النص المعتمد. الأسئلة المفتوحة تظل مناقشة مع الوالد، وتسمح القراءة بالانتقال دون منح نجوم نشاط تلقائي.
+
+المسارات العامة: `/`، `/explore`، `/explore/[lessonId]`، `/library`؛ حسابات الأسرة على `/family`. ملف المصدر متاح عبر `/api/book` مع روابط أرقام الصفحات. يضم تتبع ملفات Next.js أصول العرض وPDF حتى تتوافر في حزم النشر. أصوات المرشد الاصطناعية غير الموثقة الحقوق تبقى محجوبة.

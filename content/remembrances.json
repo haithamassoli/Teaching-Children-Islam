@@ -7,12 +7,20 @@
     ],
     "text": "اللهم افتح لي أبواب رحمتك",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-02",
@@ -22,12 +30,20 @@
     ],
     "text": "اللهم إني أسألك من فضلك",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-03",
@@ -37,12 +53,20 @@
     ],
     "text": "اللهم لك الحمد، أنت كسوتنيه، أسألك من خيره وخير ما صنع له، وأعوذ بك من شره وشر ما صنع له",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-04",
@@ -52,12 +76,20 @@
     ],
     "text": "بسم الله",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-05",
@@ -67,12 +99,20 @@
     ],
     "text": "بسم الله أوله وآخره",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-06",
@@ -82,12 +122,20 @@
     ],
     "text": "الحمد لله الذي أطعمنا وسقانا، وكفانا وآوانا، فكم ممن لا كافي له ولا مؤوي",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تدقيق النص والسياق والتخريج قبل الاعتماد؛ نص ص٣٢ وسياق استعماله يحتاج مراجعة خاصة."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-07",
@@ -97,12 +145,20 @@
     ],
     "text": "باسمك اللهم أموت وأحيا",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-08",
@@ -112,12 +168,20 @@
     ],
     "text": "الحمد لله الذي أحيانا بعد ما أماتنا وإليه النشور",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-09",
@@ -127,12 +191,20 @@
     ],
     "text": "اللهم إني أعوذ بك من الخبث والخبائث",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-10",
@@ -142,12 +214,20 @@
     ],
     "text": "غفرانك",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-11",
@@ -157,12 +237,20 @@
     ],
     "text": "الحمد لله",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-12",
@@ -172,12 +260,20 @@
     ],
     "text": "يرحمك الله",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-13",
@@ -187,12 +283,20 @@
     ],
     "text": "يهديكم الله ويصلح بالكم",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-14",
@@ -202,12 +306,20 @@
     ],
     "text": "لا بأس طهور إن شاء الله",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-15",
@@ -217,12 +329,20 @@
     ],
     "text": "أسأل الله العظيم رب العرش العظيم أن يشفيك",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-16",
@@ -232,12 +352,20 @@
     ],
     "text": "أشهد أن لا إله إلا الله وحده لا شريك له، وأشهد أن محمدًا عبده ورسوله، اللهم اجعلني من التوابين واجعلني من المتطهرين",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-17",
@@ -247,12 +375,20 @@
     ],
     "text": "سبحان ربي العظيم",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-18",
@@ -262,12 +398,20 @@
     ],
     "text": "سبحان ربي الأعلى",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-19",
@@ -277,12 +421,20 @@
     ],
     "text": "رب اغفر لي، رب اغفر لي",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-20",
@@ -292,12 +444,20 @@
     ],
     "text": "السلام عليكم ورحمة الله",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-21",
@@ -307,12 +467,20 @@
     ],
     "text": "أستغفر الله",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-22",
@@ -322,12 +490,20 @@
     ],
     "text": "اللهم أنت السلام ومنك السلام، تباركت يا ذا الجلال والإكرام",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-23",
@@ -337,12 +513,20 @@
     ],
     "text": "سبحان الله",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-24",
@@ -352,12 +536,20 @@
     ],
     "text": "الحمد لله",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-25",
@@ -367,12 +559,20 @@
     ],
     "text": "الله أكبر",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   },
   {
     "id": "dhikr-26",
@@ -382,11 +582,19 @@
     ],
     "text": "لا إله إلا الله وحده لا شريك له، له الملك وله الحمد وهو على كل شيء قدير",
     "origin": "editorial_transcription_from_book",
-    "status": "draft",
-    "publishable": false,
+    "status": "approved",
+    "publishable": true,
     "audio_asset": null,
     "review_notes": [
       "تراجع الصياغة والتشكيل والمصدر قبل التسجيل الصوتي."
-    ]
+    ],
+    "approved_by": "project_owner",
+    "approved_at": "2026-09-08",
+    "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+    "review_status": {
+      "text": "approved",
+      "religious_content": "approved",
+      "age_suitability": "approved"
+    }
   }
 ]

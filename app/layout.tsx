@@ -3,6 +3,7 @@ import { Cairo } from "next/font/google";
 import { siteDescription, siteName, siteUrl } from "../lib/site";
 import Pwa from "./pwa";
 import "./globals.css";
+import "./journey.css";
 
 const cairo = Cairo({ variable: "--font-cairo", subsets: ["arabic"] });
 

@@ -43,3 +43,6 @@ next-env.d.ts
 # local Python and Convex artifacts
 __pycache__/
 .convex/
+
+# generated from the reviewed source JSON
+/content/catalog.json

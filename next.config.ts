@@ -1,6 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  outputFileTracingIncludes: {
+    "/api/assets/*": [
+      "./assets/**/*.webp",
+      "./assets/**/*.svg",
+      "./assets/audio/**/*.wav",
+      "./assets/audio/**/*.mp3",
+    ],
+    "/api/book": ["./content/source/book.pdf"],
+  },
   headers() {
     return Promise.resolve([
       {

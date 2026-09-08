@@ -142,3 +142,17 @@ test("an open answer cannot earn activity stars", async () => {
   ).resolves.toMatchObject({ correct: null });
   expect(await t.run((ctx) => ctx.db.query("rewards").collect())).toEqual([]);
 });
+
+test("a discussion-only lesson advances after reading without awarding activity stars", async () => {
+  const { t, ids, asParent } = setup;
+  await asParent.mutation(api.learning.completeSegment, {
+    childId: ids.childId,
+    lessonId: "lesson-open",
+    segmentId: "open-segment",
+  });
+  const map = await asParent.query(api.learning.map, { childId: ids.childId });
+  expect(map.worlds.find((world) => world.id === "open-world")?.completed).toBe(1);
+  const rewards = await t.run((ctx) => ctx.db.query("rewards").collect());
+  expect(rewards.some((reward) => reward.kind === "activity_stars")).toBe(false);
+  expect(map.stars).toBe(1);
+});

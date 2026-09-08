@@ -33,9 +33,15 @@ export default function Activity({
   const matching = ["matching", "source_reference_match"].includes(question.type);
   const choice = ["multiple_choice", "multiple_select", "story_choice"].includes(question.type);
   const written = ["short_answer", "numeric", "parent_discussion"].includes(question.type);
+  let canSubmit = ordered ? selected.length === question.items?.length : Boolean(value.trim());
+  if (matching) {
+    canSubmit = Boolean(question.left?.length && question.left.every((item) => pairs[item]));
+  } else if (question.type === "multiple_select") {
+    canSubmit = selected.length > 0;
+  }
 
   async function check() {
-    if (busy || passed) {
+    if (busy || passed || !canSubmit) {
       return;
     }
     if (!navigator.onLine) {
@@ -160,7 +166,12 @@ export default function Activity({
           </label>
         )}
       </fieldset>
-      <button className="primary-button" type="button" disabled={busy || passed} onClick={check}>
+      <button
+        className="primary-button"
+        type="button"
+        disabled={busy || passed || !canSubmit}
+        onClick={check}
+      >
         {busy ? "جارٍ التحقق…" : "تحقق من إجابتي"}
       </button>
       <p role="status" aria-live="polite">

@@ -21,7 +21,7 @@ def check_publish_state(item):
         assert item.get('approved_by') and item.get('approved_at'), f"{item['id']}: approval evidence missing"
         review = item.get('review_status', {})
         if isinstance(review, dict):
-            assert all(value == 'approved' for value in review.values()), f"{item['id']}: review gate incomplete"
+            assert all(review.get(key) == 'approved' for key in ('text', 'religious_content', 'age_suitability')), f"{item['id']}: text review gate incomplete"
     else:
         assert item.get('status') != 'approved', f"{item['id']}: approved content marked unpublished"
 

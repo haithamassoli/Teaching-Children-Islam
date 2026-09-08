@@ -12,7 +12,7 @@ import {
   query,
 } from "./_generated/server";
 import { requireHousehold, requireOwnedChild, requireParentSession } from "./lib/authz";
-import { lessons, memoryItems, practiceItems } from "./lib/content";
+import { isStageComplete, lessons, memoryItems, practiceItems } from "./lib/content";
 import { sha256 } from "./lib/crypto";
 
 async function parentCredentials(ctx: ActionCtx, parentToken: string) {
@@ -221,11 +221,11 @@ export const dashboardInternal = internalQuery({
             child,
             summary: {
               lessons: {
-                completed: progress.filter(
-                  (item) =>
-                    item.lessonCompleted &&
-                    item.activityPassed &&
-                    lessons.some((lesson) => lesson.id === item.lessonId),
+                completed: progress.filter((item) =>
+                  isStageComplete(
+                    lessons.find((lesson) => lesson.id === item.lessonId),
+                    item,
+                  ),
                 ).length,
                 total: lessons.length,
               },

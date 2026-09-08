@@ -7,8 +7,8 @@
       "source_pages": [
         216
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -29,7 +29,15 @@
         "from_ayah": 1,
         "to_ayah": 16
       },
-      "source_row_type": "partial"
+      "source_row_type": "partial",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-002",
@@ -38,8 +46,8 @@
       "source_pages": [
         216
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -60,7 +68,15 @@
         "from_ayah": 17,
         "to_ayah": 30
       },
-      "source_row_type": "partial"
+      "source_row_type": "partial",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-003",
@@ -69,8 +85,8 @@
       "source_pages": [
         216
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -91,7 +107,15 @@
         "from_ayah": 1,
         "to_ayah": 40
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-004",
@@ -100,8 +124,8 @@
       "source_pages": [
         216
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -122,7 +146,15 @@
         "from_ayah": 1,
         "to_ayah": 14
       },
-      "source_row_type": "partial"
+      "source_row_type": "partial",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-005",
@@ -131,8 +163,8 @@
       "source_pages": [
         216
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -153,7 +185,15 @@
         "from_ayah": 15,
         "to_ayah": 33
       },
-      "source_row_type": "partial"
+      "source_row_type": "partial",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-006",
@@ -162,8 +202,8 @@
       "source_pages": [
         216
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -184,7 +224,15 @@
         "from_ayah": 1,
         "to_ayah": 46
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-007",
@@ -193,8 +241,8 @@
       "source_pages": [
         216
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -215,7 +263,15 @@
         "from_ayah": 1,
         "to_ayah": 16
       },
-      "source_row_type": "partial"
+      "source_row_type": "partial",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-008",
@@ -224,8 +280,8 @@
       "source_pages": [
         216
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -246,7 +302,15 @@
         "from_ayah": 17,
         "to_ayah": 32
       },
-      "source_row_type": "partial"
+      "source_row_type": "partial",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-009",
@@ -255,8 +319,8 @@
       "source_pages": [
         216
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -277,7 +341,15 @@
         "from_ayah": 1,
         "to_ayah": 42
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-010",
@@ -286,8 +358,8 @@
       "source_pages": [
         216
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -308,7 +380,15 @@
         "from_ayah": 1,
         "to_ayah": 14
       },
-      "source_row_type": "partial"
+      "source_row_type": "partial",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-011",
@@ -317,8 +397,8 @@
       "source_pages": [
         216
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -339,7 +419,15 @@
         "from_ayah": 1,
         "to_ayah": 29
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-012",
@@ -348,8 +436,8 @@
       "source_pages": [
         216
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -370,7 +458,15 @@
         "from_ayah": 1,
         "to_ayah": 19
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-013",
@@ -379,8 +475,8 @@
       "source_pages": [
         216
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -401,7 +497,15 @@
         "from_ayah": 1,
         "to_ayah": 36
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-014",
@@ -410,8 +514,8 @@
       "source_pages": [
         216
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -432,7 +536,15 @@
         "from_ayah": 1,
         "to_ayah": 25
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-015",
@@ -441,8 +553,8 @@
       "source_pages": [
         216
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -463,7 +575,15 @@
         "from_ayah": 1,
         "to_ayah": 22
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-016",
@@ -472,8 +592,8 @@
       "source_pages": [
         216
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -494,7 +614,15 @@
         "from_ayah": 1,
         "to_ayah": 17
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-017",
@@ -503,8 +631,8 @@
       "source_pages": [
         216
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -525,7 +653,15 @@
         "from_ayah": 1,
         "to_ayah": 19
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-018",
@@ -534,8 +670,8 @@
       "source_pages": [
         216
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -556,7 +692,15 @@
         "from_ayah": 1,
         "to_ayah": 26
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-019",
@@ -565,8 +709,8 @@
       "source_pages": [
         216
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -587,7 +731,15 @@
         "from_ayah": 1,
         "to_ayah": 30
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-020",
@@ -596,8 +748,8 @@
       "source_pages": [
         216
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -618,7 +770,15 @@
         "from_ayah": 1,
         "to_ayah": 20
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-021",
@@ -627,8 +787,8 @@
       "source_pages": [
         216
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -649,7 +809,15 @@
         "from_ayah": 1,
         "to_ayah": 15
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-022",
@@ -658,8 +826,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -680,7 +848,15 @@
         "from_ayah": 1,
         "to_ayah": 21
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-023",
@@ -689,8 +865,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -711,7 +887,15 @@
         "from_ayah": 1,
         "to_ayah": 11
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-024",
@@ -720,8 +904,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -742,7 +926,15 @@
         "from_ayah": 1,
         "to_ayah": 8
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-025",
@@ -751,8 +943,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -773,7 +965,15 @@
         "from_ayah": 1,
         "to_ayah": 8
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-026",
@@ -782,8 +982,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -804,7 +1004,15 @@
         "from_ayah": 1,
         "to_ayah": 19
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-027",
@@ -813,8 +1021,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -835,7 +1043,15 @@
         "from_ayah": 1,
         "to_ayah": 5
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-028",
@@ -844,8 +1060,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -866,7 +1082,15 @@
         "from_ayah": 1,
         "to_ayah": 8
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-029",
@@ -875,8 +1099,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -897,7 +1121,15 @@
         "from_ayah": 1,
         "to_ayah": 8
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-030",
@@ -906,8 +1138,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -928,7 +1160,15 @@
         "from_ayah": 1,
         "to_ayah": 11
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-031",
@@ -937,8 +1177,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -959,7 +1199,15 @@
         "from_ayah": 1,
         "to_ayah": 11
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-032",
@@ -968,8 +1216,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -990,7 +1238,15 @@
         "from_ayah": 1,
         "to_ayah": 8
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-033",
@@ -999,8 +1255,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1021,7 +1277,15 @@
         "from_ayah": 1,
         "to_ayah": 3
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-034",
@@ -1030,8 +1294,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1052,7 +1316,15 @@
         "from_ayah": 1,
         "to_ayah": 9
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-035",
@@ -1061,8 +1333,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1083,7 +1355,15 @@
         "from_ayah": 1,
         "to_ayah": 5
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-036",
@@ -1092,8 +1372,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1114,7 +1394,15 @@
         "from_ayah": 1,
         "to_ayah": 4
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-037",
@@ -1123,8 +1411,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1145,7 +1433,15 @@
         "from_ayah": 1,
         "to_ayah": 7
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-038",
@@ -1154,8 +1450,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1176,7 +1472,15 @@
         "from_ayah": 1,
         "to_ayah": 3
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-039",
@@ -1185,8 +1489,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1207,7 +1511,15 @@
         "from_ayah": 1,
         "to_ayah": 6
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-040",
@@ -1216,8 +1528,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1238,7 +1550,15 @@
         "from_ayah": 1,
         "to_ayah": 3
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-041",
@@ -1247,8 +1567,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1269,7 +1589,15 @@
         "from_ayah": 1,
         "to_ayah": 5
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-042",
@@ -1278,8 +1606,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1300,7 +1628,15 @@
         "from_ayah": 1,
         "to_ayah": 4
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-043",
@@ -1309,8 +1645,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1331,7 +1667,15 @@
         "from_ayah": 1,
         "to_ayah": 5
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-044",
@@ -1340,8 +1684,8 @@
       "source_pages": [
         217
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1362,7 +1706,15 @@
         "from_ayah": 1,
         "to_ayah": 6
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-045",
@@ -1371,8 +1723,8 @@
       "source_pages": [
         218
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1396,7 +1748,15 @@
       "source_row_type": "partial",
       "review_notes": [
         "تقسيم الملك كما طبع: ١–١٦ ثم ٧–١٢؛ تحقق بصريًا من وجود التداخل، ولم يصحح دون اعتماد."
-      ]
+      ],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-046",
@@ -1405,8 +1765,8 @@
       "source_pages": [
         218
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1430,7 +1790,15 @@
       "source_row_type": "partial",
       "review_notes": [
         "تقسيم الملك كما طبع: ١–١٦ ثم ٧–١٢؛ تحقق بصريًا من وجود التداخل، ولم يصحح دون اعتماد."
-      ]
+      ],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-047",
@@ -1439,8 +1807,8 @@
       "source_pages": [
         218
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1464,7 +1832,15 @@
       "source_row_type": "partial",
       "review_notes": [
         "تقسيم الملك كما طبع: ١–١٦ ثم ٧–١٢؛ تحقق بصريًا من وجود التداخل، ولم يصحح دون اعتماد."
-      ]
+      ],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-048",
@@ -1473,8 +1849,8 @@
       "source_pages": [
         218
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1498,7 +1874,15 @@
       "source_row_type": "partial",
       "review_notes": [
         "تقسيم الملك كما طبع: ١–١٦ ثم ٧–١٢؛ تحقق بصريًا من وجود التداخل، ولم يصحح دون اعتماد."
-      ]
+      ],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-049",
@@ -1507,8 +1891,8 @@
       "source_pages": [
         218
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1529,7 +1913,15 @@
         "from_ayah": 1,
         "to_ayah": 30
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-050",
@@ -1538,8 +1930,8 @@
       "source_pages": [
         218
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1561,7 +1953,15 @@
         "to_ayah": 16
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-051",
@@ -1570,8 +1970,8 @@
       "source_pages": [
         218
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1593,7 +1993,15 @@
         "to_ayah": 33
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-052",
@@ -1602,8 +2010,8 @@
       "source_pages": [
         218
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1625,7 +2033,15 @@
         "to_ayah": 43
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-053",
@@ -1634,8 +2050,8 @@
       "source_pages": [
         218
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1656,7 +2072,15 @@
         "from_ayah": 1,
         "to_ayah": 52
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-054",
@@ -1665,8 +2089,8 @@
       "source_pages": [
         218
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1688,7 +2112,15 @@
         "to_ayah": 8
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-055",
@@ -1697,8 +2129,8 @@
       "source_pages": [
         218
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1720,7 +2152,15 @@
         "to_ayah": 18
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-056",
@@ -1729,8 +2169,8 @@
       "source_pages": [
         218
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1752,7 +2192,15 @@
         "to_ayah": 37
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-057",
@@ -1761,8 +2209,8 @@
       "source_pages": [
         218
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1783,7 +2231,15 @@
         "from_ayah": 1,
         "to_ayah": 52
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-058",
@@ -1792,8 +2248,8 @@
       "source_pages": [
         218
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1815,7 +2271,15 @@
         "to_ayah": 14
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-059",
@@ -1824,8 +2288,8 @@
       "source_pages": [
         218
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1847,7 +2311,15 @@
         "to_ayah": 35
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-060",
@@ -1856,8 +2328,8 @@
       "source_pages": [
         218
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1878,7 +2350,15 @@
         "from_ayah": 1,
         "to_ayah": 44
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-061",
@@ -1887,8 +2367,8 @@
       "source_pages": [
         218
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1910,7 +2390,15 @@
         "to_ayah": 12
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-062",
@@ -1919,8 +2407,8 @@
       "source_pages": [
         218
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1942,7 +2430,15 @@
         "to_ayah": 21
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-063",
@@ -1951,8 +2447,8 @@
       "source_pages": [
         218
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -1973,7 +2469,15 @@
         "from_ayah": 1,
         "to_ayah": 28
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-064",
@@ -1982,8 +2486,8 @@
       "source_pages": [
         219
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2005,7 +2509,15 @@
         "to_ayah": 7
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-065",
@@ -2014,8 +2526,8 @@
       "source_pages": [
         219
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2037,7 +2549,15 @@
         "to_ayah": 13
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-066",
@@ -2046,8 +2566,8 @@
       "source_pages": [
         219
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2069,7 +2589,15 @@
         "to_ayah": 20
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-067",
@@ -2078,8 +2606,8 @@
       "source_pages": [
         219
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2100,7 +2628,15 @@
         "from_ayah": 1,
         "to_ayah": 28
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-068",
@@ -2109,8 +2645,8 @@
       "source_pages": [
         219
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2132,7 +2668,15 @@
         "to_ayah": 13
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-069",
@@ -2141,8 +2685,8 @@
       "source_pages": [
         219
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2164,7 +2708,15 @@
         "to_ayah": 19
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-070",
@@ -2173,8 +2725,8 @@
       "source_pages": [
         219
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2195,7 +2747,15 @@
         "from_ayah": 1,
         "to_ayah": 20
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-071",
@@ -2204,8 +2764,8 @@
       "source_pages": [
         219
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2227,7 +2787,15 @@
         "to_ayah": 17
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-072",
@@ -2236,8 +2804,8 @@
       "source_pages": [
         219
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2259,7 +2827,15 @@
         "to_ayah": 31
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-073",
@@ -2268,8 +2844,8 @@
       "source_pages": [
         219
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2291,7 +2867,15 @@
         "to_ayah": 47
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-074",
@@ -2300,8 +2884,8 @@
       "source_pages": [
         219
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2322,7 +2906,15 @@
         "from_ayah": 1,
         "to_ayah": 56
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-075",
@@ -2331,8 +2923,8 @@
       "source_pages": [
         219
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2354,7 +2946,15 @@
         "to_ayah": 15
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-076",
@@ -2363,8 +2963,8 @@
       "source_pages": [
         219
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2386,7 +2986,15 @@
         "to_ayah": 25
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-077",
@@ -2395,8 +3003,8 @@
       "source_pages": [
         219
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2417,7 +3025,15 @@
         "from_ayah": 1,
         "to_ayah": 40
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-078",
@@ -2426,8 +3042,8 @@
       "source_pages": [
         219
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2449,7 +3065,15 @@
         "to_ayah": 11
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-079",
@@ -2458,8 +3082,8 @@
       "source_pages": [
         219
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2481,7 +3105,15 @@
         "to_ayah": 22
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-080",
@@ -2490,8 +3122,8 @@
       "source_pages": [
         219
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2512,7 +3144,15 @@
         "from_ayah": 1,
         "to_ayah": 31
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-081",
@@ -2521,8 +3161,8 @@
       "source_pages": [
         219
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2544,7 +3184,15 @@
         "to_ayah": 19
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-082",
@@ -2553,8 +3201,8 @@
       "source_pages": [
         219
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2576,7 +3224,15 @@
         "to_ayah": 34
       },
       "source_row_type": "partial",
-      "review_notes": []
+      "review_notes": [],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-083",
@@ -2585,8 +3241,8 @@
       "source_pages": [
         219
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2607,7 +3263,15 @@
         "from_ayah": 1,
         "to_ayah": 50
       },
-      "source_row_type": "complete_surah"
+      "source_row_type": "complete_surah",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-084",
@@ -2617,8 +3281,8 @@
         11,
         222
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2645,7 +3309,15 @@
       "visual_checked": true,
       "review_notes": [
         "الولي مكرر في السطرين الخامس والتاسع كما في الأصل؛ عدد الخانات ٥٨ والأسماء المختلفة ٥٧."
-      ]
+      ],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-085",
@@ -2655,8 +3327,8 @@
         11,
         222
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2683,7 +3355,15 @@
       "visual_checked": true,
       "review_notes": [
         "الولي مكرر في السطرين الخامس والتاسع كما في الأصل؛ عدد الخانات ٥٨ والأسماء المختلفة ٥٧."
-      ]
+      ],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-086",
@@ -2693,8 +3373,8 @@
         11,
         222
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2721,7 +3401,15 @@
       "visual_checked": true,
       "review_notes": [
         "الولي مكرر في السطرين الخامس والتاسع كما في الأصل؛ عدد الخانات ٥٨ والأسماء المختلفة ٥٧."
-      ]
+      ],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-087",
@@ -2731,8 +3419,8 @@
         11,
         222
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2759,7 +3447,15 @@
       "visual_checked": true,
       "review_notes": [
         "الولي مكرر في السطرين الخامس والتاسع كما في الأصل؛ عدد الخانات ٥٨ والأسماء المختلفة ٥٧."
-      ]
+      ],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-088",
@@ -2769,8 +3465,8 @@
         11,
         222
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2797,7 +3493,15 @@
       "visual_checked": true,
       "review_notes": [
         "الولي مكرر في السطرين الخامس والتاسع كما في الأصل؛ عدد الخانات ٥٨ والأسماء المختلفة ٥٧."
-      ]
+      ],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-089",
@@ -2807,8 +3511,8 @@
         11,
         222
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2835,7 +3539,15 @@
       "visual_checked": true,
       "review_notes": [
         "الولي مكرر في السطرين الخامس والتاسع كما في الأصل؛ عدد الخانات ٥٨ والأسماء المختلفة ٥٧."
-      ]
+      ],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-090",
@@ -2845,8 +3557,8 @@
         11,
         222
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2873,7 +3585,15 @@
       "visual_checked": true,
       "review_notes": [
         "الولي مكرر في السطرين الخامس والتاسع كما في الأصل؛ عدد الخانات ٥٨ والأسماء المختلفة ٥٧."
-      ]
+      ],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-091",
@@ -2883,8 +3603,8 @@
         11,
         222
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2911,7 +3631,15 @@
       "visual_checked": true,
       "review_notes": [
         "الولي مكرر في السطرين الخامس والتاسع كما في الأصل؛ عدد الخانات ٥٨ والأسماء المختلفة ٥٧."
-      ]
+      ],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-092",
@@ -2921,8 +3649,8 @@
         11,
         222
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2949,7 +3677,15 @@
       "visual_checked": true,
       "review_notes": [
         "الولي مكرر في السطرين الخامس والتاسع كما في الأصل؛ عدد الخانات ٥٨ والأسماء المختلفة ٥٧."
-      ]
+      ],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-093",
@@ -2959,8 +3695,8 @@
         11,
         222
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -2985,7 +3721,15 @@
       "visual_checked": true,
       "review_notes": [
         "الولي مكرر في السطرين الخامس والتاسع كما في الأصل؛ عدد الخانات ٥٨ والأسماء المختلفة ٥٧."
-      ]
+      ],
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-094",
@@ -2995,8 +3739,8 @@
         8,
         223
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3012,7 +3756,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-01"
+      "hadith_id": "book-hadith-01",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-095",
@@ -3022,8 +3774,8 @@
         9,
         223
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3039,7 +3791,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-02"
+      "hadith_id": "book-hadith-02",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-096",
@@ -3049,8 +3809,8 @@
         10,
         223
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3066,7 +3826,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-03"
+      "hadith_id": "book-hadith-03",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-097",
@@ -3076,8 +3844,8 @@
         11,
         223
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3093,7 +3861,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-04"
+      "hadith_id": "book-hadith-04",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-098",
@@ -3103,8 +3879,8 @@
         24,
         223
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3120,7 +3896,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-05"
+      "hadith_id": "book-hadith-05",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-099",
@@ -3130,8 +3914,8 @@
         28,
         223
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3147,7 +3931,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-06"
+      "hadith_id": "book-hadith-06",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-100",
@@ -3157,8 +3949,8 @@
         28,
         223
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3174,7 +3966,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-07"
+      "hadith_id": "book-hadith-07",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-101",
@@ -3184,8 +3984,8 @@
         28,
         223
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3201,7 +4001,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-08"
+      "hadith_id": "book-hadith-08",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-102",
@@ -3211,8 +4019,8 @@
         29,
         223
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3228,7 +4036,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-09"
+      "hadith_id": "book-hadith-09",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-103",
@@ -3238,8 +4054,8 @@
         29,
         223
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3255,7 +4071,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-10"
+      "hadith_id": "book-hadith-10",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-104",
@@ -3265,8 +4089,8 @@
         31,
         223
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3282,7 +4106,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-11"
+      "hadith_id": "book-hadith-11",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-105",
@@ -3292,8 +4124,8 @@
         31,
         223
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3309,7 +4141,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-12"
+      "hadith_id": "book-hadith-12",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-106",
@@ -3319,8 +4159,8 @@
         36,
         223
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3336,7 +4176,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-13"
+      "hadith_id": "book-hadith-13",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-107",
@@ -3346,8 +4194,8 @@
         37,
         223
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3363,7 +4211,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-14"
+      "hadith_id": "book-hadith-14",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-108",
@@ -3373,8 +4229,8 @@
         40,
         223
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3390,7 +4246,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-15"
+      "hadith_id": "book-hadith-15",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-109",
@@ -3400,8 +4264,8 @@
         40,
         223
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3417,7 +4281,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-16"
+      "hadith_id": "book-hadith-16",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-110",
@@ -3427,8 +4299,8 @@
         41,
         223
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3444,7 +4316,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-17"
+      "hadith_id": "book-hadith-17",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-111",
@@ -3454,8 +4334,8 @@
         42,
         223
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3471,7 +4351,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-18"
+      "hadith_id": "book-hadith-18",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-112",
@@ -3481,8 +4369,8 @@
         44,
         224
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3498,7 +4386,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-19"
+      "hadith_id": "book-hadith-19",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-113",
@@ -3508,8 +4404,8 @@
         45,
         224
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3525,7 +4421,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-20"
+      "hadith_id": "book-hadith-20",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-114",
@@ -3535,8 +4439,8 @@
         45,
         224
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3552,7 +4456,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-21"
+      "hadith_id": "book-hadith-21",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-115",
@@ -3562,8 +4474,8 @@
         46,
         224
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3579,7 +4491,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-22"
+      "hadith_id": "book-hadith-22",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-116",
@@ -3589,8 +4509,8 @@
         47,
         224
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3606,7 +4526,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-23"
+      "hadith_id": "book-hadith-23",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-117",
@@ -3616,8 +4544,8 @@
         50,
         224
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3633,7 +4561,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-24"
+      "hadith_id": "book-hadith-24",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-118",
@@ -3643,8 +4579,8 @@
         51,
         224
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3660,7 +4596,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-25"
+      "hadith_id": "book-hadith-25",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-119",
@@ -3670,8 +4614,8 @@
         52,
         224
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3687,7 +4631,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-26"
+      "hadith_id": "book-hadith-26",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-120",
@@ -3697,8 +4649,8 @@
         53,
         224
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3714,7 +4666,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-27"
+      "hadith_id": "book-hadith-27",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-121",
@@ -3724,8 +4684,8 @@
         54,
         224
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3741,7 +4701,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-28"
+      "hadith_id": "book-hadith-28",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-122",
@@ -3751,8 +4719,8 @@
         55,
         224
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3768,7 +4736,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-29"
+      "hadith_id": "book-hadith-29",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-123",
@@ -3778,8 +4754,8 @@
         56,
         224
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3795,7 +4771,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-30"
+      "hadith_id": "book-hadith-30",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-124",
@@ -3805,8 +4789,8 @@
         60,
         224
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3822,7 +4806,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-31"
+      "hadith_id": "book-hadith-31",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-125",
@@ -3832,8 +4824,8 @@
         68,
         224
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3849,7 +4841,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-32"
+      "hadith_id": "book-hadith-32",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-126",
@@ -3859,8 +4859,8 @@
         68,
         224
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3876,7 +4876,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-33"
+      "hadith_id": "book-hadith-33",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-127",
@@ -3886,8 +4894,8 @@
         68,
         224
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3903,7 +4911,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-34"
+      "hadith_id": "book-hadith-34",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-128",
@@ -3913,8 +4929,8 @@
         71,
         224
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3930,7 +4946,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-35"
+      "hadith_id": "book-hadith-35",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-129",
@@ -3940,8 +4964,8 @@
         72,
         224
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3957,7 +4981,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-36"
+      "hadith_id": "book-hadith-36",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     },
     {
       "id": "memory-130",
@@ -3967,8 +4999,8 @@
         84,
         224
       ],
-      "status": "draft",
-      "publishable": false,
+      "status": "approved",
+      "publishable": true,
       "reviewer": "parent",
       "initial_state": "not_started",
       "allowed_states": [
@@ -3984,7 +5016,15 @@
         "6-7": "استمع إلى مقطع قصير وكرره ثم سمعه للوالد.",
         "8-10": "استمع وكرر وراجع المقطع السابق ثم سمع للوالد."
       },
-      "hadith_id": "book-hadith-37"
+      "hadith_id": "book-hadith-37",
+      "approved_by": "project_owner",
+      "approved_at": "2026-09-08",
+      "approval_source": "Owner confirmation: كل المحتوى تم مراجعته اضفه بالكامل",
+      "review_status": {
+        "text": "approved",
+        "religious_content": "approved",
+        "age_suitability": "approved"
+      }
     }
   ],
   "assessment": {
