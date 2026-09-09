@@ -74,7 +74,11 @@ def main():
         assert [l['order'] for l in group] == list(range(1, len(group) + 1))
         for i, lesson in enumerate(group):
             assert lesson['prerequisites'] == ([group[i - 1]['id']] if i else [])
-    assert len([l for l in lessons if l['world_id'] == 'stories']) == 23
+    stories = [l for l in lessons if l['world_id'] == 'stories']
+    assert len(stories) == 23
+    assert all(sum(len(s['text']) for s in l['segments']) >= 500 for l in stories)
+    assert all(all(s['origin'] == 'transcribed_from_book' for s in l['segments']) for l in stories)
+    assert all(l['segments'][-1]['text'].startswith('من فوائد') for l in stories)
     assert {l['quran_ref']['surah'] for l in lessons if l['world_id'] == 'quran'} == {1, 2, *range(93, 115)}
     assert len(original_qa) == 119
     assert {x['book_number'] for x in original_qa} == {str(n) for n in range(1, 119)} | {'35ب'}
