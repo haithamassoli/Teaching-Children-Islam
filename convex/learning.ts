@@ -4,6 +4,7 @@ import { type MutationCtx, mutation, type QueryCtx, query } from "./_generated/s
 import { requireOwnedChild } from "./lib/authz";
 import {
   type Answer,
+  bookPageText,
   grade,
   isAutomatic,
   isStageComplete,
@@ -102,9 +103,8 @@ export const lesson = query({
       id: content.id,
       worldId: content.world_id,
       title: content.title,
-      objective: content.objective,
-      ageInstructions: content.age_instructions,
       segments: content.segments,
+      sourcePages: content.source_pages.map((page) => ({ page, text: bookPageText(page) })),
       questions: content.questions.map(publicQuestion),
       state: {
         completedSegments: segments

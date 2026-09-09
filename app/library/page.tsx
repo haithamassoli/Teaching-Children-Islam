@@ -187,14 +187,9 @@ export default async function Library({
               <div className="entry-answer" data-narration-text>
                 {item.body}
               </div>
-              <a
-                className="source-link"
-                href={`/api/book#page=${item.pages[0]}`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                افتح المصدر · ص {item.pages.map(arabicNumber).join("، ")} ↗
-              </a>
+              <Link className="source-link" href={`/book?page=${item.pages[0]}`}>
+                اقرأ الصفحة كاملة داخل الموقع · ص {item.pages.map(arabicNumber).join("، ")} ←
+              </Link>
             </details>
           ))}
         </div>

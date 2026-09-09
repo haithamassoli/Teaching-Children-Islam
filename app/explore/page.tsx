@@ -19,7 +19,7 @@ export default async function Explore({
   const filtered = lessons.filter(
     (lesson) =>
       (!world || lesson.world_id === world.id) &&
-      normalize(`${lesson.title} ${lesson.objective}`).includes(normalize(query)),
+      normalize(lesson.title).includes(normalize(query)),
   );
   return (
     <div className="journey-site">
@@ -108,7 +108,7 @@ export default async function Explore({
               href={`/explore/${lesson.id}`}
               key={lesson.id}
               className="lesson-tile reveal"
-              data-narration={`${lesson.title}. ${lesson.objective}`}
+              data-narration={`${lesson.title}. المحتوى الأصلي كامل بلا تلخيص.`}
               data-sound
             >
               <div className="lesson-tile-top">
@@ -119,7 +119,11 @@ export default async function Explore({
                 </span>
               </div>
               <h2>{lesson.title}</h2>
-              <p>{lesson.objective}</p>
+              <p>
+                {lesson.world_id === "stories"
+                  ? "القصة كاملة مع صفحاتها الأصلية."
+                  : "صفحات الكتاب الأصلية كاملة بلا تلخيص."}
+              </p>
               <span className="world-enter">
                 افتح الدرس <span aria-hidden="true">←</span>
               </span>

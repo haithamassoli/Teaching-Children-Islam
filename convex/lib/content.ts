@@ -1,6 +1,6 @@
 import { lessons as reviewedLessons, memoryItems as reviewedMemory } from "../../lib/catalog";
 
-export { worlds } from "../../lib/catalog";
+export { bookPageText, worlds } from "../../lib/catalog";
 
 export type Answer = string | string[] | Record<string, string>;
 export type ContentQuestion = {
@@ -22,8 +22,15 @@ export type ContentLesson = {
   order: number;
   title: string;
   objective: string;
+  source_pages: number[];
   prerequisites: string[];
-  segments: { id: string; text: string; audio_asset: string | null; image_asset: string | null }[];
+  segments: {
+    id: string;
+    text: string;
+    origin: string;
+    audio_asset: string | null;
+    image_asset: string | null;
+  }[];
   age_instructions: Record<string, string>;
   questions: ContentQuestion[];
   practice: { id: string; instruction: string }[];

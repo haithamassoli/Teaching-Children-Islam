@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         "/explore",
         "/library",
         "/quran",
+        "/book",
         "/fantasy",
         "/privacy",
         "/credits",

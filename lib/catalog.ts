@@ -3,6 +3,7 @@ import sourceHadiths from "../content/hadith-index.json";
 import catalog from "../content/lessons.json";
 import memory from "../content/memorization.json";
 import sourceRemembrances from "../content/remembrances.json";
+import sourceBook from "../content/source/pages.json";
 import sourceQuestionData from "../content/source/questions-answers.json";
 
 // Text lessons can ship before optional narration and teaching illustrations exist.
@@ -30,6 +31,8 @@ export const activities = sourceActivities.filter(isReviewed);
 export const hadiths = sourceHadiths.filter(isReviewed);
 export const sourceQuestions = sourceQuestionData.filter(isReviewed);
 export const worlds = catalog.worlds;
+export const bookPageCount = sourceBook.pages.length;
+export const bookPageText = (page: number) => sourceBook.pages[page - 1]?.text ?? "";
 
 // Every approved record the book attaches to one lesson, so the lesson page stands
 // alone and the child never has to open the PDF or hop to the library.

@@ -3,10 +3,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { publicQuestion } from "../../../convex/lib/content";
 import { arabicNumber, worldArt } from "../../../lib/assets";
-import { lessonBundle, lessonForPages, lessons, worlds } from "../../../lib/catalog";
+import { bookPageText, lessonBundle, lessonForPages, lessons, worlds } from "../../../lib/catalog";
 import type { ActivityQuestion } from "../../activity";
 import { AnswerText } from "../../components/answer-text";
-import { Asset, JourneyFooter, JourneyHeader } from "../../components/journey-ui";
+import { Asset, BookPage, JourneyFooter, JourneyHeader } from "../../components/journey-ui";
 import { ReadAloud } from "../../narration";
 import LessonPractice from "./practice";
 
@@ -21,7 +21,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lessonId } = await params;
   const lesson = lessons.find((item) => item.id === lessonId);
-  return { title: lesson?.title ?? "الدرس غير موجود", description: lesson?.objective };
+  return {
+    title: lesson?.title ?? "الدرس غير موجود",
+    description: lesson ? `${lesson.title}: المحتوى الأصلي كامل بلا تلخيص.` : undefined,
+  };
 }
 
 export default async function LessonPage({ params }: { params: Promise<{ lessonId: string }> }) {
@@ -35,6 +38,9 @@ export default async function LessonPage({ params }: { params: Promise<{ lessonI
     (item) => item.world_id === lesson.world_id && item.order === lesson.order + 1,
   );
   const { activities, memory, questions, remembrances, hadiths } = lessonBundle(lesson);
+  const hasFullTranscript = lesson.segments.every(
+    (segment) => segment.origin === "transcribed_from_book",
+  );
   const hasTreasures = memory.length > 0 || hadiths.length > 0 || remembrances.length > 0;
   const memoryHadiths = new Set(
     memory.flatMap((item) => ("hadith_id" in item && item.hadith_id ? [item.hadith_id] : [])),
@@ -69,10 +75,10 @@ export default async function LessonPage({ params }: { params: Promise<{ lessonI
           <aside className="reading-aside">
             <Asset path="fantasy/characters/wameed.webp" width={150} />
             <h2>خذ وقتك يا بطل</h2>
-            <p>كل ما تحتاجه في هذه الصفحة: اقرأ، ثم أجب، ثم طبّق. لا حاجة لفتح الكتاب.</p>
+            <p>صفحات الكتاب الأصلية ومحتواها الكامل هنا؛ اقرأ، ثم أجب، ثم طبّق.</p>
             <nav aria-label="أجزاء الدرس">
               {[
-                ["read", "نقرأ ونكتشف", true],
+                ["read", hasFullTranscript ? "القصة كاملة" : "صفحات الكتاب كاملة", true],
                 ["practice", "نتدرّب ونجيب", true],
                 ["activities", "أنشطة الكتاب", activities.length > 0],
                 ["qa", "سؤال وجواب", questions.length > 0],
@@ -92,24 +98,28 @@ export default async function LessonPage({ params }: { params: Promise<{ lessonI
           </aside>
           <div>
             <article className="reading-card" id="read">
-              <p className="section-kicker">نقرأ ونكتشف</p>
+              <p className="section-kicker">
+                {hasFullTranscript ? "النص الكامل" : "من الكتاب مباشرة بلا تلخيص"}
+              </p>
               <h2>{lesson.title}</h2>
-              <div className="instruction" data-narration={`${lesson.title}. ${lesson.objective}`}>
-                <p>{lesson.objective}</p>
-                <ReadAloud />
-              </div>
-              {lesson.segments.map((segment, index) => (
-                <div key={segment.id} className="reading-segment" data-narration={segment.text}>
-                  <small>الجزء {arabicNumber(index + 1)}</small>
-                  <p>{segment.text}</p>
-                  <ReadAloud />
-                </div>
-              ))}
-              <div className="reading-segment">
-                <small>كيف أتعلّم هذا الدرس؟</small>
-                <p>٦–٧ سنوات: {lesson.age_instructions["6-7"]}</p>
-                <p>٨–١٠ سنوات: {lesson.age_instructions["8-10"]}</p>
-              </div>
+              {hasFullTranscript &&
+                lesson.segments.map((segment, index) => (
+                  <div key={segment.id} className="reading-segment" data-narration={segment.text}>
+                    <small>الجزء {arabicNumber(index + 1)}</small>
+                    <p>{segment.text}</p>
+                    <ReadAloud />
+                  </div>
+                ))}
+              <section className="book-pages" aria-label="صفحات الكتاب الأصلية الكاملة">
+                {lesson.source_pages.map((page, index) => (
+                  <BookPage
+                    key={page}
+                    page={page}
+                    text={bookPageText(page)}
+                    preload={index === 0}
+                  />
+                ))}
+              </section>
             </article>
             <LessonPractice
               lessonId={lesson.id}
@@ -232,14 +242,9 @@ export default async function LessonPage({ params }: { params: Promise<{ lessonI
                 تأكيد التطبيق مع الوالد ←
               </Link>
             </section>
-            <a
-              className="source-link"
-              href={`/api/book#page=${lesson.source_pages[0]}`}
-              target="_blank"
-              rel="noreferrer"
-            >
-              للوالد: صفحة الكتاب الأصلية · ص {lesson.source_pages.map(arabicNumber).join("، ")} ↗
-            </a>
+            <Link className="source-link" href={`/book?page=${lesson.source_pages[0]}`}>
+              اقرأ الكتاب كاملًا داخل الموقع · ص {lesson.source_pages.map(arabicNumber).join("، ")} ←
+            </Link>
             <nav className="lesson-navigation" aria-label="التنقل بين الدروس">
               <Link href={`/explore?world=${lesson.world_id}`}>→ دروس العالم</Link>
               {next && (

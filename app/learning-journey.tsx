@@ -8,7 +8,7 @@ import type { Id } from "../convex/_generated/dataModel";
 import { arabicNumber, worldArt } from "../lib/assets";
 import Activity, { type ActivityAnswer, type ActivityQuestion } from "./activity";
 import ChildReview from "./child-review";
-import { Asset } from "./components/journey-ui";
+import { Asset, BookPage } from "./components/journey-ui";
 import { ReadAloud } from "./narration";
 
 export default function LearningJourney({
@@ -126,6 +126,9 @@ export default function LearningJourney({
   const pending = lesson.segments.filter(
     (segment) => !lesson.state.completedSegments.includes(segment.id),
   );
+  const hasFullTranscript = lesson.segments.every(
+    (segment) => segment.origin === "transcribed_from_book",
+  );
   return (
     <main className="family-shell">
       <button type="button" className="back-button" onClick={() => setLessonId(null)}>
@@ -138,67 +141,96 @@ export default function LearningJourney({
           height={240}
           className="live-lesson-image"
         />
-        <p className="section-kicker">درس معتمد</p>
-        <div
-          data-narration={`${lesson.title}. ${lesson.objective}. ${lesson.ageInstructions[age < 8 ? "6-7" : "8-10"]}`}
-        >
+        <p className="section-kicker">المحتوى الكامل بلا تلخيص</p>
+        <div>
           <h1>{lesson.title}</h1>
-          <p>{lesson.objective}</p>
-          <p>{lesson.ageInstructions[age < 8 ? "6-7" : "8-10"]}</p>
-          <ReadAloud />
         </div>
         {/* biome-ignore lint/a11y/useMediaCaption: each recorded instruction has adjacent written lesson text. */}
         <audio ref={audio} preload="none" />
-        {lesson.segments.map((segment) => (
-          <article key={segment.id} className="lesson-segment" data-narration={segment.text}>
-            <p>{segment.text}</p>
-            {segment.image_asset && (
-              <Image
-                unoptimized
-                src={`/api/assets/${segment.image_asset.replace(/^assets\//, "")}`}
-                alt=""
-                width={640}
-                height={360}
-              />
-            )}
-            {segment.audio_asset ? (
-              <button
-                type="button"
-                className="sound-button"
-                onClick={() => play(segment.audio_asset)}
-              >
-                🔊 استمع
-              </button>
-            ) : (
-              <ReadAloud />
-            )}
-            {lesson.state.completedSegments.includes(segment.id) ? (
-              <span>✓ اكتمل</span>
-            ) : (
-              <button
-                type="button"
-                className="primary-button"
-                disabled={savingSegment === segment.id}
-                onClick={async () => {
-                  if (!navigator.onLine) {
-                    setMessage("لا يوجد اتصال. أعد المحاولة عند عودة الإنترنت.");
-                    return;
-                  }
-                  setSavingSegment(segment.id);
-                  try {
+        {hasFullTranscript &&
+          lesson.segments.map((segment) => (
+            <article key={segment.id} className="lesson-segment" data-narration={segment.text}>
+              <p>{segment.text}</p>
+              {segment.image_asset && (
+                <Image
+                  unoptimized
+                  src={`/api/assets/${segment.image_asset.replace(/^assets\//, "")}`}
+                  alt=""
+                  width={640}
+                  height={360}
+                />
+              )}
+              {segment.audio_asset ? (
+                <button
+                  type="button"
+                  className="sound-button"
+                  onClick={() => play(segment.audio_asset)}
+                >
+                  🔊 استمع
+                </button>
+              ) : (
+                <ReadAloud />
+              )}
+              {lesson.state.completedSegments.includes(segment.id) ? (
+                <span>✓ اكتمل</span>
+              ) : (
+                <button
+                  type="button"
+                  className="primary-button"
+                  disabled={savingSegment === segment.id}
+                  onClick={async () => {
+                    if (!navigator.onLine) {
+                      setMessage("لا يوجد اتصال. أعد المحاولة عند عودة الإنترنت.");
+                      return;
+                    }
+                    setSavingSegment(segment.id);
+                    try {
+                      await completeSegment({ childId, lessonId, segmentId: segment.id });
+                    } catch {
+                      setMessage("لم يُحفظ الإكمال. أعد المحاولة.");
+                    } finally {
+                      setSavingSegment(null);
+                    }
+                  }}
+                >
+                  أكملت هذا الجزء
+                </button>
+              )}
+            </article>
+          ))}
+        <section className="book-pages" aria-label="صفحات الكتاب الأصلية الكاملة">
+          {lesson.sourcePages.map((sourcePage) => (
+            <BookPage key={sourcePage.page} page={sourcePage.page} text={sourcePage.text} />
+          ))}
+        </section>
+        {!hasFullTranscript &&
+          (pending.length === 0 ? (
+            <p>✓ اكتملت قراءة الصفحات</p>
+          ) : (
+            <button
+              type="button"
+              className="primary-button"
+              disabled={savingSegment === "all"}
+              onClick={async () => {
+                if (!navigator.onLine) {
+                  setMessage("لا يوجد اتصال. أعد المحاولة عند عودة الإنترنت.");
+                  return;
+                }
+                setSavingSegment("all");
+                try {
+                  for (const segment of pending) {
                     await completeSegment({ childId, lessonId, segmentId: segment.id });
-                  } catch {
-                    setMessage("لم يُحفظ الإكمال. أعد المحاولة.");
-                  } finally {
-                    setSavingSegment(null);
                   }
-                }}
-              >
-                أكملت هذا الجزء
-              </button>
-            )}
-          </article>
-        ))}
+                } catch {
+                  setMessage("لم يُحفظ الإكمال. أعد المحاولة.");
+                } finally {
+                  setSavingSegment(null);
+                }
+              }}
+            >
+              أكملت قراءة الصفحات كاملة
+            </button>
+          ))}
         {message && (
           <p className="form-message" role="status">
             {message}

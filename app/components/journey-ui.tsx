@@ -32,10 +32,41 @@ export function Asset({
   );
 }
 
+export function BookPage({
+  page,
+  text,
+  preload = false,
+}: {
+  page: number;
+  text: string;
+  preload?: boolean;
+}) {
+  return (
+    <figure className="book-page" id={`book-page-${page}`}>
+      <Image
+        unoptimized
+        src={`/book-pages/page-${String(page).padStart(3, "0")}.webp`}
+        alt={`صفحة ${arabicNumber(page)} من كتاب تعليم الأطفال الإسلام`}
+        width={964}
+        height={1361}
+        className="book-page-image"
+        preload={preload}
+      />
+      <figcaption>
+        صفحة {arabicNumber(page)}
+        <details className="book-page-text">
+          <summary>النص المستخرج كاملًا للمساعدة</summary>
+          <p>{text}</p>
+        </details>
+      </figcaption>
+    </figure>
+  );
+}
+
 export function JourneyHeader({
   active = "home",
 }: {
-  active?: "home" | "explore" | "library" | "quran";
+  active?: "home" | "explore" | "library" | "quran" | "book";
 }) {
   return (
     <header className="journey-header">
@@ -57,6 +88,9 @@ export function JourneyHeader({
         </Link>
         <Link href="/quran" aria-current={active === "quran" ? "page" : undefined}>
           القرآن
+        </Link>
+        <Link href="/book" aria-current={active === "book" ? "page" : undefined}>
+          الكتاب الكامل
         </Link>
       </nav>
       <div className="journey-actions">

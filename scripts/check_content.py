@@ -30,6 +30,9 @@ def main():
     source = read('source/pages.json')
     assert hashlib.sha256((CONTENT / 'source/book.pdf').read_bytes()).hexdigest() == source['sha256']
     assert [p['pdf_page'] for p in source['pages']] == list(range(1, 255))
+    book_pages = ROOT / 'public/book-pages'
+    assert {p.name for p in book_pages.glob('*.webp')} == {f'page-{page:03}.webp' for page in range(1, 255)}
+    assert all(p.stat().st_size > 0 for p in book_pages.glob('*.webp'))
     data = read('lessons.json')
     lessons = data['lessons']
     activities = read('activities.json')
@@ -148,7 +151,7 @@ def main():
     for lesson in lessons:
         assert workbook.count('### ' + lesson['id'] + ' —') == 1
         assert document.count('id="' + lesson['id'] + '"') == 1
-    print('PASS: 254 pages, 111 lessons, 227 new questions, 119 source Q&A, 44 numbered activities, 23 stories, 130 memorization items.')
+    print('PASS: 254 complete book pages, 111 lessons, 227 new questions, 119 source Q&A, 44 numbered activities, 23 stories, 130 memorization items.')
 
 
 if __name__ == '__main__':
