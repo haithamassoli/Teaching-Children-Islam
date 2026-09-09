@@ -491,6 +491,12 @@ a:focus-visible {
 body:has(.narration-controls) {
   padding-bottom: 170px;
 }
+body:has(#quran-page) {
+  padding-bottom: 0;
+}
+body:has(#quran-page) .narration-controls {
+  display: none;
+}
 html {
   scroll-padding-bottom: 170px;
 }

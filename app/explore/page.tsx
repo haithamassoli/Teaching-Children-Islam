@@ -88,6 +88,17 @@ export default async function Explore({
             </div>
           </section>
         )}
+        {world?.id === "quran" && (
+          <section className="family-invite">
+            <div>
+              <h2>اقرأ واستمع واحفظ</h2>
+              <p>المصحف كاملًا بخط عثماني وتلاوة الحصري مع تكرار كل آية.</p>
+            </div>
+            <Link href="/quran" className="primary-button">
+              افتح القرآن ←
+            </Link>
+          </section>
+        )}
         <p className="section-kicker">
           {arabicNumber(filtered.length)} درسًا {query && `عن «${query}»`}
         </p>

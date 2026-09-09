@@ -32,7 +32,11 @@ export function Asset({
   );
 }
 
-export function JourneyHeader({ active = "home" }: { active?: "home" | "explore" | "library" }) {
+export function JourneyHeader({
+  active = "home",
+}: {
+  active?: "home" | "explore" | "library" | "quran";
+}) {
   return (
     <header className="journey-header">
       <Link href="/" className="journey-brand" aria-label="رِحلة الإسلام، الرئيسية">
@@ -50,6 +54,9 @@ export function JourneyHeader({ active = "home" }: { active?: "home" | "explore"
         </Link>
         <Link href="/library" aria-current={active === "library" ? "page" : undefined}>
           مكتبتي
+        </Link>
+        <Link href="/quran" aria-current={active === "quran" ? "page" : undefined}>
+          القرآن
         </Link>
       </nav>
       <div className="journey-actions">

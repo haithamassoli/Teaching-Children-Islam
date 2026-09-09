@@ -37,10 +37,20 @@ function entries(tab: string) {
                 : "كرّر المقطع على مهل مع الوالد، ثم سمّعه له."}
             </p>
             {"quran_ref" in item && item.quran_ref && (
-              <p>
-                السورة {arabicNumber(item.quran_ref.surah)} · الآيات{" "}
-                {arabicNumber(item.quran_ref.from_ayah)}–{arabicNumber(item.quran_ref.to_ayah)}
-              </p>
+              <>
+                <p>
+                  السورة {arabicNumber(item.quran_ref.surah)} · الآيات{" "}
+                  {arabicNumber(item.quran_ref.from_ayah)}–{arabicNumber(item.quran_ref.to_ayah)}
+                </p>
+                <p>
+                  <Link
+                    href={`/quran?surah=${item.quran_ref.surah}&ayah=${item.quran_ref.from_ayah}`}
+                    className="quiet-link"
+                  >
+                    استمع إلى الحصري وابدأ الحفظ ←
+                  </Link>
+                </p>
+              </>
             )}
             <small>يمكنك تسجيل التدريب وطلب التسميع من حساب الأسرة.</small>
             <p>
