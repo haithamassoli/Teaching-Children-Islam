@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import catalog from "../../assets/fantasy/catalog.json";
 import { arabicNumber } from "../../lib/assets";
+import { ChooseFriend } from "../components/buddy";
 import { Asset, JourneyFooter } from "../components/journey-ui";
 import { ReadAloud } from "../narration";
 import styles from "./fantasy.module.css";
@@ -10,6 +11,14 @@ export const metadata: Metadata = {
   title: "جزر العجائب",
   description: "رفاق كيوت من النجوم والسحب، وسبع جزر خيالية وكنوز وشارات لرحلة التعلّم.",
   alternates: { canonical: "/fantasy" },
+};
+
+// Each game card opens a lesson whose practice uses that activity type.
+const games: Record<string, string> = {
+  choice: "/explore/conduct-006#practice",
+  match: "/explore/faith-009#practice",
+  order: "/explore/worship-002#practice",
+  story: "/explore?world=stories",
 };
 
 export default function FantasyPage() {
@@ -43,7 +52,7 @@ export default function FantasyPage() {
             <a href="#friends" className={styles.button}>
               قابل أصدقاءك الجدد <span aria-hidden="true">↓</span>
             </a>
-            <span className={styles.heroNote}>٤ رفاق · ٧ جزر · خيال بلا حدود</span>
+            <span className={styles.heroNote}>٤ رفاق، ٧ جزر، خيال بلا حدود</span>
           </div>
           <div className={styles.scene}>
             <Asset
@@ -101,6 +110,7 @@ export default function FantasyPage() {
                 </summary>
                 <p className={styles.greeting}>{friend.greeting}</p>
                 <ReadAloud />
+                <ChooseFriend id={friend.id} name={friend.name} />
               </details>
             ))}
           </div>
@@ -143,15 +153,18 @@ export default function FantasyPage() {
           <div className={styles.heading}>
             <span className={styles.eyebrow}>للخيال ألف طريقة</span>
             <h2>ألعاب صغيرة، واكتشافات كثيرة</h2>
-            <p>بوابات وجسور ومسار من السحب لقوالب أنشطة الرحلة.</p>
+            <p>اضغط على لعبة لتجرّبها في درس حقيقي.</p>
           </div>
           <div className={styles.items}>
             {catalog.activities.map((item) => (
-              <article key={item.id}>
+              <Link key={item.id} href={games[item.id] ?? "/explore"} data-sound>
                 <Asset path={item.path} width={160} />
                 <h3>{item.name}</h3>
                 <p>{item.description}</p>
-              </article>
+                <span className={styles.friendAction}>
+                  هيا نلعب <span aria-hidden="true">←</span>
+                </span>
+              </Link>
             ))}
           </div>
           <div className={styles.toolShelf}>

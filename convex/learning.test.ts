@@ -91,7 +91,10 @@ test("wrong then retry preserves first attempt and awards only once", async () =
       questionId: "question",
       answer: "no",
     }),
-  ).resolves.toMatchObject({ correct: false });
+  ).resolves.toMatchObject({
+    correct: false,
+    explanation: expect.not.stringContaining("Because"),
+  });
   for (let repeat = 0; repeat < 2; repeat += 1) {
     await asParent.mutation(api.learning.submitActivity, {
       childId: ids.childId,

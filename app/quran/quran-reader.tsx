@@ -83,7 +83,7 @@ export default function QuranReader({
         <div className={styles.reciter}>
           <span>القارئ</span>
           <strong>الشيخ محمود خليل الحصري</strong>
-          <small>رواية حفص · تلاوة المعلّم</small>
+          <small>رواية حفص، تلاوة المعلّم</small>
         </div>
         <label className={styles.repeatPicker}>
           تكرار كل آية
@@ -124,7 +124,7 @@ export default function QuranReader({
         />
         <p className={styles.status} role="status">
           {playing
-            ? `الآية ${arabicNumber(active + 1)} · المرة ${arabicNumber(currentPass)} من ${arabicNumber(repeat)}`
+            ? `الآية ${arabicNumber(active + 1)}، المرة ${arabicNumber(currentPass)} من ${arabicNumber(repeat)}`
             : notice}
         </p>
       </section>

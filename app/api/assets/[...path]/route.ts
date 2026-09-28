@@ -27,7 +27,8 @@ export async function GET(_request: Request, context: { params: Promise<{ path: 
     return new Response(data, {
       headers: {
         "Content-Type": types[name.split(".").pop() ?? ""] ?? "application/octet-stream",
-        "Cache-Control": "no-store",
+        // ponytail: an hour of caching; a revoked asset can linger that long in open tabs.
+        "Cache-Control": "public, max-age=3600",
         "X-Content-Type-Options": "nosniff",
       },
     });

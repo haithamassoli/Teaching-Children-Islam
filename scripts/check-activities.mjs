@@ -42,13 +42,11 @@ run(["find", "role", "button", "click", "--name", "تحقق من إجابتي"])
 wait(50);
 assertText("Technical success");
 
-// Matching: set both controlled selects and submit.
+// Matching: tap one chip per item and submit.
 run(["find", "role", "button", "click", "--name", "matching"]);
-evalPage(`(() => document.querySelectorAll("select").forEach((select, index) => {
+evalPage(`(() => document.querySelectorAll(".match-row").forEach((row, index) => {
   const value = ["Right one", "Right two"][index];
-  const setter = Object.getOwnPropertyDescriptor(HTMLSelectElement.prototype, "value").set;
-  setter.call(select, value);
-  select.dispatchEvent(new Event("change", { bubbles: true }));
+  [...row.querySelectorAll("button")].find((button) => button.textContent === value).click();
 }))()`);
 run(["find", "role", "button", "click", "--name", "تحقق من إجابتي"]);
 wait(50);
@@ -64,6 +62,8 @@ assertText("Technical success");
 
 // Open response is explicitly routed to parent review.
 run(["find", "role", "button", "click", "--name", "open"]);
+// Young children may answer aloud; writing is one tap away.
+run(["find", "role", "button", "click", "--name", "أفضّل أن أكتب"]);
 run(["find", "role", "textbox", "click"]);
 run(["fill", "input", "Technical answer"]);
 run(["find", "role", "button", "click", "--name", "تحقق من إجابتي"]);

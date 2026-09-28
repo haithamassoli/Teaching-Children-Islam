@@ -1,6 +1,6 @@
 "use server";
 
-import { type Answer, grade, lessonById } from "../../../convex/lib/content";
+import { type Answer, grade, lessonById, retryHint } from "../../../convex/lib/content";
 
 // biome-ignore lint/suspicious/useAwait: Next.js Server Actions must be declared async.
 export async function checkAnswer(lessonId: string, questionId: string, answer: Answer) {
@@ -28,9 +28,6 @@ export async function checkAnswer(lessonId: string, questionId: string, answer: 
   const correct = grade(question, answer);
   return {
     correct,
-    explanation:
-      correct === false
-        ? "حاول مرة أخرى، يمكنك الرجوع إلى الدرس والاستعانة به."
-        : question.explanation,
+    explanation: correct === false ? retryHint : question.explanation,
   };
 }

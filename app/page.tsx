@@ -3,7 +3,7 @@ import Link from "next/link";
 import { arabicNumber } from "../lib/assets";
 import { lessons, worlds } from "../lib/catalog";
 import { siteUrl } from "../lib/site";
-import { JourneyFriends } from "./components/journey-controls";
+import { HeroBuddy, JourneyFriends } from "./components/journey-controls";
 import { Asset, JourneyFooter, JourneyHeader, WorldCard } from "./components/journey-ui";
 import FantasyInvite from "./fantasy/invite";
 
@@ -59,16 +59,7 @@ export default function Home() {
             <div className="scene-sun" aria-hidden="true">
               ✦
             </div>
-            <div className="guide-bubble">
-              أهلًا يا بطل! <span>أنا وميض، هيا نتعلّم معًا</span>
-            </div>
-            <Asset
-              path="fantasy/characters/wameed.webp"
-              width={440}
-              height={440}
-              className="scene-guide"
-              preload
-            />
+            <HeroBuddy />
             <span className="scene-star star-a" aria-hidden="true">
               ✦
             </span>
@@ -110,7 +101,7 @@ export default function Home() {
               </h2>
               <p>اختر عالمًا، وافتح بابًا جديدًا للمعرفة.</p>
             </div>
-            <span className="count-pill">{arabicNumber(lessons.length)} درسًا · ٧ عوالم</span>
+            <span className="count-pill">{arabicNumber(lessons.length)} درسًا في ٧ عوالم</span>
           </div>
           <div className="explore-grid">
             {worlds.map((world, index) => (
@@ -137,6 +128,11 @@ export default function Home() {
         <FantasyInvite />
         <JourneyFriends />
         <section className="family-invite reveal">
+          <div className="family-kids" aria-hidden="true">
+            {["maryam", "sami", "nour", "omar"].map((kid) => (
+              <Asset key={kid} path={`characters/${kid}.webp`} width={120} />
+            ))}
+          </div>
           <div>
             <p className="section-kicker">يدًا بيد مع الأسرة</p>
             <h2>كونوا جزءًا من الرحلة</h2>

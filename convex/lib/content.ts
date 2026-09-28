@@ -85,6 +85,9 @@ function canonical(value: unknown): unknown {
   return value;
 }
 
+// Wrong answers get a hint, never the answer, so the child can try again.
+export const retryHint = "حاول مرة أخرى، يمكنك الرجوع إلى الدرس والاستعانة به.";
+
 export function grade(question: ContentQuestion, answer: Answer): boolean | null {
   if (!isAutomatic(question)) {
     return null;

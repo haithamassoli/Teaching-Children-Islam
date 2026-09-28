@@ -18,8 +18,8 @@ const evaluate = (source) =>
   );
 const open = (path) => run("open", `${base}${path}`);
 const count = (selector) => Number(run("get", "count", selector).trim());
-const question = (index) => `section[aria-label="نشاط الفهم"]:nth-of-type(${index})`;
-const submit = (index) => run("click", `${question(index)} button.primary-button`);
+const question = (index) => `section.activity-card:nth-of-type(${index})`;
+const submit = (index) => run("click", `${question(index)} button.activity-submit`);
 const bodyHas = (text) => assert.ok(run("get", "text", "body").includes(text), text);
 
 try {
@@ -63,11 +63,9 @@ try {
   }
   open("/explore/conduct-006");
   assert.equal(
-    evaluate(
-      "document.querySelector('section[aria-label=\"نشاط الفهم\"] button.primary-button').disabled",
-    ),
+    evaluate(`document.querySelector('${question(3)} button.activity-submit').disabled`),
     true,
-    "empty answer rejected",
+    "choice required before checking",
   );
   run("find", "role", "button", "click", "--name", "فعل ذلك أخي", "--exact");
   submit(3);
@@ -77,21 +75,19 @@ try {
   run("wait", "--text", "الصدق والاعتراف بالخطأ");
   open("/explore/faith-009");
   for (const [index, value] of ["الصحف", "التوراة", "الزبور", "الإنجيل", "القرآن"].entries()) {
-    run("select", `${question(3)} label:nth-of-type(${index + 1}) select`, value);
+    evaluate(`[...document.querySelectorAll('${question(3)} .match-row')[${index}].querySelectorAll('button')]
+      .find((button) => button.textContent === ${JSON.stringify(value)}).click(); true`);
   }
   submit(3);
   run("wait", "--text", "هذا الربط كما في الصفحة");
   open("/explore/faith-001");
-  for (const [index, value] of [
-    "ستة أركان",
-    "الإيمان بالله وملائكته وكتبه ورسله واليوم الآخر والقدر",
-  ].entries()) {
-    run("fill", `${question(index + 1)} input`, value);
+  // Open questions: young children answer aloud, then reveal the book's answer.
+  for (const index of [0, 1]) {
     submit(index + 1);
     run(
       "wait",
       "--fn",
-      `document.querySelectorAll('section[aria-label="نشاط الفهم"]')[${index}].textContent.includes('ناقش هذه الإجابة')`,
+      `document.querySelectorAll('section.activity-card')[${index}].textContent.includes('ناقش هذه الإجابة')`,
     );
   }
   for (const name of ["الله", "ملائكته", "كتبه", "رسله", "اليوم الآخر", "القدر خيره وشره"]) {

@@ -1,6 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
+import { assetUrl } from "../lib/assets";
+import { useFriend } from "./components/buddy";
 
 const preferenceKey = "arabic-narration";
 const readyMessage = "نقرأ معًا عند ظهور الدرس أو السؤال. اضغط استمع إن لم يبدأ الصوت.";
@@ -39,6 +42,11 @@ export default function Narration() {
   const [speaking, setSpeaking] = useState(false);
   const [rate, setRate] = useState("0.9");
   const [message, setMessage] = useState(readyMessage);
+  const friend = useFriend();
+  useEffect(() => {
+    // Companions on the page animate while the device voice reads.
+    document.documentElement.toggleAttribute("data-speaking", speaking);
+  }, [speaking]);
   const controls = useRef<{
     toggle: () => void;
     replay: () => void;
@@ -292,6 +300,15 @@ export default function Narration() {
 
   return (
     <aside className="narration-controls" aria-label="القراءة العربية">
+      <Image
+        unoptimized
+        src={assetUrl(friend.path)}
+        alt=""
+        width={52}
+        height={52}
+        className="narration-buddy"
+        style={{ background: friend.color }}
+      />
       <div className="narration-buttons">
         <button type="button" aria-pressed={enabled} onClick={() => controls.current?.toggle()}>
           {enabled ? "🔊 القراءة التلقائية" : "🔇 تشغيل القراءة التلقائية"}

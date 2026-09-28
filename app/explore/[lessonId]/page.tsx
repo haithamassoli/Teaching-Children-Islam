@@ -6,9 +6,11 @@ import { arabicNumber, worldArt } from "../../../lib/assets";
 import { lessonBundle, lessonForPages, lessons, worlds } from "../../../lib/catalog";
 import type { ActivityQuestion } from "../../activity";
 import { AnswerText } from "../../components/answer-text";
+import { Buddy } from "../../components/buddy";
 import { Asset, JourneyFooter, JourneyHeader } from "../../components/journey-ui";
 import { ReadAloud } from "../../narration";
 import LessonPractice from "./practice";
+import LessonStory from "./story";
 
 export function generateStaticParams() {
   return lessons.map((lesson) => ({ lessonId: lesson.id }));
@@ -59,7 +61,7 @@ export default async function LessonPage({ params }: { params: Promise<{ lessonI
           />
           <div>
             <p>
-              عالم {world?.title} · الدرس {arabicNumber(lesson.order)} ·{" "}
+              عالم {world?.title}، الدرس {arabicNumber(lesson.order)}،{" "}
               {arabicNumber(lesson.estimated_minutes)} دقائق
             </p>
             <h1>{lesson.title}</h1>
@@ -67,9 +69,7 @@ export default async function LessonPage({ params }: { params: Promise<{ lessonI
         </section>
         <div className="reading-layout">
           <aside className="reading-aside">
-            <Asset path="fantasy/characters/wameed.webp" width={150} />
-            <h2>خذ وقتك يا بطل</h2>
-            <p>كل ما تحتاجه في هذه الصفحة: اقرأ، ثم أجب، ثم طبّق. لا حاجة لفتح الكتاب.</p>
+            <Buddy size={140} say="خذ وقتك يا بطل! نقرأ معًا، ثم نلعب، ثم نطبّق." />
             <nav aria-label="أجزاء الدرس">
               {[
                 ["read", "نقرأ ونكتشف", true],
@@ -94,22 +94,13 @@ export default async function LessonPage({ params }: { params: Promise<{ lessonI
             <article className="reading-card" id="read">
               <p className="section-kicker">نقرأ ونكتشف</p>
               <h2>{lesson.title}</h2>
-              <div className="instruction" data-narration={`${lesson.title}. ${lesson.objective}`}>
-                <p>{lesson.objective}</p>
-                <ReadAloud />
-              </div>
-              {lesson.segments.map((segment, index) => (
-                <div key={segment.id} className="reading-segment" data-narration={segment.text}>
-                  <small>الجزء {arabicNumber(index + 1)}</small>
-                  <p>{segment.text}</p>
-                  <ReadAloud />
-                </div>
-              ))}
-              <div className="reading-segment">
-                <small>كيف أتعلّم هذا الدرس؟</small>
+              <LessonStory segments={lesson.segments.map(({ id, text }) => ({ id, text }))} />
+              <details className="age-tips">
+                <summary>للوالد: كيف يتعلّم طفلي هذا الدرس؟</summary>
+                <p>هدف الدرس: {lesson.objective}</p>
                 <p>٦–٧ سنوات: {lesson.age_instructions["6-7"]}</p>
                 <p>٨–١٠ سنوات: {lesson.age_instructions["8-10"]}</p>
-              </div>
+              </details>
             </article>
             <LessonPractice
               lessonId={lesson.id}
@@ -175,12 +166,12 @@ export default async function LessonPage({ params }: { params: Promise<{ lessonI
                 {memory.map((item) => (
                   <div className="reading-segment" key={item.id}>
                     <small>{item.title}</small>
-                    {"names" in item && item.names && <p>{item.names.join(" · ")}</p>}
+                    {"names" in item && item.names && <p>{item.names.join("، ")}</p>}
                     {"quran_ref" in item && item.quran_ref && (
                       <p>
-                        السورة {arabicNumber(item.quran_ref.surah)} · الآيات{" "}
+                        السورة {arabicNumber(item.quran_ref.surah)}، الآيات{" "}
                         {arabicNumber(item.quran_ref.from_ayah)}–
-                        {arabicNumber(item.quran_ref.to_ayah)} · استمع وكرّر ثم سمّع للوالد.
+                        {arabicNumber(item.quran_ref.to_ayah)}، استمع وكرّر ثم سمّع للوالد.
                       </p>
                     )}
                     {"hadith_id" in item && item.hadith_id && (
@@ -238,7 +229,7 @@ export default async function LessonPage({ params }: { params: Promise<{ lessonI
               target="_blank"
               rel="noreferrer"
             >
-              للوالد: صفحة الكتاب الأصلية · ص {lesson.source_pages.map(arabicNumber).join("، ")} ↗
+              للوالد: صفحة الكتاب الأصلية، ص {lesson.source_pages.map(arabicNumber).join("، ")} ↗
             </a>
             <nav className="lesson-navigation" aria-label="التنقل بين الدروس">
               <Link href={`/explore?world=${lesson.world_id}`}>→ دروس العالم</Link>

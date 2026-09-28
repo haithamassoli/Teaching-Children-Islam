@@ -330,13 +330,17 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
 }
-.items article {
+.items > a {
+  display: grid;
+  justify-items: center;
+  gap: 4px;
+  color: inherit;
   text-align: center;
   padding: 20px 16px;
   background: #f5f0f8;
   border-radius: 22px;
 }
-.items article:nth-child(2n) {
+.items > a:nth-child(2n) {
   background: #eef5ef;
 }
 .items img {

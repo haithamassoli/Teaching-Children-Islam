@@ -1,0 +1,839 @@
+/* Companion characters, playful activities and child-sized type. Loaded after journey.css. */
+
+/* ---------- Child-sized reading ---------- */
+.journey-site .section-kicker {
+  font-size: 13px;
+}
+.section-heading p:not(.section-kicker),
+.friends-section p:not(.section-kicker),
+.family-invite p:not(.section-kicker),
+.catalog-intro p {
+  font-size: 16px;
+}
+.journey-site .primary-button {
+  min-height: 52px;
+  font-size: 17px;
+  font-weight: 800;
+  border-radius: 18px;
+}
+.journey-site .outline-button {
+  min-height: 48px;
+  font-size: 16px;
+  border-radius: 16px;
+}
+.journey-nav a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border: 0;
+  border-radius: 999px;
+  font-size: 15px;
+}
+.journey-nav a[aria-current] {
+  background: #e3efe6;
+}
+.journey-nav a img {
+  opacity: 0.75;
+}
+.journey-nav a[aria-current] img {
+  opacity: 1;
+}
+
+/* ---------- Companion ---------- */
+.buddy {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+}
+.buddy-figure {
+  flex: none;
+  display: grid;
+  place-items: center;
+  padding: 6px;
+  border: 0;
+  border-radius: 50% 50% 24px 24px;
+  box-shadow: inset 0 -6px 0 #0000000d;
+  cursor: pointer;
+}
+.buddy-figure img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  transform-origin: bottom center;
+  filter: drop-shadow(0 6px 6px #20473630);
+}
+.buddy-bubble {
+  position: relative;
+  margin: 0 0 14px;
+  padding: 12px 16px;
+  background: #fff;
+  border: 2px solid #e6eadf;
+  border-radius: 22px 22px 22px 22px;
+  border-end-start-radius: 6px;
+  box-shadow: 0 6px 18px #254d3114;
+  color: var(--ink, #234c42);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.8;
+  animation: bubble-in 0.4s both;
+}
+.buddy-bubble b {
+  display: block;
+  color: #a8603b;
+  font-size: 13px;
+  font-weight: 900;
+}
+.buddy[data-mood="idle"] .buddy-figure img {
+  animation: buddy-float 4.5s ease-in-out infinite;
+}
+.buddy[data-mood="happy"] .buddy-figure img {
+  animation: buddy-cheer 0.9s ease-out 2;
+}
+.buddy[data-mood="oops"] .buddy-figure img {
+  animation: buddy-wobble 0.8s ease-in-out;
+}
+.buddy[data-mood="thinking"] .buddy-figure img {
+  transform: rotate(-8deg);
+}
+.buddy .buddy-figure img.buddy-hop,
+.scene-guide img.buddy-hop {
+  animation: buddy-hop 0.6s ease-out;
+}
+html[data-speaking] .buddy .buddy-figure img,
+html[data-speaking] .narration-buddy {
+  animation: buddy-talk 0.45s ease-in-out infinite alternate;
+}
+@keyframes buddy-float {
+  50% {
+    transform: translateY(-6px) rotate(1.5deg);
+  }
+}
+@keyframes buddy-cheer {
+  30% {
+    transform: translateY(-18px) scale(1.06) rotate(-4deg);
+  }
+  60% {
+    transform: translateY(0) scale(0.97, 1.03);
+  }
+}
+@keyframes buddy-wobble {
+  25% {
+    transform: rotate(-9deg);
+  }
+  50% {
+    transform: rotate(7deg);
+  }
+  75% {
+    transform: rotate(-4deg);
+  }
+}
+@keyframes buddy-hop {
+  40% {
+    transform: translateY(-22px) scale(1.08, 0.94);
+  }
+  70% {
+    transform: translateY(0) scale(0.94, 1.06);
+  }
+}
+@keyframes buddy-talk {
+  to {
+    transform: translateY(-3px) scale(1.03, 0.97);
+  }
+}
+
+/* Picker used on the home page and in the header popover */
+.buddy-picker {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.buddy-picker button {
+  display: grid;
+  justify-items: center;
+  gap: 4px;
+  padding: 10px 4px 8px;
+  border: 3px solid transparent;
+  border-radius: 50% 50% 20px 20px;
+  color: var(--ink, #234c42);
+  font-size: 15px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: transform 0.25s;
+}
+.buddy-picker button img {
+  width: 100%;
+  max-width: 110px;
+  height: auto;
+}
+.buddy-picker button[aria-pressed="true"] {
+  border-color: #317360;
+  transform: translateY(-6px);
+  box-shadow: 0 8px 0 #31736026;
+}
+@media (hover: hover) {
+  .buddy-picker button:hover,
+  .buddy-figure:hover img {
+    transform: translateY(-4px) rotate(-3deg);
+  }
+}
+
+/* Header companion switch */
+.setting-button.buddy-switch {
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  overflow: hidden;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px #cfe0d4;
+}
+.buddy-switch img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.buddy-popover {
+  /* Tailwind preflight zeroes margins; popovers need auto to centre. */
+  margin: auto;
+  width: min(560px, calc(100vw - 32px));
+  padding: 24px;
+  border: 0;
+  border-radius: 28px;
+  background: #fffcf4;
+  color: #234c42;
+  box-shadow: 0 24px 60px #20473640;
+}
+.buddy-popover::backdrop {
+  background: rgb(35 76 66 / 0.35);
+}
+.buddy-popover > p {
+  margin: 0 0 16px;
+  font-size: 22px;
+  font-weight: 900;
+  text-align: center;
+}
+
+/* Home */
+.welcome-scene button.scene-guide {
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.scene-guide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.friends-play {
+  display: grid;
+  gap: 18px;
+}
+.friends-preview {
+  min-height: 150px;
+}
+.family-kids {
+  display: flex;
+  flex: none;
+}
+.family-kids img {
+  width: 82px;
+  height: auto;
+}
+.family-kids img + img {
+  margin-inline-start: -22px;
+}
+
+/* Catalog intros with a companion */
+.catalog-intro.with-buddy {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+}
+.catalog-intro.with-buddy .buddy {
+  max-width: 380px;
+}
+.empty-results .buddy,
+.status-page .buddy,
+.practice-reward .buddy {
+  justify-content: center;
+  text-align: start;
+}
+
+/* ---------- Lesson story ---------- */
+.story-stepper {
+  display: grid;
+  gap: 16px;
+  margin-top: 18px;
+}
+.story-dots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.story-dots button {
+  width: 36px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.story-dots button::before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  margin: auto;
+  border-radius: 999px;
+  background: #dfe6d6;
+  transition: width 0.25s;
+}
+.story-dots button[data-done]::before {
+  background: #9cc3a9;
+}
+.story-dots button[aria-current]::before {
+  width: 28px;
+  background: #317360;
+}
+.story-scene {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: end;
+  gap: 14px;
+}
+.reading-segment.story-page {
+  margin: 0;
+  padding: 22px 26px;
+  border: 2px solid #efe3c2;
+  border-radius: 28px;
+  border-end-start-radius: 8px;
+  background: #fffaf0;
+  animation: page-in 0.4s both;
+}
+.story-page p {
+  font-size: 20px;
+  line-height: 2.2;
+}
+.story-page small {
+  font-size: 13px;
+  font-weight: 800;
+}
+.story-controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+.story-controls .outline-button:disabled {
+  visibility: hidden;
+}
+.story-all {
+  justify-self: center;
+  margin: 0;
+  font-size: 14px;
+}
+@keyframes page-in {
+  from {
+    opacity: 0;
+    transform: translateX(-24px);
+  }
+}
+.age-tips {
+  margin-top: 22px;
+  color: var(--muted, #68786e);
+  font-size: 14px;
+}
+.age-tips summary {
+  min-height: 44px;
+  padding: 10px 0;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+/* ---------- Activities ---------- */
+.activity-card {
+  position: relative;
+  border: 2px solid #e3e9dc;
+  border-radius: 28px;
+  transition:
+    border-color 0.3s,
+    background-color 0.3s;
+}
+.activity-card[data-result="correct"],
+.activity-card[data-result="open"] {
+  border-color: #8cbf9d;
+  background: #f5fbf5;
+}
+.activity-card[data-result="retry"] {
+  border-color: #e8b98f;
+  animation: nudge 0.45s;
+}
+@keyframes nudge {
+  25% {
+    transform: translateX(8px);
+  }
+  50% {
+    transform: translateX(-8px);
+  }
+  75% {
+    transform: translateX(4px);
+  }
+}
+.activity-question {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+}
+.lesson-practice .activity-question h2,
+.activity-question h2 {
+  margin: 0;
+  font-size: 23px;
+  font-weight: 900;
+  line-height: 1.7;
+}
+.activity-question .sound-button {
+  flex: none;
+}
+.activity-hint {
+  color: var(--muted, #68786e);
+  font-size: 15px;
+  line-height: 1.9;
+}
+.choice-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 12px;
+  margin: 12px 0;
+}
+.choice-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 64px;
+  padding: 14px 16px;
+  border: 2px solid #d9e4d6;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 4px 0 #d9e4d6;
+  color: var(--ink, #234c42);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: start;
+  cursor: pointer;
+  transition:
+    transform 0.15s,
+    box-shadow 0.15s;
+}
+.choice-card:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #d9e4d6;
+}
+.choice-card[aria-pressed="true"] {
+  border-color: #317360;
+  background: #eaf5ee;
+  box-shadow: 0 4px 0 #317360;
+}
+.choice-mark {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #b9cbbd;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: 900;
+}
+.choice-card[aria-pressed="true"] .choice-mark {
+  border-color: #317360;
+  background: #317360;
+  color: #fff;
+}
+.activity-card[data-result="correct"] .text-button {
+  display: none;
+}
+.match-row {
+  display: grid;
+  gap: 6px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.written-answer input {
+  min-height: 54px;
+  border: 2px solid #d9e4d6;
+  border-radius: 16px;
+  font-size: 18px;
+}
+.written-answer {
+  display: grid;
+  gap: 8px;
+  font-size: 15px;
+}
+.say-aloud {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 16px;
+  padding: 16px 18px;
+  border-radius: 20px;
+  background: #fff6e0;
+}
+.say-aloud p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 800;
+}
+.say-aloud .text-button {
+  margin: 0;
+  min-height: 44px;
+}
+.lesson-practice .activity-submit,
+.activity-submit {
+  width: 100%;
+}
+.activity-feedback {
+  position: relative;
+  display: grid;
+  gap: 8px;
+}
+.activity-feedback:empty {
+  display: none;
+}
+.feedback-title {
+  margin: 12px 0 0;
+  font-size: 20px;
+  font-weight: 900;
+}
+.feedback-note {
+  margin: 0;
+  color: var(--muted, #68786e);
+  font-size: 15px;
+}
+.activity-card[data-result="correct"] .feedback-title,
+.activity-card[data-result="open"] .feedback-title {
+  color: #2c7048;
+}
+.activity-card[data-result="retry"] .feedback-title {
+  color: #a8603b;
+}
+.star-burst {
+  position: absolute;
+  inset-block-start: 20px;
+  inset-inline-start: 50%;
+  pointer-events: none;
+}
+.star-burst i {
+  position: absolute;
+  color: #f4a93f;
+  font-size: 24px;
+  font-style: normal;
+  animation: star-pop 0.9s ease-out both;
+  animation-delay: calc(var(--i) * 25ms);
+}
+@keyframes star-pop {
+  from {
+    opacity: 1;
+    transform: rotate(calc(var(--i) * 45deg)) translateY(0) scale(0.3);
+  }
+  to {
+    opacity: 0;
+    transform: rotate(calc(var(--i) * 45deg)) translateY(-90px) scale(1.2);
+  }
+}
+.practice-meter {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 800;
+}
+.practice-meter span {
+  color: #e39d2d;
+  font-size: 26px;
+  letter-spacing: 4px;
+}
+
+/* ---------- Narration bar ---------- */
+.narration-controls {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  column-gap: 12px;
+}
+.narration-buttons {
+  min-width: 0;
+}
+.narration-buddy {
+  grid-row: span 2;
+  width: 52px;
+  height: 52px;
+  padding: 3px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+/* ---------- Family ---------- */
+.avatar-picker {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.avatar-picker legend {
+  float: inline-start;
+  margin-inline-end: 6px;
+  font-size: 13px;
+  font-weight: 800;
+}
+.avatar-picker button {
+  width: 56px;
+  height: 56px;
+  padding: 0;
+  overflow: hidden;
+  border: 3px solid transparent;
+  border-radius: 50%;
+  background: #eef1e3;
+  cursor: pointer;
+}
+.avatar-picker button[aria-pressed="true"] {
+  border-color: #317360;
+}
+.avatar-picker img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.journey-hello {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.journey-hello img {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background: #eef1e3;
+  object-fit: cover;
+  object-position: top;
+}
+
+@media (max-width: 700px) {
+  .catalog-intro.with-buddy,
+  .family-invite {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .story-scene {
+    grid-template-columns: 1fr;
+  }
+  .story-scene .buddy-figure img {
+    width: 72px;
+  }
+  .story-page p {
+    font-size: 18px;
+  }
+  .buddy-bubble {
+    font-size: 15px;
+  }
+  .choice-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Header: on tablets and phones the sections become a row of big picture tabs. */
+@media (max-width: 1050px) {
+  .journey-header {
+    height: auto;
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+  .journey-nav {
+    order: 3;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    width: 100%;
+    gap: 6px;
+    padding: 0;
+    border: 0;
+  }
+  .journey-nav a {
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+    min-height: 60px;
+    padding: 6px 2px;
+    border-radius: 18px;
+    font-size: 13px;
+    text-align: center;
+  }
+  .journey-nav a img {
+    width: 26px;
+    height: 26px;
+  }
+}
+
+/* Lesson tiles */
+.lesson-tile p {
+  font-size: 14px;
+}
+.lesson-tile-top img {
+  width: 44px;
+  height: 44px;
+}
+.practiced-mark {
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #e3efe6;
+  color: #2c7048;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+/* Matching: tap a chip for each item */
+.match-row {
+  padding: 12px 0;
+  border-bottom: 2px dashed #e6eadf;
+}
+.match-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.choice-chip {
+  min-height: 48px;
+  padding: 8px 16px;
+  border: 2px solid #d9e4d6;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--ink, #234c42);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.choice-chip[aria-pressed="true"] {
+  border-color: #317360;
+  background: #317360;
+  color: #fff;
+}
+
+/* Stacked companion: speech bubble above the character */
+.reading-aside .buddy,
+.empty-results .buddy,
+.status-page .buddy,
+.practice-reward .buddy {
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.reading-aside .buddy-bubble,
+.empty-results .buddy-bubble,
+.status-page .buddy-bubble,
+.practice-reward .buddy-bubble {
+  margin: 0;
+  border-radius: 22px;
+  text-align: center;
+}
+
+.choose-friend {
+  min-height: 48px;
+  margin-top: 10px;
+  padding: 8px 18px;
+  border: 2px solid #6d518d;
+  border-radius: 999px;
+  background: #fff;
+  color: #4b3a66;
+  font-size: 15px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.choose-friend[aria-pressed="true"] {
+  background: #6d518d;
+  color: #fff;
+}
+
+.family-link[aria-current] {
+  border-color: #317360;
+  background: #e3efe6;
+}
+.family-benefits {
+  display: grid;
+  gap: 8px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 15px;
+  line-height: 1.8;
+  text-align: start;
+}
+.family-benefits li::before {
+  content: "✦ ";
+  color: #d5a250;
+}
+
+/* Keep the read-aloud bar small on phones so the lesson stays visible. */
+@media (max-width: 700px) {
+  .narration-controls {
+    inset-inline: 8px;
+    max-width: calc(100% - 16px);
+    padding: 6px 10px;
+    column-gap: 8px;
+    font-size: 12px;
+  }
+  .narration-buddy {
+    width: 40px;
+    height: 40px;
+  }
+  .narration-buttons {
+    justify-content: flex-start;
+    gap: 0 8px;
+  }
+  .narration-buttons button,
+  .narration-buttons select {
+    min-height: 40px;
+  }
+  .narration-controls p {
+    overflow: hidden;
+    margin: 0;
+    font-size: 11px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .narration-buttons label {
+    font-size: 0;
+  }
+  .narration-buttons select {
+    font-size: 12px;
+  }
+  body:has(.narration-controls) {
+    padding-bottom: 110px;
+  }
+  /* The family sign-in explains the account below the form on phones. */
+  .auth-illustration {
+    display: block;
+    order: 2;
+  }
+  .auth-illustration img {
+    max-width: 170px;
+  }
+}
+.family-invite .primary-button {
+  flex: none;
+  white-space: nowrap;
+}
+.parent-guide {
+  float: inline-end;
+  width: 88px;
+  height: auto;
+}

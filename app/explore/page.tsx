@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { arabicNumber, worldArt } from "../../lib/assets";
 import { lessons, worlds } from "../../lib/catalog";
-import { Asset, JourneyFooter, JourneyHeader } from "../components/journey-ui";
+import { Buddy, Practiced } from "../components/buddy";
+import { Asset, JourneyFooter, JourneyHeader, worldDescriptions } from "../components/journey-ui";
 
 export const metadata: Metadata = { title: "عوالم التعلّم" };
 
@@ -28,12 +29,22 @@ export default async function Explore({
       </a>
       <JourneyHeader active="explore" />
       <main className="journey-main" id="content">
-        <div className="catalog-intro" data-narration="">
-          <p className="section-kicker">كل خطوة حكاية جديدة</p>
-          <h1 data-narration-text>عوالم التعلّم</h1>
-          <p data-narration-text>
-            اختر ما تحب أن تتعلّمه اليوم. يمكنك القراءة والتدرّب، ثم متابعة رحلتك مع الأسرة.
-          </p>
+        <div className="catalog-intro with-buddy">
+          <div data-narration="">
+            <p className="section-kicker">كل خطوة حكاية جديدة</p>
+            <h1 data-narration-text>عوالم التعلّم</h1>
+            <p data-narration-text>
+              اختر ما تحب أن تتعلّمه اليوم. يمكنك القراءة والتدرّب، ثم متابعة رحلتك مع الأسرة.
+            </p>
+          </div>
+          <Buddy
+            size={110}
+            say={
+              world
+                ? `${worldDescriptions[world.id]}. اختر درسًا وسأقرأ معك!`
+                : "إلى أيّ عالم نذهب اليوم؟"
+            }
+          />
         </div>
         <div className="catalog-tools">
           <nav className="catalog-tabs" aria-label="اختر عالمًا">
@@ -108,18 +119,20 @@ export default async function Explore({
               href={`/explore/${lesson.id}`}
               key={lesson.id}
               className="lesson-tile reveal"
-              data-narration={`${lesson.title}. ${lesson.objective}`}
+              data-narration={lesson.title}
               data-sound
             >
               <div className="lesson-tile-top">
                 <span className="lesson-dot">{arabicNumber(lesson.order)}</span>
-                <span>
-                  {worlds.find((item) => item.id === lesson.world_id)?.title} ·{" "}
-                  {arabicNumber(lesson.estimated_minutes)} دقائق
-                </span>
+                <Practiced id={lesson.id} />
+                <Asset path={`fantasy/badges/${worldArt(lesson.world_id)}-earned.svg`} width={44} />
               </div>
               <h2>{lesson.title}</h2>
-              <p>{lesson.objective}</p>
+              <p>
+                عالم {worlds.find((item) => item.id === lesson.world_id)?.title}
+                <span aria-hidden="true"> ⏱ </span>
+                {arabicNumber(lesson.estimated_minutes)} دقائق
+              </p>
               <span className="world-enter">
                 افتح الدرس <span aria-hidden="true">←</span>
               </span>
@@ -128,7 +141,7 @@ export default async function Explore({
         </div>
         {!filtered.length && (
           <section className="empty-results">
-            <Asset path="icons/book.svg" width={65} />
+            <Buddy size={110} mood="oops" say="بحثتُ في كل العوالم ولم أجده!" />
             <h2>لنجرّب كلمة أخرى</h2>
             <p>لم نجد درسًا بهذا الاسم. العوالم مليئة بأشياء جميلة تنتظرك.</p>
             <Link href="/explore" className="primary-button">

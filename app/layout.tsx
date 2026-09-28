@@ -5,6 +5,7 @@ import Narration from "./narration";
 import Pwa from "./pwa";
 import "./globals.css";
 import "./journey.css";
+import "./kids.css";
 
 const thmanyah = localFont({
   src: [

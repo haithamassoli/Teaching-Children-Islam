@@ -94,10 +94,11 @@ try {
     }
     addChild(accounts[0], "QA Child One", 7);
     addChild(accounts[0], "QA Child Two", 9);
-    run(accounts[0], "select", 'select[aria-label="شخصية QA Child One"]', "maryam");
+    const maryam = '.live-child-list article:first-child .avatar-picker button[aria-label="مريم"]';
+    run(accounts[0], "click", maryam);
     waitFor(
       accounts[0],
-      'document.querySelector(\'select[aria-label="شخصية QA Child One"]\')?.value === "maryam"',
+      `document.querySelector('${maryam}')?.getAttribute("aria-pressed") === "true"`,
     );
     run(accounts[0], "click", ".live-child-list article:first-child button");
     heading(accounts[0], "خريطة العوالم");

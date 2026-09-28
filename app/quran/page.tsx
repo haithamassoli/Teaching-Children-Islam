@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { arabicNumber } from "../../lib/assets";
 import { numberInRange } from "../../lib/quran";
+import { Buddy } from "../components/buddy";
 import { JourneyFooter, JourneyHeader } from "../components/journey-ui";
 import styles from "./quran.module.css";
 import QuranReader, { type QuranVerse } from "./quran-reader";
@@ -65,21 +67,31 @@ export default async function QuranPage({
       <main className={`journey-main ${styles.main}`} id="content">
         <section className={styles.hero}>
           <div>
-            <p className="section-kicker">نقرأ · نستمع · نكرّر</p>
+            <p className="section-kicker">نقرأ، نستمع، نكرّر</p>
             <h1>القرآن الكريم</h1>
             <p>اختر سورة، واستمع إلى الحصري المعلّم، وكرّر كل آية حتى يثبت حفظها.</p>
           </div>
-          <div className={styles.heroMark} aria-hidden="true">
-            ۞
-          </div>
+          <Buddy size={110} say="نستمع للآية بهدوء، ثم نكرّرها معًا." className={styles.heroBuddy} />
         </section>
+
+        <nav className={styles.shortSurahs} aria-label="سور قصيرة نحفظها">
+          {[1, 114, 113, 112, 111, 110, 109, 108, 107, 106, 105, 103].map((id) => (
+            <Link
+              key={id}
+              href={`/quran?surah=${id}`}
+              aria-current={id === chapterNumber ? "page" : undefined}
+            >
+              {chapters.find((item) => item.id === id)?.name_arabic}
+            </Link>
+          ))}
+        </nav>
 
         <form className={styles.chapterPicker} action="/quran">
           <label htmlFor="surah">اختر السورة</label>
           <select id="surah" name="surah" defaultValue={chapterNumber}>
             {chapters.map((item) => (
               <option key={item.id} value={item.id}>
-                {arabicNumber(item.id)}. {item.name_arabic} · {arabicNumber(item.verses_count)} آية
+                {arabicNumber(item.id)}. {item.name_arabic}، {arabicNumber(item.verses_count)} آية
               </option>
             ))}
           </select>

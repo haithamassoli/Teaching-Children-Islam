@@ -90,6 +90,8 @@ try {
     __speech.calls.map(call => call.text).join("")`);
   assert.equal(spoken.replace(/\s+/g, " ").trim(), story.replace(/\s+/g, " ").trim());
 
+  // The story shows one part at a time, so replay it to have something to stop.
+  run("find", "first", ".reading-segment [data-read-aloud]", "click");
   click("إيقاف الصوت");
   assert.equal(evaluate("JSON.parse(localStorage.getItem('arabic-narration')).enabled"), false);
   run("select", ".narration-controls select", "0.8");
@@ -135,8 +137,8 @@ try {
 
   run("pushstate", `${base}/explore/conduct-006`);
   run("wait", "--url", "**/explore/conduct-006");
-  run("scrollintoview", 'section[aria-label="نشاط الفهم"]:last-of-type');
-  run("click", 'section[aria-label="نشاط الفهم"]:last-of-type [data-read-aloud]');
+  run("scrollintoview", "section.activity-card:last-of-type");
+  run("click", "section.activity-card:last-of-type [data-read-aloud]");
   assert.ok(evaluate("__speech.calls.at(-1).text").includes("أنا سكبت الماء"));
   for (const width of [390, 768, 1440]) {
     run("set", "viewport", String(width), "844");

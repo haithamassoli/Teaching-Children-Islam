@@ -2,9 +2,10 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { arabicNumber, assetUrl } from "../../../lib/assets";
 import Activity, { type ActivityQuestion } from "../../activity";
+import { Buddy, markPracticed } from "../../components/buddy";
 import { checkAnswer } from "./actions";
 
 export default function LessonPractice({
@@ -16,6 +17,12 @@ export default function LessonPractice({
 }) {
   const [age, setAge] = useState(7);
   const [finished, setFinished] = useState<string[]>([]);
+  const complete = questions.length > 0 && finished.length === questions.length;
+  useEffect(() => {
+    if (complete) {
+      markPracticed(lessonId);
+    }
+  }, [complete, lessonId]);
   return (
     <section className="lesson-practice" id="practice" aria-label="تدريب الدرس">
       <div className="section-heading">
@@ -41,7 +48,10 @@ export default function LessonPractice({
           </button>
         ))}
       </fieldset>
-      <p className="section-kicker" aria-live="polite">
+      <p className="practice-meter" aria-live="polite">
+        <span aria-hidden="true">
+          {questions.map((question) => (finished.includes(question.id) ? "★" : "☆")).join(" ")}
+        </span>
         تدرّبت على {arabicNumber(finished.length)} من {arabicNumber(questions.length)} أسئلة
       </p>
       {questions.map((question) => (
@@ -60,7 +70,7 @@ export default function LessonPractice({
           }}
         />
       ))}
-      {finished.length === questions.length && (
+      {complete && (
         <div className="practice-reward" role="status">
           <Image
             unoptimized
@@ -68,7 +78,9 @@ export default function LessonPractice({
             alt=""
             width={120}
             height={120}
+            className="reward-confetti"
           />
+          <Buddy size={120} mood="happy" say="رائع! أنهيت كل الأسئلة، أنا فخور بك." />
           <h2>أحسنت التعلّم والمحاولة!</h2>
           <p>أكملت تدريبك. ناقش إجاباتك المفتوحة مع الوالد، وجرّب تطبيق ما تعلّمته اليوم.</p>
           <Link href="/explore" className="primary-button">
