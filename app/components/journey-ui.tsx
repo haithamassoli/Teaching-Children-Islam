@@ -35,7 +35,7 @@ export function Asset({
 export function JourneyHeader({
   active = "home",
 }: {
-  active?: "home" | "explore" | "library" | "quran";
+  active?: "home" | "explore" | "library" | "quran" | "family";
 }) {
   return (
     <header className="journey-header">
@@ -46,22 +46,27 @@ export function JourneyHeader({
         </span>
       </Link>
       <nav className="journey-nav" aria-label="التنقل الرئيسي">
-        <Link href="/" aria-current={active === "home" ? "page" : undefined}>
-          الرئيسية
-        </Link>
-        <Link href="/explore" aria-current={active === "explore" ? "page" : undefined}>
-          عوالم التعلّم
-        </Link>
-        <Link href="/library" aria-current={active === "library" ? "page" : undefined}>
-          مكتبتي
-        </Link>
-        <Link href="/quran" aria-current={active === "quran" ? "page" : undefined}>
-          القرآن
-        </Link>
+        {(
+          [
+            ["home", "/", "الرئيسية", "home"],
+            ["explore", "/explore", "عوالم التعلّم", "map"],
+            ["library", "/library", "مكتبتي", "book"],
+            ["quran", "/quran", "القرآن", "mosque"],
+          ] as const
+        ).map(([id, href, label, icon]) => (
+          <Link key={id} href={href} aria-current={active === id ? "page" : undefined} data-sound>
+            <Asset path={`icons/${icon}.svg`} width={24} />
+            {label}
+          </Link>
+        ))}
       </nav>
       <div className="journey-actions">
         <JourneyControls />
-        <Link href="/family" className="family-link">
+        <Link
+          href="/family"
+          className="family-link"
+          aria-current={active === "family" ? "page" : undefined}
+        >
           <Asset path="icons/parent.svg" width={22} />
           منطقة الأسرة
         </Link>
@@ -85,6 +90,16 @@ export function JourneyFooter() {
   );
 }
 
+export const worldDescriptions: Record<string, string> = {
+  faith: "نتعرّف إلى إيماننا، خطوةً خطوة",
+  manners: "تفاصيل صغيرة تجعل يومنا أجمل",
+  conduct: "نختار الخير في كل يوم",
+  worship: "نتعلّم ونتدرّب معًا",
+  quran: "نقرأ ونتأمّل المعاني",
+  stories: "حكاية نسمعها، وعبرة نتعلّمها",
+  memorization: "نكرّر قليلًا، ونحفظ بثبات",
+};
+
 export function WorldCard({
   world,
   count,
@@ -94,20 +109,11 @@ export function WorldCard({
   count: number;
   index: number;
 }) {
-  const descriptions: Record<string, string> = {
-    faith: "نتعرّف إلى إيماننا، خطوةً خطوة",
-    manners: "تفاصيل صغيرة تجعل يومنا أجمل",
-    conduct: "نختار الخير في كل يوم",
-    worship: "نتعلّم ونتدرّب معًا",
-    quran: "نقرأ ونتأمّل المعاني",
-    stories: "حكاية نسمعها، وعبرة نتعلّمها",
-    memorization: "نكرّر قليلًا، ونحفظ بثبات",
-  };
   return (
     <Link
       href={`/explore?world=${world.id}`}
       className={`explore-world world-${world.id} reveal`}
-      data-narration={`عالم ${world.title}. ${descriptions[world.id]}`}
+      data-narration={`عالم ${world.title}. ${worldDescriptions[world.id]}`}
       style={{ "--order": index } as CSSProperties}
       data-sound
     >
@@ -123,7 +129,7 @@ export function WorldCard({
         />
         <span className="world-lessons">{arabicNumber(count)} درسًا</span>
         <h3>عالم {world.title}</h3>
-        <p>{descriptions[world.id]}</p>
+        <p>{worldDescriptions[world.id]}</p>
         <span className="world-enter">
           هيا نستكشف <span aria-hidden="true">←</span>
         </span>

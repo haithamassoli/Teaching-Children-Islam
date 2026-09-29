@@ -1,11 +1,13 @@
 "use client";
 
+import { Buddy } from "./components/buddy";
 import Logo from "./components/logo";
 
 export default function ErrorPage({ retry }: { retry: () => void }) {
   return (
     <main className="status-page">
       <Logo />
+      <Buddy size={130} mood="thinking" say="تعثّرنا قليلًا. لنحاول مرة أخرى معًا!" />
       <p className="status-code">500</p>
       <h1>توقّفت الرحلة للحظة</h1>
       <p>تعذر إكمال هذه الخطوة. حاول مرة أخرى بعد قليل.</p>

@@ -12,7 +12,10 @@ export default function FamilyPage() {
   }
   return (
     <div className="journey-site">
-      <JourneyHeader />
+      <a className="skip-link" href="#content">
+        انتقل إلى المحتوى
+      </a>
+      <JourneyHeader active="family" />
       <Providers>
         <FamilyApp />
       </Providers>

@@ -5,6 +5,7 @@ import { useAction, useMutation, useQuery } from "convex/react";
 import { type FormEvent, useEffect, useState } from "react";
 import { api } from "../convex/_generated/api";
 import type { Id } from "../convex/_generated/dataModel";
+import { kidOf } from "../lib/assets";
 import { Asset } from "./components/journey-ui";
 import Logo from "./components/logo";
 import LearningJourney from "./learning-journey";
@@ -16,7 +17,7 @@ export default function FamilyApp() {
   const { isLoading, isAuthenticated } = useConvexAuth();
   if (isLoading) {
     return (
-      <main className="family-shell">
+      <main id="content" className="family-shell">
         <p>يُجهّز حساب الأسرة…</p>
       </main>
     );
@@ -47,11 +48,16 @@ function AccountGate() {
   };
   const title = screenTitle(screen);
   return (
-    <main className="family-shell auth-welcome">
+    <main id="content" className="family-shell auth-welcome">
       <div className="auth-illustration">
         <Asset path="fantasy/characters/ghayma.webp" width={380} />
         <h2>أهلًا بالأسرة الجميلة</h2>
         <p>معًا نزرع حب التعلّم، ونفرح بكل خطوة صغيرة.</p>
+        <ul className="family-benefits">
+          <li>ملف لكل طفل بشخصيته المفضّلة، ونجوم تُحفظ مع كل مرحلة.</li>
+          <li>تسمعون تسميع الحفظ وتؤكّدون التطبيق من منطقة الوالد المحمية بـPIN.</li>
+          <li>لا إعلانات ولا تتبّع، ولا نطلب صورًا أو تاريخ ميلاد.</li>
+        </ul>
       </div>
       <section className="account-card">
         <Logo />
@@ -258,7 +264,7 @@ function FamilyHome() {
     );
   }
   return (
-    <main className="family-shell">
+    <main id="content" className="family-shell">
       <header className="family-header">
         <div>
           <p className="section-kicker">منطقة الأسرة</p>
@@ -275,6 +281,7 @@ function FamilyHome() {
       )}
       <section className="family-grid">
         <article className="account-card">
+          <Asset path="characters/guide.webp" width={88} className="parent-guide" />
           <h2>{parentToken ? "منطقة الوالد مفتوحة" : "افتح منطقة الوالد"}</h2>
           <p>
             {parentToken
@@ -286,6 +293,8 @@ function FamilyHome() {
               PIN الوالد
               <input
                 name="pin"
+                type="password"
+                autoComplete="off"
                 inputMode="numeric"
                 pattern="[0-9]{4}"
                 minLength={4}
@@ -312,6 +321,8 @@ function FamilyHome() {
                 PIN جديد من ٤ أرقام
                 <input
                   name="pin"
+                  type="password"
+                  autoComplete="off"
                   inputMode="numeric"
                   pattern="[0-9]{4}"
                   minLength={4}
@@ -436,10 +447,7 @@ function ChildList({
       {records.map((child) => (
         <article key={child._id}>
           <div className="live-child-avatar">
-            <Asset
-              path={`characters/${child.characterId || (child.gender === "female" ? "maryam" : "sami")}.webp`}
-              width={68}
-            />
+            <Asset path={`characters/${kidOf(child)}.webp`} width={68} />
             <div>
               <b>{child.name}</b>
               <span>{child.age} سنوات</span>
@@ -453,21 +461,24 @@ function ChildList({
             >
               ابدأ الرحلة
             </button>
-            <select
-              aria-label={`شخصية ${child.name}`}
-              value={child.characterId ?? ""}
-              onChange={(event) =>
-                chooseCharacter({ childId: child._id, characterId: event.target.value }).catch(() =>
-                  setNotice("تعذر حفظ الشخصية. حاول مرة أخرى."),
-                )
-              }
-            >
-              <option value="">اختر الشخصية</option>
-              <option value="maryam">مريم</option>
-              <option value="nour">نور</option>
-              <option value="sami">سامي</option>
-              <option value="omar">عمر</option>
-            </select>
+            <fieldset className="avatar-picker">
+              <legend>شخصية {child.name}</legend>
+              {kids.map((kid) => (
+                <button
+                  type="button"
+                  key={kid.id}
+                  aria-label={kid.name}
+                  aria-pressed={kidOf(child) === kid.id}
+                  onClick={() =>
+                    chooseCharacter({ childId: child._id, characterId: kid.id }).catch(() =>
+                      setNotice("تعذر حفظ الشخصية. حاول مرة أخرى."),
+                    )
+                  }
+                >
+                  <Asset path={`characters/${kid.id}.webp`} width={56} />
+                </button>
+              ))}
+            </fieldset>
             <button
               type="button"
               className="outline-button"
@@ -554,3 +565,10 @@ function ChildList({
     </div>
   );
 }
+
+const kids = [
+  { id: "maryam", name: "مريم" },
+  { id: "nour", name: "نور" },
+  { id: "sami", name: "سامي" },
+  { id: "omar", name: "عمر" },
+];

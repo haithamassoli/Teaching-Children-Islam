@@ -10,16 +10,42 @@ import {
   sourceQuestions,
 } from "../../lib/catalog";
 import { AnswerText } from "../components/answer-text";
+import { Buddy } from "../components/buddy";
 import { JourneyFooter, JourneyHeader } from "../components/journey-ui";
 import { ReadAloud } from "../narration";
 
 export const metadata: Metadata = { title: "مكتبتي" };
 const tabs = [
-  { id: "remembrances", title: "أذكاري", count: remembrances.length },
-  { id: "memorization", title: "جدول حفظي", count: memoryItems.length },
-  { id: "questions", title: "سؤال وجواب", count: sourceQuestions.length },
-  { id: "activities", title: "أنشطة الكتاب", count: activities.length },
-  { id: "hadiths", title: "أحاديث الكتاب", count: hadiths.length },
+  {
+    id: "remembrances",
+    title: "أذكاري",
+    count: remembrances.length,
+    tip: "أذكار ترافقنا من الصباح إلى النوم. افتح بطاقة واسمعها معي!",
+  },
+  {
+    id: "memorization",
+    title: "جدول حفظي",
+    count: memoryItems.length,
+    tip: "نحفظ قليلًا كل يوم، ونسمّع للوالد عندما نكون جاهزين.",
+  },
+  {
+    id: "questions",
+    title: "سؤال وجواب",
+    count: sourceQuestions.length,
+    tip: "فكّر في الجواب أولًا، ثم افتح البطاقة لتعرف جواب الكتاب.",
+  },
+  {
+    id: "activities",
+    title: "أنشطة الكتاب",
+    count: activities.length,
+    tip: "أنشطة نلعبها مع الأسرة. جرّب، ثم قارن بجواب الكتاب.",
+  },
+  {
+    id: "hadiths",
+    title: "أحاديث الكتاب",
+    count: hadiths.length,
+    tip: "أحاديث جميلة من الكتاب، ولكل حديث درس يشرح معناه.",
+  },
 ];
 
 function entries(tab: string) {
@@ -33,13 +59,13 @@ function entries(tab: string) {
           <>
             <p>
               {"names" in item
-                ? item.names?.join(" · ")
+                ? item.names?.join("، ")
                 : "كرّر المقطع على مهل مع الوالد، ثم سمّعه له."}
             </p>
             {"quran_ref" in item && item.quran_ref && (
               <>
                 <p>
-                  السورة {arabicNumber(item.quran_ref.surah)} · الآيات{" "}
+                  السورة {arabicNumber(item.quran_ref.surah)}، الآيات{" "}
                   {arabicNumber(item.quran_ref.from_ayah)}–{arabicNumber(item.quran_ref.to_ayah)}
                 </p>
                 <p>
@@ -71,7 +97,7 @@ function entries(tab: string) {
     case "activities":
       return activities.map((item) => ({
         id: item.id,
-        title: Array.isArray(item.prompt) ? item.prompt.join(" · ") : item.prompt,
+        title: Array.isArray(item.prompt) ? item.prompt.join("، ") : item.prompt,
         pages: item.source_pages,
         body: (
           <>
@@ -138,12 +164,16 @@ export default async function Library({
       </a>
       <JourneyHeader active="library" />
       <main className="journey-main" id="content">
-        <section className="catalog-intro" data-narration="">
-          <p className="section-kicker">كنوز صغيرة لكل يوم</p>
-          <h1 data-narration-text>مكتبتي الجميلة</h1>
-          <p data-narration-text>
-            ذكرٌ يرافق يومك، وسؤال يفتح فكرك، وخطوة جديدة في الحفظ. افتح البطاقة واستكشفها مع الوالد.
-          </p>
+        <section className="catalog-intro with-buddy">
+          <div data-narration="">
+            <p className="section-kicker">كنوز صغيرة لكل يوم</p>
+            <h1 data-narration-text>مكتبتي الجميلة</h1>
+            <p data-narration-text>
+              ذكرٌ يرافق يومك، وسؤال يفتح فكرك، وخطوة جديدة في الحفظ. افتح البطاقة واستكشفها مع
+              الوالد.
+            </p>
+          </div>
+          <Buddy size={110} say={tab.tip} />
         </section>
         <div className="catalog-tools">
           <nav className="catalog-tabs" aria-label="أقسام المكتبة">
@@ -177,7 +207,7 @@ export default async function Library({
           </search>
         </div>
         <p className="section-kicker">
-          {tab.title} · {arabicNumber(filtered.length)} بطاقة
+          {arabicNumber(filtered.length)} بطاقة في {tab.title}
         </p>
         <div className="library-grid">
           {filtered.map((item) => (
@@ -193,13 +223,14 @@ export default async function Library({
                 target="_blank"
                 rel="noreferrer"
               >
-                افتح المصدر · ص {item.pages.map(arabicNumber).join("، ")} ↗
+                افتح المصدر، ص {item.pages.map(arabicNumber).join("، ")} ↗
               </a>
             </details>
           ))}
         </div>
         {!filtered.length && (
           <section className="empty-results">
+            <Buddy size={110} mood="oops" say="لم أجد بطاقة بهذا الاسم!" />
             <h2>لنجرّب كلمة أخرى</h2>
             <Link href={`/library?tab=${tab.id}`} className="primary-button">
               عرض كل البطاقات

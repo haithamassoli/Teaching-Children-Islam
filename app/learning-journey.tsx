@@ -5,9 +5,10 @@ import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { api } from "../convex/_generated/api";
 import type { Id } from "../convex/_generated/dataModel";
-import { arabicNumber, worldArt } from "../lib/assets";
+import { arabicNumber, kidOf, worldArt } from "../lib/assets";
 import Activity, { type ActivityAnswer, type ActivityQuestion } from "./activity";
 import ChildReview from "./child-review";
+import { Buddy } from "./components/buddy";
 import { Asset } from "./components/journey-ui";
 import { ReadAloud } from "./narration";
 
@@ -48,24 +49,28 @@ export default function LearningJourney({
 
   if (!map) {
     return (
-      <main className="family-shell">
+      <main id="content" className="family-shell">
         <p>يُحمّل مسار التعلّم…</p>
       </main>
     );
   }
   if (!lessonId) {
     return (
-      <main className="family-shell">
+      <main id="content" className="family-shell">
         <header className="family-header">
-          <div>
-            <p className="section-kicker">رحلة {map.child.name}</p>
-            <h1>خريطة العوالم</h1>
+          <div className="journey-hello">
+            <Asset path={`characters/${kidOf(map.child)}.webp`} width={96} />
+            <div>
+              <p className="section-kicker">رحلة {map.child.name}</p>
+              <h1>خريطة العوالم</h1>
+            </div>
           </div>
           <button type="button" className="outline-button" onClick={onBack}>
             تغيير الطفل
           </button>
         </header>
         <p className="star-count">★ {arabicNumber(map.stars)} نجوم</p>
+        <Buddy size={100} say={`أهلًا يا ${map.child.name}! اختر مرحلة مفتوحة، وسأكون معك.`} />
         {/* biome-ignore lint/a11y/useMediaCaption: each recorded instruction has adjacent written lesson text. */}
         <audio ref={audio} preload="none" />
         {map.badges.length > 0 && (
@@ -118,7 +123,7 @@ export default function LearningJourney({
   }
   if (!lesson) {
     return (
-      <main className="family-shell">
+      <main id="content" className="family-shell">
         <p>يُحمّل الدرس…</p>
       </main>
     );
@@ -127,7 +132,7 @@ export default function LearningJourney({
     (segment) => !lesson.state.completedSegments.includes(segment.id),
   );
   return (
-    <main className="family-shell">
+    <main id="content" className="family-shell">
       <button type="button" className="back-button" onClick={() => setLessonId(null)}>
         → الخريطة
       </button>
@@ -138,7 +143,7 @@ export default function LearningJourney({
           height={240}
           className="live-lesson-image"
         />
-        <p className="section-kicker">درس معتمد</p>
+        <Buddy size={96} say="نقرأ كل جزء معًا، ثم نضغط «أكملت هذا الجزء»." />
         <div
           data-narration={`${lesson.title}. ${lesson.objective}. ${lesson.ageInstructions[age < 8 ? "6-7" : "8-10"]}`}
         >
@@ -237,6 +242,7 @@ export default function LearningJourney({
               width={225}
               height={76}
             />
+            <Buddy size={120} mood="happy" say={`رائع يا ${map.child.name}! أكملت الدرس.`} />
             <h2>أحسنت!</h2>
             <p>أكملت الدرس! ناقش إجاباتك مع الوالد، ثم واصل رحلتك.</p>
             <button type="button" className="primary-button" onClick={() => setLessonId(null)}>

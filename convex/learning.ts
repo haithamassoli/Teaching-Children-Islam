@@ -10,6 +10,7 @@ import {
   lessonById,
   lessons,
   publicQuestion,
+  retryHint,
   worlds,
 } from "./lib/content";
 
@@ -245,7 +246,7 @@ export const submitActivity = mutation({
       );
       await awardWorldIfComplete(ctx, child.householdId, args.childId, content.world_id);
     }
-    return { correct, explanation: question.explanation };
+    return { correct, explanation: correct === false ? retryHint : question.explanation };
   },
 });
 

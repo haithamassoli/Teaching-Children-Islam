@@ -34,12 +34,9 @@
   line-height: 1.9;
 }
 
-.heroMark {
-  color: #c79a3c;
-  font-family: "Uthmanic Hafs", serif;
-  font-size: 150px;
-  line-height: 1;
-  opacity: 0.82;
+.heroBuddy {
+  flex: 0 0 auto;
+  max-width: 300px;
 }
 
 .chapterPicker,
@@ -228,8 +225,10 @@
     padding: 28px;
   }
 
-  .heroMark {
-    display: none;
+  .hero {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
   }
 
   .chapterPicker,
@@ -269,4 +268,28 @@
   .quranText {
     line-height: 2;
   }
+}
+
+.shortSurahs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.shortSurahs a {
+  min-height: 48px;
+  padding: 10px 18px;
+  border: 2px solid #dfe5d9;
+  border-radius: 999px;
+  background: #fff;
+  color: #275b4a;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.shortSurahs a[aria-current] {
+  border-color: #275b4a;
+  background: #275b4a;
+  color: #fff;
 }
